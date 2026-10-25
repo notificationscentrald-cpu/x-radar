@@ -13,6 +13,8 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main   # завжди свіжий state.json, а не версія на момент запуску
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -33,4 +35,7 @@ jobs:
           git config user.name "x-radar"
           git config user.email "x-radar@users.noreply.github.com"
           git add state.json 2>/dev/null || true
-          git diff --cached --quiet || (git commit -m "radar state" && git push)
+          git diff --cached --quiet && exit 0
+          git commit -m "radar state"
+          for i in 1 2 3; do git pull --rebase -X theirs origin main && git push && exit 0; sleep 5; done
+          exit 1
