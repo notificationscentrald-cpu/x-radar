@@ -145,9 +145,16 @@ def analyze(p, cfg):
     try:
         res = http_json("https://api.anthropic.com/v1/messages",
                         {"x-api-key": key, "anthropic-version": "2023-06-01"},
-                        {"model": cfg.get("claude_model", "claude-haiku-5-5"), "max_tokens": 300,
+                        {"model": cfg.get("claude_model", "claude-haiku-5-5"), "max_tokens": 1500,
+                         # Haiku 5.5 думає за замовчуванням і може витратити весь ліміт на роздуми,
+                         # тоді тексту немає. Для короткого розбору роздуми не потрібні.
+                         "thinking": {"type": "disabled"},
+                         "output_config": {"effort": "low"},
                          "messages": [{"role": "user", "content": prompt}]})
-        return "".join(b.get("text", "") for b in res.get("content", [])).strip()
+        text = "".join(b.get("text", "") for b in res.get("content", [])).strip()
+        if not text:
+            print("Claude analysis empty, stop_reason:", res.get("stop_reason"), file=sys.stderr)
+        return text
     except Exception as e:  # розбір необов'язковий, радар не повинен падати через нього
         print("Claude analysis failed:", e, file=sys.stderr)
         return ""
