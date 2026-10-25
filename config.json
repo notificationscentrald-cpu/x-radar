@@ -1,0 +1,22 @@
+{
+  "_comment": "Запити у синтаксисі пошуку X. Радар сам додає фільтр за часом і -filter:replies. Тримай 3-6 запитів: кожен коштує грошей.",
+  "queries": [
+    "(claude OR \"claude code\" OR anthropic) min_faves:300",
+    "(\"made with ai\" OR \"built with ai\" OR \"vibe coded\" OR \"one prompt\") filter:videos min_faves:300",
+    "(threejs OR \"three.js\" OR \"3d scene\") (ai OR claude OR gpt) min_faves:200",
+    "(gpt OR gemini OR grok OR kimi) (game OR \"3d\" OR simulation) filter:videos min_faves:300"
+  ],
+  "lookback_hours": 24,
+  "pages_per_query": 1,
+  "lang": "",
+
+  "min_views": 50000,
+  "min_x_factor": 20,
+  "max_followers": 50000,
+  "max_alerts_per_run": 5,
+  "exclude_words": ["订阅", "下单", "giveaway", "airdrop", "promo code", "discount", "dm me", "link in bio"],
+
+  "digest_size": 20,
+  "claude_analysis": true,
+  "claude_model": "claude-haiku-5-5"
+}
