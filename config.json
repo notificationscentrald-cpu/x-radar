@@ -8,7 +8,7 @@
   ],
   "lookback_hours": 24,
   "pages_per_query": 1,
-  "lang": "",
+  "lang": "en",
 
   "min_views": 50000,
   "min_x_factor": 20,
