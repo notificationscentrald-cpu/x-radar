@@ -1,7 +1,7 @@
 name: x-radar
 on:
   schedule:
-    - cron: "7 * * * *"     # щогодини: нові гарячі пости
+    - cron: "7 */2 * * *"   # кожні 2 години: нові гарячі пости
     - cron: "0 6 * * *"     # 06:00 UTC = 09:00 Київ: ранковий топ за добу
   workflow_dispatch: {}
 permissions:

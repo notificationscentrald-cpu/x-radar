@@ -7,7 +7,7 @@
     "(gpt OR gemini OR grok OR kimi) (game OR \"3d\" OR simulation) filter:videos min_faves:300"
   ],
   "lookback_hours": 24,
-  "pages_per_query": 1,
+  "pages_per_query": 3,
   "lang": "en",
 
   "min_views": 50000,
