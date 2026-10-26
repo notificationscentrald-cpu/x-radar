@@ -188,6 +188,12 @@ def send(text, dry):
 def run(cfg, dry):
     key = os.environ["TWITTERAPI_IO_KEY"]
     state = load_state()
+    # GitHub інколи пропускає запуски за розкладом, тому розклад частіший,
+    # а зайві запуски виходять одразу, не витрачаючи кредитів.
+    gap_h = (time.time() - state.get("last_run", 0)) / 3600
+    if not dry and gap_h < cfg.get("min_hours_between_runs", 0):
+        print(f"skip: last run {gap_h:.1f}h ago")
+        return
     since = int(time.time() - cfg["lookback_hours"] * 3600)
     found = {}
     for q in cfg["queries"]:
@@ -211,6 +217,7 @@ def run(cfg, dry):
         state["seen"][p["id"]] = time.time()
     print(f"checked {len(found)} posts, hot {len(hot)}, sent {min(len(hot), cfg['max_alerts_per_run'])}")
     if not dry:
+        state["last_run"] = time.time()
         save_state(state)
 
 
