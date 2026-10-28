@@ -3,7 +3,11 @@ on:
   schedule:
     - cron: "7 * * * *"     # щогодини перевірка; пошук не частіше ніж раз на 3,5 год (min_hours_between_runs)
     - cron: "0 6 * * *"     # 06:00 UTC = 09:00 Київ: ранковий топ за добу
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      preview:
+        description: "Тест вигляду на N останніх постах (0 = звичайний запуск)"
+        default: "0"
 permissions:
   contents: write
 concurrency: x-radar
@@ -25,7 +29,9 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
-          if [ "${{ github.event.schedule }}" = "0 6 * * *" ]; then
+          if [ "${{ inputs.preview }}" != "" ] && [ "${{ inputs.preview }}" != "0" ]; then
+            python radar.py --preview "${{ inputs.preview }}"
+          elif [ "${{ github.event.schedule }}" = "0 6 * * *" ]; then
             python radar.py --digest
           else
             python radar.py

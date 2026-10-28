@@ -6,6 +6,7 @@
   python radar.py --digest   ранковий топ за добу одним повідомленням
   python radar.py --dry      нічого не шле, друкує в консоль
   python radar.py --loop 60  крутиться на компі, прохід кожні 60 хв
+  python radar.py --preview 5  тест вигляду на 5 останніх постах, без пошуку
 
 Ключі беруться зі змінних середовища (або з файлу .env поруч):
   TWITTERAPI_IO_KEY   ключ twitterapi.io (джерело даних)
@@ -63,6 +64,7 @@ def save_state(state):
     cutoff = time.time() - 3 * 86400
     state["seen"] = {k: v for k, v in state["seen"].items() if v > cutoff}
     state["pool"] = {k: v for k, v in state["pool"].items() if v["ts"] > cutoff}
+    state["sent"] = {k: v for k, v in state.get("sent", {}).items() if v > cutoff}
     json.dump(state, open(STATE_PATH, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 
 
@@ -132,45 +134,56 @@ def fmt_num(n):
 
 
 def analyze(p, cfg):
+    """Claude перевіряє, чи пост у ніші, і пише про що він та чому летить.
+    Повертає dict з ключами fit, about, why або None, якщо Claude недоступний."""
     key = os.environ.get("ANTHROPIC_API_KEY")
     if not (key and cfg.get("claude_analysis")):
-        return ""
+        return None
     prompt = (
+        f"Ніша автора, для якого шукаємо пости: {cfg.get('niche', '')}\n\n"
         "Ось пост з X, який летить на малому акаунті.\n"
         f"Автор: @{p['user']}, {p['followers']} підписників. Перегляди: {p['views']} за {p['age_h']} год.\n"
         f"Текст:\n{p['text'][:1500]}\n\n"
-        "Українською, коротко, без вступу: 1) чому летить (хук, тема, формат) одним реченням; "
-        "2) два свіжі кути, як зробити свій пост на цю тему, не копіюючи. Максимум 60 слів."
+        "Відповідай лише JSON без markdown: "
+        '{"fit": true/false, "about": "...", "why": "..."}\n'
+        "fit: чи підходить пост під нішу, щоб автор зробив свою версію. "
+        "Новини, мемні жарти, політика, драма між компаніями, трейдинг, ліміти й ціни підписок не підходять.\n"
+        "about: українською одне коротке речення, про що пост (до 15 слів).\n"
+        "why: українською одне коротке речення, чим саме зачепив (до 15 слів). "
+        "Назви конкретний прийом цього поста, без загальних фраз на кшталт «вау-ефект» чи «цікава тема»."
     )
     try:
         res = http_json("https://api.anthropic.com/v1/messages",
                         {"x-api-key": key, "anthropic-version": "2023-06-01"},
-                        {"model": cfg.get("claude_model", "claude-haiku-5-5"), "max_tokens": 1500,
+                        {"model": cfg.get("claude_model", "claude-haiku-5-5"), "max_tokens": 600,
                          # Haiku 5.5 думає за замовчуванням і може витратити весь ліміт на роздуми,
-                         # тоді тексту немає. Для короткого розбору роздуми не потрібні.
+                         # тоді тексту немає. Для короткої оцінки роздуми не потрібні.
                          "thinking": {"type": "disabled"},
                          "output_config": {"effort": "low"},
                          "messages": [{"role": "user", "content": prompt}]})
         text = "".join(b.get("text", "") for b in res.get("content", [])).strip()
-        if not text:
-            print("Claude analysis empty, stop_reason:", res.get("stop_reason"), file=sys.stderr)
-        return text
-    except Exception as e:  # розбір необов'язковий, радар не повинен падати через нього
+        out = json.loads(text[text.index("{"):text.rindex("}") + 1])
+        return {"fit": bool(out.get("fit", True)), "about": str(out.get("about", "")).strip(),
+                "why": str(out.get("why", "")).strip()}
+    except Exception as e:  # оцінка необов'язкова, радар не повинен падати через неї
         print("Claude analysis failed:", e, file=sys.stderr)
-        return ""
+        return None
 
 
-def card(p, note=""):
-    snippet = p["text"][:280] + ("…" if len(p["text"]) > 280 else "")
+def card(p, note=None):
+    note = note or {}
     lines = [
-        f"🔥 <b>{fmt_num(p['views'])} переглядів</b> · @{html.escape(p['user'])} ({fmt_num(p['followers'])} підп.)",
-        f"X-фактор <b>×{p['x_factor']}</b> · {fmt_num(p['per_hour'])}/год · вік {p['age_h']} год",
-        f"❤️ {fmt_num(p['likes'])}  🔁 {fmt_num(p['reposts'])}  💬 {fmt_num(p['replies'])}  🔖 {fmt_num(p['bookmarks'])}",
+        f"⚡ <b>X-ФАКТОР ×{p['x_factor']:g}</b>",
+        f"👁 <b>{fmt_num(p['views'])}</b> переглядів · 💬 {fmt_num(p['replies'])} коментарів",
+        f"👤 @{html.escape(p['user'])} · {fmt_num(p['followers'])} підп.",
         "",
-        html.escape(snippet),
     ]
-    if note:
-        lines += ["", "🧠 " + html.escape(note)]
+    if note.get("about"):
+        lines.append(f"<b>{html.escape(note['about'], quote=False)}</b>")
+    else:  # без Claude показуємо перший рядок поста
+        lines.append(html.escape(p["text"].split("\n")[0][:140], quote=False))
+    if note.get("why"):
+        lines.append(f"<i>Чому летить: {html.escape(note['why'], quote=False)}</i>")
     lines += ["", p["url"]]
     return "\n".join(lines)
 
@@ -212,10 +225,21 @@ def run(cfg, dry):
 
     hot = [p for p in found.values() if is_hot(p, cfg) and p["id"] not in state["seen"]]
     hot.sort(key=lambda p: (p["x_factor"], p["per_hour"]), reverse=True)
-    for p in hot[: cfg["max_alerts_per_run"]]:
-        send(card(p, analyze(p, cfg)), dry)
+    sent = rejected = 0
+    # Claude відсіює пости не з ніші; ліміт перевірок тримає ціну під контролем.
+    for p in hot[: cfg.get("max_checks_per_run", 30)]:
+        if sent >= cfg["max_alerts_per_run"]:
+            break
+        note = analyze(p, cfg)
         state["seen"][p["id"]] = time.time()
-    print(f"checked {len(found)} posts, hot {len(hot)}, sent {min(len(hot), cfg['max_alerts_per_run'])}")
+        if note and not note["fit"]:
+            rejected += 1
+            print(f"off-niche: @{p['user']}: {p['text'][:80]!r}")
+            continue
+        send(card(p, note), dry)
+        state.setdefault("sent", {})[p["id"]] = time.time()
+        sent += 1
+    print(f"checked {len(found)} posts, hot {len(hot)}, off-niche {rejected}, sent {sent}")
     if not dry:
         state["last_run"] = time.time()
         save_state(state)
@@ -224,7 +248,9 @@ def run(cfg, dry):
 def digest(cfg, dry):
     state = load_state()
     day_ago = time.time() - 86400
-    pool = [p for p in state["pool"].values() if p["ts"] > day_ago and is_hot(p, cfg)]
+    # У дайджест ідуть лише пости, які радар надіслав за добу, тобто ті, що пройшли перевірку ніші.
+    sent = state.get("sent") or state["seen"]  # до 28.10 надіслані пости писались лише в seen
+    pool = [state["pool"][i] for i, ts in sent.items() if ts > day_ago and i in state["pool"]]
     pool.sort(key=lambda p: p["x_factor"], reverse=True)
     top = pool[: cfg["digest_size"]]
     if not top:
@@ -245,16 +271,33 @@ def digest(cfg, dry):
     send(chunk, dry)
 
 
+def preview(cfg, n, dry):
+    """Перевірка нового вигляду: бере останні надіслані пости з пам'яті, без витрати кредитів на пошук."""
+    state = load_state()
+    sent = state.get("sent") or state["seen"]
+    ids = sorted((i for i in sent if i in state["pool"]), key=lambda i: -sent[i])[:n]
+    send(f"🧪 Тест нового вигляду на {len(ids)} останніх постах. Пости не з ніші позначені ❌.", dry)
+    for i in ids:
+        p = state["pool"][i]
+        note = analyze(p, cfg)
+        mark = "❌ НЕ З НІШІ, радар би це не надіслав\n\n" if note and not note["fit"] else ""
+        print("fit" if not mark else "off-niche", p["user"])
+        send(mark + card(p, note), dry)
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--digest", action="store_true")
     ap.add_argument("--dry", action="store_true")
     ap.add_argument("--loop", type=int, metavar="MIN")
+    ap.add_argument("--preview", type=int, metavar="N")
     args = ap.parse_args()
     load_env()
     cfg = json.load(open(os.path.join(HERE, "config.json"), encoding="utf-8"))
     if args.digest:
         return digest(cfg, args.dry)
+    if args.preview:
+        return preview(cfg, args.preview, args.dry)
     while True:
         run(cfg, args.dry)
         if not args.loop:
