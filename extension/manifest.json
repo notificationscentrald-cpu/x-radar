@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "X Radar: X-фактор у стрічці",
-  "version": "1.0.0",
-  "description": "Показує під кожним постом в X його X-фактор: перегляди / підписники автора.",
+  "version": "1.1.0",
+  "description": "Показує під кожним постом в X його X-фактор і підказує, під якими постами варто реплаїти.",
   "content_scripts": [
     {
       "matches": ["https://x.com/*", "https://twitter.com/*"],
