@@ -1,0 +1,48 @@
+.xr-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 6px 0 2px;
+}
+.xr-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font: 600 12px/18px -apple-system, "Segoe UI", Roboto, sans-serif;
+  color: #71767b;
+  border: 1px solid rgba(113, 118, 123, 0.35);
+  width: fit-content;
+  white-space: nowrap;
+}
+.xr-badge .xr-meta { font-weight: 400; opacity: 0.85; }
+.xr-badge.xr-warm { color: #f5a623; border-color: rgba(245, 166, 35, 0.6); }
+.xr-badge.xr-hot { color: #fff; background: #f4212e; border-color: #f4212e; }
+.xr-badge.xr-hot .xr-meta { opacity: 1; }
+.xr-badge.xr-big { opacity: 0.55; }
+.xr-badge.xr-top { color: #fff; background: #00ba7c; border-color: #00ba7c; }
+.xr-badge.xr-top .xr-meta { opacity: 1; }
+
+#xr-log-btn {
+  position: fixed; left: 12px; bottom: 12px; z-index: 9999;
+  padding: 4px 10px; border-radius: 999px; cursor: pointer;
+  font: 600 12px/18px -apple-system, "Segoe UI", Roboto, sans-serif;
+  color: #fff; background: #00ba7c; border: none; opacity: 0.85;
+}
+#xr-log-btn:hover { opacity: 1; }
+#xr-log-panel {
+  position: fixed; left: 12px; bottom: 48px; z-index: 9999;
+  width: min(560px, calc(100vw - 24px)); max-height: 60vh; overflow: auto;
+  padding: 12px; border-radius: 12px; background: #16181c; color: #e7e9ea;
+  border: 1px solid #2f3336; box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+  font: 13px/18px -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+#xr-log-panel .xr-log-head { display: flex; justify-content: space-between; align-items: center; }
+#xr-log-panel button {
+  font: inherit; color: #e7e9ea; background: #2f3336; border: none; border-radius: 6px; padding: 2px 8px; cursor: pointer;
+}
+#xr-log-panel table { width: 100%; border-collapse: collapse; margin-top: 6px; }
+#xr-log-panel th, #xr-log-panel td { text-align: left; padding: 3px 6px; border-bottom: 1px solid #2f3336; white-space: nowrap; }
+#xr-log-panel a { color: #1d9bf0; }
+#xr-log-panel .xr-dim { color: #71767b; }
