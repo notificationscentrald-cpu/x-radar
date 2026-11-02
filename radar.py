@@ -7,6 +7,7 @@
   python radar.py --dry      нічого не шле, друкує в консоль
   python radar.py --loop 60  крутиться на компі, прохід кожні 60 хв
   python radar.py --preview 5  тест вигляду на 5 останніх постах, без пошуку
+  python radar.py --replies  нові пости акаунтів зі списку reply_watch -> «НАПИШИ РЕПЛАЙ» + варіанти
 
 Ключі беруться зі змінних середовища (або з файлу .env поруч):
   TWITTERAPI_IO_KEY   ключ twitterapi.io (джерело даних)
@@ -65,13 +66,14 @@ def save_state(state):
     state["seen"] = {k: v for k, v in state["seen"].items() if v > cutoff}
     state["pool"] = {k: v for k, v in state["pool"].items() if v["ts"] > cutoff}
     state["sent"] = {k: v for k, v in state.get("sent", {}).items() if v > cutoff}
+    state["reply_seen"] = {k: v for k, v in state.get("reply_seen", {}).items() if v > cutoff}
     json.dump(state, open(STATE_PATH, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 
 
-def search(query, pages, key):
+def search(query, pages, key, query_type="Top"):
     tweets, cursor = [], ""
     for _ in range(pages):
-        params = urllib.parse.urlencode({"query": query, "queryType": "Top", "cursor": cursor})
+        params = urllib.parse.urlencode({"query": query, "queryType": query_type, "cursor": cursor})
         for attempt in range(4):
             # Безкоштовний рівень twitterapi.io пускає 1 запит на 5 секунд.
             time.sleep(6)
@@ -285,17 +287,104 @@ def preview(cfg, n, dry):
         send(mark + card(p, note), dry)
 
 
+def suggest_replies(p, cfg):
+    """Claude пропонує 3 різні реплаї англійською. Повертає список рядків або []."""
+    key = os.environ.get("ANTHROPIC_API_KEY")
+    rw = cfg.get("reply_watch", {})
+    if not (key and rw.get("suggest", True)):
+        return []
+    prompt = (
+        "You write X (Twitter) replies for Roman. He builds 3D scenes, browser games, simulations and short "
+        "videos with Claude and other AI models every day and posts about AI tools, model comparisons and "
+        "Claude Code tricks.\n\n"
+        f"Post by @{p['user']} ({p['age_min']} min old, {p['views']} views so far):\n{p['text'][:1500]}\n\n"
+        "Write 3 replies with clearly different angles: (1) a concrete fact, number or second-order "
+        "consequence the post misses; (2) a short take from someone who builds with these tools daily; "
+        "(3) a sharp, slightly contrarian or funny one-liner.\n"
+        "Rules: English; each under 220 characters; sounds like a real person, not a brand; no hashtags, "
+        "no emoji, no em dashes; never 'great post', 'this', 'so true', 'thoughts?', 'agree?'; no question "
+        "at the end; do not invent personal results, numbers or events: if a fact is not in the post and "
+        "you are not sure it is true, do not state it; no links; no self-promotion.\n"
+        'Answer only with JSON, no markdown: {"replies": ["...", "...", "..."]}'
+    )
+    try:
+        res = http_json("https://api.anthropic.com/v1/messages",
+                        {"x-api-key": key, "anthropic-version": "2023-06-01"},
+                        {"model": rw.get("model", "claude-sonnet-5-5"), "max_tokens": 1500,
+                         "thinking": {"type": "disabled"},
+                         "messages": [{"role": "user", "content": prompt}]}, timeout=60)
+        text = "".join(b.get("text", "") for b in res.get("content", [])).strip()
+        out = json.loads(text[text.index("{"):text.rindex("}") + 1])
+        return [str(r).strip() for r in out.get("replies", []) if str(r).strip()][:3]
+    except Exception as e:  # варіанти необов'язкові, сповіщення піде і без них
+        print("reply suggestion failed:", e, file=sys.stderr)
+        return []
+
+
+def reply_card(p, acc, variants):
+    lines = [
+        "✍️ <b>НАПИШИ РЕПЛАЙ ЗАРАЗ</b>",
+        f"👤 @{html.escape(p['user'])} · {p['age_min']} хв тому · 👁 {fmt_num(p['views'])} · 💬 {p['replies']} реплаїв",
+    ]
+    if acc.get("median"):
+        lines.append(f"📈 звичайний пост автора: ~{fmt_num(acc['median'])} переглядів")
+    lines += ["", html.escape(p["text"][:280], quote=False)]
+    if variants:
+        lines += ["", "<b>Варіанти (тапни, щоб скопіювати):</b>"]
+        lines += [f"{i}. <code>{html.escape(v, quote=False)}</code>" for i, v in enumerate(variants, 1)]
+    lines += ["", p["url"]]
+    return "\n".join(lines)
+
+
+def replies_run(cfg, dry):
+    """Свіжі пости акаунтів, під якими реплай окупається (список з бази outliers.py)."""
+    rw = cfg.get("reply_watch") or {}
+    accounts = {a["user"].lower(): a for a in rw.get("accounts", [])}
+    if not accounts:
+        print("reply_watch.accounts is empty")
+        return
+    state = load_state()
+    gap_min = (time.time() - state.get("reply_last_run", 0)) / 60
+    if not dry and gap_min < rw.get("min_minutes_between_runs", 8):
+        print(f"skip replies: last run {gap_min:.0f} min ago")
+        return
+    max_age = rw.get("max_age_min", 45)
+    since = int(time.time() - max_age * 60)
+    who = " OR ".join(f"from:{a['user']}" for a in accounts.values())
+    query = f"({who}) since_time:{since} -filter:replies -filter:retweets"
+    seen = state.setdefault("reply_seen", {})
+    sent = 0
+    for t in search(query, 1, os.environ["TWITTERAPI_IO_KEY"], "Latest"):
+        p = score(t)
+        acc = accounts.get(p["user"].lower())
+        p["age_min"] = int(p["age_h"] * 60)
+        if not acc or p["id"] in seen or p["age_min"] > max_age:
+            continue
+        if sent >= rw.get("max_alerts_per_run", 6):
+            break
+        seen[p["id"]] = time.time()
+        send(reply_card(p, acc, suggest_replies(p, cfg)), dry)
+        sent += 1
+    print(f"replies: sent {sent}")
+    if not dry:
+        state["reply_last_run"] = time.time()
+        save_state(state)
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--digest", action="store_true")
     ap.add_argument("--dry", action="store_true")
     ap.add_argument("--loop", type=int, metavar="MIN")
     ap.add_argument("--preview", type=int, metavar="N")
+    ap.add_argument("--replies", action="store_true")
     args = ap.parse_args()
     load_env()
     cfg = json.load(open(os.path.join(HERE, "config.json"), encoding="utf-8"))
     if args.digest:
         return digest(cfg, args.dry)
+    if args.replies:
+        return replies_run(cfg, args.dry)
     if args.preview:
         return preview(cfg, args.preview, args.dry)
     while True:
