@@ -2,7 +2,7 @@ name: x-radar
 on:
   schedule:
     - cron: "7 * * * *"     # щогодини перевірка; пошук не частіше ніж раз на 3,5 год (min_hours_between_runs)
-    - cron: "0 6 * * *"     # 06:00 UTC = 09:00 Київ: ранковий топ за добу
+    - cron: "0 13 * * *"    # 13:00 UTC = 8:00 Нью-Йорк взимку (9:00 влітку): ранковий топ за добу
     - cron: "*/15 * * * *"  # реплаї (reply_watch, раз на ~30 хв) і свіжі пости до 2 год (--fresh, раз на ~60 хв)
   workflow_dispatch:
     inputs:
@@ -32,7 +32,7 @@ jobs:
         run: |
           if [ "${{ inputs.preview }}" != "" ] && [ "${{ inputs.preview }}" != "0" ]; then
             python radar.py --preview "${{ inputs.preview }}"
-          elif [ "${{ github.event.schedule }}" = "0 6 * * *" ]; then
+          elif [ "${{ github.event.schedule }}" = "0 13 * * *" ]; then
             python radar.py --digest
           elif [ "${{ github.event.schedule }}" = "*/15 * * * *" ]; then
             python radar.py --replies || true
