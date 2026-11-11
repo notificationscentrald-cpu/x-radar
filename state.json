@@ -145,7 +145,17 @@
   "2120229448960110861": 1794419698.8616903,
   "2120293817848869085": 1794419700.0438972,
   "2120306434575392793": 1794419701.1523166,
-  "2120494222516339134": 1794419702.9599614
+  "2120494222516339134": 1794419702.9599614,
+  "2120572942006247904": 1794424454.5600593,
+  "2120583940830363901": 1794424455.5775962,
+  "2120581887181963615": 1794424457.1564496,
+  "2120574125714632894": 1794424458.1842127,
+  "2120573496078283191": 1794424459.3344648,
+  "2120579406179762594": 1794424460.3700259,
+  "2120575846805287256": 1794424461.2366045,
+  "2120569616510472657": 1794424463.2540576,
+  "2120581656558121192": 1794424464.3065488,
+  "2120571273944383849": 1794424465.5183442
  },
  "pool": {
   "2119189475259494677": {
@@ -10243,6 +10253,38 @@
    "x_factor": 1.0,
    "per_hour": 810,
    "ts": 1794419678.5441883
+  },
+  "2120583940830363901": {
+   "id": "2120583940830363901",
+   "url": "https://x.com/aymducking/status/2120583940830363901",
+   "text": "I use the ElevenLabs MCP with Fable to build this game.\n\n#ElevenLabsAmbassador @ElevenLabs  #mcp @ElevenCreative \n\nWith just one prompt.\n\nAnd the Elevenlabs generated the sound effects and music. https://t.co/t0bY7MhCij",
+   "user": "aymducking",
+   "followers": 8447,
+   "views": 4188,
+   "likes": 17,
+   "reposts": 0,
+   "replies": 22,
+   "bookmarks": 1,
+   "age_h": 0.8,
+   "x_factor": 0.5,
+   "per_hour": 5254,
+   "ts": 1794424453.2247279
+  },
+  "2120575846805287256": {
+   "id": "2120575846805287256",
+   "url": "https://x.com/notjazii/status/2120575846805287256",
+   "text": "GPT 6.1 Sol vs Gemini 4 Carbon\n\ntested both model with same prompt at highest reasoning available and omg results are completely different\n\n> sol took 30 mins and used 5.3M tokens worth ~$1.4\n> carbon took 40 mins and used 6.2M tokens worth ~$2.9\n\nprompt was simple that surprise me in 3d that makes me feel like you are agi model and both models decided to go with their own approach\n\nnow you decide which model did better here",
+   "user": "notjazii",
+   "followers": 12850,
+   "views": 1971,
+   "likes": 53,
+   "reposts": 0,
+   "replies": 8,
+   "bookmarks": 1,
+   "age_h": 1.3,
+   "x_factor": 0.2,
+   "per_hour": 1478,
+   "ts": 1794424453.2247384
   }
  },
  "last_run": 1794419702.959975,
@@ -10324,7 +10366,9 @@
   "2120549388745379867": 1794417921.4814758,
   "2120551422324527242": 1794417924.0170376,
   "2120547963613143541": 1794417926.3898807,
-  "2120306434575392793": 1794419701.8744738
+  "2120306434575392793": 1794419701.8744738,
+  "2120583940830363901": 1794424456.131192,
+  "2120575846805287256": 1794424461.740649
  },
  "reply_seen": {
   "2120507359445324267": 1794404387.1790442,
@@ -10351,5 +10395,5 @@
   "2120576853987799230": 1794420892.592913
  },
  "reply_last_run": 1794420893.1071725,
- "fresh_last_run": 1794417926.389892
+ "fresh_last_run": 1794424465.5183582
 }
