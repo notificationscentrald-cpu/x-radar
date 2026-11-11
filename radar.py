@@ -202,9 +202,12 @@ def analyze(p, cfg):
         return None
 
 
-def card(p, note=None, variants=None):
+def card(p, note=None, variants=None, remake=False):
     note = note or {}
     lines = [
+        # Звичайний прохід шукає теми, що летять на малих акаунтах: їх варто повторити своєю версією.
+        # Окремий заголовок, щоб такі пости не губились серед свіжих 🟢 сповіщень.
+        f"🔁 <b>ТЕМА ДЛЯ АНАЛОГА</b> · летить тема, а не автор (×{p['x_factor']:g})" if remake else None,
         action_label(p),
         f"⚡ <b>X-ФАКТОР ×{p['x_factor']:g}</b> · ⏱ {fmt_age(p)} · 🚀 {fmt_num(p['per_hour'])}/год",
         f"👁 <b>{fmt_num(p['views'])}</b> переглядів · 💬 {fmt_num(p['replies'])} коментарів",
@@ -223,7 +226,7 @@ def card(p, note=None, variants=None):
         lines += ["", "<b>Варіанти реплаю (тапни, щоб скопіювати):</b>"]
         lines += [f"{i}. <code>{html.escape(v, quote=False)}</code>" for i, v in enumerate(variants, 1)]
     lines += ["", p["url"]]
-    return "\n".join(lines)
+    return "\n".join(l for l in lines if l is not None)
 
 
 def send(text, dry):
@@ -275,7 +278,7 @@ def run(cfg, dry):
             print(f"off-niche: @{p['user']}: {p['text'][:80]!r}")
             continue
         variants = suggest_replies(p, cfg, note) if age_now_h(p) < 24 else []
-        send(card(p, note, variants), dry)
+        send(card(p, note, variants, remake=True), dry)
         state.setdefault("sent", {})[p["id"]] = time.time()
         sent += 1
     print(f"checked {len(found)} posts, hot {len(hot)}, off-niche {rejected}, sent {sent}")
