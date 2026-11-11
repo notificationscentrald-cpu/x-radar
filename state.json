@@ -128,7 +128,14 @@
   "2120531902826525019": 1794410832.5914786,
   "2120529912180445591": 1794410835.0874224,
   "2120524447383683270": 1794410836.7132452,
-  "2120518961221529661": 1794410838.7249167
+  "2120518961221529661": 1794410838.7249167,
+  "2120540964909711415": 1794414124.8007042,
+  "2120537068724179219": 1794414126.3547149,
+  "2120550084706292202": 1794414127.394079,
+  "2120526918621515872": 1794414129.2469435,
+  "2120534039232909521": 1794414130.8058662,
+  "2120541210427404645": 1794414131.9625075,
+  "2120538916906299643": 1794414133.2124493
  },
  "pool": {
   "2119114537442189652": {
@@ -10082,6 +10089,70 @@
    "x_factor": 1.2,
    "per_hour": 964,
    "ts": 1794410821.2965465
+  },
+  "2120540964909711415": {
+   "id": "2120540964909711415",
+   "url": "https://x.com/kevin_t_ngo/status/2120540964909711415",
+   "text": "Claude Fable 5.2 made this animated show intro\n\nEverything you see is code: animated in Python and rendered in Blender https://t.co/HjdpvLr8fv",
+   "user": "kevin_t_ngo",
+   "followers": 26710,
+   "views": 3448,
+   "likes": 106,
+   "reposts": 6,
+   "replies": 17,
+   "bookmarks": 57,
+   "age_h": 0.8,
+   "x_factor": 0.1,
+   "per_hour": 4468,
+   "ts": 1794414115.8816862
+  },
+  "2120550084706292202": {
+   "id": "2120550084706292202",
+   "url": "https://x.com/LyalinDotCom/status/2120550084706292202",
+   "text": "This isn't one shot, but it didn't take much to create it with Gemini 4 Carbon.\n\nThe agent did this by generating about 6k lines of code, with zero images, sound files or things like Blender assets.\n\nThis is just magic technology. https://t.co/HjHZFx12jD",
+   "user": "LyalinDotCom",
+   "followers": 31493,
+   "views": 561,
+   "likes": 19,
+   "reposts": 0,
+   "replies": 1,
+   "bookmarks": 3,
+   "age_h": 0.2,
+   "x_factor": 0.0,
+   "per_hour": 2244,
+   "ts": 1794414123.7002368
+  },
+  "2120526918621515872": {
+   "id": "2120526918621515872",
+   "url": "https://x.com/0xMovez/status/2120526918621515872",
+   "text": "I just solved \"Humanoid Robotics\" education with Fable 5.2 forever..\n\nno need to buy a $16,000 humanoid to see what's inside one, just visit my interactive site:\n\n• top 10 real robots in 3D: Tesla Optimus, Unitree G1...\n• a hyper-realistic hangar where every robot comes apart into 35-45 parts\n• build part by part: frame, actuators, battery, sensors, shells, then torque the bolts\n• test drive it: walk, run, jump, backflip, even stack boxes with a warehouse arm\n\nFable 5.2 generated every 3D model in code, no ready-made 3D files or photos\n\ntry it free, no sign-up ↓\nhttps://t.co/ahWxAATrWK",
+   "user": "0xMovez",
+   "followers": 48736,
+   "views": 2741,
+   "likes": 66,
+   "reposts": 2,
+   "replies": 12,
+   "bookmarks": 51,
+   "age_h": 1.7,
+   "x_factor": 0.1,
+   "per_hour": 1610,
+   "ts": 1794414115.8817484
+  },
+  "2120538916906299643": {
+   "id": "2120538916906299643",
+   "url": "https://x.com/N01ennn/status/2120538916906299643",
+   "text": "this is pure f*cking treasure...\n\nAnthropic just released the most dangerous model they've ever shipped\n\neverything you need is inside: what it built, the real costs, when it's a waste, and 5 prompts that build anything\n\nread before you burn your limits: https://t.co/p0qmk0qYB5",
+   "user": "N01ennn",
+   "followers": 9735,
+   "views": 1029,
+   "likes": 33,
+   "reposts": 2,
+   "replies": 8,
+   "bookmarks": 24,
+   "age_h": 0.9,
+   "x_factor": 0.1,
+   "per_hour": 1131,
+   "ts": 1794414123.7002182
   }
  },
  "last_run": 1794406659.242462,
@@ -10158,7 +10229,11 @@
   "2120531902826525019": 1794410833.169128,
   "2120529912180445591": 1794410835.6039171,
   "2120524447383683270": 1794410837.2181885,
-  "2120518961221529661": 1794410839.285291
+  "2120518961221529661": 1794410839.285291,
+  "2120540964909711415": 1794414125.3556004,
+  "2120550084706292202": 1794414127.9803038,
+  "2120526918621515872": 1794414129.8098385,
+  "2120538916906299643": 1794414133.7615683
  },
  "reply_seen": {
   "2120507359445324267": 1794404387.1790442,
@@ -10170,8 +10245,14 @@
   "2120537937406251469": 1794410811.1613822,
   "2120537313469964394": 1794410811.690708,
   "2120534261375889658": 1794410812.280995,
-  "2120528265202815060": 1794410812.8285968
+  "2120528265202815060": 1794410812.8285968,
+  "2120549379769540677": 1794414104.158801,
+  "2120548424265130183": 1794414104.9148064,
+  "2120547884890481138": 1794414105.466973,
+  "2120547827054940497": 1794414106.0822995,
+  "2120547371411251252": 1794414106.6583757,
+  "2120544973590564875": 1794414107.2016497
  },
- "reply_last_run": 1794410813.37861,
- "fresh_last_run": 1794410839.285303
+ "reply_last_run": 1794414107.8895638,
+ "fresh_last_run": 1794414133.7615788
 }
