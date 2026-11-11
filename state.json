@@ -174,7 +174,13 @@
   "2120622969584025774": 1794433270.5731947,
   "2120617070119236035": 1794433271.9710534,
   "2120608723488178433": 1794433273.2215552,
-  "2120610888797364383": 1794433274.4269133
+  "2120610888797364383": 1794433274.4269133,
+  "2120628576290517033": 1794436524.5112627,
+  "2120618039368659161": 1794436525.9009793,
+  "2120624081611772136": 1794436527.0047913,
+  "2120624970653134926": 1794436528.5763023,
+  "2120623690941354173": 1794436530.2257972,
+  "2120624681086529660": 1794436531.9065154
  },
  "pool": {
   "2119233522603020553": {
@@ -10656,6 +10662,70 @@
    "x_factor": 0.1,
    "per_hour": 431,
    "ts": 1794433252.1148415
+  },
+  "2120624081611772136": {
+   "id": "2120624081611772136",
+   "url": "https://x.com/e1genqq/status/2120624081611772136",
+   "text": "HOLY F*CK, motion studio in 100% free 21 repos.\n\nI don't use After Effect anymore.\n\n21 GitHub tools to build with Opus 5.5.\n\nMotion. Characters. Shaders. Sound. Export.\n\n01 Remotion → React video engine.\nhttps://t.co/w0z2Hw1azC\n\n02 Anime.js → Timelines, easing and stagger.\nhttps://t.co/1pBmRIKB8A\n\n03 PixiJS → GPU-powered 2D graphics.\nhttps://t.co/wwZJXMo7UC\n\n04 GiveMotion → HTML-to-video workflows for agents.\nhttps://t.co/60Afc2o7T8\n\n05 ManimGX → GPU-rendered math and 3D animation.\nhttps://t.co/DMJKOyvQU0\n\n06 Nemo → 2D animation and inbetweening (alpha).\nhttps://t.co/1JEaUA2OxU\n\n07 ThorVG → SVG and Lottie rendering.\nhttps://t.co/NsaLYF5lMg\n\n08 openFrameworks → Generative art in C++.\nhttps://t.co/pkJ1n8jI2g\n\n09 TiXL → Procedural, audio-reactive visuals.\nhttps://t.co/IGNhAcN2yA\n\n10 ofxFlowTools → GPU fluid simulation and optical flow.\nhttps://t.co/3BJh7sPP7R\n\n11 DragonBones → 2D skeletal animation runtime.\nhttps://t.co/3u0TgHlCh8\n\n12 Blender → Modeling, rigging and 3D animation.\nhttps://t.co/eKgKgMUngJ\n\n13 Polygonjs → Node-based procedural 3D.\nhttps://t.co/zDZVX4nKt1\n\n14 N8AO → Ambient occlusion for Three.js.\nhttps://t.co/vlggxu5CPT\n\n15 Three.js → 3D scenes, lights and cameras.\nhttps://t.co/xEYhuCh1sG\n\n16 OpenFX Misc → Compositing effects for OFX hosts.\nhttps://t.co/hHPP2dFpNj\n\n17 Elementary → Programmable synths and audio effects.\nhttps://t.co/oll2XRi29v\n\n18 Signalsmith Stretch → Pitch shifting and time stretching.\nhttps://t.co/rPJZCzPljT\n\n19 Vosk → Offline speech recognition for captions.\nhttps://t.co/g97eGgO9Gd\n\n20 Flowblade → Multitrack editing on Linux.\nhttps://t.co/UBu7s6MSdV\n\n21 FFmpeg → Encoding, conversion and delivery.\nhttps://t.co/32LdpVoKLp\n\nIdea → block out → animate → polish → mix → ship.\n\nBookmark this. Go build something worth watching ↓",
+   "user": "e1genqq",
+   "followers": 3275,
+   "views": 1179,
+   "likes": 22,
+   "reposts": 7,
+   "replies": 4,
+   "bookmarks": 35,
+   "age_h": 1.5,
+   "x_factor": 0.4,
+   "per_hour": 791,
+   "ts": 1794436515.9787772
+  },
+  "2120624970653134926": {
+   "id": "2120624970653134926",
+   "url": "https://x.com/0xKense1/status/2120624970653134926",
+   "text": "FABLE 5.2 turned 51 free mixamo clips into a PLAYABLE SWORD FIGHT in 36 minutes, with hits, blocks, clashes and a rival ai FOR FREE\n\nit started from my 2 rigged fighters and mixamo's free sword and shield pack, $0 for the moves\n\n- hit frames: a script took the fastest frame of the sword hand in every clip. the power slash hits 0.567 s in, at 15 m/s\n- on that frame the game picks hit, block, clash or guard break. both hit frames within 0.14 s = clash, both fighters get knocked back\n- the kick and the power slash go straight through a raised shield\n- every hit freezes the game for 70 ms, heavy ones 90 ms. the killing blow freezes 0.12 s, then 1.8 s of slow motion\n- a bot fought the rival 3 times and won all 3 in 27 to 54 s, the rival still landed 4 to 8 hits\n\ntip: make it measure the hit frame in every clip instead of guessing. all the hit, block and clash logic runs on it\n\nthe two fighters creation  see in the post below",
+   "user": "0xKense1",
+   "followers": 1050,
+   "views": 958,
+   "likes": 29,
+   "reposts": 1,
+   "replies": 7,
+   "bookmarks": 31,
+   "age_h": 1.4,
+   "x_factor": 0.9,
+   "per_hour": 669,
+   "ts": 1794436515.9787436
+  },
+  "2120623690941354173": {
+   "id": "2120623690941354173",
+   "url": "https://x.com/s4yonnara/status/2120623690941354173",
+   "text": "this is f*cking insane...\n\nCLAUDE FABLE 5.2 CAN TURN ONE BRIEF INTO AN ENTIRE 24/7 MOTION DESIGN STUDIO.\n\nIt storyboards, writes animation code, renders videos, checks every frame and fixes its own mistakes.\n\nHere are 12 GitHub projects to build your own AI motion design studio:\n\n01 / OpenMontage → Turns your AI coding agent into a complete video production studio.\nhttps://t.co/OqFWOCAKWA\n\n02 / HyperFrames → Write HTML, CSS and animations. Render them into finished videos.\nhttps://t.co/nsn0ogAbkg\n\n03 / Video Shotcraft → Cinematic shot recipes for AI-generated product promos.\nhttps://t.co/MZ8Aa2SPAX\n\n04 / Remotion Skills → Official skills for building videos with React.\nhttps://t.co/7TdaquSRQH\n\n05 / Anything2Explainer → Turns any topic into a narrated motion graphics explainer.\nhttps://t.co/sogrjEWDWX\n\n06 / Herk Edit Kit → AI-powered video editing, captions and sound design.\nhttps://t.co/J19D9WGQbl\n\n07 / GSAP Skills → Professional animation, timelines and transitions for AI agents.\nhttps://t.co/N3PGIMAKtm\n\n08 / Oil Motion → Interactive animations driven by scroll and mouse movement.\nhttps://t.co/Oaq6070Zv7\n\n09 / Motion Canvas → Build animated explainers and motion graphics with TypeScript.\nhttps://t.co/TVwo4Mh5Rt\n\n10 / Remotion → Create programmatic videos with reusable React components.\nhttps://t.co/DEQrlbcpCh\n\n11 / FFmpeg → Render, edit and convert video and audio.\nhttps://t.co/efmAtA33ow\n\n12 / Remotion Render Server → Automate video rendering with queues and API endpoints.\nhttps://t.co/bVinNqX6pu\n\nOne brief in. Finished videos out.\n\nBuild your own 24/7 AI motion design studio ↓",
+   "user": "s4yonnara",
+   "followers": 3267,
+   "views": 940,
+   "likes": 27,
+   "reposts": 0,
+   "replies": 6,
+   "bookmarks": 15,
+   "age_h": 1.5,
+   "x_factor": 0.3,
+   "per_hour": 620,
+   "ts": 1794436515.9786162
+  },
+  "2120624681086529660": {
+   "id": "2120624681086529660",
+   "url": "https://x.com/maxt3chno/status/2120624681086529660",
+   "text": "They say: \"Fable 5.2 cooked this AAA game in 1 hour\"\nI say: \"my Fable 5.2 spent 6 hours on ONE 3D house\"\n\nprompt issue, skill issue, or perfectionism? nah, it just went psycho on details:\n\n1 - measured every log while coding the cabin in Blender via Python\n2 - noticed the lighting hitting the table wrong and rewrote the whole scene\n3 - found a tree hanging over the cliff and built a stone ledge to hold it\n4 - I said \"the fire looks fake\", so it coded a raymarched fluid fire from scratch\n\n6 hours. 1 house. 12% of my Max plan weekly quota (~60% of a $20 plan). worth it?",
+   "user": "maxt3chno",
+   "followers": 1536,
+   "views": 875,
+   "likes": 13,
+   "reposts": 0,
+   "replies": 6,
+   "bookmarks": 4,
+   "age_h": 1.4,
+   "x_factor": 0.6,
+   "per_hour": 603,
+   "ts": 1794436515.9788299
   }
  },
  "last_run": 1794432820.8428967,
@@ -10747,7 +10817,11 @@
   "2120626368937619627": 1794433261.6392338,
   "2120624097826680985": 1794433263.624018,
   "2120615591320989905": 1794433268.5333211,
-  "2120610888797364383": 1794433275.0734901
+  "2120610888797364383": 1794433275.0734901,
+  "2120624081611772136": 1794436527.4753973,
+  "2120624970653134926": 1794436529.0636885,
+  "2120623690941354173": 1794436530.6998322,
+  "2120624681086529660": 1794436532.3941903
  },
  "reply_seen": {
   "2120507359445324267": 1794404387.1790442,
@@ -10779,6 +10853,6 @@
   "2120601091591274513": 1794427834.0816004,
   "2120630147086995890": 1794433243.4089973
  },
- "reply_last_run": 1794433244.2553258,
- "fresh_last_run": 1794433275.0735006
+ "reply_last_run": 1794436507.6279235,
+ "fresh_last_run": 1794436532.394202
 }
