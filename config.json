@@ -9,17 +9,124 @@
   "lookback_hours": 24,
   "pages_per_query": 3,
   "lang": "en",
-
   "min_views": 50000,
   "min_x_factor": 15,
   "max_followers": 50000,
   "max_alerts_per_run": 8,
   "max_checks_per_run": 30,
   "min_hours_between_runs": 3.5,
-  "exclude_words": ["订阅", "下单", "giveaway", "airdrop", "promo code", "discount", "dm me", "link in bio"],
-
+  "exclude_words": [
+    "订阅",
+    "下单",
+    "giveaway",
+    "airdrop",
+    "promo code",
+    "discount",
+    "dm me",
+    "link in bio"
+  ],
   "digest_size": 20,
   "claude_analysis": true,
-  "niche": "Автор бере пост, що летить, і робить свою версію: здебільшого власне відео чи інтерактив, зроблений кодом з Claude, або короткий розбір. Його теми: 3D-сцени та іграшки з коду (діорами, тварини, механізми, three.js); браузерні ігри з одного промпта; комп'ютерний зір і трекінг (тварини, машини, тренування) з грошима в історії; лайфхаки Claude Code (токени, пам'ять, безпека телефону й роутера); нові моделі та їх порівняння (Claude, GPT, Grok, Gemini, Kimi) і дослідження Anthropic, які можна показати анімацією; AI-трейдинг і боти (розбір, а не реклама); AI-інструменти для відео й монтажу. Підходить пост, який можна переказати своєю візуалізацією. Не підходять чисті меми, політика, плітки, реклама.",
-  "claude_model": "claude-haiku-5-5"
+  "niche": "Автор показує 3D, ігри й візуал, які створює Claude чи інша модель кодом, і дає рецепт (промпти, кроки, інструменти). Підходить: 3D-сцени та діорами з коду (three.js, Blender через Claude), браузерні ігри з одного промпта, симуляції й механізми, анімації та відео, зроблені кодом, AI-інструменти для 3D, відео й монтажу, порівняння моделей на одному візуальному завданні. Не підходять: трейдинг і боти, трекінг і комп'ютерний зір з грошима в історії, новини моделей без візуалу, фінанси, чисті меми, політика, плітки, реклама.",
+  "claude_model": "claude-haiku-5-5",
+  "ready_videos": [
+    "Robot warehouse: 48 robots haul shelves to pick stations (three.js simulation)",
+    "Lighthouse at sunset, day/night cycle (3D scene, best of Kimi, GPT-6 and Claude)",
+    "Spring Cove: lake house diorama, day and evening (3D)",
+    "Dam Jelly: a dam with a jelly reservoir (3D physics-ish remake)",
+    "Drone Guard: drones patrolling a house (3D)",
+    "Cell machine: a living cell drawn as a machine (animation)",
+    "Lanternfall: full 3D action game in one HTML file, no assets",
+    "Northfold: website assembled live by a swarm of 36 agent cursors",
+    "Agent Command: AI models as units in a strategy game",
+    "Starlight Market: rainy-night American corner store diorama (3D)",
+    "One T-rex, four model 'costumes' (3D model comparison)",
+    "Neural network EngineNet visualization (animation)"
+  ],
+  "fresh": {
+    "_comment": "Режим --fresh: пости молодші за 2 год, що швидко ростуть. Під ними реплай з нашим відео ще ловить аудиторію оригіналу. 1 сторінка на запит раз на ~60 хв ≈ 48 запитів на добу. Вимкнути: enabled=false. Пороги низькі навмисно: у перші 2 години навіть майбутні хіти мають сотні–тисячі переглядів. Шум відсіює Claude за описом ніші.",
+    "enabled": true,
+    "queries": [
+      "(claude OR opus OR fable OR anthropic) (3d OR game OR simulation OR blender OR threejs OR \"three.js\" OR animation) min_faves:10",
+      "(gpt OR gemini OR grok OR kimi OR \"one prompt\" OR \"vibe coded\") (3d OR game OR simulation OR blender OR threejs) min_faves:10"
+    ],
+    "max_age_min": 120,
+    "min_views": 500,
+    "min_per_hour": 400,
+    "max_followers": 300000,
+    "pages_per_query": 1,
+    "min_minutes_between_runs": 50,
+    "max_checks_per_run": 10,
+    "max_alerts_per_run": 4
+  },
+  "reply_watch": {
+    "_comment": "Акаунти, під якими реплай окупається (база outliers.py, 02.11): пости 10K+ щодня. Радар перевіряє їх кожні ~30 хв і шле свіжі пости з варіантами реплаю. median = звичайні перегляди поста автора. 1 запит раз на ~30 хв ≈ 48 запитів на добу. Вимкнути: прибрати рядок --replies з workflow або очистити accounts.",
+    "accounts": [
+      {
+        "user": "alex_prompter",
+        "median": 10042
+      },
+      {
+        "user": "eng_khairallah1",
+        "median": 11626
+      },
+      {
+        "user": "thegreatest_sv",
+        "median": 14739
+      },
+      {
+        "user": "Av1dlive",
+        "median": 12756
+      },
+      {
+        "user": "rewind02",
+        "median": 17834
+      },
+      {
+        "user": "Mr_Buzzoni",
+        "median": 8728
+      },
+      {
+        "user": "RohOnChain",
+        "median": 66777
+      },
+      {
+        "user": "beamnxw",
+        "median": 12553
+      },
+      {
+        "user": "0xMovez",
+        "median": 28150
+      },
+      {
+        "user": "Argona0x",
+        "median": 14828
+      },
+      {
+        "user": "kinderlayer",
+        "median": 10678
+      },
+      {
+        "user": "elvar_official",
+        "median": 7654
+      },
+      {
+        "user": "semichenkko",
+        "median": 2251
+      },
+      {
+        "user": "0xCodez",
+        "median": 9388
+      },
+      {
+        "user": "0x_fokki",
+        "median": 6109
+      }
+    ],
+    "max_age_min": 45,
+    "min_minutes_between_runs": 25,
+    "max_alerts_per_run": 6,
+    "suggest": true,
+    "model": "claude-sonnet-5-5"
+  }
 }
