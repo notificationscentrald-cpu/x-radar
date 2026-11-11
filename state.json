@@ -155,7 +155,14 @@
   "2120575846805287256": 1794424461.2366045,
   "2120569616510472657": 1794424463.2540576,
   "2120581656558121192": 1794424464.3065488,
-  "2120571273944383849": 1794424465.5183442
+  "2120571273944383849": 1794424465.5183442,
+  "2120598848036892723": 1794427851.9641788,
+  "2120605361615073681": 1794427853.073521,
+  "2120585638970007665": 1794427854.2114348,
+  "2120603090625933425": 1794427855.197693,
+  "2120587202404962567": 1794427857.0440412,
+  "2120582812793475290": 1794427858.257686,
+  "2120591041501815192": 1794427859.8900473
  },
  "pool": {
   "2119189475259494677": {
@@ -10285,6 +10292,54 @@
    "x_factor": 0.2,
    "per_hour": 1478,
    "ts": 1794424453.2247384
+  },
+  "2120603090625933425": {
+   "id": "2120603090625933425",
+   "url": "https://x.com/jankeesvw/status/2120603090625933425",
+   "text": "I rebuilt my village in isometric pixel art. Every house and tree in its real place, all from open data, made with Claude Code. Want one of your own town? Hit \"Make your own village\" and paste the prompt into your agent.\n\nhttps://t.co/GZeAxn9zev https://t.co/ifNXvAsnLK",
+   "user": "jankeesvw",
+   "followers": 8054,
+   "views": 630,
+   "likes": 13,
+   "reposts": 0,
+   "replies": 8,
+   "bookmarks": 6,
+   "age_h": 0.5,
+   "x_factor": 0.1,
+   "per_hour": 1339,
+   "ts": 1794427843.0613272
+  },
+  "2120582812793475290": {
+   "id": "2120582812793475290",
+   "url": "https://x.com/rewind02/status/2120582812793475290",
+   "text": "full 3d farming game was built in one html file with claude fable 5.2 + three.js..\n\nno asset files at all\n\nthe trick is generating everything from code. here’s the workflow:\n\n- step 1: set fable 5.2 to xhigh effort and ask for one self-contained html file using three.js\n- step 2: prompt 1, the world: terrain, ~200k instanced grass blades that sway and flatten underfoot, a farmhouse and a barn with working doors\n- step 3: textures from code: wood grain, peeling paint, wet soil that glistens after watering\n- step 4: prompt 2, the farming loop: hoe for raised furrows, a seed catalogue, a watering can, a sickle, 6 crops from seed to harvest\n- step 5: prompt 3, the atmosphere: 4 seasons, fog and rain, snow that builds up and holds footprints, lanterns that light at sunset\n- step 6: audio from code too: footsteps that change on grass, dirt and wood, rain under a roof, background music\n- step 7: share it as a claude artifact so anyone can play it in the browser\n\nwho does what:\n\n> fable 5.2: every mesh, texture, sound and line of javascript\n> three.js: rendering, lighting, instancing\n> one html file: the whole game\n> you: the brief and the feedback\n\nsmall reactive details beat big features (dev: lucian__03)",
+   "user": "rewind02",
+   "followers": 8222,
+   "views": 850,
+   "likes": 49,
+   "reposts": 4,
+   "replies": 20,
+   "bookmarks": 26,
+   "age_h": 1.8,
+   "x_factor": 0.1,
+   "per_hour": 468,
+   "ts": 1794427843.0613768
+  },
+  "2120591041501815192": {
+   "id": "2120591041501815192",
+   "url": "https://x.com/dom_scholz/status/2120591041501815192",
+   "text": "Opus 5.5 vs. Fable 5.2 (round 2)\n\nyou asked me to give Fable more time. it mogged hard\n\n(in the browser using @threejs) https://t.co/HVyOv5HIA2",
+   "user": "dom_scholz",
+   "followers": 8446,
+   "views": 591,
+   "likes": 11,
+   "reposts": 1,
+   "replies": 2,
+   "bookmarks": 1,
+   "age_h": 1.3,
+   "x_factor": 0.1,
+   "per_hour": 465,
+   "ts": 1794427843.0613601
   }
  },
  "last_run": 1794419702.959975,
@@ -10368,7 +10423,10 @@
   "2120547963613143541": 1794417926.3898807,
   "2120306434575392793": 1794419701.8744738,
   "2120583940830363901": 1794424456.131192,
-  "2120575846805287256": 1794424461.740649
+  "2120575846805287256": 1794424461.740649,
+  "2120603090625933425": 1794427855.8726828,
+  "2120582812793475290": 1794427858.9306252,
+  "2120591041501815192": 1794427860.5561342
  },
  "reply_seen": {
   "2120507359445324267": 1794404387.1790442,
@@ -10392,8 +10450,13 @@
   "2120560313489854520": 1794417896.2109056,
   "2120580980318797955": 1794420891.4344902,
   "2120580063561216141": 1794420892.117277,
-  "2120576853987799230": 1794420892.592913
+  "2120576853987799230": 1794420892.592913,
+  "2120609500118069489": 1794427831.2592385,
+  "2120609393700171975": 1794427832.0796196,
+  "2120608266312987043": 1794427832.7563257,
+  "2120602285541670915": 1794427833.4226687,
+  "2120601091591274513": 1794427834.0816004
  },
- "reply_last_run": 1794420893.1071725,
- "fresh_last_run": 1794424465.5183582
+ "reply_last_run": 1794427834.7685077,
+ "fresh_last_run": 1794427860.5561452
 }
