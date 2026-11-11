@@ -117,7 +117,12 @@
   "2120175941616128277": 1794406654.8462791,
   "2120163220312699025": 1794406656.1631134,
   "2120205408371634624": 1794406657.2105925,
-  "2120172203195211975": 1794406659.2424471
+  "2120172203195211975": 1794406659.2424471,
+  "2120518358085046609": 1794407687.659096,
+  "2120510138553626667": 1794407688.7406921,
+  "2120520207886061679": 1794407690.4715822,
+  "2120503884967800894": 1794407692.290953,
+  "2120507881263100377": 1794407693.981429
  },
  "pool": {
   "2119114537442189652": {
@@ -9943,6 +9948,70 @@
    "x_factor": 61.5,
    "per_hour": 2339,
    "ts": 1794406641.9160519
+  },
+  "2120510138553626667": {
+   "id": "2120510138553626667",
+   "url": "https://x.com/ai_for_success/status/2120510138553626667",
+   "text": "Gemini 4 Carbon built this entire aquarium, including the angelfish, snail, and shrimp, using Blender, Three.js, build123d, and a local image-to-3D pipeline.\n\nTotal time taken: approximately 6 hours.\n\nhttps://t.co/rtdFiYEHcy",
+   "user": "ai_for_success",
+   "followers": 82526,
+   "views": 1850,
+   "likes": 44,
+   "reposts": 1,
+   "replies": 15,
+   "bookmarks": 6,
+   "age_h": 1.0,
+   "x_factor": 0.0,
+   "per_hour": 1800,
+   "ts": 1794407686.2299893
+  },
+  "2120520207886061679": {
+   "id": "2120520207886061679",
+   "url": "https://x.com/Lummox_eth/status/2120520207886061679",
+   "text": "GPT-6 Astra really spent $98 and 24 minutes building an Arctic icebreaker that looks like LEGO’s first attempt at naval engineering 😭\n\nMeanwhile Claude Opus 5.5 delivered a cinematic icebreaker cutting through dark Arctic waters for just $7 in 2 minutes\n\nSame prompt, 4 AI workflows\n\nThe $91 Arctic reality check 🧊💀\n\n🥇 Opus 5.5 → $7 / 2 min\n🥈 Blender MCP → $28 / 8 min\n🥉 Kimi K3.1 → $61 / 16 min\n💀 GPT-6 Astra → $98 / 24 min\n\nThat’s 14x the displayed cost and 12x the time for Astra\n\nBut here’s what makes this comparison hilarious\n\nOpus has the dramatic ocean, ship lighting and atmosphere of a movie scene\n\nBlender actually shows the icebreaker surrounded by broken ice, while Kimi goes for a simpler frozen landscape\n\nMeanwhile Astra apparently spent $98 proving that you can build an entire Arctic expedition using 47 LEGO bricks 😭\n\nThe most expensive ship looks like the first one that would sink",
+   "user": "Lummox_eth",
+   "followers": 9379,
+   "views": 571,
+   "likes": 21,
+   "reposts": 4,
+   "replies": 6,
+   "bookmarks": 17,
+   "age_h": 0.4,
+   "x_factor": 0.1,
+   "per_hour": 1584,
+   "ts": 1794407686.2300065
+  },
+  "2120503884967800894": {
+   "id": "2120503884967800894",
+   "url": "https://x.com/maxxmalist/status/2120503884967800894",
+   "text": "Claude Fable 5.2 is f*cking insane\n\nit just built a 3D explanation film to show that “nothing is really sharp” purely with code\n\npeople already getting MILLIONS of views daily with claude content on socials\nnow, this is another level and opens up completely new possibilites\n\ni’m sharing the skill for free, you can grab it from my library below\n\nwith sunra putting all these leading AI models and workflows in one place, experimenting with stuff like this is getting ridiculously easy\n\nhere’s the prompt you paste to claude at the very beginning:\n\nMake a 3D \"infinite zoom\" explainer video about: [TOPIC / CLAIM, e.g. \"nothing is really sharp\"].\n\nTHE FORMULA\n- One continuous shot. The camera flies from [START OBJECT, at human scale] down to\n  [END SCALE, e.g. a single atom] (or outward, if the idea is growth). No cuts.\n- One live measurement on screen the whole time: a thin bar with a number that keeps\n  changing (\"2.20 cm -> 0.250 nm\"), a count of how many times it was halved (or doubled),\n  and two or three words naming what is in view right now.\n- A payoff at the end: pull back fast to the start object and show the one surprising\n  number the whole trip was for. [PAYOFF, or \"find the best one in the research\"]\n- Things for scale: as the zoom passes each size, a familiar object of that size sits\n  next to the subject with its name and size\n  ([OBJECTS, e.g. grain of salt, human hair, red blood cell, bacterium, virus,\n  chip transistor, antibody, DNA], or pick 6-9 spaced at least 3x apart in size).\n\nTRUTH\n- Every number on screen is real. Research the dimensions first, give me the sources,\n  and tell me where you simplified (coatings left out, colours that are conventions...).\n- Geometry follows the data: if the edge radius is 40 nm, it is 40 nm in the model, and\n  the scale objects are placed at their true size relative to it.\n\nLOOK\n- Black background, studio lighting, real 3D with depth of field. It should feel like\n  macro photography that keeps going past what a lens can do.\n- The surface must change character at every scale (polish -> grinding marks -> chips ->\n  crystal grains -> rounded edge -> atoms), so the zoom is felt, not just counted.\n- No text that repeats a voiceover. On-screen text is data and names only.\n- No music, no sound effects, no voiceover unless I ask.\n\nFORMAT\n- [16:9 1920x1080 | 9:16 1080x1920], 30 fps, about [45] seconds, H.264 MP4.\n- Labels in [English].\n\nHOW TO BUILD IT\n- All code, no video-generation models: Three.js scene, a pure function that draws the\n  frame for any time t, headless Chrome with the GPU, frames piped into ffmpeg.\n- Zoom by scaling the world around the focus point, never by moving the camera into tiny\n  numbers. Detail is procedural and fades in and out by physical size.\n\nHOW TO WORK\n1. Research the real sizes. Show me a short table: time | scale | what is in view |\n   object for scale. Wait for my OK only if something in my brief is unclear; otherwise go.\n2. Build, then render 8-10 stills across the timeline and look at them yourself. Fix\n   exposure, framing, clipped objects and overlapping labels before rendering the film.\n3. Render the full video, extract frames from the result and check them again, including\n   a few consecutive frames for flicker.\n4. Give me the MP4 (plus a copy under 30 MB if the main file is larger), the sources, and\n   an honest list of what you checked and what you did not.",
+   "user": "maxxmalist",
+   "followers": 34537,
+   "views": 1091,
+   "likes": 10,
+   "reposts": 1,
+   "replies": 3,
+   "bookmarks": 16,
+   "age_h": 1.4,
+   "x_factor": 0.0,
+   "per_hour": 758,
+   "ts": 1794407678.1076334
+  },
+  "2120507881263100377": {
+   "id": "2120507881263100377",
+   "url": "https://x.com/Rixhabh__/status/2120507881263100377",
+   "text": "Fable 5.2 has been out for barely 24 hours.\n\nAnd people are already building things that would've taken entire teams days or weeks.\n\n3D worlds. Games. Films. Blender models. Robotics.\n\nHere are 10 wild examples people built with Claude Fable 5.2:",
+   "user": "Rixhabh__",
+   "followers": 109370,
+   "views": 860,
+   "likes": 11,
+   "reposts": 2,
+   "replies": 7,
+   "bookmarks": 7,
+   "age_h": 1.2,
+   "x_factor": 0.0,
+   "per_hour": 732,
+   "ts": 1794407678.107682
   }
  },
  "last_run": 1794406659.242462,
@@ -10011,13 +10080,19 @@
   "2120498751773057186": 1794404415.7472522,
   "2120171549722636662": 1794406644.8530705,
   "2120214247326232787": 1794406647.1216881,
-  "2120197632500887856": 1794406651.4359143
+  "2120197632500887856": 1794406651.4359143,
+  "2120510138553626667": 1794407689.280334,
+  "2120520207886061679": 1794407691.0095177,
+  "2120503884967800894": 1794407692.8809817,
+  "2120507881263100377": 1794407694.5646691
  },
  "reply_seen": {
   "2120507359445324267": 1794404387.1790442,
   "2120506007143280812": 1794404387.9341803,
-  "2120505575863988556": 1794404388.5950863
+  "2120505575863988556": 1794404388.5950863,
+  "2120523633093386622": 1794407668.7676528,
+  "2120522937338155045": 1794407669.505773
  },
- "reply_last_run": 1794404389.1908364,
- "fresh_last_run": 1794404415.7472641
+ "reply_last_run": 1794407670.1383593,
+ "fresh_last_run": 1794407694.5646822
 }
