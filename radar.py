@@ -9,6 +9,13 @@
   python radar.py --preview 5  тест вигляду на 5 останніх постах, без пошуку
   python radar.py --replies  нові пости акаунтів зі списку reply_watch -> «НАПИШИ РЕПЛАЙ» + варіанти
   python radar.py --fresh    пости молодші за 2 год, що швидко ростуть -> «реплай з відео зараз»
+  python radar.py --test-bait  перевірка фільтра «напиши слово, отримаєш» на прикладах
+
+Реплай-сповіщення (--replies, --fresh) ідуть лише під пости, що вже летять:
+5K+ переглядів, або 🚀 від 1K/год, або 30+ коментарів. Під кожним показано,
+скільки переглядів збирають чужі реплаї під цим постом (🗣), і є денний ліміт.
+Пости-приманки («comment AGENT and I'll DM you») радар пропускає завжди:
+за реплаї під такими вже був тіньовий бан.
 
 Кожне сповіщення має мітку дії за віком поста:
   🟢 до 2 год   реплай під оригіналом зараз (можна з нашим відео)
@@ -26,6 +33,8 @@ import argparse
 import html
 import json
 import os
+import re
+import statistics
 import sys
 import time
 import urllib.parse
@@ -33,10 +42,36 @@ import urllib.error
 import urllib.request
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
+from zoneinfo import ZoneInfo
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 STATE_PATH = os.path.join(HERE, "state.json")
 SEARCH_URL = "https://api.twitterapi.io/twitter/tweet/advanced_search"
+REPLIES_URL = "https://api.twitterapi.io/twitter/tweet/replies"
+NY = ZoneInfo("America/New_York")
+
+# Пости-приманки: «напиши слово / постав лайк, і я скину». Реплаї під ними X рахує спамом
+# (на акаунті вже був тіньовий бан), тому такі пости пропускаємо в усіх режимах.
+BAIT_PATTERNS = [re.compile(p) for p in [
+    # comment "AGENT" / reply with PROMPT / type YES: дієслово будь-яким регістром, кодове слово капсом
+    r"(?i:\b(comment|reply|respond|type|drop)\b(\s+(with|below|down|the\s+word|word|me))*)\s*[:\-]?\s*[\"“'‘«(\[]?"
+    r"(?!(AI|API|GPT|LLM|JSON|HTML|CSS|SQL|CLI|UI|UX|3D|2D|PDF|URL|ASAP)\b)[A-Z][A-Z0-9_\-]{1,20}\b(?![a-z])",
+    r"(?i)\b(comment|reply|type|drop)\b[^.\n]{0,60}\b(i'?ll|i\s+will|and\s+(i|get|receive)|to\s+(get|receive)|for\s+(the|my|a|access))\b",
+    r"(?i)\b(i'?ll|i\s+will|we'?ll)\s+(dm|send|message)\s+(you|it|the)\b",
+    r"(?i)\b(like|rt|repost|retweet|follow|bookmark)\s*(\+|&|and)\s*(comment|reply|rt|repost|follow)\b",
+    r"(?i)\bmust\s+be\s+follow(ing|ed)\b",
+    r"(?i)\bfollow\s+(me\s+)?(so|to\s+make\s+sure)\s+i\s+can\s+dm\b",
+    r"(?i)\b(link|guide|prompts?|template|access)\s+in\s+(the\s+)?(dms?|comments?)\b",
+]]
+
+
+def is_bait(text):
+    return any(p.search(text or "") for p in BAIT_PATTERNS)
+
+
+def blocked(text, cfg):
+    low = (text or "").lower()
+    return is_bait(text) or any(w.lower() in low for w in cfg.get("exclude_words", []))
 
 
 def load_env():
@@ -96,6 +131,61 @@ def search(query, pages, key, query_type="Top"):
     return tweets
 
 
+def comment_stats(p, key):
+    """Що відбувається в коментарях поста: скільки переглядів збирають чужі реплаї
+    і чи це не приманка, де всі пишуть одне кодове слово. 1 запит до twitterapi.io."""
+    time.sleep(6)
+    try:
+        res = http_json(f"{REPLIES_URL}?{urllib.parse.urlencode({'tweetId': p['id']})}", {"X-API-Key": key})
+    except Exception as e:  # необов'язково: без цього сповіщення все одно піде
+        print("comment stats failed:", e, file=sys.stderr)
+        return None
+    others = [t for t in res.get("tweets") or []
+              if ((t.get("author") or {}).get("userName") or "").lower() != p["user"].lower()]
+    if not others:
+        return {"n": 0, "median": 0, "top": 0, "bait": False}
+    views = [int(t.get("viewCount") or 0) for t in others]
+    # Приманка видно з коментарів: багато людей пишуть одне й те саме коротке слово.
+    words = []
+    for t in others:
+        txt = re.sub(r"@\w+", "", t.get("text") or "").strip().lower()
+        txt = re.sub(r"[^\w ]", "", txt).strip()
+        if txt and len(txt.split()) <= 2:
+            words.append(txt)
+    same = max((words.count(w) for w in set(words)), default=0)
+    return {"n": len(others), "median": int(statistics.median(views)), "top": max(views),
+            "bait": same >= 4 and same >= len(others) * 0.3}
+
+
+def comments_line(cs):
+    if not cs or not cs["n"]:
+        return None
+    return (f"🗣 чужі реплаї тут: медіана ~{fmt_num(cs['median'])}, найкращий {fmt_num(cs['top'])} переглядів "
+            f"(з {cs['n']} останніх)")
+
+
+def takes_off(p, c):
+    """Пост уже летить: під ним реплай має шанс на перегляди. Під пости на кількасот переглядів не йдемо."""
+    return (p["views"] >= c.get("min_views", 500)
+            and (p["views"] >= c.get("hot_views", 5000)
+                 or p["per_hour"] >= c.get("min_per_hour", 1000)
+                 or p["replies"] >= c.get("min_replies", 30)))
+
+
+def day_quota_left(state, cfg):
+    """Скільки реплай-сповіщень ще можна за сьогоднішній день (за Нью-Йорком)."""
+    today = datetime.now(NY).strftime("%Y-%m-%d")
+    day = state.setdefault("reply_day", {})
+    if day.get("date") != today:
+        day.clear()
+        day.update({"date": today, "count": 0})
+    return cfg.get("max_reply_alerts_per_day", 8) - day["count"]
+
+
+def count_alert(state):
+    state["reply_day"]["count"] += 1
+
+
 def score(t):
     """X-фактор = перегляди / підписники. Малий акаунт + багато переглядів = летить тема, а не автор."""
     a = t.get("author") or {}
@@ -125,8 +215,7 @@ def score(t):
 
 
 def is_hot(p, cfg):
-    low = p["text"].lower()
-    if any(w.lower() in low for w in cfg.get("exclude_words", [])):
+    if blocked(p["text"], cfg):
         return False
     return (p["views"] >= cfg["min_views"]
             and p["x_factor"] >= cfg["min_x_factor"]
@@ -202,15 +291,17 @@ def analyze(p, cfg):
         return None
 
 
-def card(p, note=None, variants=None):
+def card(p, note=None, variants=None, cs=None):
     note = note or {}
     lines = [
         action_label(p),
         f"⚡ <b>X-ФАКТОР ×{p['x_factor']:g}</b> · ⏱ {fmt_age(p)} · 🚀 {fmt_num(p['per_hour'])}/год",
         f"👁 <b>{fmt_num(p['views'])}</b> переглядів · 💬 {fmt_num(p['replies'])} коментарів",
         f"👤 @{html.escape(p['user'])} · {fmt_num(p['followers'])} підп.",
-        "",
     ]
+    if comments_line(cs):
+        lines.append(comments_line(cs))
+    lines.append("")
     if note.get("about"):
         lines.append(f"<b>{html.escape(note['about'], quote=False)}</b>")
     else:  # без Claude показуємо перший рядок поста
@@ -345,7 +436,7 @@ def suggest_replies(p, cfg, note=None):
         "consequence the post misses; (2) a short take from someone who builds with these tools daily; "
         "(3) a sharp, slightly contrarian one-liner; (4) a dry, funny one-liner.\n"
         "Rules: English; one line each, under 120 characters, one idea; sounds like a real person, not a brand; "
-        "no hashtags, no emoji, no em dashes; never 'great post', 'this', 'so true', 'thoughts?', 'agree?'; "
+        "no hashtags, no emoji, no em dashes, no ALL-CAPS words for emphasis; never 'great post', 'this', 'so true', 'thoughts?', 'agree?'; "
         "no question at the end; do not invent personal results, numbers or events: if a fact is not in the "
         "post and you are not sure it is true, do not state it; no links; no self-promotion.\n"
         'Answer only with JSON, no markdown: {"replies": ["...", "...", "...", "..."]}'
@@ -364,13 +455,16 @@ def suggest_replies(p, cfg, note=None):
         return []
 
 
-def reply_card(p, acc, variants):
+def reply_card(p, acc, variants, cs=None):
     lines = [
         "✍️ <b>НАПИШИ РЕПЛАЙ ЗАРАЗ</b>",
-        f"👤 @{html.escape(p['user'])} · {p['age_min']} хв тому · 👁 {fmt_num(p['views'])} · 💬 {p['replies']} реплаїв",
+        f"👤 @{html.escape(p['user'])} · {p['age_min']} хв тому · 👁 {fmt_num(p['views'])} · "
+        f"🚀 {fmt_num(p['per_hour'])}/год · 💬 {p['replies']} реплаїв",
     ]
     if acc.get("median"):
         lines.append(f"📈 звичайний пост автора: ~{fmt_num(acc['median'])} переглядів")
+    if comments_line(cs):
+        lines.append(comments_line(cs))
     lines += ["", html.escape(p["text"][:280], quote=False)]
     if variants:
         lines += ["", "<b>Варіанти (тапни, щоб скопіювати):</b>"]
@@ -382,7 +476,9 @@ def reply_card(p, acc, variants):
 def replies_run(cfg, dry):
     """Свіжі пости акаунтів, під якими реплай окупається (список з бази outliers.py)."""
     rw = cfg.get("reply_watch") or {}
-    accounts = {a["user"].lower(): a for a in rw.get("accounts", [])}
+    # Лише акаунти, де звичайний пост 10K+: під меншими реплаї 11.11 збирали 3–16 переглядів.
+    accounts = {a["user"].lower(): a for a in rw.get("accounts", [])
+                if a.get("median", 0) >= rw.get("min_median", 0)}
     if not accounts:
         print("reply_watch.accounts is empty")
         return
@@ -396,19 +492,32 @@ def replies_run(cfg, dry):
     who = " OR ".join(f"from:{a['user']}" for a in accounts.values())
     query = f"({who}) since_time:{since} -filter:replies -filter:retweets"
     seen = state.setdefault("reply_seen", {})
-    sent = 0
-    for t in search(query, 1, os.environ["TWITTERAPI_IO_KEY"], "Latest"):
+    key = os.environ["TWITTERAPI_IO_KEY"]
+    sent = slow = 0
+    for t in search(query, 1, key, "Latest"):
         p = score(t)
         acc = accounts.get(p["user"].lower())
         p["age_min"] = int(p["age_h"] * 60)
         if not acc or p["id"] in seen or p["age_min"] > max_age:
             continue
-        if sent >= rw.get("max_alerts_per_run", 6):
+        if blocked(p["text"], cfg):
+            seen[p["id"]] = time.time()
+            print(f"replies bait/excluded: @{p['user']}: {p['text'][:80]!r}")
+            continue
+        if not takes_off(p, rw):
+            slow += 1  # не позначаємо як побачений: наступний запуск перевірить ще раз, поки пост свіжий
+            continue
+        if sent >= rw.get("max_alerts_per_run", 6) or day_quota_left(state, cfg) <= 0:
             break
         seen[p["id"]] = time.time()
-        send(reply_card(p, acc, suggest_replies(p, cfg)), dry)
+        cs = comment_stats(p, key)
+        if cs and cs["bait"]:
+            print(f"replies bait by comments: @{p['user']}")
+            continue
+        send(reply_card(p, acc, suggest_replies(p, cfg), cs), dry)
+        count_alert(state)
         sent += 1
-    print(f"replies: sent {sent}")
+    print(f"replies: sent {sent}, still slow {slow}")
     if not dry:
         state["reply_last_run"] = time.time()
         save_state(state)
@@ -438,17 +547,16 @@ def fresh_run(cfg, dry):
                 found[p["id"]] = p
         except Exception as e:
             print(f"Fresh query failed: {q!r}: {e}", file=sys.stderr)
-    excl = [w.lower() for w in cfg.get("exclude_words", [])]
     hot = [p for p in found.values()
            if p["id"] not in state["seen"] and p["age_h"] <= max_age_h
-           and p["views"] >= fc.get("min_views", 5000)
-           and p["per_hour"] >= fc.get("min_per_hour", 2500)
+           and takes_off(p, fc)
            and p["followers"] <= fc.get("max_followers", 300000)
-           and not any(w in p["text"].lower() for w in excl)]
-    hot.sort(key=lambda p: p["per_hour"], reverse=True)
+           and not blocked(p["text"], cfg)]
+    # Живі коментарі теж сигнал: пост із розмовою в коментарях показує реплаї більшій кількості людей.
+    hot.sort(key=lambda p: p["per_hour"] + 50 * p["replies"], reverse=True)
     sent = rejected = 0
     for p in hot[: fc.get("max_checks_per_run", 10)]:
-        if sent >= fc.get("max_alerts_per_run", 4):
+        if sent >= fc.get("max_alerts_per_run", 4) or day_quota_left(state, cfg) <= 0:
             break
         note = analyze(p, cfg)
         state["seen"][p["id"]] = time.time()
@@ -456,7 +564,12 @@ def fresh_run(cfg, dry):
             rejected += 1
             print(f"fresh off-niche: @{p['user']}: {p['text'][:80]!r}")
             continue
-        send(card(p, note, suggest_replies(p, cfg, note)), dry)
+        cs = comment_stats(p, os.environ["TWITTERAPI_IO_KEY"])
+        if cs and cs["bait"]:
+            print(f"fresh bait by comments: @{p['user']}")
+            continue
+        send(card(p, note, suggest_replies(p, cfg, note), cs), dry)
+        count_alert(state)
         state["pool"][p["id"]] = p
         state.setdefault("sent", {})[p["id"]] = time.time()
         sent += 1
@@ -464,6 +577,23 @@ def fresh_run(cfg, dry):
     if not dry:
         state["fresh_last_run"] = time.time()
         save_state(state)
+
+
+def test_bait():
+    """Перевірка фільтра приманок без мережі: python radar.py --test-bait"""
+    bait = ['Comment "AGENT" and I\'ll send you the full guide', "Reply with PROMPT and I will DM it",
+            'Like + comment "3D" to get the file', "Type YES below", "drop a 🔥 and i'll send the prompts",
+            "Want the template? Comment CLAUDE", "Must be following so I can DM", "Full prompt in the comments",
+            "Comment “blender” and get the workflow"]
+    clean = ["give FABLE 5.2 a 3-view drawing and it sculpts your game boss in blender by code FOR FREE",
+             "THIS ANIMAL SURVIVED 10 DAYS IN OPEN SPACE. MOST JOBS WON'T SURVIVE 2027",
+             "I wrote a game with Claude in one prompt", "I asked it to write AI code and reply in JSON",
+             "Say what you want about GPT, the 3D is good", 'Write a prompt like this: "Build..."']
+    bad = [t for t in bait if not is_bait(t)] + [t for t in clean if is_bait(t)]
+    for t in bad:
+        print("WRONG:", t)
+    print("bait filter ok" if not bad else f"{len(bad)} wrong")
+    sys.exit(1 if bad else 0)
 
 
 def main():
@@ -474,7 +604,10 @@ def main():
     ap.add_argument("--preview", type=int, metavar="N")
     ap.add_argument("--replies", action="store_true")
     ap.add_argument("--fresh", action="store_true")
+    ap.add_argument("--test-bait", action="store_true")
     args = ap.parse_args()
+    if args.test_bait:
+        return test_bait()
     load_env()
     cfg = json.load(open(os.path.join(HERE, "config.json"), encoding="utf-8"))
     if args.digest:

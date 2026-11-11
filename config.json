@@ -44,7 +44,7 @@
     "Neural network EngineNet visualization (animation)"
   ],
   "fresh": {
-    "_comment": "Режим --fresh: пости молодші за 2 год, що швидко ростуть. Під ними реплай з нашим відео ще ловить аудиторію оригіналу. 1 сторінка на запит раз на ~60 хв ≈ 48 запитів на добу. Вимкнути: enabled=false. Пороги низькі навмисно: у перші 2 години навіть майбутні хіти мають сотні–тисячі переглядів. Шум відсіює Claude за описом ніші.",
+    "_comment": "Режим --fresh: пости молодші за 2 год, що вже летять. Шле, якщо переглядів від min_views і хоча б одне: hot_views+ переглядів, або від min_per_hour/год, або min_replies+ коментарів. Висновок 11.11: реплаї під постами на 0.8–4.5K дали 3–52 перегляди, під 13.5K дав 75. Вимкнути: enabled=false.",
     "enabled": true,
     "queries": [
       "(claude OR opus OR fable OR anthropic) (3d OR game OR simulation OR blender OR threejs OR \"three.js\" OR animation) min_faves:10",
@@ -52,15 +52,17 @@
     ],
     "max_age_min": 120,
     "min_views": 500,
-    "min_per_hour": 400,
+    "min_per_hour": 1000,
     "max_followers": 300000,
     "pages_per_query": 1,
     "min_minutes_between_runs": 50,
     "max_checks_per_run": 10,
-    "max_alerts_per_run": 4
+    "max_alerts_per_run": 4,
+    "hot_views": 5000,
+    "min_replies": 30
   },
   "reply_watch": {
-    "_comment": "Акаунти, під якими реплай окупається (база outliers.py, 02.11): пости 10K+ щодня. Радар перевіряє їх кожні ~30 хв і шле свіжі пости з варіантами реплаю. median = звичайні перегляди поста автора. 1 запит раз на ~30 хв ≈ 48 запитів на добу. Вимкнути: прибрати рядок --replies з workflow або очистити accounts.",
+    "_comment": "Акаунти, під якими реплай окупається (база outliers.py, 02.11). Радар шле лише акаунти з median від min_median і лише пости, що вже летять (ті самі пороги, що у fresh). Повільні пости перевіряє ще раз на наступному запуску, поки вони молодші за max_age_min. Вимкнути: прибрати рядок --replies з workflow або очистити accounts.",
     "accounts": [
       {
         "user": "alex_prompter",
@@ -124,9 +126,16 @@
       }
     ],
     "max_age_min": 45,
-    "min_minutes_between_runs": 25,
+    "min_minutes_between_runs": 14,
     "max_alerts_per_run": 6,
     "suggest": true,
-    "model": "claude-sonnet-5-5"
-  }
+    "model": "claude-sonnet-5-5",
+    "min_median": 10000,
+    "min_views": 500,
+    "hot_views": 5000,
+    "min_per_hour": 1000,
+    "min_replies": 30
+  },
+  "max_reply_alerts_per_day": 8,
+  "_comment_reply_alerts": "Реплай-сповіщення (--replies і --fresh разом) не більше max_reply_alerts_per_day за день (Нью-Йорк): план 4–6 реплаїв, з запасом на вибір. Пости-приманки «comment WORD and I'll send» пропускаються завжди (BAIT_PATTERNS у radar.py + перевірка коментарів)."
 }
