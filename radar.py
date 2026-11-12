@@ -227,12 +227,14 @@ def age_now_h(p):
     return p["age_h"] + max(time.time() - p.get("ts", time.time()), 0) / 3600
 
 
-def action_label(p):
+def action_label(p, remake=False):
     age = age_now_h(p)
     if age < 2:
         return "🟢 <b>РЕПЛАЙ З ВІДЕО ЗАРАЗ</b> (до 2 год)"
     if age < 24:
         return "🟡 <b>МОЖНА КВОТУВАТИ</b> (до 24 год)"
+    if remake:  # тема для аналога: оригінал старий, тож свою версію робимо окремо
+        return "⚪ <b>ІДЕЯ ДЛЯ СВОГО ПОСТА</b>: оригіналу понад добу, реплай і квота вже пізно"
     return "⚪ <b>ЛИШЕ ІДЕЯ</b>, ремейк окремим постом не робити"
 
 
@@ -291,10 +293,13 @@ def analyze(p, cfg):
         return None
 
 
-def card(p, note=None, variants=None, cs=None):
+def card(p, note=None, variants=None, cs=None, remake=False):
     note = note or {}
     lines = [
-        action_label(p),
+        # Звичайний прохід шукає теми, що летять на малих акаунтах: їх варто повторити своєю версією.
+        # Окремий заголовок, щоб такі пости не губились серед свіжих 🟢 сповіщень.
+        f"🔁 <b>ТЕМА ДЛЯ АНАЛОГА</b> · летить тема, а не автор (×{p['x_factor']:g})" if remake else None,
+        action_label(p, remake),
         f"⚡ <b>X-ФАКТОР ×{p['x_factor']:g}</b> · ⏱ {fmt_age(p)} · 🚀 {fmt_num(p['per_hour'])}/год",
         f"👁 <b>{fmt_num(p['views'])}</b> переглядів · 💬 {fmt_num(p['replies'])} коментарів",
         f"👤 @{html.escape(p['user'])} · {fmt_num(p['followers'])} підп.",
@@ -314,7 +319,7 @@ def card(p, note=None, variants=None, cs=None):
         lines += ["", "<b>Варіанти реплаю (тапни, щоб скопіювати):</b>"]
         lines += [f"{i}. <code>{html.escape(v, quote=False)}</code>" for i, v in enumerate(variants, 1)]
     lines += ["", p["url"]]
-    return "\n".join(lines)
+    return "\n".join(l for l in lines if l is not None)
 
 
 def send(text, dry):
@@ -366,7 +371,7 @@ def run(cfg, dry):
             print(f"off-niche: @{p['user']}: {p['text'][:80]!r}")
             continue
         variants = suggest_replies(p, cfg, note) if age_now_h(p) < 24 else []
-        send(card(p, note, variants), dry)
+        send(card(p, note, variants, remake=True), dry)
         state.setdefault("sent", {})[p["id"]] = time.time()
         sent += 1
     print(f"checked {len(found)} posts, hot {len(hot)}, off-niche {rejected}, sent {sent}")
