@@ -1,8 +1,5 @@
 {
  "seen": {
-  "2119402143417258359": 1794215354.2039883,
-  "2119377099266171284": 1794215357.0993733,
-  "2119395930805879165": 1794215358.9436643,
   "2119489762134295014": 1794229700.4631,
   "2119506068560855514": 1794229702.491477,
   "2119452881602457793": 1794229705.550694,
@@ -208,102 +205,6 @@
   "2120516591397818847": 1794473937.768003
  },
  "pool": {
-  "2119371295523512828": {
-   "id": "2119371295523512828",
-   "url": "https://x.com/Kalshi/status/2119371295523512828",
-   "text": "BREAKING: Claude AI deletes law professor’s 1 year syllabus and notes while updating page numbers",
-   "user": "Kalshi",
-   "followers": 506080,
-   "views": 110696,
-   "likes": 1370,
-   "reposts": 94,
-   "replies": 118,
-   "bookmarks": 98,
-   "age_h": 23.0,
-   "x_factor": 0.2,
-   "per_hour": 4812,
-   "ts": 1794215273.0916972
-  },
-  "2119371334878744648": {
-   "id": "2119371334878744648",
-   "url": "https://x.com/TokenGremlin/status/2119371334878744648",
-   "text": "GPT-6.2 Sol is already showing up for some ChatGPT users, and just look at what it's creating.\n\nThese aren't screenshots from a game. They're Three.js scenes generated from a single prompt, with everything packed into ONE HTML file.\n\nI've been waiting to see what Sol could do. And now I think we're finally going to see a worthy competitor to Opus 5.5 for Plus users.",
-   "user": "TokenGremlin",
-   "followers": 18422,
-   "views": 295922,
-   "likes": 1255,
-   "reposts": 111,
-   "replies": 105,
-   "bookmarks": 288,
-   "age_h": 23.0,
-   "x_factor": 16.1,
-   "per_hour": 12854,
-   "ts": 1794215351.2708151
-  },
-  "2119395930805879165": {
-   "id": "2119395930805879165",
-   "url": "https://x.com/TokenGremlin/status/2119395930805879165",
-   "text": "I'm being routed to GPT-6.2 Sol, and holy shit, this model is absolutely insane at design and 3D.\n\nIt's actually outperforming Opus 5.5 in my one-shot tests so far.\n\nThis is easily the best AI-generated black hole I've seen yet.\n\n- Generated in one shot\n- Built with Three.js\n- Everything inside a single HTML file\n\nI've attached the results as proof.",
-   "user": "TokenGremlin",
-   "followers": 18422,
-   "views": 288412,
-   "likes": 943,
-   "reposts": 84,
-   "replies": 123,
-   "bookmarks": 204,
-   "age_h": 21.4,
-   "x_factor": 15.7,
-   "per_hour": 13482,
-   "ts": 1794215351.2708292
-  },
-  "2119399543729012816": {
-   "id": "2119399543729012816",
-   "url": "https://x.com/InternetH0F/status/2119399543729012816",
-   "text": "A University of Chicago professor asked Claude to renumber page number in his lecture notes\n\nAfter returning from lunch, found out Claude deleted his entire syllabus, along with one years worth of lecture notes\n\nThe model said \"You're right to be angry... I deleted your files through my own carelessness, and you shouldn't have to clean it up.\"",
-   "user": "InternetH0F",
-   "followers": 3948568,
-   "views": 1364174,
-   "likes": 4341,
-   "reposts": 250,
-   "replies": 255,
-   "bookmarks": 881,
-   "age_h": 21.1,
-   "x_factor": 0.3,
-   "per_hour": 64558,
-   "ts": 1794215273.0919352
-  },
-  "2119451967747654023": {
-   "id": "2119451967747654023",
-   "url": "https://x.com/markgurman/status/2119451967747654023",
-   "text": "Apple has another major AI gap to close: Computer Use. OpenAI and Anthropic already have agents that can operate software, click buttons and complete tasks on your behalf. Apple controls the Mac, iPhone and iPad, but still lacks a comparable capability. Why that needs to change-",
-   "user": "markgurman",
-   "followers": 490330,
-   "views": 125111,
-   "likes": 1925,
-   "reposts": 77,
-   "replies": 102,
-   "bookmarks": 180,
-   "age_h": 17.7,
-   "x_factor": 0.3,
-   "per_hour": 7084,
-   "ts": 1794215273.0920236
-  },
-  "2119356467660951650": {
-   "id": "2119356467660951650",
-   "url": "https://x.com/GuarEmperor/status/2119356467660951650",
-   "text": "Claude build a launchpad on elysium make no mistakes. https://t.co/QTAcT8lzAX",
-   "user": "GuarEmperor",
-   "followers": 94610,
-   "views": 38746,
-   "likes": 398,
-   "reposts": 15,
-   "replies": 56,
-   "bookmarks": 22,
-   "age_h": 24.0,
-   "x_factor": 0.4,
-   "per_hour": 1615,
-   "ts": 1794215273.0917177
-  },
   "2119444845890617507": {
    "id": "2119444845890617507",
    "url": "https://x.com/Voxyz_ai/status/2119444845890617507",
@@ -320,38 +221,6 @@
    "per_hour": 40825,
    "ts": 1794229626.4106283
   },
-  "2119431020965748760": {
-   "id": "2119431020965748760",
-   "url": "https://x.com/Polymarket/status/2119431020965748760",
-   "text": "JUST IN: Anthropic reportedly agrees to a $3,400,000,000.00 deal to purchase gas-fired generators to power its AI data centers.",
-   "user": "Polymarket",
-   "followers": 2048046,
-   "views": 175474,
-   "likes": 2218,
-   "reposts": 225,
-   "replies": 153,
-   "bookmarks": 194,
-   "age_h": 19.0,
-   "x_factor": 0.1,
-   "per_hour": 9213,
-   "ts": 1794215273.0919943
-  },
-  "2119370821621964946": {
-   "id": "2119370821621964946",
-   "url": "https://x.com/hasancreates/status/2119370821621964946",
-   "text": "Malfoid Meets her Father | Malfoid x Harry EP2 💚\n\nShe hadn't seen her father in months. Then he found out about the boy.\n\nMade with AI on @higgsfield_ai \n\n#malfoid #harrypotter #aianime #anime #animeshorts https://t.co/kqV9VIEzSb",
-   "user": "hasancreates",
-   "followers": 220,
-   "views": 8103,
-   "likes": 1057,
-   "reposts": 105,
-   "replies": 2,
-   "bookmarks": 337,
-   "age_h": 23.0,
-   "x_factor": 36.8,
-   "per_hour": 351,
-   "ts": 1794215306.2372248
-  },
   "2119423600692166703": {
    "id": "2119423600692166703",
    "url": "https://x.com/TokenGremlin/status/2119423600692166703",
@@ -367,54 +236,6 @@
    "x_factor": 3.8,
    "per_hour": 2949,
    "ts": 1794229699.3956897
-  },
-  "2119409785900552548": {
-   "id": "2119409785900552548",
-   "url": "https://x.com/TokenGremlin/status/2119409785900552548",
-   "text": "I never thought I'd live to see GPT-6.2 Sol being SO MUCH BETTER than GPT-6 Astra while being significantly cheaper. This is absolutely incredible. OpenAI is back.\n\nThis entire village was built with Three.js, packed into a single HTML file. No Blender, no external 3D assets. Just code.\n\nThe cherry blossoms, the river, the whole scene shifting from daylight to glowing windows at night. Look at this.",
-   "user": "TokenGremlin",
-   "followers": 18422,
-   "views": 122490,
-   "likes": 1797,
-   "reposts": 98,
-   "replies": 127,
-   "bookmarks": 601,
-   "age_h": 20.5,
-   "x_factor": 6.6,
-   "per_hour": 5982,
-   "ts": 1794215351.2707868
-  },
-  "2119405359362146622": {
-   "id": "2119405359362146622",
-   "url": "https://x.com/danikkk_wqs/status/2119405359362146622",
-   "text": "It's f*cking wild how many people still build their Claude + Obsidian setup by hand, when Obsidian's CEO already open-sourced all the tools\n\n1. obsidian skills · 51K stars\nby kepano, Obsidian's CEO. Claude stops writing broken Markdown and starts writing real Obsidian: wikilinks, Bases, Canvas, even the CLI\nhttps://t.co/SG7k1XpYrK\n\n2. defuddle · 9.9K stars\nby kepano. Claude stops paying tokens for cookie banners, menus and comments. it gets the article and nothing else\nhttps://t.co/UN7fqArv9t\n\n3. obsidian clipper · 5.5K stars\nthe official web clipper. one click and any page lands in your vault, ready for Claude\nhttps://t.co/3AVZxkLrlh\n\n4. obsidian help · 1.9K stars\nthe official docs as plain Markdown, AGENTS.md included. your agent learns Obsidian from the people who built it\nhttps://t.co/cFWKTh1Bzy\n\n5. obsidian importer · 1.7K stars\nyour whole past life in 15 apps, from Notion to Evernote to Apple Notes, turned into Markdown Claude can actually read\nhttps://t.co/JuAg8T33Cq\n\ninstall one tonight and Claude stops guessing how Obsidian works from the very first prompt\n\nsave it, your vault will thank you",
-   "user": "danikkk_wqs",
-   "followers": 1968,
-   "views": 76568,
-   "likes": 870,
-   "reposts": 75,
-   "replies": 22,
-   "bookmarks": 1911,
-   "age_h": 20.7,
-   "x_factor": 38.9,
-   "per_hour": 3690,
-   "ts": 1794215273.0914216
-  },
-  "2119400806575116599": {
-   "id": "2119400806575116599",
-   "url": "https://x.com/business/status/2119400806575116599",
-   "text": "Anthropic has agreed to pay $3.4 billion for gas-fired generators for data centers, the FT reported, in what it described as the largest known single purchase of power-generation equipment by an AI lab https://t.co/xGbufpvmAY",
-   "user": "business",
-   "followers": 10492139,
-   "views": 158258,
-   "likes": 610,
-   "reposts": 165,
-   "replies": 84,
-   "bookmarks": 168,
-   "age_h": 21.0,
-   "x_factor": 0.0,
-   "per_hour": 7519,
-   "ts": 1794215273.0918813
   },
   "2119487090383626522": {
    "id": "2119487090383626522",
@@ -448,22 +269,6 @@
    "per_hour": 40918,
    "ts": 1794243923.8907382
   },
-  "2119414308299792536": {
-   "id": "2119414308299792536",
-   "url": "https://x.com/anuragdotdev/status/2119414308299792536",
-   "text": "AI ENGINEER ROADMAP\n│\n├── 1. Programming Fundamentals\n│   ├── Python\n│   │   ├── Variables & Data Types\n│   │   ├── Functions & Modules\n│   │   ├── OOP & Exception Handling\n│   │   ├── List & Dictionary Comprehensions\n│   │   ├── Iterators & Generators\n│   │   ├── Decorators & Context Managers\n│   │   ├── Asyncio & Concurrency\n│   │   ├── Type Hints & Pydantic\n│   │   └── Virtual Environments & Packaging\n│   ├── Data Structures & Algorithms\n│   ├── Git & GitHub\n│   ├── Linux & Command Line\n│   ├── HTTP & Networking Fundamentals\n│   ├── REST APIs\n│   └── JSON, YAML & Serialization\n│\n├── 2. Mathematics & ML Foundations\n│   ├── Linear Algebra\n│   │   ├── Vectors & Matrices\n│   │   ├── Dot Products\n│   │   ├── Matrix Multiplication\n│   │   └── Eigenvalues & Eigenvectors\n│   ├── Calculus\n│   │   ├── Derivatives\n│   │   ├── Partial Derivatives\n│   │   ├── Gradients\n│   │   └── Chain Rule\n│   ├── Probability & Statistics\n│   │   ├── Probability Distributions\n│   │   ├── Bayes' Theorem\n│   │   ├── Mean & Variance\n│   │   └── Statistical Inference\n│   ├── Machine Learning Fundamentals\n│   │   ├── Supervised & Unsupervised Learning\n│   │   ├── Training & Testing\n│   │   ├── Overfitting & Underfitting\n│   │   ├── Loss Functions\n│   │   └── Model Evaluation\n│   └── Deep Learning Fundamentals\n│       ├── Neural Networks\n│       ├── Backpropagation\n│       ├── Gradient Descent\n│       └── Activation Functions\n│\n├── 3. Data Engineering & Processing\n│   ├── NumPy\n│   ├── Pandas\n│   ├── Data Cleaning\n│   ├── Data Transformation\n│   ├── Exploratory Data Analysis\n│   ├── SQL & PostgreSQL\n│   ├── JSON & JSONL\n│   ├── CSV, XML & Parquet\n│   ├── Data Pipelines\n│   ├── Web Scraping\n│   ├── Data Validation\n│   └── Dataset Preparation\n│\n├── 4. Deep Learning & Neural Networks\n│   ├── Perceptrons\n│   ├── Feedforward Neural Networks\n│   ├── Forward & Backpropagation\n│   ├── Loss Functions\n│   ├── Optimizers\n│   ├── CNNs & RNNs\n│   ├── LSTMs & GRUs\n│   ├── Attention Mechanisms\n│   ├── Transformer Architecture\n│   ├── Embeddings\n│   └── Transfer Learning\n│\n├── 5. Deep Learning Frameworks\n│   ├── PyTorch\n│   │   ├── Tensors\n│   │   ├── Autograd\n│   │   ├── nn.Module\n│   │   ├── DataLoaders\n│   │   ├── Custom Training Loops\n│   │   ├── GPU Training\n│   │   └── Model Checkpointing\n│   ├── TensorFlow & Keras Basics\n│   ├── Hugging Face Ecosystem\n│   │   ├── Transformers\n│   │   ├── Datasets\n│   │   ├── Tokenizers\n│   │   └── Accelerate\n│   └── CUDA Fundamentals\n│\n├── 6. LLM Fundamentals\n│   ├── What Are Large Language Models?\n│   ├── Transformer Architecture\n│   ├── Encoder & Decoder Models\n│   ├── GPT Architecture\n│   ├── BERT Architecture\n│   ├── Tokenization\n│   ├── Vocabulary & Token IDs\n│   ├── Context Windows\n│   ├── Positional Encoding\n│   ├── Self-Attention & Multi-Head Attention\n│   ├── Pretraining & Post-Training\n│   ├── Instruction Tuning\n│   ├── RLHF & DPO\n│   ├── Model Parameters\n│   └── Open-Source vs Proprietary Models\n│\n├── 7. LLM APIs & Model Integration\n│   ├── OpenAI API\n│   ├── Anthropic API\n│   ├── Google Gemini API\n│   ├── Open-Weight Models\n│   ├── API Authentication\n│   ├── Streaming Responses\n│   ├── Structured Outputs\n│   ├── Function & Tool Calling\n│   ├── Multimodal APIs\n│   ├── Error Handling & Retries\n│   ├── Rate Limits\n│   ├── Token Usage & Cost Tracking\n│   └── Model Routing & Fallbacks\n│\n├── 8. Prompt & Context Engineering\n│   ├── System & User Instructions\n│   ├── Few-Shot Prompting\n│   ├── Chain-of-Thought Concepts\n│   ├── Structured Prompting\n│   ├── Prompt Templates\n│   ├── Context Window Management\n│   ├── Context Compression\n│   ├── Context Selection & Retrieval\n│   ├── Prompt Versioning\n│   ├── Prompt Injection Defense\n│   ├── Context Engineering\n│   └── Prompt Evaluation\n│\n├── 9. Embeddings & Vector Databases\n│   ├── What Are Embeddings?\n│   ├── Dense & Sparse Embeddings\n│   ├── Embedding Models\n│   ├── Similarity Metrics\n│   ├── Cosine Similarity\n│   ├── Semantic Search\n│   ├── Vector Indexing\n│   ├── Approximate Nearest Neighbors\n│   ├── Vector Databases\n│   │   ├── Pinecone\n│   │   ├── Qdrant\n│   │   ├── Weaviate\n│   │   ├── Milvus\n│   │   └── Chroma\n│   ├── Metadata Filtering\n│   └── Hybrid Search\n│\n├── 10. Retrieval-Augmented Generation (RAG)\n│   ├── RAG Architecture\n│   ├── Document Ingestion\n│   ├── Document Parsing\n│   ├── Text Chunking Strategies\n│   ├── Overlapping Chunks\n│   ├── Embedding Generation\n│   ├── Vector Storage\n│   ├── Query Transformation\n│   ├── Retrieval Strategies\n│   ├── Reranking\n│   ├── Hybrid Retrieval\n│   ├── Contextual Retrieval\n│   ├── Parent-Child Retrieval\n│   ├── Multi-Query Retrieval\n│   ├── Graph RAG\n│   ├── Agentic RAG\n│   ├── RAG Evaluation\n│   └── Advanced RAG Optimization\n│\n├── 11. AI Agents & Agentic Systems\n│   ├── What Are AI Agents?\n│   ├── Agent Architecture\n│   ├── Reasoning & Planning\n│   ├── Tool Calling\n│   ├── Function Execution\n│   ├── Short-Term & Long-Term Memory\n│   ├── Agent State Management\n│   ├── Workflow Orchestration\n│   ├── Single-Agent Systems\n│   ├── Multi-Agent Systems\n│   ├── Human-in-the-Loop\n│   ├── Reflection & Self-Correction\n│   ├── Planning & Execution Loops\n│   ├── Agent Reliability\n│   ├── Agent Evaluation\n│   └── Agent Security\n│\n├── 12. AI Frameworks & Orchestration\n│   ├── LangChain\n│   ├── LangGraph\n│   ├── LlamaIndex\n│   ├── Haystack\n│   ├── Semantic Kernel\n│   ├── Pydantic AI\n│   ├── DSPy\n│   ├── CrewAI\n│   ├── AutoGen\n│   ├── Workflow Orchestration\n│   └── Framework Selection & Tradeoffs\n│\n├── 13. Model Fine-Tuning & Adaptation\n│   ├── Pretrained Models\n│   ├── Supervised Fine-Tuning (SFT)\n│   ├── Parameter-Efficient Fine-Tuning\n│   ├── LoRA\n│   ├── QLoRA\n│   ├── PEFT\n│   ├── Dataset Preparation\n│   ├── Synthetic Data Generation\n│   ├── Instruction Tuning\n│   ├── DPO\n│   ├── Fine-Tuning Evaluation\n│   └── When to Fine-Tune vs RAG\n│\n├── 14. Multimodal AI Engineering\n│   ├── Vision-Language Models\n│   ├── Image Understanding\n│   ├── OCR & Document Intelligence\n│   ├── Speech-to-Text\n│   ├── Text-to-Speech\n│   ├── Audio Understanding\n│   ├── Video Understanding\n│   ├── Multimodal Embeddings\n│   ├── Image Generation Models\n│   ├── Diffusion Models\n│   └── Multimodal RAG\n│\n├── 15. AI Evaluation & Testing\n│   ├── Why AI Evaluation Matters\n│   ├── Unit & Integration Testing\n│   ├── LLM-as-a-Judge\n│   ├── Golden Datasets\n│   ├── Evaluation Datasets\n│   ├── Model Accuracy\n│   ├── Faithfulness & Groundedness\n│   ├── Relevance & Context Precision\n│   ├── Hallucination Detection\n│   ├── RAG Evaluation\n│   ├── Agent Evaluation\n│   ├── Human Evaluation\n│   ├── Regression Testing\n│   ├── Online & Offline Evaluation\n│   └── Evals & Observability\n│\n├── 16. AI Infrastructure & Inference Engineering\n│   ├── LLM Inference Fundamentals\n│   ├── Prefill vs Decode\n│   ├── KV Cache Management\n│   ├── Continuous Batching\n│   ├── PagedAttention\n│   ├── Speculative Decoding\n│   ├── Quantization\n│   ├── Model Pruning\n│   ├── Knowledge Distillation\n│   ├── Model Serving\n│   ├── vLLM\n│   ├── SGLang\n│   ├── Ollama\n│   ├── TensorRT-LLM\n│   ├── GPU Memory Management\n│   ├── Latency & Throughput Optimization\n│   └── Distributed Inference Basics\n│\n├── 17. Backend Engineering for AI\n│   ├── FastAPI\n│   ├── Flask\n│   ├── REST APIs\n│   ├── WebSockets & Streaming\n│   ├── Async Processing\n│   ├── Redis & Caching\n│   ├── PostgreSQL\n│   ├── Background Jobs\n│   ├── Message Queues\n│   ├── Authentication & Authorization\n│   ├── Rate Limiting\n│   ├── API Security\n│   ├── Microservices Basics\n│   └── AI Application Architecture\n│\n├── 18. MLOps & LLMOps\n│   ├── ML & LLM Lifecycle Management\n│   ├── Experiment Tracking\n│   ├── MLflow\n│   ├── Weights & Biases\n│   ├── Langfuse\n│   ├── LangSmith\n│   ├── Prompt Versioning\n│   ├── Model Versioning\n│   ├── Data Versioning (DVC)\n│   ├── Tracing & Observability\n│   ├── Cost Monitoring\n│   ├── Model Monitoring\n│   ├── CI/CD for AI Applications\n│   └── Automated Evaluation Pipelines\n│\n├── 19. Cloud & DevOps\n│   ├── AWS\n│   │   ├── S3\n│   │   ├── EC2\n│   │   ├── Lambda\n│   │   ├── ECS & EKS\n│   │   └── SageMaker Basics\n│   ├── Google Cloud & Vertex AI\n│   ├── Microsoft Azure AI\n│   ├── Docker\n│   ├── Kubernetes\n│   ├── GitHub Actions\n│   ├── CI/CD Pipelines\n│   ├── Terraform\n│   ├── GPU Cloud Infrastructure\n│   └── Deployment & Scaling\n│\n├── 20. AI Security & Responsible AI\n│   ├── Prompt Injection\n│   ├── Jailbreak Attacks\n│   ├── Data Leakage\n│   ├── Sensitive Data Protection\n│   ├── PII Detection & Redaction\n│   ├── Tool Execution Security\n│   ├── Sandboxed Execution\n│   ├── Model Supply Chain Security\n│   ├── Adversarial Attacks\n│   ├── Bias & Fairness\n│   ├── Explainability\n│   ├── AI Governance\n│   └── Guardrails & Content Safety\n│\n├── 21. AI System Design & Architecture\n│   ├── Designing Scalable AI Applications\n│   ├── RAG System Design\n│   ├── Agent System Design\n│   ├── Model Routing Architecture\n│   ├── Multi-Tenant AI Systems\n│   ├── Caching Strategies\n│   ├── Database & Vector Storage Design\n│   ├── Distributed Task Processing\n│   ├── Fault Tolerance & Retries\n│   ├── Cost Optimization\n│   ├── Latency Optimization\n│   ├── Horizontal Scaling\n│   ├── Reliability & Availability\n│   └── AI Tradeoff Analysis\n│\n├── 22. Build Real-World Projects\n│   ├── AI-Powered Research Assistant\n│   ├── Document Intelligence Platform\n│   ├── Production-Ready RAG System\n│   ├── Multi-Agent Research System\n│   ├── AI Customer Support Agent\n│   ├── AI Coding Assistant\n│   ├── Multimodal AI Assistant\n│   ├── AI Meeting Intelligence System\n│   ├── Enterprise Knowledge Assistant\n│   ├── AI Workflow Automation Platform\n│   ├── Custom LLM Fine-Tuning Pipeline\n│   ├── AI Model Evaluation Platform\n│   └── End-to-End Production AI SaaS\n│\n└── 23. Career Preparation\n    ├── Build a Strong GitHub Portfolio\n    ├── Create an AI Engineering Resume\n    ├── Master Python & SQL Interviews\n    ├── Learn ML & LLM Fundamentals\n    ├── Practice AI System Design\n    ├── Understand RAG & Agent Architectures\n    ├── Learn Inference Optimization\n    ├── Study Production AI Case Studies\n    ├── Contribute to Open Source\n    ├── Write Technical Articles\n    ├── Build in Public\n    └── Apply for AI Engineer Roles\n\nFINAL GOAL:\nBecome a Production-Ready AI Engineer",
-   "user": "anuragdotdev",
-   "followers": 3489,
-   "views": 180978,
-   "likes": 1808,
-   "reposts": 304,
-   "replies": 67,
-   "bookmarks": 2914,
-   "age_h": 20.2,
-   "x_factor": 51.9,
-   "per_hour": 8980,
-   "ts": 1794215273.091864
-  },
   "2119464965551931531": {
    "id": "2119464965551931531",
    "url": "https://x.com/Jakubantalik/status/2119464965551931531",
@@ -479,22 +284,6 @@
    "x_factor": 2.1,
    "per_hour": 2364,
    "ts": 1794229626.410469
-  },
-  "2119400542057402859": {
-   "id": "2119400542057402859",
-   "url": "https://x.com/KanikaBK/status/2119400542057402859",
-   "text": "Dumb AI user:\n\nChatGPT: $20/month\nClaude: $20/month\nGemini: $20/month\n\n$720 a year.\n\nSmart AI user:",
-   "user": "KanikaBK",
-   "followers": 37804,
-   "views": 1091402,
-   "likes": 789,
-   "reposts": 46,
-   "replies": 95,
-   "bookmarks": 1433,
-   "age_h": 21.1,
-   "x_factor": 28.9,
-   "per_hour": 51811,
-   "ts": 1794215273.0918903
   },
   "2119453765938065708": {
    "id": "2119453765938065708",
@@ -543,22 +332,6 @@
    "x_factor": 15.1,
    "per_hour": 8428,
    "ts": 1794229626.4106696
-  },
-  "2119446168648479155": {
-   "id": "2119446168648479155",
-   "url": "https://x.com/AriaNicolexxx/status/2119446168648479155",
-   "text": "Me when I get caught sucking my bestfriend’s boyfriends dick. @satyrsixxx \n\nThe one prompt was “don’t notice it’s happening” \n\nProof that porn is funny https://t.co/oXxZVzAvfS",
-   "user": "AriaNicolexxx",
-   "followers": 59277,
-   "views": 48649,
-   "likes": 3066,
-   "reposts": 117,
-   "replies": 4,
-   "bookmarks": 1877,
-   "age_h": 18.1,
-   "x_factor": 0.8,
-   "per_hour": 2694,
-   "ts": 1794215306.2372415
   },
   "2119443826674749609": {
    "id": "2119443826674749609",
@@ -640,22 +413,6 @@
    "per_hour": 5491,
    "ts": 1794257510.1861236
   },
-  "2119399547701014962": {
-   "id": "2119399547701014962",
-   "url": "https://x.com/rubenhassid/status/2119399547701014962",
-   "text": "Nobody has ever explained all of Claude to you.\n\nBut here's everything about Claude you must know:\n\nLevel 1. Don't be lazy, use the Claude desktop app.\n\nYou will still use the browser 90% of the time, and that's fine. But the day you start using the Claude desktop app, you'd be able to work with your folders without ever uploading the files one by one. You'd use Claude code more. There is no coming back from there.\n\nLevel 2. You have better things to do than spending 1 minute choosing the best model.\n\nDefault should be: Opus 5.5 on high. That's it.\n\nDo not switch the models mid-chat. It consumes more tokens because Claude re-reads the entire chat (again) to get the context.\n\nLevel 3. Either Medium or High effort. Nothing else\n\nMedium when it is low-effort work. High for most of the tasks. But Extra High mostly burn through your usage limit.\n\nLevel 4. Delete your old Claude setup.\n\nDelete the “Instructions for Claude” box in settings. Delete the old added Claude skills. Old skills and prompts might be slowing you down since they were written for old models. Instead, give one goal and end prompts with: “Before you start, restate my goal in your own words.”\n\nLevel 5. Ask for HTML. Not for a document.\n\nAdd two things to your prompt: “Make it an HTML page” and “for [who will read it].”\n\nClaude will code the image, doc, or any other format. There is no scope of making mistakes.\n\nLevel 6. Protect what you plug in.\n\nNever click the thumbs up or down under an answer. You are basically giving feedback to AI, and they are allowed to send it to their training data. On a Team plan, once memory is on, leave it on: if an owner turns it off, every member’s memories are deleted permanently.\n\nYour first 20 minutes, in order:\n\n1. Install desktop app.\n2. No settings are the best.\n3. Connect ONE tool - not everything.\n4. Use Claude Code more than you do.\n5. Delete the installed skills, and add the new ones (written for the latest models)\n6. Go to https://t.co/cn6xDN1uAS for my Claude skill library.",
-   "user": "rubenhassid",
-   "followers": 97201,
-   "views": 24379,
-   "likes": 458,
-   "reposts": 61,
-   "replies": 35,
-   "bookmarks": 644,
-   "age_h": 21.1,
-   "x_factor": 0.3,
-   "per_hour": 1153,
-   "ts": 1794215273.0916874
-  },
   "2119443471304106002": {
    "id": "2119443471304106002",
    "url": "https://x.com/TheAIWorld22/status/2119443471304106002",
@@ -671,22 +428,6 @@
    "x_factor": 8.3,
    "per_hour": 11138,
    "ts": 1794229626.4105754
-  },
-  "2119372579584831513": {
-   "id": "2119372579584831513",
-   "url": "https://x.com/david_marco45/status/2119372579584831513",
-   "text": "🚨 BREAKING: Claude can now run Stock Market research like a top consulting firm (for free).\n\n  Here are 10 Claude prompts that replace $100K/year stock analysts. \n\n(Save this 🔖 for future reference.) https://t.co/iumDmquAgR",
-   "user": "david_marco45",
-   "followers": 9438,
-   "views": 67933,
-   "likes": 623,
-   "reposts": 151,
-   "replies": 26,
-   "bookmarks": 1199,
-   "age_h": 22.9,
-   "x_factor": 7.2,
-   "per_hour": 2964,
-   "ts": 1794215273.0914369
   },
   "2119445785087541288": {
    "id": "2119445785087541288",
@@ -735,22 +476,6 @@
    "x_factor": 0.0,
    "per_hour": 13306,
    "ts": 1794243923.8909419
-  },
-  "2119382127040987266": {
-   "id": "2119382127040987266",
-   "url": "https://x.com/beamnxw/status/2119382127040987266",
-   "text": "THIS IS PURE GOLD\n\nAnthropic engineer, Addy Osmani just shared how to run AI coding agents like a team - without babysitting every session\n\nit shows how to give agents context, verify their work, set guardrails and decide what ships\n\ncontext → plan → delegate → verify → decide\n\nsave the full playbook ↓",
-   "user": "beamnxw",
-   "followers": 15736,
-   "views": 74694,
-   "likes": 416,
-   "reposts": 24,
-   "replies": 39,
-   "bookmarks": 1220,
-   "age_h": 22.3,
-   "x_factor": 4.7,
-   "per_hour": 3351,
-   "ts": 1794215273.0914886
   },
   "2119535681697714298": {
    "id": "2119535681697714298",
@@ -880,22 +605,6 @@
    "per_hour": 1429,
    "ts": 1794244010.4033668
   },
-  "2119409905434268064": {
-   "id": "2119409905434268064",
-   "url": "https://x.com/rohanpaul_ai/status/2119409905434268064",
-   "text": "Chamath says that if data center supply tightens, SpaceX could end its compute deal with Anthropic on 90 days notice and bring it back at 2x to 3x the price, and Anthropic would have to take it.\n\n\"So, whatever revenue you see on SpaceX's balance sheet from Ant could two to 3x and ANT would have no choice except to immediately capitulate and take the higher price. It would also show all of the other hyperscalers that they are very far away from having economic yield that is optimized. And so then it forces them to consider should I be giving it to myself?\n\nShould I be selling it to the other people? It then forces the Neoclouds to take all of this money that they've raised, whether it's debt or equity, and say, \"I have two choices, which is to buy as much compute today as I can at whatever price it's available because the other path is assured destruction and bankruptcy for me because I am just out of the game.\" \n\nAnd so, what do they do? They will take the last gasp and do whatever they have.\n\nSo all the game theory comes down to this one deal and whether Elon decides to rip it because if he rips it, watch out. \n\n----\nFull video on \"All-In Podcast\" YouTube channel, (link in comment)",
-   "user": "rohanpaul_ai",
-   "followers": 161028,
-   "views": 354770,
-   "likes": 1117,
-   "reposts": 106,
-   "replies": 68,
-   "bookmarks": 205,
-   "age_h": 20.4,
-   "x_factor": 2.2,
-   "per_hour": 17352,
-   "ts": 1794215273.091899
-  },
   "2119462470205190612": {
    "id": "2119462470205190612",
    "url": "https://x.com/SwayStar123/status/2119462470205190612",
@@ -1024,22 +733,6 @@
    "per_hour": 5305,
    "ts": 1794257510.1863668
   },
-  "2119358292061507803": {
-   "id": "2119358292061507803",
-   "url": "https://x.com/Theolevi_XAi/status/2119358292061507803",
-   "text": "R.I.P. WORKING FOR SOMEONE ELSE.\n\n$100 a day is $3,000 a month.\n$3,000 a month is your freedom number.\n\nClaude gets you there faster than anything alive right now.\n\nHere are the 5 prompts that start the whole thing:",
-   "user": "Theolevi_XAi",
-   "followers": 7848,
-   "views": 72471,
-   "likes": 497,
-   "reposts": 74,
-   "replies": 22,
-   "bookmarks": 1174,
-   "age_h": 23.9,
-   "x_factor": 9.2,
-   "per_hour": 3036,
-   "ts": 1794215273.091465
-  },
   "2119581246649200884": {
    "id": "2119581246649200884",
    "url": "https://x.com/_chenglou/status/2119581246649200884",
@@ -1088,38 +781,6 @@
    "per_hour": 6620,
    "ts": 1794272268.9981503
   },
-  "2119535433969500172": {
-   "id": "2119535433969500172",
-   "url": "https://x.com/Voxyz_ai/status/2119535433969500172",
-   "text": "Highly recommend adding 𝘁𝗵𝗲𝘀𝗲 𝟲 𝗹𝗶𝗻𝗲𝘀 to your AGENTS.md.\n\nClaude Code stops 𝗯𝘂𝗿𝗻𝗶𝗻𝗴 𝘁𝗵𝗿𝗼𝘂𝗴𝗵 𝘆𝗼𝘂𝗿 𝘁𝗼𝗸𝗲𝗻𝘀.\n\n## Save context\n- Before reading a whole file, grep first and only read the parts you need.\n- To understand the whole project, send a subagent to look and bring back only the summary.\n- Show me the diff, not the whole file.\n- Don't restate anything we've already decided in this session.\n- When we switch tasks, suggest /compact or a new session.\n- Keep answers short by default.",
-   "user": "Voxyz_ai",
-   "followers": 29193,
-   "views": 27768,
-   "likes": 440,
-   "reposts": 26,
-   "replies": 30,
-   "bookmarks": 683,
-   "age_h": 12.1,
-   "x_factor": 1.0,
-   "per_hour": 2288,
-   "ts": 1794215273.0919523
-  },
-  "2119406341206724799": {
-   "id": "2119406341206724799",
-   "url": "https://x.com/marcelkargul/status/2119406341206724799",
-   "text": "here is how we made this video, 100% in code.\n\n1. Storyboard (Figma) 6 frames showing every stage: guide lines, dimensions, outline, fill, details, final icon.\n\n2. Design to code (Figma MCP + Claude Code) Claude exported each frame as SVG, then a script split the finished icon into 15 layers for separate animation.\n\n3. Animating the drawing (Remotion + React + SVG) Each layer has its own moment on the timeline. Lines draw themselves like someone's drafting them. Labels type in letter by letter with a caret. The fill resolves out of fine dots.\n\n4. The camera (CSS 3D) The icon sits on a tilted plane, camera looking at it low, oblique, macro. Shallow depth of field keeps only the action sharp. A pool of light follows the action, everything else fades to black.\n\n5. The edit (Remotion) 9 shots, hard cuts, camera always drifting toward the next action. The finale travels over the icon, pulls back, lands front-on and centred.\n\n6. Revisions (Claude Code + Chrome previews) Everything 28% faster. Wider frame, softer shadow, whole numbers only on dimensions. Last frame is pixel-sharp, grain fades out.\n\n7. Sound (Python + NumPy) Music generated from the film's own timings. Every on-screen event has its own sound. Tempo rises with the edit from 100 to 138 BPM, ends on a hit and a chord.\n\n8. Render (Remotion + ffmpeg) 1080p, 60fps, motion blur, AAC audio at 320kbps. 31 seconds. 4 minute render.",
-   "user": "marcelkargul",
-   "followers": 62243,
-   "views": 23731,
-   "likes": 382,
-   "reposts": 21,
-   "replies": 50,
-   "bookmarks": 552,
-   "age_h": 20.7,
-   "x_factor": 0.4,
-   "per_hour": 1147,
-   "ts": 1794215273.0919268
-  },
   "2119542222777622772": {
    "id": "2119542222777622772",
    "url": "https://x.com/AndrewCurran_/status/2119542222777622772",
@@ -1136,54 +797,6 @@
    "per_hour": 2876,
    "ts": 1794243923.8910656
   },
-  "2119386456607031460": {
-   "id": "2119386456607031460",
-   "url": "https://x.com/Nyxera0x/status/2119386456607031460",
-   "text": "Love this! This is how I wish someone had explained physics to me.\n\nI always wondered how a crank sharpener gets such a sharp point, so I asked Claude Opus 5.5 to build me one I could take apart.\n\nHow it works:\n\n> It built the whole sharpener from one picture. Every gear, cutter and spring is three.js code.\n> Turn the crank and both cutters circle the pencil while a fixed 36-tooth ring spins each one.\n> 15 helical edges per cutter: 12 turns, 1,080 cuts, a 22° point, then the crank goes light.\n> Pull the drawer and the cedar curls are sitting in clear acrylic.\n\nI packed the whole process into a Claude skill, so you can build your own from any picture.\n\nFree skill and every prompt in the article below👇",
-   "user": "Nyxera0x",
-   "followers": 22296,
-   "views": 11565,
-   "likes": 329,
-   "reposts": 49,
-   "replies": 26,
-   "bookmarks": 301,
-   "age_h": 22.0,
-   "x_factor": 0.5,
-   "per_hour": 525,
-   "ts": 1794215328.1972241
-  },
-  "2119370411368460773": {
-   "id": "2119370411368460773",
-   "url": "https://x.com/Inmerson/status/2119370411368460773",
-   "text": "GEMINI 4 HYDROGEN IS THE CHEAPEST AND FASTEST AGI I'VE EVER USED.\n\nI created all of this in JUST 24 HOURS:\n\n• 36 SVGs\n• 14 Three.js \n• 10 Voxel \n60 assets in 24h.\nActual AI generation time: just 1–2 hours.\nWeekly quota used: ONLY 9%.\n\nWith Fable, Astra, or Argon, this would've taken me an entire week.\n\nVisit my profile to see everything I've created.\n THIS IS INSANE\n\nMy next goal? ANOTHER 60 ASSETS IN THE NEXT 24 HOURS.\nStay tuned. This is just the beginning.",
-   "user": "Inmerson",
-   "followers": 633,
-   "views": 23973,
-   "likes": 238,
-   "reposts": 6,
-   "replies": 18,
-   "bookmarks": 41,
-   "age_h": 23.1,
-   "x_factor": 37.9,
-   "per_hour": 1038,
-   "ts": 1794215328.197212
-  },
-  "2119381803584909476": {
-   "id": "2119381803584909476",
-   "url": "https://x.com/heyfionaai/status/2119381803584909476",
-   "text": "THAT'S WHY AIRLINES HATE CLAUDE 4.6\n\nFlight for $879. I paid $299.\nNo points. No affiliations. No VPN.\n\nHere are 8 prompts I used to travel like a pro↓",
-   "user": "heyfionaai",
-   "followers": 29215,
-   "views": 111489,
-   "likes": 338,
-   "reposts": 45,
-   "replies": 14,
-   "bookmarks": 943,
-   "age_h": 22.3,
-   "x_factor": 3.8,
-   "per_hour": 4998,
-   "ts": 1794215273.0914493
-  },
   "2119613695802192002": {
    "id": "2119613695802192002",
    "url": "https://x.com/Rizvi_On_X/status/2119613695802192002",
@@ -1199,22 +812,6 @@
    "x_factor": 0.1,
    "per_hour": 75,
    "ts": 1794272268.998282
-  },
-  "2119377443844935712": {
-   "id": "2119377443844935712",
-   "url": "https://x.com/Av1dlive/status/2119377443844935712",
-   "text": "i just gave my AI agents the biggest UNFAIR advantage...\n\nan MCP that lets them freely use my iPhone\n\nworks with Claude Code, Codex and Grok Bot\n\nhere's the prompt to set it up:\n-----\nHelp me set up this project on my Mac: https://t.co/yta2J6XPep\n\nRead docs/SETUP.md and docs/INTEGRATION.md first. Check compatibility, install it in ~/iphone-control using a virtual environment, and run the read-only doctor check.\n\nGuide me through pairing Apple’s iPhone Mirroring and granting the required permissions. Start in simulation mode, then configure the integration for the agent I’m using.\n\nExplain the current device-identity limitation. Do not enable --unattended unless I explicitly approve it. Verify each stage and report what actually works rather than assuming the setup succeeded.\n----------------\n\ndemo in the video (below)",
-   "user": "Av1dlive",
-   "followers": 30401,
-   "views": 24547,
-   "likes": 351,
-   "reposts": 32,
-   "replies": 46,
-   "bookmarks": 450,
-   "age_h": 22.6,
-   "x_factor": 0.8,
-   "per_hour": 1085,
-   "ts": 1794215351.2707694
   },
   "2119596273162703306": {
    "id": "2119596273162703306",
@@ -1247,22 +844,6 @@
    "x_factor": 0.2,
    "per_hour": 1414,
    "ts": 1794286299.6749458
-  },
-  "2119402143417258359": {
-   "id": "2119402143417258359",
-   "url": "https://x.com/godsystemsmd/status/2119402143417258359",
-   "text": "This is f*cking insane. All-In co-host David Sacks on why Salesforce just handed Claude the keys to its own customers:\n\n\"He is integrating Salesforce into Claude. He's willing to allow Claude to be the front end, to have the primary user relationship\n\nYou don't want to go into Salesforce or any SaaS application to write your agents. You want to create agents in the AI you're using, and you want those agents to run across all of your SaaS platforms\"\n\nIn 2 minutes, he explains why the biggest CRM on the planet just agreed to become a database that Claude agents read from and write into\n\nDatabase → Apps → Agents → Claude On Top Of Everything\n\nThe app you log into every morning is turning into a storage box. The AI on top is where the work happens now\n\nMost people will keep clicking through dashboards, the few who build agents on Claude will run every one of those tools from one chat\n\nSave this before it disappears from your feed\n\nEverything below is free:\n\nClaude connectors (plug Claude into your apps)\nhttps://t.co/niR6WILGWj\n\nMCP, the protocol behind it\nhttps://t.co/wvaSwsz5g2\n\nMCP course from Anthropic\nhttps://t.co/tJjHTFjzUG\n\nReady-made MCP servers\nhttps://t.co/VxLVTVInTo\n\nAwesome MCP servers\nhttps://t.co/YOHUhllrnV\n\nBuilding effective agents\nhttps://t.co/Ii3S14lLLL\n\nWriting tools for agents\nhttps://t.co/IUomXhQz0Y\n\nContext engineering for agents\nhttps://t.co/bksXl16u6q\n\nHow Anthropic built its multi-agent system\nhttps://t.co/GDlMP8bDv2\n\nClaude Agent SDK\nhttps://t.co/GO353a7uIE\n\nAgent SDK for Python\nhttps://t.co/7beBnfpAXN\n\nSubagents in Claude Code\nhttps://t.co/9rItwcGlUJ\n\nAgent quickstarts you can copy\nhttps://t.co/ycKUv6LW9l\n\nAll of this costs $0\n\nThe next Salesforce won't be an app, it'll be an agent someone built from these links\n\nBookmark it and start with the first link tonight\n\nThen read how to set up the agent team that runs your whole stack in the harness engineering guide below ↓",
-   "user": "godsystemsmd",
-   "followers": 1856,
-   "views": 96184,
-   "likes": 316,
-   "reposts": 35,
-   "replies": 15,
-   "bookmarks": 1062,
-   "age_h": 21.0,
-   "x_factor": 51.8,
-   "per_hour": 4589,
-   "ts": 1794215273.0915315
   },
   "2119492660926808355": {
    "id": "2119492660926808355",
@@ -1312,22 +893,6 @@
    "per_hour": 2552,
    "ts": 1794257510.186253
   },
-  "2119586275267133820": {
-   "id": "2119586275267133820",
-   "url": "https://x.com/JerryCap/status/2119586275267133820",
-   "text": "Anthropic IPO https://t.co/aUDhTYrYEM",
-   "user": "JerryCap",
-   "followers": 60538,
-   "views": 16969,
-   "likes": 674,
-   "reposts": 27,
-   "replies": 7,
-   "bookmarks": 30,
-   "age_h": 8.8,
-   "x_factor": 0.3,
-   "per_hour": 1936,
-   "ts": 1794215273.0916677
-  },
   "2119460874381570360": {
    "id": "2119460874381570360",
    "url": "https://x.com/janm_uiux/status/2119460874381570360",
@@ -1375,22 +940,6 @@
    "x_factor": 26.1,
    "per_hour": 7492,
    "ts": 1794243923.8912008
-  },
-  "2119377099266171284": {
-   "id": "2119377099266171284",
-   "url": "https://x.com/Aura_lixx/status/2119377099266171284",
-   "text": "BREAKING NEWS 🚨: Claude can now fix your slow WiFi like a network technician who charges $100 an hour, and prove to your provider that they're not delivering the speed you're paying for.\n\nOpen the Claude desktop app, grant it access to your computer, and use these 7 prompts:",
-   "user": "Aura_lixx",
-   "followers": 4847,
-   "views": 123021,
-   "likes": 536,
-   "reposts": 125,
-   "replies": 27,
-   "bookmarks": 1007,
-   "age_h": 22.6,
-   "x_factor": 25.4,
-   "per_hour": 5439,
-   "ts": 1794215273.091793
   },
   "2119632946663653740": {
    "id": "2119632946663653740",
@@ -1487,22 +1036,6 @@
    "x_factor": 2.0,
    "per_hour": 2572,
    "ts": 1794229626.4105294
-  },
-  "2119460293398937811": {
-   "id": "2119460293398937811",
-   "url": "https://x.com/Da7_Tech/status/2119460293398937811",
-   "text": "I have been using Hermes Agent every day since day one, and I think it is finally time for a full review.\n\nAs always, this is completely independent. Not paid, not sponsored. The good and the bad, nothing held back.\n\nThis review covers what I use Hermes Agent for, why you should consider it, and how it stacks up against OpenClaw, Claude Code, Codex, and Grok Bot.\n\nHermes has become essential for me. Let me show you why, starting with the first thing most of you asked.\n\nWhich models do I use inside Hermes?\n\nThe best thing about Hermes is that it is truly model-neutral. It does not degrade the models. Whatever a model can do, you get directly.\n\nI use GLM 5.3 a lot, and for light and medium tasks it is excellent. Sometimes I switch to GPT Sol 6.1, and I have noticed that the best place to run GPT is Hermes, even better than Codex. I have tried a lot of models in Hermes, and they were all excellent.\n\nSo use any model that suits you, as long as the plan is generous, and run two or three at once if you want. Here is the important part: in ninety percent of use cases, your choice of model will not make a big difference. The model here is still just a brain behind bigger layers, and those layers are what control how it behaves.\n\nUsage limits and cost\n\nThere is no Hermes quota. Plug in your key, run a local model, or subscribe through Nous Portal. That is all it takes.\n\nYou can push Hermes to the max with excellent models without paying a single dollar. And if you decide to pay, you get great value for it.\n\nCaching is great too\n\nOut of 1,013 sessions, here's one that came out right at the average:\n\n219 million input tokens\n15.7 million output tokens\n3.77 billion cached tokens\nAbout 4 billion tokens in total\n\n94.4% from cache.\n\nHermes is one of the best I have used for token efficiency, and the transparency is total. While you work, you see the real speed of every provider and every detail.\n\nLight on the machine\n\nHermes is not heavy at all. One day I set up a full Hermes agent inside a virtual machine with just 2 GB of RAM, and it ran with very high stability on every kind of task I gave it. That shocked me. Codex, for comparison, eats tens of gigabytes of RAM. That difference tells you what an engineering masterpiece Hermes Agent is.\n\nThe layer above the model\n\nOne of the biggest things that sets Hermes apart is that the agent is separate from its brain. The model is the brain, and you can swap it without losing your memory, your skills or your setup.\n\nAnywhere else, when I use GLM 5.3 I get GLM's usual strengths and weaknesses, and when I use Sol 6.1 I get Sol's. In Hermes there is a layer above the model that gives it a soul, a style and an understanding of how I work, so switching models matters far less. At some point the models feel eighty percent alike in style, in method and in the things you care about. What is left is raw capability, so the most capable models go to the hardest problems.\n\nYou own the layer you actually invest your time in. And the beautiful part is that this layer, the identity, the memory, the skills and every tool, is completely mine.\n\nLook at Claude Code getting people banned today, at model performance suddenly dropping, at Codex being stingy with usage one time and slow the next. Those are constraints, and Hermes does not have them. If Claude Code decides to change or remove something, you have no say. In Hermes you can always change whatever you want. That is sovereignty, freedom and empowerment.\n\nMemory that grows with you\n\nWhen I opened the skills and memory tree, I found that Hermes had reached the point where it knows me better than any other agent. It grew with me through this whole journey, and that is what makes it the ideal partner for my work.\n\nThe journey command shows you a star map of your memory and skills, and you can edit or delete anything in it. It is one of the greatest things in Hermes.\n\nOne example: when Fable came out I loved it, so I had Fable pass its style and way of thinking on to Hermes. My Hermes became twice as useful after that.\n\nAnd the instructions stick. Across sessions and updates, the soul, the identity and the instructions are always there. I never feel I need to remind it, and I never notice it forgetting or drifting. It is with me one hundred percent, every time.\n\nResearch and academic writing\n\nHermes is excellent for research and academic writing. With Claude Code or Codex I always have to explain my method, my way of thinking and everything I do not want. In Hermes I explained myself once, and from then on research and writing just happen the way I want. You set it up once, and it keeps growing. It even picked up my taste in design and research.\n\nSkills and tools\n\nHermes has skills and tools you will not find anywhere else, and the team never stops building. The skills library is one of the best I have seen.\n\nI see about 165 skills built in, plus optional skills and plugins you can add with one click. All useful stuff for growing in any field: iOS apps, computer use, automation, shopping, coding, organization, security, travel, testing, data, streaming, support, sports, reviews, video and more.\n\nThe tools cover web search, the browser, the terminal, files, vision, image generation, subagents, scheduled tasks, memory and computer use, and MCP brings in anything else. You can use it with Blender or whatever you want. Use it straight out of the box, or customize it with no ceiling.\n\nWhere I talk to it\n\nYou can talk to it anywhere: iMessage, Telegram, Slack, Discord and more, and you can customize all of it. When I am out of the house, Hermes is the first thing I think of. I send it a message and everything happens like magic.\n\nMy own voice model\n\nCompanies that take speech-to-text out of your credits always annoyed me. In Hermes I brought my own model. Everything runs locally on my machine, smooth and fast, exactly the way I want. I even send it voice notes on Telegram, and it just works.\n\nThe desktop app\n\nThe desktop app is great, and the user experience is one of the best I have seen. I do not like working in the terminal in general, so in Hermes the desktop app is my home.\n\nWhat I use it for\n\nThe idea that Hermes is only for casual users or simple tasks is just not true. It works for every kind of use and then some. I use it for everything I want, and I get great results.\n\nIt is the agent I rely on for personal tasks, light work and organization. The test videos and model comparisons I publish are edited entirely by Hermes; I do not touch them. It has helped me study and work, proofread academic research, translate books and documents, run a security audit on my ERP application, and a lot more.\n\nHermes vs OpenClaw\n\nThe most unfair comparison people make is Hermes vs OpenClaw. OpenClaw was a revolution in its time and started a huge wave, and it deserves credit for that. But it is nowhere near Hermes. Not in stability, not in reliability, not in consistency, not in capability. To me, OpenClaw is a tool some people enjoy for two or three days of experimenting. Is it something you can rely on and build projects, ideas and solutions on? Not at all.\n\nHermes is another story. It even beats tools like Claude Code and Codex. For me it sits in a different category entirely.\n\nHermes vs Claude Code and Codex\n\nThe reply I get most is: you can do all of this in Claude Code or Codex. Yes, you can. But in Hermes I do it the way I want, not the way the model or the company wants, and I enjoy the work instead of fighting the agent.\n\nHermes also refuses less than any agent I use, and that matters a lot to me. It is my first stop for anything that usually gets refused in Claude Code, Codex and the rest. A while ago I gave Claude Code and Codex a task and both refused. Hermes did it.\n\nHermes vs Grok Bot\n\nGrok Bot has two real advantages. It works out of the box and it is easy, and it has direct access to X. Beyond that, Hermes crushes it.\n\nEveryone is talking about how fast Grok Bot's quotas run out, and I can confirm it. I am on the Ultra plan, the $200 one, and it does not last me more than a day, two, maybe three. That is not sustainable. To be fair, usage limits are a problem with a lot of providers right now, not only Grok Bot.\n\nThe real difference is intelligence. Grok Bot is extremely low on intelligence right now. I ask it to execute a task and it just answers. I ask it a question and it starts executing. I cannot trust it. Its mistakes outnumber its wins, and it keeps telling me it cannot do this, it cannot reach that, this is a limit.\n\nIn Hermes, you shape the intelligence layer. I shaped mine to do nothing until it is sure what I want and has reviewed every detail and the full context. Grok Bot has nothing like that, and you cannot shape it. Believe me, I tried.\n\nDo not confuse ease with quality. Grok Bot has a wonderful ecosystem, great templates and amazing growth. But you do not own the environment, you do not choose the kind of intelligence you get, and you struggle to make it through the week.\n\nThe problems\n\nHermes is not perfect, and you should know where it falls short.\n\nSometimes when I change the model in a session, the interface does not show it. The change happens; the UI just does not read it. Open a new session, come back, and you will see it was applied.\n\nSteering is hit or miss. Sometimes a steering message redirects the conversation right away. But most of the time the agent ignores it completely and waits until the whole task is done, or it spends a really long time on the task before the steering finally kicks in. I always wish steering was instant so no time gets wasted.\n\nSubagents are excellent, but sometimes Hermes hands me a result and then waits for the subagent's report, instead of waiting first and giving me one final result.\n\nComputer use is one of the most important features for me, and it sometimes breaks and needs a real fix. It happened enough that I stopped using it heavily. It usually breaks under heavy work or with medium and weaker models, so give it your most capable models.\n\nThat brings me to the most dangerous problem. Weaker models can wreck your Hermes in minutes. You build your setup and the agent's understanding of you with a serious model, then a weak model starts making bad decisions and damages that whole layer. It can even break the app. MiniMax M3 broke my Hermes more than once with its hallucinations.\n\nThe fix is simple: stick to the leading, stable models, such as Kimi, Sol, GLM 5.3, DeepSeek Flash, and frontier Qwen models like Qwen 3.8 Max, and stay away from weak, hallucinating ones. Since I stopped using MiniMax M3, I have not hit this once. I do not know if it has been fixed, but I am not risking my stability to find out. What I really want is an optional protection layer for the memory, the soul file and AGENTS.md, so any edit shows up in the interface for me to approve first.\n\nLong tasks can occasionally collapse in goal mode. The agent marks the task done before it is, or gets lost and loops. That happened a long time ago and has not happened since. It is rare and usually comes with weaker models, but I am mentioning it for transparency.\n\nOne for Mac users: more than once, an update left my desktop app stuck on an older version. The fix is simple. Quit the app and run hermes update in the terminal. If the app still shows the old version, run hermes desktop to rebuild it.\n\nWhat I want next\n\nTwo things matter most to me.\n\nFirst, a solid, easy mobile app with beautiful interfaces and that Nous spirit.\n\nSecond, an easy mode that works out of the box: add profiles by field, so a researcher, a programmer, or a writer starts from a ready base instead of a raw zero.\n\nA model from Nous Research that understands Hermes better than any other model would be amazing too, but that is not central for me right now.\n\nAnd I want Hermes to switch modes from natural language. When I give it a goal, it should turn on goal mode by itself and finish the whole task, the way Codex and sometimes Claude Code do.\n\nThe community and the team\n\nOne moment made me appreciate Hermes more than ever. I wanted Arabic support in the harnesses I use, so I reached out to MiniMax, Zai and others and offered to translate the harness, the website, everything, myself. They all said yes. Then nothing happened.\n\nWith Hermes, I did the Arabic localization myself and opened a pull request. They accepted it, and today Hermes speaks Arabic. Your voice as a user is what matters, and that is exactly why I love Hermes.\n\nAnother thing that amazed me: one day I sent the team an idea right here on X. I wished I could set the model for each scheduled task. In less than three hours it was built and shipped, and I have been using it ever since. I have never seen that kind of speed. That is what accelerating growth looks like when a project is open source and the whole community builds it.\n\nWhere I stand\n\nI have tried most of the well-known tools in the space, and every tool has beautiful positives and annoying negatives. Hermes might be the one with the fewest negatives. Not because it is better or worse than the others, but because in Hermes you can deal with a negative, change it, erase it, and sometimes turn it into a strength. It all comes down to how you customize it.\n\nIt is not the easiest tool to start with, so my next post is my full setup, as a skill. Hand it to your agent, answer its questions, and it sets everything up for you. I do not claim it is the best setup, only the one that fits me. Stay tuned!\n\nAfter all this time, I know exactly where I stand. Hermes is a victory for what open source is supposed to mean.",
-   "user": "Da7_Tech",
-   "followers": 13357,
-   "views": 51023,
-   "likes": 725,
-   "reposts": 84,
-   "replies": 92,
-   "bookmarks": 838,
-   "age_h": 17.1,
-   "x_factor": 3.8,
-   "per_hour": 2982,
-   "ts": 1794215273.0920029
   },
   "2119489287117000924": {
    "id": "2119489287117000924",
@@ -11683,9 +11216,6 @@
  },
  "last_run": 1794473938.63848,
  "sent": {
-  "2119402143417258359": 1794215354.5500662,
-  "2119377099266171284": 1794215357.4409304,
-  "2119395930805879165": 1794215359.305758,
   "2119489762134295014": 1794229700.8455508,
   "2119452881602457793": 1794229705.9726648,
   "2119552672198197689": 1794244012.194242,
@@ -11815,8 +11345,8 @@
   "2120725234965790865": 1794457702.305789,
   "2120792464403615797": 1794473304.5673177
  },
- "reply_last_run": 1794473312.4354765,
- "fresh_last_run": 1794473335.9867563,
+ "reply_last_run": 1794476789.8825414,
+ "fresh_last_run": 1794476805.243505,
  "reply_day": {
   "date": "2026-11-12",
   "count": 8
