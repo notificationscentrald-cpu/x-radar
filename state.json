@@ -192,7 +192,10 @@
   "2120655002335064125": 1794459533.8865168,
   "2120746846402564163": 1794461359.617869,
   "2120737635471704522": 1794461368.448548,
-  "2120739832443850856": 1794461376.9157174
+  "2120739832443850856": 1794461376.9157174,
+  "2120754122362339748": 1794465012.1814842,
+  "2120758033831833856": 1794465013.3533359,
+  "2120754109468844270": 1794465022.1147575
  },
  "pool": {
   "2119371295523512828": {
@@ -11106,6 +11109,22 @@
    "x_factor": 0.0,
    "per_hour": 1443,
    "ts": 1794461358.3922355
+  },
+  "2120758033831833856": {
+   "id": "2120758033831833856",
+   "url": "https://x.com/LearnWithBishal/status/2120758033831833856",
+   "text": "Baidu just launched ERNIE 5.5 Flash Preview, and what it's capable of is pretty incredible.\n\nTake game development, for example. The model built nearly 100 playable mobile games from game design documents.\n\nAnd no, I'm not talking about simple code demos.\n\nIt was given complete game specifications and tasked with building games across different genres, from tower defence and racing to card-based RPGs and interactive stories.\n\nI went through the demo, and a few things caught my eye:\n\n1. It actually builds playable games.\n\nNot just the basic mechanics. It handles the artwork, sound effects, gameplay logic and other pieces needed to make a complete mini-game.\n\n2. It isn't locked into one framework.\n\nThe 24 games featured in the demo were built using Cocos, Unity, LayaAir, PixiJS and native Canvas 2D.\nThat's quite a range.\n\n3. It can test its own games.\n\nThis is the part I found particularly interesting.\nFor most of the games, the model uses simulated players, state-space search and level replays to check whether levels can be completed and whether the gameplay is balanced.\nBasically, it doesn't just build something and leave you to figure out what's broken.\n\n4. It pays attention to the little details.\n\nDifferent games get their own character names, boss dialogues, branching storylines and level names tailored to their genre.\n\nAnd there's more to ERNIE 5.5 Flash Preview than game development:\n- 280B total parameters, with 14B active per token.\n- 1M-token context window.\n- Generation speeds of 200+ tokens per second.\n- Support for complex coding and multi-step AI agent workflows.\n- Knowledge work across 40+ file types.\n- More than 1,000 creative skills covering writing, visuals, video and production.\n- Code Arena: WebDev score of 1,668, trending toward #2 among open models and ahead of DeepSeek-V4.1-Flash (Max) at 1,664 and Kimi K3 (Max) at 1,658.\n\nThe API is already available through Baidu's Qianfan platform, and the model weights are scheduled to be open-sourced before November 25.\n\nMy take:\n\nWe've seen AI generate code for a while. But watching it go from a detailed game specification to a playable game, across different frameworks, and then testing whether the game actually works is a different story.\n\nI'm curious to see how far this can go.\n\n#AI #GameDevelopment",
+   "user": "LearnWithBishal",
+   "followers": 118448,
+   "views": 653,
+   "likes": 16,
+   "reposts": 5,
+   "replies": 6,
+   "bookmarks": 16,
+   "age_h": 0.5,
+   "x_factor": 0.0,
+   "per_hour": 1225,
+   "ts": 1794465009.9005136
   }
  },
  "last_run": 1794459533.8865294,
@@ -11201,7 +11220,8 @@
   "2120716006884786498": 1794457738.300926,
   "2120721638857789887": 1794457749.3409917,
   "2120746846402564163": 1794461367.2979732,
-  "2120737635471704522": 1794461375.7621903
+  "2120737635471704522": 1794461375.7621903,
+  "2120758033831833856": 1794465021.081264
  },
  "reply_seen": {
   "2120507359445324267": 1794404387.1790442,
@@ -11234,10 +11254,10 @@
   "2120630147086995890": 1794433243.4089973,
   "2120725234965790865": 1794457702.305789
  },
- "reply_last_run": 1794461343.0681665,
- "fresh_last_run": 1794461376.9157345,
+ "reply_last_run": 1794464993.9728806,
+ "fresh_last_run": 1794465022.1147723,
  "reply_day": {
   "date": "2026-11-12",
-  "count": 2
+  "count": 3
  }
 }
