@@ -137,5 +137,7 @@
     "min_replies": 30
   },
   "max_reply_alerts_per_day": 8,
+  "reply_active_hours": [8, 23],
+  "_comment_reply_hours": "Реплай-сповіщення (--replies, --fresh) лише з 8:00 до 23:00 за Нью-Йорком, щоб денний ліміт не з'їдався вночі. Пости для аналогів (🔁) і ранковий топ ідуть цілодобово.",
   "_comment_reply_alerts": "Реплай-сповіщення (--replies і --fresh разом) не більше max_reply_alerts_per_day за день (Нью-Йорк): план 4–6 реплаїв, з запасом на вибір. Пости-приманки «comment WORD and I'll send» пропускаються завжди (BAIT_PATTERNS у radar.py + перевірка коментарів)."
 }
