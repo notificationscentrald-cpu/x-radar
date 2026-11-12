@@ -182,7 +182,11 @@
   "2120664117233033317": 1794447818.4564085,
   "2120666050685469123": 1794447826.7711508,
   "2120682002521202844": 1794447827.7539546,
-  "2120680637900447975": 1794447828.7867053
+  "2120680637900447975": 1794447828.7867053,
+  "2120701865818223086": 1794454205.2533107,
+  "2120712048300744720": 1794454214.2683241,
+  "2120702340668039170": 1794454223.11836,
+  "2120706331653165339": 1794454224.2001405
  },
  "pool": {
   "2119316489077502392": {
@@ -10904,6 +10908,38 @@
    "x_factor": 0.2,
    "per_hour": 24397,
    "ts": 1794447809.9335258
+  },
+  "2120701865818223086": {
+   "id": "2120701865818223086",
+   "url": "https://x.com/RoundtableSpace/status/2120701865818223086",
+   "text": "Claude Fable 5.2 built a hand-painted looking game in under an hour where every frame is about 1.5 million brush strokes, running at 200 fps in a browser tab and fully open source. https://t.co/RCu74R9suZ",
+   "user": "RoundtableSpace",
+   "followers": 274549,
+   "views": 39990,
+   "likes": 19,
+   "reposts": 1,
+   "replies": 7,
+   "bookmarks": 3,
+   "age_h": 1.2,
+   "x_factor": 0.1,
+   "per_hour": 32016,
+   "ts": 1794454196.595018
+  },
+  "2120712048300744720": {
+   "id": "2120712048300744720",
+   "url": "https://x.com/TechByMarkandey/status/2120712048300744720",
+   "text": "Baidu just launched ERNIE 5.5 Flash Preview, and its 3D recreation of the historic Hōryū-ji Temple complex shows what's possible with AI-driven modeling.\n\nAnd it didn't just create the scene. It handled almost the entire process itself.\n\nIt researched the temple's architecture, used the Blender Python API to build the structures, found Buddhist statue scans and vegetation assets, and created gardens, a lotus pond, and an arched bridge.\n\nIt also added realistic materials, rendered the scene, and used FFmpeg to turn the frames into a finished video.\n\nBeyond 3D modeling, ERNIE 5.5 Flash Preview brings advanced coding, AI agent capabilities, and a 1M-token context window, with 280B total parameters and 14B active per token.\n\nIt also delivers generation speeds exceeding 200 tokens per second.\n\nAnd it's making progress on the coding benchmarks too.\n\nIn the latest CodeArena: WebDev rankings, the model scored 1,668 points, ranking 2nd among open models and 4th among Chinese models, behind larger models like Kimi K3.1 Pro and Qwen3.8-Max.\n\nThe API is already available on Qianfan, with model weights scheduled to be open-sourced before November 25.\n\nI find this direction really interesting.\n\nThe ability to go from architectural references to a detailed, rendered 3D environment could change how complex scenes are built.",
+   "user": "TechByMarkandey",
+   "followers": 64593,
+   "views": 10028,
+   "likes": 12,
+   "reposts": 5,
+   "replies": 11,
+   "bookmarks": 1,
+   "age_h": 0.6,
+   "x_factor": 0.2,
+   "per_hour": 17381,
+   "ts": 1794454203.9359
   }
  },
  "last_run": 1794445621.25249,
@@ -10997,7 +11033,9 @@
   "2120623690941354173": 1794436530.6998322,
   "2120624681086529660": 1794436532.3941903,
   "2120502720079835550": 1794445621.252478,
-  "2120664117233033317": 1794447825.7397752
+  "2120664117233033317": 1794447825.7397752,
+  "2120701865818223086": 1794454212.9971514,
+  "2120712048300744720": 1794454222.0010028
  },
  "reply_seen": {
   "2120507359445324267": 1794404387.1790442,
@@ -11029,10 +11067,10 @@
   "2120601091591274513": 1794427834.0816004,
   "2120630147086995890": 1794433243.4089973
  },
- "reply_last_run": 1794450748.005022,
- "fresh_last_run": 1794447828.786718,
+ "reply_last_run": 1794454188.4739156,
+ "fresh_last_run": 1794454224.2001526,
  "reply_day": {
   "date": "2026-11-11",
-  "count": 1
+  "count": 3
  }
 }
