@@ -208,7 +208,9 @@
   "2120949944131735817": 1794512218.2368493,
   "2120947265007440052": 1794512219.3099773,
   "2120941472912638000": 1794512228.7958128,
-  "2120948511038648596": 1794512237.9624434
+  "2120948511038648596": 1794512237.9624434,
+  "2120947173131207101": 1794515281.1874206,
+  "2120966712342544622": 1794515282.2696917
  },
  "pool": {
   "2119545806965342650": {
@@ -11074,6 +11076,22 @@
    "x_factor": 0.1,
    "per_hour": 2087,
    "ts": 1794512200.6434214
+  },
+  "2120966712342544622": {
+   "id": "2120966712342544622",
+   "url": "https://x.com/BenMildenhall/status/2120966712342544622",
+   "text": "There’s been massive progress in agentic 3D world creation in the past year, but producing polished, high fidelity pixels purely procedurally via code is still orders of magnitude more expensive than generating them directly.\n\nI view these strategies as complementary – in our Atlas release today, both the Chisel web app and Codex/Claude Code integrations are designed for using an agent to build out coarse geometry in 3D and control precise final pixel generation through Atlas model endpoints.\n\nThis demo showcases the Chisel variant of Atlas we finetuned for flexible control, capable of taking in any combination of partial RGB and partial depth frames. We can take masked depth renders of the car model and use text prompting to control both stylistic appearance and what fills in the rest of the scene.",
+   "user": "BenMildenhall",
+   "followers": 12271,
+   "views": 2712,
+   "likes": 38,
+   "reposts": 3,
+   "replies": 4,
+   "bookmarks": 10,
+   "age_h": 0.7,
+   "x_factor": 0.2,
+   "per_hour": 4020,
+   "ts": 1794515272.519562
   }
  },
  "last_run": 1794502845.1166356,
@@ -11175,7 +11193,8 @@
   "2120939312564842663": 1794512217.2396274,
   "2120947265007440052": 1794512227.7400665,
   "2120941472912638000": 1794512236.573039,
-  "2120948511038648596": 1794512245.5948777
+  "2120948511038648596": 1794512245.5948777,
+  "2120966712342544622": 1794515289.786465
  },
  "reply_seen": {
   "2120507359445324267": 1794404387.1790442,
@@ -11212,14 +11231,14 @@
   "2120957197878485328": 1794512177.3740613,
   "2120956746667552913": 1794512184.9158587
  },
- "reply_last_run": 1794512192.6789901,
- "fresh_last_run": 1794512245.5948882,
+ "reply_last_run": 1794515264.6659076,
+ "fresh_last_run": 1794515289.7865052,
  "reply_day": {
   "date": "2026-11-12",
   "count": 8
  },
  "reply_day_active": {
   "date": "2026-11-12",
-  "count": 7
+  "count": 8
  }
 }
