@@ -195,7 +195,10 @@
   "2120739832443850856": 1794461376.9157174,
   "2120754122362339748": 1794465012.1814842,
   "2120758033831833856": 1794465013.3533359,
-  "2120754109468844270": 1794465022.1147575
+  "2120754109468844270": 1794465022.1147575,
+  "2120767818157420773": 1794469803.9337819,
+  "2120773803869659150": 1794469813.0367637,
+  "2120761967023648959": 1794469821.6635888
  },
  "pool": {
   "2119371295523512828": {
@@ -11125,6 +11128,54 @@
    "x_factor": 0.0,
    "per_hour": 1225,
    "ts": 1794465009.9005136
+  },
+  "2120767818157420773": {
+   "id": "2120767818157420773",
+   "url": "https://x.com/venturetwins/status/2120767818157420773",
+   "text": "Man it’s so cool that we now have endlessly remixable virtual worlds.\n\nI cloned this and asked my agent for a new scene: the character riding a horse through a canyon to the beach.\n\nFable 5.2 even found a free horse animation model and repainted it with the shader 🤯 https://t.co/szKsCYFnUr",
+   "user": "venturetwins",
+   "followers": 249346,
+   "views": 3234,
+   "likes": 31,
+   "reposts": 6,
+   "replies": 11,
+   "bookmarks": 15,
+   "age_h": 1.2,
+   "x_factor": 0.0,
+   "per_hour": 2663,
+   "ts": 1794469794.4956923
+  },
+  "2120773803869659150": {
+   "id": "2120773803869659150",
+   "url": "https://x.com/Stefan_3D_AI/status/2120773803869659150",
+   "text": "Fable 5.2 Cooked 3D. From Prompt to Seamless AI PBR Material in Under 6 Minutes for $0.79\n\nClaude Fable 5.2 on max effort built a material pipeline on my PC: an image model paints the tiles, code does the rest, Blender Cycles renders.\n\nHighlights:\n• Nano Banana Pro paints color and height at 4K\n• Seams removed by code, not by repainting\n• Normal, roughness, metallic and emissive derived by code\n• 200 minutes of agent time, video included",
+   "user": "Stefan_3D_AI",
+   "followers": 15903,
+   "views": 1058,
+   "likes": 41,
+   "reposts": 0,
+   "replies": 3,
+   "bookmarks": 20,
+   "age_h": 0.8,
+   "x_factor": 0.1,
+   "per_hour": 1293,
+   "ts": 1794469794.495731
+  },
+  "2120761967023648959": {
+   "id": "2120761967023648959",
+   "url": "https://x.com/noahmorris/status/2120761967023648959",
+   "text": "In the Seoul VidRush office this month. \n\nSome awesome things are cooking this week that will change the game for both VIDRUSH &amp; Claude code video gen users. https://t.co/F7TZQkjla8",
+   "user": "noahmorris",
+   "followers": 53860,
+   "views": 1874,
+   "likes": 38,
+   "reposts": 0,
+   "replies": 3,
+   "bookmarks": 3,
+   "age_h": 1.6,
+   "x_factor": 0.0,
+   "per_hour": 1170,
+   "ts": 1794469794.495767
   }
  },
  "last_run": 1794459533.8865294,
@@ -11221,7 +11272,10 @@
   "2120721638857789887": 1794457749.3409917,
   "2120746846402564163": 1794461367.2979732,
   "2120737635471704522": 1794461375.7621903,
-  "2120758033831833856": 1794465021.081264
+  "2120758033831833856": 1794465021.081264,
+  "2120767818157420773": 1794469811.5496838,
+  "2120773803869659150": 1794469820.515244,
+  "2120761967023648959": 1794469829.0072186
  },
  "reply_seen": {
   "2120507359445324267": 1794404387.1790442,
@@ -11254,10 +11308,10 @@
   "2120630147086995890": 1794433243.4089973,
   "2120725234965790865": 1794457702.305789
  },
- "reply_last_run": 1794464993.9728806,
- "fresh_last_run": 1794465022.1147723,
+ "reply_last_run": 1794469786.804786,
+ "fresh_last_run": 1794469829.0072317,
  "reply_day": {
   "date": "2026-11-12",
-  "count": 3
+  "count": 6
  }
 }
