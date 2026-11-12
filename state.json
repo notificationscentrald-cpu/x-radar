@@ -1,10 +1,5 @@
 {
  "seen": {
-  "2119535297541070962": 1794200605.6896315,
-  "2119444845890617507": 1794200608.1593935,
-  "2119545806965342650": 1794200610.4574492,
-  "2119313376325279841": 1794200612.31059,
-  "2119371334878744648": 1794200615.1706812,
   "2119402143417258359": 1794215354.2039883,
   "2119377099266171284": 1794215357.0993733,
   "2119395930805879165": 1794215358.9436643,
@@ -194,57 +189,12 @@
   "2120482082816483585": 1794459530.8515763,
   "2120430860344111305": 1794459531.7595074,
   "2120494499894112568": 1794459532.8651533,
-  "2120655002335064125": 1794459533.8865168
+  "2120655002335064125": 1794459533.8865168,
+  "2120746846402564163": 1794461359.617869,
+  "2120737635471704522": 1794461368.448548,
+  "2120739832443850856": 1794461376.9157174
  },
  "pool": {
-  "2119316489077502392": {
-   "id": "2119316489077502392",
-   "url": "https://x.com/Kalshi/status/2119316489077502392",
-   "text": "BREAKING: Anthropic engineer says AI may make people \"stop thinking for themselves\"",
-   "user": "Kalshi",
-   "followers": 505928,
-   "views": 117282,
-   "likes": 1929,
-   "reposts": 256,
-   "replies": 250,
-   "bookmarks": 112,
-   "age_h": 22.5,
-   "x_factor": 0.2,
-   "per_hour": 5204,
-   "ts": 1794200528.3547525
-  },
-  "2119313621188849806": {
-   "id": "2119313621188849806",
-   "url": "https://x.com/poteto/status/2119313621188849806",
-   "text": "i asked grok bot to make a video about how the music in https://t.co/sa18sM28uD was made! i started by clumsily describing something i wanted (i have 0 experience making music): gameboyish music, seamlessly transitioning between variations of a main melody like another game i had played (genshin)\n\none prompt i tried that helped me communicate my goal better was telling bot \"i lack the vocabulary to describe what i want\" and using the /sharpen skill from pstack. then the /in-your-own-words skill helped me confirm whether or not it understood what i was trying to say\n\ni also used this same trick when making this video, so my agent produced a storyboard and animatic before working on the full thing\n\nknowing the right words is very powerful",
-   "user": "poteto",
-   "followers": 277106,
-   "views": 109664,
-   "likes": 1308,
-   "reposts": 93,
-   "replies": 153,
-   "bookmarks": 621,
-   "age_h": 22.7,
-   "x_factor": 0.4,
-   "per_hour": 4821,
-   "ts": 1794200604.0359135
-  },
-  "2119373785904148487": {
-   "id": "2119373785904148487",
-   "url": "https://x.com/AIMind_Ai/status/2119373785904148487",
-   "text": "What the f*ck, Anthropic? I pay 5x more for Claude Opus 5.5 than in September, and this is what I get.\n\nIn September, the $20 plan was enough. Now I’m on $100 because the $20 plan runs out.\n\nBoth videos come from the exact same prompt, and I ran it on max effort both times.\n\nIs Anthropic secretly nerfing Claude Opus 5.5 so Claude Fable 5.5 looks better at launch?",
-   "user": "AIMind_Ai",
-   "followers": 2019,
-   "views": 292130,
-   "likes": 2868,
-   "reposts": 228,
-   "replies": 302,
-   "bookmarks": 619,
-   "age_h": 18.7,
-   "x_factor": 144.7,
-   "per_hour": 15587,
-   "ts": 1794200528.354356
-  },
   "2119371295523512828": {
    "id": "2119371295523512828",
    "url": "https://x.com/Kalshi/status/2119371295523512828",
@@ -260,38 +210,6 @@
    "x_factor": 0.2,
    "per_hour": 4812,
    "ts": 1794215273.0916972
-  },
-  "2119391804227190987": {
-   "id": "2119391804227190987",
-   "url": "https://x.com/Kalshi/status/2119391804227190987",
-   "text": "JUST IN: Anthropic signs $3.4 billion deal to produce gas-fired power for data centers",
-   "user": "Kalshi",
-   "followers": 505928,
-   "views": 208934,
-   "likes": 1821,
-   "reposts": 188,
-   "replies": 114,
-   "bookmarks": 121,
-   "age_h": 17.5,
-   "x_factor": 0.4,
-   "per_hour": 11906,
-   "ts": 1794200528.3545556
-  },
-  "2119341048367665201": {
-   "id": "2119341048367665201",
-   "url": "https://x.com/tetsuoai/status/2119341048367665201",
-   "text": "ATTENTION IS ALL YOU NEED\n\nThe most complex AgenC video yet.\n\n• 26 hours 51 minutes, from the first lyrics to the final file\n• 10.1 billion tokens\n• 131 agents, 23,354 model calls\n\nMusic\n• Piano written by me, the melody inspired by \"Gouryella\" by Gouryella\n• Finished in Suno\n\nModels (local and remote)\n• Claude Opus 5.5\n• Grok 4.7\n• Grok Imagine Image 2.0 and Grok Imagine Video 1.5\n• Qwen-Image 2.1\n• Qwen-Image-Edit 2511\n• Seedance 2.5\n• MiniMax H3\n• GPT Image 2.5\n• GPT-2 XL (the attention and prediction data on screen)\n• An SI model trained from scratch for the film (51M weights, 28,000 steps)\n• BiRefNet (mattes), Depth Anything (depth), RAFT (optical flow), face and people detection\n\nTools\n• AgenC Core\n• ComfyUI\n• Grok Build + Grok Bot\n• Claude Code\n• Blender Cycles (11 3D sequences)\n• Python, Skia, PyTorch on CUDA\n• ffmpeg with NVENC\n\nThe film\n• 5:26 at 1920x1080, 24 fps\n• 84 shots, 573 sung words on screen\n• 12 new effect packages, 29 designed transitions\n\nHardware\n• RTX PRO 6000 Blackwell\n• RTX 5090\n• 64 cores\n• 1 TB RAM (8 x 128 GB)",
-   "user": "tetsuoai",
-   "followers": 254896,
-   "views": 62246,
-   "likes": 1708,
-   "reposts": 374,
-   "replies": 261,
-   "bookmarks": 664,
-   "age_h": 20.9,
-   "x_factor": 0.2,
-   "per_hour": 2974,
-   "ts": 1794200604.0358949
   },
   "2119371334878744648": {
    "id": "2119371334878744648",
@@ -325,22 +243,6 @@
    "per_hour": 13482,
    "ts": 1794215351.2708292
   },
-  "2119339800641806727": {
-   "id": "2119339800641806727",
-   "url": "https://x.com/hurricodes/status/2119339800641806727",
-   "text": "THIS IS F**KING INSANE \n\nThis guy literally dropped a method for finding little to no competition YouTube niches using Claude Code.\n\nBookmark this, you'll need it. https://t.co/3kCkbwGoFJ",
-   "user": "hurricodes",
-   "followers": 18831,
-   "views": 254017,
-   "likes": 3078,
-   "reposts": 268,
-   "replies": 42,
-   "bookmarks": 6792,
-   "age_h": 21.0,
-   "x_factor": 13.5,
-   "per_hour": 12100,
-   "ts": 1794200528.3549242
-  },
   "2119399543729012816": {
    "id": "2119399543729012816",
    "url": "https://x.com/InternetH0F/status/2119399543729012816",
@@ -356,22 +258,6 @@
    "x_factor": 0.3,
    "per_hour": 64558,
    "ts": 1794215273.0919352
-  },
-  "2119340208064020988": {
-   "id": "2119340208064020988",
-   "url": "https://x.com/mehulmpt/status/2119340208064020988",
-   "text": "Today I asked Opus 5.5 if it can locate my TV on my network over adb. \n\nThis Android TV at home has been super slow lately. Working with Claude for 20ish minutes, we now have:\n\n💎 Around 20 bloatware apps uninstalled from Xiaomi\n💎 RethinkDNS configured for ad-blocking across all apps\n💎 Projectivity new app launcher \n💎 Browsing this TV is much faster now\n\nI did not touch the TV remote once, except to turn it on once, and asking Claude to do everything.\n\nIf you have an Android TV that feels slow, now you know what to do.",
-   "user": "mehulmpt",
-   "followers": 33465,
-   "views": 22708,
-   "likes": 479,
-   "reposts": 8,
-   "replies": 30,
-   "bookmarks": 189,
-   "age_h": 21.0,
-   "x_factor": 0.7,
-   "per_hour": 1083,
-   "ts": 1794200528.3548872
   },
   "2119451967747654023": {
    "id": "2119451967747654023",
@@ -436,22 +322,6 @@
    "x_factor": 0.1,
    "per_hour": 9213,
    "ts": 1794215273.0919943
-  },
-  "2119339902294712614": {
-   "id": "2119339902294712614",
-   "url": "https://x.com/iamskeleten/status/2119339902294712614",
-   "text": "Does this count as proofs? MR.@Terroriser (you taste soo good) that my drawing wasn’t made with AI @DaithiDeNogla #digitalart #vanosscrew #timelapse \n\nBy the way I used sketchbook on my iPad to do most of the drawing I posed on twitter https://t.co/Ol4D5dEDI1",
-   "user": "iamskeleten",
-   "followers": 710,
-   "views": 25630,
-   "likes": 829,
-   "reposts": 50,
-   "replies": 10,
-   "bookmarks": 124,
-   "age_h": 21.0,
-   "x_factor": 36.1,
-   "per_hour": 1220,
-   "ts": 1794200555.481042
   },
   "2119370821621964946": {
    "id": "2119370821621964946",
@@ -549,22 +419,6 @@
    "per_hour": 5501,
    "ts": 1794243923.8909333
   },
-  "2119389005724684372": {
-   "id": "2119389005724684372",
-   "url": "https://x.com/FT/status/2119389005724684372",
-   "text": "Anthropic strikes $3.4bn deal to generate gas-fired power for data centres https://t.co/OC7LUD8I8z",
-   "user": "FT",
-   "followers": 7115712,
-   "views": 80892,
-   "likes": 409,
-   "reposts": 78,
-   "replies": 56,
-   "bookmarks": 80,
-   "age_h": 17.7,
-   "x_factor": 0.0,
-   "per_hour": 4561,
-   "ts": 1794200528.3548343
-  },
   "2119478167333462419": {
    "id": "2119478167333462419",
    "url": "https://x.com/unusual_whales/status/2119478167333462419",
@@ -629,22 +483,6 @@
    "per_hour": 51811,
    "ts": 1794215273.0918903
   },
-  "2119313376325279841": {
-   "id": "2119313376325279841",
-   "url": "https://x.com/Isabell2987/status/2119313376325279841",
-   "text": "10 Claude Projects to build this weekend: https://t.co/ixnLeouS40",
-   "user": "Isabell2987",
-   "followers": 4429,
-   "views": 70839,
-   "likes": 665,
-   "reposts": 96,
-   "replies": 16,
-   "bookmarks": 1062,
-   "age_h": 22.7,
-   "x_factor": 16.0,
-   "per_hour": 3114,
-   "ts": 1794200528.3547437
-  },
   "2119453765938065708": {
    "id": "2119453765938065708",
    "url": "https://x.com/PicturesFoIder/status/2119453765938065708",
@@ -692,22 +530,6 @@
    "x_factor": 15.1,
    "per_hour": 8428,
    "ts": 1794229626.4106696
-  },
-  "2119388261093446039": {
-   "id": "2119388261093446039",
-   "url": "https://x.com/sdmat123/status/2119388261093446039",
-   "text": "Some day there will be a book about the inner workings of Anthropic and it will be the page turner of the century https://t.co/kgRZ2v2rvc",
-   "user": "sdmat123",
-   "followers": 1951,
-   "views": 87113,
-   "likes": 1267,
-   "reposts": 63,
-   "replies": 28,
-   "bookmarks": 227,
-   "age_h": 17.8,
-   "x_factor": 44.7,
-   "per_hour": 4898,
-   "ts": 1794200528.354412
   },
   "2119446168648479155": {
    "id": "2119446168648479155",
@@ -805,38 +627,6 @@
    "per_hour": 5491,
    "ts": 1794257510.1861236
   },
-  "2119536592608268710": {
-   "id": "2119536592608268710",
-   "url": "https://x.com/natolambert/status/2119536592608268710",
-   "text": "If tech stocks continue sharply downward on the Jensen news, looking back this could be what we think of as the first major correction in this boom. Debt went too far, the election, Jensen all in short succession… and Anthropic gonna IPO at the bottom?",
-   "user": "natolambert",
-   "followers": 109401,
-   "views": 25902,
-   "likes": 364,
-   "reposts": 9,
-   "replies": 15,
-   "bookmarks": 41,
-   "age_h": 8.0,
-   "x_factor": 0.2,
-   "per_hour": 3254,
-   "ts": 1794200528.354628
-  },
-  "2119332592814067932": {
-   "id": "2119332592814067932",
-   "url": "https://x.com/finnardley/status/2119332592814067932",
-   "text": "i killed the infographics show with 1 claude opus prompt\n\nnow i made a full 10 minute story video in full code\n\nthis cost me $0 in ai video generations btw\n\nturned it into a prompt you can use for free and make any topic u want, enjoy ↓\n\n<inputs>\nAsk me for my topic and my script. If I have no script, write one from my topic.\nAsk which image model I have: GPT Image 2, or any model that takes reference images at 2K-4K, at about $0.03-0.05 an image.\nAsk which voice I have: ElevenLabs, or Kokoro for free.\nBefore generating everything, show me a look test: one plate, one character sheet cut out and rigged, and a 10 s shot with typing, a tag and a character who talks and points. Wait for my OK.\n</inputs>\n\n<look>\nA 1920x1080 animated explainer in the style of the big flat-vector infographic channels.\n- Every line of narration is acted out by cartoon people inside a full illustrated place.\n- All motion is code. There are no AI video generations, just a few still images that code cuts up, rigs and animates.\n\nArt:\n- Flat colour shapes with NO outlines, at most one slightly darker flat shade for form, simple geometric shapes and crisp edges.\n- Muted palette: dusty blue-grey, slate teal, warm beige, navy, soft purple. Salmon-pink skin, big round heads, dot eyes, small bodies.\n- Mood comes from the plate's own light: daylight, a cold blue night, warm indoor lamps.\n\nCode colours:\n- ink #2b2d42, red #d62828, orange #f4a261, gold #f6b93b, green #2fb37a, navy #1f2a48\n- headline tomato #e2552f and purple #5b3fa6\n- grey labels #8a8c9c, white cards #ffffff\n- Font: Montserrat 800-900 (Google Fonts), all caps on cards and signs.\n\nPace:\n- A new place every 3-4 s, about 10 places a minute.\n- Something new arrives every 2 s: a tag, a stamp, a person walking in, a number.\n- Never hold a still over 1 s. Never have a character who doesn't move.\n\nBanned:\n- outlines, glossy UI panels floating over the art, emoji, burned-in subtitles\n- any channel's logo or name, photos of real people\n- facts written on a plain colour card when the place could hold them\n</look>\n\n<art>\nAbout 60 images in all ($2-3).\n\nEvery prompt starts with this style core, word for word:\n\"Flat vector illustration in exactly the same art style as the reference images: NO outlines or line art anywhere, every shape is a flat solid colour fill with at most one slightly darker flat shade for form, simple geometric shapes, crisp clean edges, no gradients, no texture, no painterly lighting. Muted modern palette: dusty blue-grey, slate teal, warm beige, navy, soft purple, salmon-pink skin. No text, no letters, no numbers, no logos.\"\n\nThen add one line that locks the setting (\"The setting is [time, place]: [materials, light sources], nothing from other eras unless asked\"). Feed 3-5 frames of a reference channel in as style references, with their logo cropped off.\n\n1. Hero plates, about 24, one full 16:9 image each, for places you zoom into or come back to.\n   - EMPTY: \"no people, no characters, no animals\".\n   - Straight-on, with an open floor in the middle where characters will stand.\n   - Blank signs, boards, screens and pages that code writes on later.\n2. Quad plates, about 19, giving 76 more places. Pack 4 places into one image:\n   \"The image is a 2x2 grid of FOUR completely separate scenes, each filling exactly one quarter of the image (each quarter is itself a 16:9 picture), divided by perfectly straight thin pure-white gutters, one vertical down the exact centre and one horizontal across the exact centre.\"\n   - Then describe the TOP-LEFT, TOP-RIGHT, BOTTOM-LEFT and BOTTOM-RIGHT scenes.\n   - Split each quad on the brightest white row and column near the centre, walk out while the line stays over 60% white, and trim 6 px more.\n   - Crop each tile to 16:9 at 1920x1080.\n   - Object close-ups make great tiles: a desk, a screen, a document, a plate of food, a vault.\n3. Main characters, 2-3 of them. Write one fixed description per character (age, hair, face, every piece of clothing with colours) and paste it word for word into every sheet.\n   - Base sheet: 6 views. (1) front, neutral, drawn WITHOUT ARMS, only round smooth shoulder sockets where the arms would join; (2) the same armless front with a second emotion; (3) side view walking right; (4) seen from behind; (5) and (6) two poses the script needs.\n   - Expression sheet: 6 armless fronts (hopeful, disgusted, terrified, exhausted, sick, shocked, or whatever the script needs), with the base sheet as a reference.\n   - Pose sheet: 6 full poses with their props (sitting at a desk typing, sleeping, eating, running, signing, falling), with the base sheet as a reference.\n4. Everyone else: role sheets of 4-6 people, each drawn in the exact pose their shot needs; crowd sheets of 8-10 small figures; prop sheets.\n   - Every sheet: \"on a solid flat chroma green background (#00B140) with lots of empty green space between figures; nothing touches, nothing on any character or object is green, full bodies, nothing cut off by the edges\".\n5. Thumbnail art: the same characters with richer saturated cartoon lighting and extreme emotions, the top quarter left free, no text, with the base sheets as references.\n</art>\n\n<rig>\nCutouts:\n- The background is every border-connected pixel with G - max(R,B) over 40 and within 110 of the median green. Key only from the border, or dark clothes leak.\n- Add a 2 px soft alpha band and clamp G to max(R,B) + 6 inside it, which kills the green fringe.\n- Group the pieces by figure and drop specks. Name every sprite, and show me a named contact sheet.\n\nArmless front figures become puppets:\n- Split the head at the neck: the narrowest alpha row under the head.\n- Find both shoulder sockets and the eye boxes.\n- Inpaint the hole under the head from the body's own colours, so a nod never shows a gap.\n- Write everything to rig.js: size, neck, sockets, eye boxes, skin RGB, sleeve RGB.\n- Arms: upper L1 about 0.13 of the figure's height, lower L2 about 0.12, thickness about 0.04. Use sleeve colour to the elbow and skin for the forearm, a 0.82x darker sleeve when the arm is behind the body, and round caps and joins.\n- Hands: mittens in three shapes (mitt, open, fist), plus a point with one finger out.\n- Arm poses: each is a hand target relative to its shoulder, in units of L = L1 + L2, solved by two-bone IK (where there are two signs, the first is the left arm).\n  - down: (∓0.04, 0.97)\n  - rest: (±0.1, 0.9)\n  - hips: (∓0.42, 0.55) with fists\n  - point: right hand to (0.86, -0.32)\n  - present: right hand to (0.75, 0.25), open\n  - shrug: (∓0.62, 0.12), open\n  - up: (∓0.32, -0.9)\n  - hands on head\n  - chin: a fist at the neck\n  - hold: (±0.42, 0.45)\n  - wave: (0.5, -0.75)\n  - stop: (0.55, -0.1)\n  - cheer: (∓0.55, -0.75) with fists\n  - A pose change blends the two targets over 0.3-0.5 s with ease-in-out.\n- Side, back and pose sprites stay whole images. Only the head turns, and a drawing or typing hand jitters ±6 px.\n</rig>\n\n<animation>\nOne HTML canvas where every frame is a pure function of time t: window .seek(t), READY, END, and EV, a list of sound events by name.\n- Hang every shot on the narration: S('exact words', fn) starts a shot 0.08 s before that phrase. Repeated words are looked up by occurrence number.\n- One function per shot, one shots file per chapter.\n\nMotion primitives (Δ = t - start):\n- pop: 0.3 s back-ease overshoot, 1 + 2.9(p-1)^3 + 1.9(p-1)^2.\n- spring in: 1 - e^(-6.5Δ) cos(13Δ).\n- kick on impact: 1 + 0.1 e^(-10Δ) cos(22Δ).\n- shake: x = A e^(-8Δ) sin(61Δ), y = A e^(-8Δ) cos(47Δ).\n- Exits shrink with ease-in over 0.25 s. Things arrive with a spring, a squash or a white puff, never a plain fade.\n\nCamera:\n- camP(plate, zoom, fx, fy) keeps the view inside the plate's edges.\n- Every shot moves from one [zoom, fx, fy] to another with ease-in-out, a 2-4% push or a slow pan, so nothing holds still.\n- Draw the plate and everything on it inside the same camera transform.\n- Keep zoom under 1.33x on quad tiles. Zoom deeper only on hero plates.\n\nTransitions:\n- Push: the old shot slides out left while the new one slides in from the right, 0.24 s ease-in-out, with a whoosh 0.02 s before.\n- Chapter splat: a #f4f1fb blob covers the screen in 0.2 s and clears in 0.2 s. It's a 1,250 px circle, 12 big satellite blobs at golden-angle spacing and 10 small droplets further out, shifted 120 px left on the way in and 140 px right on the way out.\n\nCharacters, alive in every frame:\n- Breathing: scale 1 + 0.009 sin(2.3t).\n- Head nod: 0.025 sin(2.1t) rad, or 0.025 sin(7t) + 0.02 sin(11.3t) while that character's line is spoken.\n- Blink: every 2.7-4.2 s, seeded per figure. For 0.14 s, paint each eye box over in skin colour with a curved lash line.\n- Walk:\n  - Bob |sin| at 2.2% of the figure's height, with a body rock of ±0.035 rad.\n  - Side-view walk sprites slide 1.5 leg lengths per step cycle, so the feet don't skate.\n- Enter on the spring, sometimes with a hop. Fear is a fast shake (sin 70t). Surprise is a jump and an orange \"!\".\n- A soft contact shadow ellipse under every figure. Night shots darken them with brightness(1 - k), so they match the plate.\n- Every character on screen acts on its line: points at the thing being named, presents it, shrugs, cheers, holds its head.\n</animation>\n\n<graphics>\nText only lives on things in the world, typed letter by letter: 28 letters a second (34 for short tags). Each letter starts 1.45x big and 0.7 em to the right and settles in 0.18 s with ease-out.\n\nThe full kit:\n- Board: a white rounded board (radius 20) that drops 420 px on the spring and swings 0.25 rad into place, or stands on a wooden post and swings up from -1 rad.\n  - Soft drop shadow (blur 22, y 8, 22%) and a faint darker strip along its bottom edge.\n  - Lines typed 0.3 s apart.\n- Date card: top left at (70, 70), white, 120 px tall, at least 330 px wide, radius 18. An orange calendar icon, a grey \"DATE:\" at 26 px, the date typed at 44 px weight 900. Pops in over 0.32 s.\n- Place card: the same card with a red map pin and \"PLACE:\".\n- Tag: a 6 px line with a dot at the thing, drawn in 0.2 s, then a rounded pill (the text at 40 px weight 900) pops on its end. Ink, red, gold or orange pills.\n- Number card: a white card with a small grey label and a big red number. Long numbers roll up like a counter with ease-out.\n- Red X: two round 30 px strokes, 0.11 s each, 0.01 s apart, with a soft shadow. One goes over every wrong idea.\n- Stamp: red text in a double rounded border, tilted -0.12 rad. It slams from 2.1x to 1x in 0.14 s, then kicks.\n- Banner: a full-width headline band, 92 px white caps on tomato or purple, rotated -0.02 rad, sliding in from the left over 0.22 s.\n- Speech bubble: white, radius 36, with a tail. Thought cloud: a pill with two small circles.\n- Orange \"?\" that bobs and sways over a puzzled head, and an orange \"!\" pop.\n- White puff and poof clouds, speed lines, light blue sweat drops, coins and bills, a soft vignette, and a colour tint for mood.\n- Write on the plate's own blank boards, screens and pages whenever the place has them. Measure the blank's rectangle on a grid overlay of the plate first.\n</graphics>\n\n<voice>\n- ElevenLabs: a deep, warm US documentary narrator, eleven_v4, stability 0.5, similarity 0.75, style 0, speaker boost, with the timestamps endpoint.\n- About 170-180 words a minute, using the voice's own speed setting (1.0-1.1). Never speed it up with atempo: it sounds chipmunked.\n- Long scripts go in 3 chunks split at chapter breaks, passing the previous and next text so the read stays continuous.\n- Cut pauses over 0.24 s to 0.16 s, leave 0.5 s at chapter breaks, and add a 0.3 s lead-in.\n- Rebuild word times from the alignment into words.js.\n- Run faster-whisper over the result and diff it against the script before building the picture.\n- Free route: Kokoro, then faster-whisper for the word times.\n</voice>\n\n<sound>\n- Music: 2-3 free documentary beds from Pixabay, crossfaded over 3 s at big beats.\n- Duck the music under the voice (30 ms attack, 0.3 s hold, 0.45 s release) and let it swell back up between chapters.\n- SFX from Mixkit, one per event, aligned by their peaks, 6 dB quieter on speech: a typewriter tick on typing, a whoosh on pushes and splats, a pop on tags and cards, a thud on stamps, a hit on every red X, a ding on ticks, plus sounds that fit the scene.\n- Gate: during speech the voice sits 15+ dB over music plus SFX (median of 100 ms frames), and the background is louder than the voice in under 1% of frames.\n- Two-pass loudnorm to -14 LUFS, true peak -1 dB.\n</sound>\n\n<build>\n1. Tools: Python, Playwright with Chromium or Edge, FFmpeg, faster-whisper, OpenCV, Pillow, numpy. Install what's missing and tell me what you installed.\n2. Order:\n   - the look test\n   - the art in batches, with a contact sheet after each\n   - cutouts and rig\n   - voice and word times\n   - shots, chapter by chapter\n3. Check before any full render: a contact sheet per chapter, one frame every 2 s. Fix:\n   - empty or overflowing signs\n   - text over a face\n   - black plate edges\n   - feet floating off the floor\n   - two shots in a row in the same place\n   - any 4 s where nothing new arrives\n4. Render at 30 fps, 4 motion-blur subframes over half a frame, frames piped to libx264 CRF 16-18.\n   - Split long videos across 4-6 parallel browser pages and join the parts.\n   - Scan the result for single-frame jumps and check that each one is a planned cut.\n</build>\n\n<gotchas>\n- Too few places reads as lazy. One plate held for 30 s with cards over it looks cheap. Budget about 10 new places a minute.\n- Some image models ignore \"no arms\". GPT Image 2 follows it.\n- Paste the same character description into every sheet and feed the base sheet back in, or faces and clothes drift.\n- Quad tiles are only about 1920 px wide. Pushing past 1.33x looks soft.\n- Plates with people already drawn in can't be animated. Ask for EMPTY and check before cutting.\n- Text on a card floating over the art looks like a slideshow. Write on the world.\n- Long renders crash. Render in parts you can rerun, and back up the shot files before every big patch.\n</gotchas>\n\n<start>\nAsk me for my topic, my script, my image model and my voice, then make the look test.\n</start>",
-   "user": "finnardley",
-   "followers": 4406,
-   "views": 16332,
-   "likes": 347,
-   "reposts": 38,
-   "replies": 18,
-   "bookmarks": 494,
-   "age_h": 21.5,
-   "x_factor": 3.7,
-   "per_hour": 760,
-   "ts": 1794200528.3547707
-  },
   "2119399547701014962": {
    "id": "2119399547701014962",
    "url": "https://x.com/rubenhassid/status/2119399547701014962",
@@ -900,22 +690,6 @@
    "x_factor": 1.9,
    "per_hour": 14023,
    "ts": 1794229626.410553
-  },
-  "2119300018414797021": {
-   "id": "2119300018414797021",
-   "url": "https://x.com/TaoIsTheKey/status/2119300018414797021",
-   "text": "Ok.  I’m in geek heaven.   \n\nI connected my Grok Bot to my Claude Code through my Grok Bot’s computer.  I logged into a Claude code terminal and gave it access.  \n\nThe result?  I now have Grok Bot and Claude Code going back and forth in a loop brainstorming and red team business ideas for me.  Running ideas by each other, poking holes, and creating airtight business plans.  \n\nIt feels like having 2 of the best business minded Harvard grad employees working for me and collaborating with each other.   👀",
-   "user": "TaoIsTheKey",
-   "followers": 9397,
-   "views": 62952,
-   "likes": 623,
-   "reposts": 20,
-   "replies": 65,
-   "bookmarks": 692,
-   "age_h": 23.6,
-   "x_factor": 6.7,
-   "per_hour": 2664,
-   "ts": 1794200528.3546553
   },
   "2119423694481277041": {
    "id": "2119423694481277041",
@@ -996,22 +770,6 @@
    "x_factor": 1.5,
    "per_hour": 4639,
    "ts": 1794243923.891142
-  },
-  "2119352367477064056": {
-   "id": "2119352367477064056",
-   "url": "https://x.com/RahulTechX/status/2119352367477064056",
-   "text": "🚨 BREAKING NEWS! The engineer who created Claude Code from scratch just posted a 28-minute video that's pure gold:\n\nhow to write prompts that actually deliver ridiculously good results.\n\nI've seen $300 courses that don't even come close to what he explains in the first 10 minutes.\n\nCLAUDE.md files, memory shortcuts, parallel sessions, and prompting patterns that almost no one uses…\n\nAll in one video. Completely free. No fluff.\n\nWhether you're a developer, just starting out now, or already using Claude for months: this changes the game for you starting today.\n\nSave. Watch. Share.",
-   "user": "RahulTechX",
-   "followers": 21101,
-   "views": 104539,
-   "likes": 684,
-   "reposts": 133,
-   "replies": 9,
-   "bookmarks": 1519,
-   "age_h": 20.2,
-   "x_factor": 5.0,
-   "per_hour": 5185,
-   "ts": 1794200528.3548152
   },
   "2119421897624764798": {
    "id": "2119421897624764798",
@@ -1189,22 +947,6 @@
    "per_hour": 9927,
    "ts": 1794257510.1864262
   },
-  "2119505841883640170": {
-   "id": "2119505841883640170",
-   "url": "https://x.com/TokenGremlin/status/2119505841883640170",
-   "text": "Important: I've heard that Anthropic is planning to publish a few blog posts about safety, alignment, and pacing this week to counter GPT-6.2 Astra and Sol. Get ready.",
-   "user": "TokenGremlin",
-   "followers": 18364,
-   "views": 18140,
-   "likes": 460,
-   "reposts": 8,
-   "replies": 33,
-   "bookmarks": 25,
-   "age_h": 10.0,
-   "x_factor": 1.0,
-   "per_hour": 1814,
-   "ts": 1794200528.3545032
-  },
   "2119604629855990227": {
    "id": "2119604629855990227",
    "url": "https://x.com/AlfredAlfer77/status/2119604629855990227",
@@ -1220,22 +962,6 @@
    "x_factor": 4.0,
    "per_hour": 9994,
    "ts": 1794272268.9981716
-  },
-  "2119538048455303255": {
-   "id": "2119538048455303255",
-   "url": "https://x.com/DanielTNiles/status/2119538048455303255",
-   "text": "On @WilfredFrost podcast on Tuesday, I said I was “terrified of what happens on the other side of mid-terms.” Post election, 40%+ of incremental datacenter capacity is now at risk. For the wk, SOX/SPX/Nas -12.1%/-2.7/-3.4%. The good news is oil prices should continue to come down.\n\nComments by the AI industry that included: 1) AI could wipe out 50% of entry-level white-collar jobs within the next one to five years and 2) AI having a 10% probability of wiping out humanity, justifies the public backlash against datacenters.\n\nMy belief remains that those AI related companies that have other lines of business supporting their investments in AI will be the ultimate winners. I see the neo-clouds and pure LLM labs like Anthropic and OpenAI being in an even worse position post mid-terms. But the existing capacity at the big hyperscalers has become more valuable and they are likely to face less competition from the neo-clouds. Due to the regulatory friction and moderation of semiconductor price increases, hyperscaler capex spend in 2027 is also likely to be less which should help their cash flows.\n\nThe big 3 public cloud hyperscalers all gained last week: $AMZN +7.9% (they also benefit from lower oil prices), $GOOGL +1.8%, $MSFT +1.7%. But the coast is not all clear given growth rates at AWS, Azure and GCP are likely to be negatively impacted at the start of 2027 by this regulatory friction.\n\n$META lost only 0.8% last week. They do not have a public cloud but 1) social media is not likely to get disintermediated by AI, 2) Muse has been a hit in Agentic AI and 3) AI is helping the monetization of their ad business.\n\nAs for semiconductors, the SOX was down 12.1% last week. Physical space in datacenters to put these chips was already an issue before the mid-terms. It is worse now.  Even on Wednesday when the S&P was up 1.6%, the SOX was down 3.1% with an even bigger 12.2% decline on Thursday when the S&P fell 4.4%.\n\nThis brings me to my point that good portfolio risk management is critical, especially around AI related stocks. This is true even if bullish due to the nascent nature of Agentic AI (my view) because one of these times, if not already on 6/22, will be THE TOP. That is why I warned of an AI “speed bump” on 6/20 and posted on 10/4 “Finally, the current bi-partisan (amazing they agree on anything) pushback on datacenters could get worse after November 3rd mid-terms if there is a blue wave which is what the current polling data leans towards.”\n\nThis year, from its all-time peak on 6/22 to the Situational Awareness driven low on 7/29, the SOX declined 29%. It then rallied 27% before the recent 32% decline from 10/6-11/5. These recent declines are also close to the 8 average declines of 34% during the dotcom bust. The SOX is now down 36% from its all-time highs with 14 of its 30 constituents down 50%+. But even during the dotcom meltdown over 2 ½ years, the SOX had 7 rallies that averaged 28% while losing 83% from peak to trough.\n\nThe good news is I think oil prices are likely to head much lower by year-end now that mid-terms are over. An excerpt of Iran’s response by the Speaker of their Parliament was “Conscience or the cost of living, Americans said NO TO WAR, and we endorse this message.” As a reminder, the Iran hostages after being held for 444 days were released just minutes after Ronald Reagan was inaugurated This followed his crushing defeat of President Jimmy Carter. I think a deal with Iran is coming soon.\n\nGiven my view on oil, I believe we will see the usual seasonal strength in the non-AI side of the stock market through year-end. Five of the eleven sub-sectors of the S&P that are not as closely related to AI or energy were up over 1% last week: consumer staples, consumer discretionary, financials, real estate, and telecom services.\n\nIn summary, I think those sectors that would benefit from lower oil prices should perform well through year-end. As for AI, related stocks reached their most oversold levels on Thursday since the tariff lows in April of 2025 before bouncing on Friday. But unfortunately, my S&P quant model had only 25% of my technical metrics indicating that Thursday was a short-term bottom vs the average of ~50%. The anemic 0.3% S&P advance on Friday following the 4.4% decline on Thursday also is not encouraging looking back at historical data. Therefore, stock selection, daily risk management and seeing how the market reacts to incoming data will remain key given these conflicting factors.\n\nBest of luck in what is likely to be a volatile environment through year-end.",
-   "user": "DanielTNiles",
-   "followers": 134154,
-   "views": 60447,
-   "likes": 454,
-   "reposts": 42,
-   "replies": 60,
-   "bookmarks": 194,
-   "age_h": 7.9,
-   "x_factor": 0.5,
-   "per_hour": 7688,
-   "ts": 1794200528.3545225
   },
   "2119484379617796571": {
    "id": "2119484379617796571",
@@ -1333,38 +1059,6 @@
    "per_hour": 9641,
    "ts": 1794229626.410816
   },
-  "2119394725086044619": {
-   "id": "2119394725086044619",
-   "url": "https://x.com/StockMKTNewz/status/2119394725086044619",
-   "text": "Anthropic $ANT just signed a new $3.4 Billion deal to make gas fired power made specifically for data centers",
-   "user": "StockMKTNewz",
-   "followers": 1171585,
-   "views": 65623,
-   "likes": 512,
-   "reposts": 44,
-   "replies": 41,
-   "bookmarks": 51,
-   "age_h": 17.4,
-   "x_factor": 0.1,
-   "per_hour": 3781,
-   "ts": 1794200528.3547208
-  },
-  "2119436039488156158": {
-   "id": "2119436039488156158",
-   "url": "https://x.com/kevin_t_ngo/status/2119436039488156158",
-   "text": "Animation by Claude Opus 5.5\n\nPaintings and paper textures generated with GPT Image 2.6 via @fal\n\nAll motion written in code https://t.co/M3BJviiDlB",
-   "user": "kevin_t_ngo",
-   "followers": 23962,
-   "views": 18136,
-   "likes": 531,
-   "reposts": 28,
-   "replies": 42,
-   "bookmarks": 341,
-   "age_h": 14.6,
-   "x_factor": 0.8,
-   "per_hour": 1240,
-   "ts": 1794200528.3547618
-  },
   "2119603204090687915": {
    "id": "2119603204090687915",
    "url": "https://x.com/andersonbcdefg/status/2119603204090687915",
@@ -1428,54 +1122,6 @@
    "x_factor": 0.5,
    "per_hour": 2876,
    "ts": 1794243923.8910656
-  },
-  "2119423039678910754": {
-   "id": "2119423039678910754",
-   "url": "https://x.com/daniel_mac8/status/2119423039678910754",
-   "text": "Predictions:\n\n- GPT-6.2 Sol released Monday, Nov. 9th\n- Better than Opus 5.5\n- GPT-6.2 Astra released Thursday, Nov. 12th\n- On par with Fable 5.5\n- Both significantly more efficient than Claude\n- ~50% less expensive\n- OpenAI is so back\n\nOpus 5.5 has been the crown prince of AI for too long. Sol is coming to knock him off his perch.\n\nVideo is from @TokenGremlin, who says he's been routed to GPT-6.2 Sol. https://t.co/cdk18MOGrs",
-   "user": "daniel_mac8",
-   "followers": 33009,
-   "views": 69026,
-   "likes": 573,
-   "reposts": 25,
-   "replies": 52,
-   "bookmarks": 78,
-   "age_h": 15.5,
-   "x_factor": 2.1,
-   "per_hour": 4459,
-   "ts": 1794200528.3548787
-  },
-  "2119448134665593136": {
-   "id": "2119448134665593136",
-   "url": "https://x.com/StockSavvyShay/status/2119448134665593136",
-   "text": "Anthropic reportedly committed $3.4B for 1.7 GW of gas generators by taking over orders OnePWR placed with $CAT about two years ago which tells you how scarce power equipment has become.  \n\nAnd the implications go well beyond Caterpillar pointing to demand for $GEV turbines and $BE fuel cells while self-powered data centers still need $FPS switchgear and $VRT power management and cooling to turn those scarce megawatts into usable AI compute.",
-   "user": "StockSavvyShay",
-   "followers": 462622,
-   "views": 50165,
-   "likes": 337,
-   "reposts": 38,
-   "replies": 34,
-   "bookmarks": 72,
-   "age_h": 13.8,
-   "x_factor": 0.1,
-   "per_hour": 3630,
-   "ts": 1794200528.354905
-  },
-  "2119480119123427330": {
-   "id": "2119480119123427330",
-   "url": "https://x.com/Y2K_DOTCOM/status/2119480119123427330",
-   "text": "If AI was around in the 2000s https://t.co/RG13eICdVy",
-   "user": "Y2K_DOTCOM",
-   "followers": 29970,
-   "views": 32873,
-   "likes": 1383,
-   "reposts": 177,
-   "replies": 34,
-   "bookmarks": 236,
-   "age_h": 11.7,
-   "x_factor": 1.1,
-   "per_hour": 2809,
-   "ts": 1794200528.3549156
   },
   "2119386456607031460": {
    "id": "2119386456607031460",
@@ -11428,14 +11074,42 @@
    "x_factor": 0.0,
    "per_hour": 6309,
    "ts": 1794459522.6148043
+  },
+  "2120746846402564163": {
+   "id": "2120746846402564163",
+   "url": "https://x.com/MengTo/status/2120746846402564163",
+   "text": "Full tutorial of how I recreated my apartment in three.js with opus 5.5 and fable 5.2 https://t.co/EW5X5mhNh8",
+   "user": "MengTo",
+   "followers": 190909,
+   "views": 1189,
+   "likes": 13,
+   "reposts": 1,
+   "replies": 3,
+   "bookmarks": 12,
+   "age_h": 0.3,
+   "x_factor": 0.0,
+   "per_hour": 4619,
+   "ts": 1794461350.6250558
+  },
+  "2120737635471704522": {
+   "id": "2120737635471704522",
+   "url": "https://x.com/heyshrutimishra/status/2120737635471704522",
+   "text": "Baidu's new model just built an editable 3D model of a Shenzhen skyscraper by writing its own code.\n\nERNIE 5.5 Flash Preview used architectural references and a visual-understanding MCP tool to write Python scripts in FreeCAD, constructing the East and West towers of Baidu International Building.\n\nNot just a render. Editable CAD geometry, with interior layouts, furniture and the mechanical, electrical and plumbing systems inside.\n\nThat last part is what makes it interesting for construction. The same approach could help teams coordinate BIM models and flag a ventilation duct running into a structural beam before it becomes a problem on site.\n\nUnder the hood: 280B parameters with 14B active per token and a 1M-token context window. The model also scored 1,668 points in the latest CodeArena: WebDev evaluation, placing #2 among open models and #4 among Chinese models, just behind larger Chinese models including Kimi K3.1 Pro and Qwen3.8-Max.\n\nThe API is live on Baidu's Qianfan platform, and the weights are due to be open-sourced before November 25.\n\nIt's still a preview, and recreating an existing building from references isn't quite the same as designing a new one from scratch.\n\nBut the gap between AI that describes a building and AI that drafts a model an engineer can edit just got a lot smaller.",
+   "user": "heyshrutimishra",
+   "followers": 183031,
+   "views": 1255,
+   "likes": 12,
+   "reposts": 5,
+   "replies": 5,
+   "bookmarks": 8,
+   "age_h": 0.9,
+   "x_factor": 0.0,
+   "per_hour": 1443,
+   "ts": 1794461358.3922355
   }
  },
  "last_run": 1794459533.8865294,
  "sent": {
-  "2119535297541070962": 1794200606.0068848,
-  "2119444845890617507": 1794200608.4824033,
-  "2119545806965342650": 1794200610.7828944,
-  "2119371334878744648": 1794200615.7350101,
   "2119402143417258359": 1794215354.5500662,
   "2119377099266171284": 1794215357.4409304,
   "2119395930805879165": 1794215359.305758,
@@ -11525,7 +11199,9 @@
   "2120701865818223086": 1794454212.9971514,
   "2120712048300744720": 1794454222.0010028,
   "2120716006884786498": 1794457738.300926,
-  "2120721638857789887": 1794457749.3409917
+  "2120721638857789887": 1794457749.3409917,
+  "2120746846402564163": 1794461367.2979732,
+  "2120737635471704522": 1794461375.7621903
  },
  "reply_seen": {
   "2120507359445324267": 1794404387.1790442,
@@ -11558,10 +11234,10 @@
   "2120630147086995890": 1794433243.4089973,
   "2120725234965790865": 1794457702.305789
  },
- "reply_last_run": 1794457710.2409222,
- "fresh_last_run": 1794457749.3409986,
+ "reply_last_run": 1794461343.0681665,
+ "fresh_last_run": 1794461376.9157345,
  "reply_day": {
-  "date": "2026-11-11",
-  "count": 6
+  "date": "2026-11-12",
+  "count": 2
  }
 }
