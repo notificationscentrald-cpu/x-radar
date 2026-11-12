@@ -203,7 +203,12 @@
   "2120565434424439292": 1794502841.406248,
   "2120755854408593919": 1794502842.541064,
   "2120660388396101943": 1794502843.6363149,
-  "2120904821373096408": 1794502845.1166203
+  "2120904821373096408": 1794502845.1166203,
+  "2120939312564842663": 1794512209.292934,
+  "2120949944131735817": 1794512218.2368493,
+  "2120947265007440052": 1794512219.3099773,
+  "2120941472912638000": 1794512228.7958128,
+  "2120948511038648596": 1794512237.9624434
  },
  "pool": {
   "2119545806965342650": {
@@ -11005,6 +11010,70 @@
    "x_factor": 4.8,
    "per_hour": 1556,
    "ts": 1794502838.2472532
+  },
+  "2120939312564842663": {
+   "id": "2120939312564842663",
+   "url": "https://x.com/LuminaBench/status/2120939312564842663",
+   "text": "Gemini 4 Hydrogen xhigh 3D seaplane\n\nThis is probably my favourite drop of the Gemini 4 series so far, arguably on par with Argon while being much cheaper, more efficient and significantly faster https://t.co/5vruiMz90k",
+   "user": "LuminaBench",
+   "followers": 16963,
+   "views": 8125,
+   "likes": 145,
+   "reposts": 8,
+   "replies": 13,
+   "bookmarks": 8,
+   "age_h": 1.6,
+   "x_factor": 0.5,
+   "per_hour": 4959,
+   "ts": 1794512208.2355323
+  },
+  "2120947265007440052": {
+   "id": "2120947265007440052",
+   "url": "https://x.com/XRarchitect/status/2120947265007440052",
+   "text": "Atlas + Fable 5.2 + three.js https://t.co/V5WtydjYEB",
+   "user": "XRarchitect",
+   "followers": 27175,
+   "views": 3734,
+   "likes": 122,
+   "reposts": 9,
+   "replies": 9,
+   "bookmarks": 68,
+   "age_h": 1.1,
+   "x_factor": 0.1,
+   "per_hour": 3365,
+   "ts": 1794512200.6435359
+  },
+  "2120941472912638000": {
+   "id": "2120941472912638000",
+   "url": "https://x.com/davis7/status/2120941472912638000",
+   "text": "Told fable 5.2 to come up with some cool showcase of its ability to 3d print and it came up with this\n\nDesigned it from scratch and managed the entire print\n\nOnly thing it screwed up at first was the support plate in that there isn’t one. It didn’t work on the stand and is still a little awkward and loose. Still, quite good tho",
+   "user": "davis7",
+   "followers": 24412,
+   "views": 4098,
+   "likes": 56,
+   "reposts": 2,
+   "replies": 10,
+   "bookmarks": 9,
+   "age_h": 1.5,
+   "x_factor": 0.2,
+   "per_hour": 2744,
+   "ts": 1794512200.6434941
+  },
+  "2120948511038648596": {
+   "id": "2120948511038648596",
+   "url": "https://x.com/kevin_t_ngo/status/2120948511038648596",
+   "text": "Claude Fable 5.2 made this '80s music video\n\nEverything you see was made with code. Animated in Python and rendered in Blender https://t.co/9b1PZQM8Zx",
+   "user": "kevin_t_ngo",
+   "followers": 27302,
+   "views": 2143,
+   "likes": 62,
+   "reposts": 0,
+   "replies": 12,
+   "bookmarks": 25,
+   "age_h": 1.0,
+   "x_factor": 0.1,
+   "per_hour": 2087,
+   "ts": 1794512200.6434214
   }
  },
  "last_run": 1794502845.1166356,
@@ -11102,7 +11171,11 @@
   "2120448788171215099": 1794473936.5395002,
   "2120516591397818847": 1794473938.6384685,
   "2120751509348741250": 1794488792.6357334,
-  "2120547461328720212": 1794488795.3139272
+  "2120547461328720212": 1794488795.3139272,
+  "2120939312564842663": 1794512217.2396274,
+  "2120947265007440052": 1794512227.7400665,
+  "2120941472912638000": 1794512236.573039,
+  "2120948511038648596": 1794512245.5948777
  },
  "reply_seen": {
   "2120507359445324267": 1794404387.1790442,
@@ -11134,12 +11207,19 @@
   "2120601091591274513": 1794427834.0816004,
   "2120630147086995890": 1794433243.4089973,
   "2120725234965790865": 1794457702.305789,
-  "2120792464403615797": 1794473304.5673177
+  "2120792464403615797": 1794473304.5673177,
+  "2120960265277546844": 1794512169.984012,
+  "2120957197878485328": 1794512177.3740613,
+  "2120956746667552913": 1794512184.9158587
  },
- "reply_last_run": 1794508279.1825097,
- "fresh_last_run": 1794505363.877771,
+ "reply_last_run": 1794512192.6789901,
+ "fresh_last_run": 1794512245.5948882,
  "reply_day": {
   "date": "2026-11-12",
   "count": 8
+ },
+ "reply_day_active": {
+  "date": "2026-11-12",
+  "count": 7
  }
 }
