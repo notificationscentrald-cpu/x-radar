@@ -175,15 +175,26 @@ def takes_off(p, c):
 def day_quota_left(state, cfg):
     """Скільки реплай-сповіщень ще можна за сьогоднішній день (за Нью-Йорком)."""
     today = datetime.now(NY).strftime("%Y-%m-%d")
-    day = state.setdefault("reply_day", {})
+    day = state.setdefault("reply_day_active", {})
     if day.get("date") != today:
         day.clear()
         day.update({"date": today, "count": 0})
     return cfg.get("max_reply_alerts_per_day", 8) - day["count"]
 
 
+def reply_hours_ok(cfg, dry):
+    """Реплай-сповіщення лише вдень за Нью-Йорком: вночі реплаїти нікому, а денний ліміт
+    витрачався на пости, які до ранку вже холодні (12.11 усі 8 пішли з 0:00 до 3:48)."""
+    start, end = cfg.get("reply_active_hours", [8, 23])
+    hour = datetime.now(NY).hour
+    if dry or start <= hour < end:
+        return True
+    print(f"skip: {hour}:00 New York is outside reply hours {start}-{end}")
+    return False
+
+
 def count_alert(state):
-    state["reply_day"]["count"] += 1
+    state["reply_day_active"]["count"] += 1
 
 
 def score(t):
@@ -480,6 +491,8 @@ def reply_card(p, acc, variants, cs=None):
 
 def replies_run(cfg, dry):
     """Свіжі пости акаунтів, під якими реплай окупається (список з бази outliers.py)."""
+    if not reply_hours_ok(cfg, dry):
+        return
     rw = cfg.get("reply_watch") or {}
     # Лише акаунти, де звичайний пост 10K+: під меншими реплаї 11.11 збирали 3–16 переглядів.
     accounts = {a["user"].lower(): a for a in rw.get("accounts", [])
@@ -530,6 +543,8 @@ def replies_run(cfg, dry):
 
 def fresh_run(cfg, dry):
     """Пости молодші за 2 год, що швидко ростуть: під ними реплай з нашим відео ще ловить аудиторію оригіналу."""
+    if not reply_hours_ok(cfg, dry):
+        return
     fc = cfg.get("fresh") or {}
     if not fc.get("enabled", True) or not fc.get("queries"):
         print("fresh mode is off")
