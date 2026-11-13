@@ -196,7 +196,11 @@
   "2120942678497976756": 1794574983.7819157,
   "2121082861902070130": 1794574984.9018679,
   "2121083574799753397": 1794574986.8499753,
-  "2121066002834407561": 1794574987.7288516
+  "2121066002834407561": 1794574987.7288516,
+  "2121218105225449515": 1794577142.7019098,
+  "2121226279206760526": 1794577143.9631915,
+  "2121221667619852660": 1794577152.4426281,
+  "2121220537984954448": 1794577161.3870168
  },
  "pool": {
   "2119867114450268322": {
@@ -11142,6 +11146,54 @@
    "x_factor": 22.2,
    "per_hour": 1453,
    "ts": 1794574945.881093
+  },
+  "2121226279206760526": {
+   "id": "2121226279206760526",
+   "url": "https://x.com/missbaddieella1/status/2121226279206760526",
+   "text": "Building a video game used to be a massive grind.\n\nNot too long ago, you needed solid coding skills, design chops, the right software and often a whole team just to turn a rough concept into something you could actually play.\n\nAI is completely changing that.\n\nPicture having a game stuck in your head, typing out a single sentence to describe it and watching an AI actually build it for you.\n\nI stumbled across something cool from @termix_ai yesterday that does just that.\nTermiX is launching an AI Game Creation Agent on https://t.co/PcQNCR9EkO, running on Claude’s Fable 5.2.\n\nThe concept is pretty straightforward, you tell the agent what kind of game you want and it takes care of the heavy lifting. \n\nWhether it's an adventure, a brain teaser, or something totally out of the box, you don't have to build it from the ground up anymore.\n\nThe best part to me is seeing AI move past just answering questions or handling basic chores. It's actually building interactive stuff we can play with.\n\nI can't wait to see what people come up with using this.\n\nCheck it out here > https://t.co/PcQNCR9EkO",
+   "user": "missbaddieella1",
+   "followers": 12646,
+   "views": 747,
+   "likes": 29,
+   "reposts": 0,
+   "replies": 30,
+   "bookmarks": 0,
+   "age_h": 0.7,
+   "x_factor": 0.1,
+   "per_hour": 1118,
+   "ts": 1794577133.9621687
+  },
+  "2121221667619852660": {
+   "id": "2121221667619852660",
+   "url": "https://x.com/marcthecreatorr/status/2121221667619852660",
+   "text": "Sonnet 5.5 > Gemini 4 Hydrogen\n\nI gave both models the same prompt at extra high reasoning and the two ships came out nothing alike\n\n> sonnet 5.5 took ~32 mins and cost ~$2.60 in claude code\n> hydrogen took ~15 mins and cost ~$1.2 via Cursor\n\nHydrogen finished in half the time, but the first pass needed a V2 before I got an output I could use. \n\nSonnet 5.5 is still one of the most creative models for 3D coding.",
+   "user": "marcthecreatorr",
+   "followers": 3252,
+   "views": 1371,
+   "likes": 41,
+   "reposts": 0,
+   "replies": 14,
+   "bookmarks": 10,
+   "age_h": 1.0,
+   "x_factor": 0.4,
+   "per_hour": 1405,
+   "ts": 1794577141.5393133
+  },
+  "2121220537984954448": {
+   "id": "2121220537984954448",
+   "url": "https://x.com/pankajkumar_dev/status/2121220537984954448",
+   "text": "Gemini 4 Hydrogen is f*ckn good, man.\n\nI asked it to generate a 3D miniature Post Office on a floating island.\n\nJust look at the textures, man. Almost looks real. The colors, lighting, and overall design are impressive for a Flash level model.\n\nGoogle's RSI is really working. https://t.co/ZtWZ6Gh2C4",
+   "user": "pankajkumar_dev",
+   "followers": 17453,
+   "views": 1468,
+   "likes": 37,
+   "reposts": 3,
+   "replies": 4,
+   "bookmarks": 5,
+   "age_h": 1.1,
+   "x_factor": 0.1,
+   "per_hour": 1397,
+   "ts": 1794577141.5393262
   }
  },
  "last_run": 1794574987.7288742,
@@ -11230,7 +11282,10 @@
   "2120948511038648596": 1794512245.5948777,
   "2120966712342544622": 1794515289.786465,
   "2120752985949057215": 1794516616.282425,
-  "2121082861902070130": 1794574985.6192288
+  "2121082861902070130": 1794574985.6192288,
+  "2121226279206760526": 1794577151.4528627,
+  "2121221667619852660": 1794577160.3371308,
+  "2121220537984954448": 1794577169.2306623
  },
  "reply_seen": {
   "2120507359445324267": 1794404387.1790442,
@@ -11267,14 +11322,14 @@
   "2120957197878485328": 1794512177.3740613,
   "2120956746667552913": 1794512184.9158587
  },
- "reply_last_run": 1794539582.139475,
- "fresh_last_run": 1794539597.104091,
+ "reply_last_run": 1794577125.6585116,
+ "fresh_last_run": 1794577169.230674,
  "reply_day": {
   "date": "2026-11-12",
   "count": 8
  },
  "reply_day_active": {
-  "date": "2026-11-12",
-  "count": 8
+  "date": "2026-11-13",
+  "count": 3
  }
 }
