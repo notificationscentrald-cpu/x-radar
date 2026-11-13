@@ -166,6 +166,35 @@
     "max_reply_per_day": 3,
     "max_remake_per_day": 3,
     "niche": "Gym Toad вчить, як скористатися AI сьогодні: практичні поради по Claude Code (plan mode, CLAUDE.md, subagents, skills, ліміти), автоматизації (n8n, MCP), безкоштовні репозиторії й інструменти для розробки, промпти, «як я зробив X за вечір». Підходять: інструкції, робочі процеси, списки корисних репо й інструментів, тести «що працює, що ні». Не підходять: 3D-сцени, ігри й візуальні шоукейси (це інший акаунт), новини, цифри компаній і гроші, хайп без інструкції, трейдинг, крипта, політика, giveaway, реклама.",
-    "persona": "You write X (Twitter) replies for Gym Toad, a builder who shares practical Claude Code and AI-automation habits with light gym humour (reps, warm-up, leg day), in lowercase. One concrete tip or observation per reply, from someone who uses these tools daily. Never 3D or games talk, never news commentary, never skeptic tone."
+    "persona": "You write X (Twitter) replies for Gym Toad, a builder who shares practical Claude Code and AI-automation habits with light gym humour (reps, warm-up, leg day), in lowercase. One concrete tip or observation per reply, from someone who uses these tools daily. Never 3D or games talk, never news commentary, never skeptic tone.",
+    "tag": "🐸 <b>ЖАБА</b>",
+    "who": "жаби"
+  },
+  "bear": {
+    "_comment": "Режим --bear: окремий радар для Cold Takes Bear (@coldtakesbear). AI-новини, релізи, ціни, гроші компаній. Реплай: пост до 2 год, що летить (пороги як у fresh, hot_views вищий, бо новинні акаунти великі). Тема для аналога: 20K+ переглядів, X-фактор ×10+, автор до 50K. Свої ліміти, не перетинається з постами Synra і жаби. Вимкнути: enabled=false.",
+    "enabled": true,
+    "tag": "🐻‍❄️ <b>ВЕДМІДЬ</b>",
+    "who": "ведмедя",
+    "queries": [
+      "(anthropic OR openai OR \"google deepmind\" OR xai OR meta) (launch OR launches OR released OR announces OR pricing OR price OR valuation OR raises OR revenue OR layoffs) min_faves:100",
+      "(\"new model\" OR benchmark OR \"rate limits\" OR \"api price\" OR IPO OR \"funding round\") (ai OR claude OR gpt OR gemini OR grok) min_faves:100"
+    ],
+    "lookback_hours": 24,
+    "pages_per_query": 2,
+    "min_minutes_between_runs": 55,
+    "max_checks_per_run": 10,
+    "max_followers": 1000000,
+    "reply_max_age_min": 120,
+    "min_views": 2000,
+    "hot_views": 10000,
+    "min_per_hour": 3000,
+    "min_replies": 40,
+    "remake_min_views": 20000,
+    "remake_min_x_factor": 10,
+    "remake_max_followers": 50000,
+    "max_reply_per_day": 5,
+    "max_remake_per_day": 3,
+    "niche": "Cold Takes Bear тверезо пояснює, що AI-новина насправді означає: релізи моделей, анонси, ціни й ліміти, гроші компаній (раунди, оцінки, виручка, IPO), дивні цифри й бенчмарки. Знаходить те, що хайп пропустив: ціну, обмеження, хто програє, що зламається. Підходять: свіжі новини й анонси AI-компаній, цифри, гучні заяви, які варто охолодити. Не підходять: туторіали, поради й списки репозиторіїв (це інший акаунт), 3D, ігри й візуальні шоукейси (ще інший акаунт), політика, вибори, крипта й трейдинг, giveaway, реклама.",
+    "persona": "You write X (Twitter) replies for Cold Takes Bear, a calm, dry account that reads past AI hype: price, limits, who loses, what breaks, what the announcement leaves out. Lowercase, sober, no sneering, never start with 'cold take'. At most one polar-bear image per reply and usually none. Never tutorials, never 3D or games, never political opinions."
   }
 }
