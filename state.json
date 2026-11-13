@@ -1,10 +1,5 @@
 {
  "seen": {
-  "2119948340171616714": 1794319825.9589307,
-  "2119871020618465772": 1794319827.205408,
-  "2119877127717658883": 1794319831.211016,
-  "2119887744725926168": 1794319832.438613,
-  "2119907987477422453": 1794319833.5717788,
   "2119870258919969066": 1794332843.4150214,
   "2119938067758772403": 1794332844.488929,
   "2119885741773738033": 1794332845.9458659,
@@ -200,7 +195,10 @@
   "2121218105225449515": 1794577142.7019098,
   "2121226279206760526": 1794577143.9631915,
   "2121221667619852660": 1794577152.4426281,
-  "2121220537984954448": 1794577161.3870168
+  "2121220537984954448": 1794577161.3870168,
+  "2121230632151843135": 1794580389.6464925,
+  "2121242390040109181": 1794580390.7506444,
+  "2121231257346691323": 1794580391.800563
  },
  "pool": {
   "2119867114450268322": {
@@ -219,38 +217,6 @@
    "per_hour": 645677,
    "ts": 1794332799.4430685
   },
-  "2119873095129550880": {
-   "id": "2119873095129550880",
-   "url": "https://x.com/bcherny/status/2119873095129550880",
-   "text": "We wanted to do more for the people who’ve been with us the longest. So with Fable 5.2, the longer you’ve been subscribed, the more Fable resets you get. https://t.co/g2Y5cwS0L2",
-   "user": "bcherny",
-   "followers": 638643,
-   "views": 708239,
-   "likes": 15855,
-   "reposts": 1191,
-   "replies": 1195,
-   "bookmarks": 1316,
-   "age_h": 18.8,
-   "x_factor": 1.1,
-   "per_hour": 37677,
-   "ts": 1794319775.5389833
-  },
-  "2119879610724720702": {
-   "id": "2119879610724720702",
-   "url": "https://x.com/shadcn/status/2119879610724720702",
-   "text": "Run /improve with Fable 5.2. I’m seeing some interesting results that Opus 5.5 missed. \n\nhttps://t.co/jtUAOBXAIx",
-   "user": "shadcn",
-   "followers": 248603,
-   "views": 155025,
-   "likes": 2679,
-   "reposts": 90,
-   "replies": 62,
-   "bookmarks": 2873,
-   "age_h": 18.4,
-   "x_factor": 0.6,
-   "per_hour": 8441,
-   "ts": 1794319775.5390484
-  },
   "2119868968307695818": {
    "id": "2119868968307695818",
    "url": "https://x.com/kevin_t_ngo/status/2119868968307695818",
@@ -266,54 +232,6 @@
    "x_factor": 15.1,
    "per_hour": 16688,
    "ts": 1794332799.4430282
-  },
-  "2119880829212172509": {
-   "id": "2119880829212172509",
-   "url": "https://x.com/cursor_ai/status/2119880829212172509",
-   "text": "Claude Fable 5.2 is now available in Cursor!\n\nAt max effort, it's the top model on CursorBench at 60%.\n\nFable 5.2 scores 56.9% on CursorBench at default effort, up from 49.2% for Fable 5.1. https://t.co/FaEmGCQSpW",
-   "user": "cursor_ai",
-   "followers": 498635,
-   "views": 154003,
-   "likes": 2549,
-   "reposts": 196,
-   "replies": 206,
-   "bookmarks": 165,
-   "age_h": 18.3,
-   "x_factor": 0.3,
-   "per_hour": 8422,
-   "ts": 1794319775.5391245
-  },
-  "2119823616774992084": {
-   "id": "2119823616774992084",
-   "url": "https://x.com/davidvgilmore/status/2119823616774992084",
-   "text": "In 2015, I built an AI that detects early cancer.\n\nIt’s still running across hundreds of hospitals in the US today.\n\nIt was the most fulfilling work of my life, and I was building in AI years before everyone called it “AI”.\n\nBuilding in AI then was a dream.\n\nNow It feels like we’ve taken a turn for the worse.\n\nIt started when i was in undergrad.\n\nI built my first company: AI models that made the political data transparent to voters.\n\nAt 21, I was offered six figures for it, but the buyers wanted to use it for reasons I couldn't ethically support.\n\nSo we turned down the offer and shut down the company instead.\n\nIn 2014, I moved into deep learning research on language models, for the Intelligence Community and Goldman Sachs.\n\nThen HCA Healthcare came to us.\n\nThey put me in a competition against 10 people from IBM Watson. It was just me and the tools I’d built.\n\nOur job was to build an AI model that can catch the cancer that slips through the cracks in hospitals.\n\nIt was the most intense 30 days of my life. Multiple all nighters.\n\nMy models won. That turned into a $5M deal, and later its own company, Azra AI.\n\nThen the world caught on.\n\nChatGPT and Claude arrived, and AI costs exploded.\n\nBuilding in AI in 2015 felt novel.\n\nWe were using it to find cancer tumours and save lives.\n\nNow the biggest tech companies have turned AI into a money extraction machine.\n\nThat’s when I decided to make a change.\n\nWe raised $8.5M to build a better future for AI.\n\nOn Wednesday, we’re launching Rayline.\n\nAI shouldn’t be locked inside a few labs’ models, prices and clouds. It should be open, transparent and decentralized.\n\nMore on Wednesday.",
-   "user": "davidvgilmore",
-   "followers": 26314,
-   "views": 1308992,
-   "likes": 11484,
-   "reposts": 1309,
-   "replies": 274,
-   "bookmarks": 5117,
-   "age_h": 22.1,
-   "x_factor": 49.7,
-   "per_hour": 59300,
-   "ts": 1794319775.5389023
-  },
-  "2119884951550386671": {
-   "id": "2119884951550386671",
-   "url": "https://x.com/alexalbert__/status/2119884951550386671",
-   "text": "Every time we have a new model, I run the same simple prompt on all my projects:\n\n\"Read this entire project and find everything that’s broken, inconsistent, inefficient, or no longer needed. Fix what you’re sure about and list the rest for me to review.\"\n\nhighly recommend trying",
-   "user": "alexalbert__",
-   "followers": 158404,
-   "views": 818229,
-   "likes": 8026,
-   "reposts": 528,
-   "replies": 279,
-   "bookmarks": 15437,
-   "age_h": 18.0,
-   "x_factor": 5.2,
-   "per_hour": 45426,
-   "ts": 1794319775.5390172
   },
   "2119885310301778168": {
    "id": "2119885310301778168",
@@ -347,38 +265,6 @@
    "per_hour": 6003,
    "ts": 1794332799.443121
   },
-  "2119815419812794500": {
-   "id": "2119815419812794500",
-   "url": "https://x.com/BobEUnlimited/status/2119815419812794500",
-   "text": "Token usage at OpenAI and Anthropic slipping in the last couple weeks. https://t.co/UzKHnxSin1",
-   "user": "BobEUnlimited",
-   "followers": 305704,
-   "views": 144485,
-   "likes": 658,
-   "reposts": 127,
-   "replies": 64,
-   "bookmarks": 208,
-   "age_h": 22.6,
-   "x_factor": 0.5,
-   "per_hour": 6388,
-   "ts": 1794319775.5387566
-  },
-  "2119824593753956844": {
-   "id": "2119824593753956844",
-   "url": "https://x.com/HoodieFade_/status/2119824593753956844",
-   "text": "This is f*cking insane. Former Google CEO Eric Schmidt just told everyone the easiest way to get rich in the next two years, and it's not stocks or crypto:\n\n\"If you really want to make money, it's actually easy, found an agentic AI company, I mean build an agent to do something\n\nIf you build a better agent than anyone else, you can probably build one incredible company and own it yourself\"\n\nThe man who ran Google for 10 years explains in under 30 seconds why the next year or two is the agentic period, and why the window won't stay open\n\nPrompts → Claude Code → Loops → Graphs → Gates → A Company You Own Yourself\n\nSave this before it disappears from your feed\n\nEverything below is free:\n\nBuilding effective agents (Anthropic)\nhttps://t.co/mbMyiLIrqx\n\nHow Anthropic built its multi-agent research system\nhttps://t.co/gcKwsDFx5N\n\nHarnesses for long-running agents\nhttps://t.co/p0KbeE6pBF\n\nWriting tools for agents\nhttps://t.co/Rif9SuExCh\n\nClaude Code 101\nhttps://t.co/rma5cTfV6M\n\nClaude Code in action\nhttps://t.co/y7ldRiCZRC\n\nPrompt engineering\nhttps://t.co/wGkkT9tlAO\n\nSubagents (parallel work)\nhttps://t.co/Govs5sjHB0\n\nHooks (checks that can say no)\nhttps://t.co/YigRzFmXr3\n\nCLAUDE.md + memory\nhttps://t.co/EzV1u4QdQd\n\nSkills\nhttps://t.co/c8RGkxgGCt\n\nMCP\nhttps://t.co/tR6oTaM1QK\n\nLangGraph (graphs of agents)\nhttps://t.co/iKq99402hN\n\nKarpathy's autoresearch (an agent in a loop)\nhttps://t.co/gEMaSZMoYc\n\nAll of this costs $0\n\n95% will spend the agentic period scrolling AI threads. The 5% who ship agents will own the companies that come out of it\n\nBookmark it and start with the first link tonight\n\nThen read how to make an agent that works for hours without you in the Loops & Graphs guide below ↓",
-   "user": "HoodieFade_",
-   "followers": 3248,
-   "views": 1069282,
-   "likes": 6199,
-   "reposts": 1234,
-   "replies": 117,
-   "bookmarks": 18136,
-   "age_h": 22.0,
-   "x_factor": 329.2,
-   "per_hour": 48583,
-   "ts": 1794319775.538801
-  },
   "2119852532616790037": {
    "id": "2119852532616790037",
    "url": "https://x.com/TokenGremlin/status/2119852532616790037",
@@ -395,22 +281,6 @@
    "per_hour": 635,
    "ts": 1794332827.8516624
   },
-  "2119837788937896234": {
-   "id": "2119837788937896234",
-   "url": "https://x.com/GoogleAIStudio/status/2119837788937896234",
-   "text": "you can now build with google maps platform in AI Studio 🗺️📍\n\ngo from idea to app powered by @googlemaps in minutes!\n\nwhat’s new:\n\n- 1-click setup\n- create maps apps just by describing your idea, gemini does the rest\n- build with map tiles, places, weather, routing, 3D buildings, street view, and more\n\ntry it out today: https://t.co/Ea0Cdu0szs",
-   "user": "GoogleAIStudio",
-   "followers": 213495,
-   "views": 296905,
-   "likes": 3438,
-   "reposts": 403,
-   "replies": 124,
-   "bookmarks": 1840,
-   "age_h": 21.1,
-   "x_factor": 1.4,
-   "per_hour": 14038,
-   "ts": 1794319824.693711
-  },
   "2119876626179870838": {
    "id": "2119876626179870838",
    "url": "https://x.com/alexmichael/status/2119876626179870838",
@@ -426,22 +296,6 @@
    "x_factor": 45.1,
    "per_hour": 5153,
    "ts": 1794332799.442808
-  },
-  "2119904302000996725": {
-   "id": "2119904302000996725",
-   "url": "https://x.com/zerohedge/status/2119904302000996725",
-   "text": "*ANTHROPIC PLANS TO START TRADING THURSDAY, FRIDAY NEXT WEEK:WSJ",
-   "user": "zerohedge",
-   "followers": 3431201,
-   "views": 407377,
-   "likes": 3472,
-   "reposts": 363,
-   "replies": 77,
-   "bookmarks": 248,
-   "age_h": 16.7,
-   "x_factor": 0.1,
-   "per_hour": 24349,
-   "ts": 1794319775.5390096
   },
   "2119884727339643169": {
    "id": "2119884727339643169",
@@ -474,22 +328,6 @@
    "x_factor": 0.2,
    "per_hour": 1388,
    "ts": 1794332799.4428868
-  },
-  "2119797492082696564": {
-   "id": "2119797492082696564",
-   "url": "https://x.com/ElevenCreative/status/2119797492082696564",
-   "text": "You’ve spent the past hour generating a video, and it still looks like AI.\n\nYou’re probably making one of these 6 mistakes.\n\nThese fixes will get you more realistic results in fewer generations.\n\nBookmark this for your next project. https://t.co/eIrg84KHPS",
-   "user": "ElevenCreative",
-   "followers": 12113,
-   "views": 175737,
-   "likes": 412,
-   "reposts": 53,
-   "replies": 34,
-   "bookmarks": 915,
-   "age_h": 23.8,
-   "x_factor": 14.5,
-   "per_hour": 7382,
-   "ts": 1794319775.5390785
   },
   "2119887462952771911": {
    "id": "2119887462952771911",
@@ -539,54 +377,6 @@
    "per_hour": 1088,
    "ts": 1794332799.4429793
   },
-  "2119871080525373922": {
-   "id": "2119871080525373922",
-   "url": "https://x.com/arcprize/status/2119871080525373922",
-   "text": "Claude Fable 5.2 from @AnthropicAI on ARC-AGI (Verified):\n\n- ARC-AGI-3: 97.7%, $18.6K (provider adapter harness), 81.2%, $21.9K (standard harness)\n- ARC-AGI-2: 93.8%, $0.98/task\n- ARC-AGI-1: 98.5%, $0.36/task\n\nFable 5.2 sets a new high score on ARC-AGI-3 in the standard harness. https://t.co/GfG8Ls7kK1",
-   "user": "arcprize",
-   "followers": 43398,
-   "views": 88869,
-   "likes": 1137,
-   "reposts": 107,
-   "replies": 39,
-   "bookmarks": 172,
-   "age_h": 18.9,
-   "x_factor": 2.0,
-   "per_hour": 4694,
-   "ts": 1794319775.5392082
-  },
-  "2119891566441500782": {
-   "id": "2119891566441500782",
-   "url": "https://x.com/TokenGremlin/status/2119891566441500782",
-   "text": "Created with Fable 5.2 by an Anthropic engineer.\n\nTHIS IS AAA-LEVEL STUFF!!!!!!! https://t.co/IXipdplfKR",
-   "user": "TokenGremlin",
-   "followers": 19166,
-   "views": 1063635,
-   "likes": 10221,
-   "reposts": 659,
-   "replies": 396,
-   "bookmarks": 2990,
-   "age_h": 17.6,
-   "x_factor": 55.5,
-   "per_hour": 60523,
-   "ts": 1794319775.5389125
-  },
-  "2119874095269707977": {
-   "id": "2119874095269707977",
-   "url": "https://x.com/zhizdev/status/2119874095269707977",
-   "text": "Why is AI slop so frustrating to read? \n\nAI writing often obscures main ideas and invents awkward phrases, making sentences more complex than necessary. \n\nMany of these slop patterns violate writing principles established in English writing books. \n\nIn our benchmark, AI writing breaks these principles far more often than human writing, with Claude Code replies by far the worst offenders. \n\nWe show examples of the most common slop patterns in this thread",
-   "user": "zhizdev",
-   "followers": 819,
-   "views": 86611,
-   "likes": 1435,
-   "reposts": 157,
-   "replies": 77,
-   "bookmarks": 1045,
-   "age_h": 18.7,
-   "x_factor": 105.8,
-   "per_hour": 4623,
-   "ts": 1794319775.539168
-  },
   "2119868196773929160": {
    "id": "2119868196773929160",
    "url": "https://x.com/kieranklaassen/status/2119868196773929160",
@@ -619,54 +409,6 @@
    "per_hour": 28872,
    "ts": 1794332827.8516035
   },
-  "2119819580906393829": {
-   "id": "2119819580906393829",
-   "url": "https://x.com/fightinggirls8/status/2119819580906393829",
-   "text": "Your personal AI slut is one prompt away – start sexting now! 👉\nhttps://t.co/MdnuXw6H0s https://t.co/iGQb2Yas3M",
-   "user": "fightinggirls8",
-   "followers": 295862,
-   "views": 60135,
-   "likes": 608,
-   "reposts": 373,
-   "replies": 3,
-   "bookmarks": 367,
-   "age_h": 22.3,
-   "x_factor": 0.2,
-   "per_hour": 2691,
-   "ts": 1794319794.716046
-  },
-  "2119814954249486425": {
-   "id": "2119814954249486425",
-   "url": "https://x.com/lovemoms097/status/2119814954249486425",
-   "text": "Your personal AI slut is one prompt away – start sexting now! 👉🏻\n\nhttps://t.co/dCBBTU2IJd https://t.co/Nr09NcXTZS",
-   "user": "lovemoms097",
-   "followers": 218127,
-   "views": 41392,
-   "likes": 865,
-   "reposts": 394,
-   "replies": 2,
-   "bookmarks": 507,
-   "age_h": 22.7,
-   "x_factor": 0.2,
-   "per_hour": 1827,
-   "ts": 1794319794.7160735
-  },
-  "2119832890850599029": {
-   "id": "2119832890850599029",
-   "url": "https://x.com/Grummz/status/2119832890850599029",
-   "text": "Seele is a company that creates AI tools for game making. Recently they invited me to participate as they took on a 5-day challenge to push their new model, Seele03, to its limits and move closer and closer to AAA with a Wuxia-style action game.\n\nThe product consists of their AI model, asset generators, and target engines such as web (three.js), Unity, or even Unreal. What's nice is that their site has everything in one place, from mesh generators and rigging to sound fx and sprite work. They also provide common templates for most types of games. Having it all work together seamlessly saves a lot of time. You can get a game running very quickly, in 20 minutes or so. (20 minutes! I remember when this took months and months.)\n\nSo what can they do in 5 days?\n\nTheir progress video, below, shows them iterating through creating a Phantom Blade Zero-style game. This is not reverse engineering, but made from scratch. Over the course of development, they sent me video updates on their progress. The 03 model is designed for iterative development, and I gave them some advice as they took it from basically nothing to the final version of the video today. The progress the model made day to day was rapid, and the traces actually factored in something that I don't see that often: game design.\n\nMost models focus on the graphics when making a game, but Seele03 is thinking about combos, hit feedback, everything that really matters for how a game feels and plays. One day, I think that's going to be the core of what makes AI game making viable.\n\nAfter you are done prompting and refining your game, it's not frozen on the web. You can download and edit the project files themselves. Since you can download the result and open it in Godot or Unity (Unreal is embedded web atm), Seele03 can give you a quality core and a way for you to take things even further.\n\nSo how did it turn out? I've tried a lot of game generators, and Seele03's all-in-one tool approach and engine targeting stand out for me. Most others only generate three.js for web, or are more world models based on generative rendering. This is the rare one I've seen that is making games directly in game engines.\n\nThey've asked me to share the full process video with you so you can judge for yourself. As I watched the team work, I sat back and wondered at how it's all changing so fast: you simply... chat... interacting with a UI that is purely text, typing in wishes and directions, and everything else unfolds around you. I think they got pretty far in their goal gameplay-wise, which is where they really focused. The key thing is that after you have the final result, you also have the files to download, and you can replace anything you want to take it even further: animations, level graphics, basically anything.\n\nIf you want to make games for real engines on PC and console, then give Seele a shot at https://t.co/jJ9kvt0Ard. It's faster than vibing a game in Claude because of their game-design-driven model, their built-in asset generators, and the fact that you are not burning tokens re-creating an entire engine before you even get to your game. And every day they get closer to AAA... it's just a matter of time.\n\n@SEELE_AI1125",
-   "user": "Grummz",
-   "followers": 304248,
-   "views": 63357,
-   "likes": 288,
-   "reposts": 46,
-   "replies": 51,
-   "bookmarks": 103,
-   "age_h": 21.5,
-   "x_factor": 0.2,
-   "per_hour": 2951,
-   "ts": 1794319810.4385366
-  },
   "2119872200622940560": {
    "id": "2119872200622940560",
    "url": "https://x.com/notmiramurati/status/2119872200622940560",
@@ -683,22 +425,6 @@
    "per_hour": 3221,
    "ts": 1794332842.144743
   },
-  "2119831681410425152": {
-   "id": "2119831681410425152",
-   "url": "https://x.com/0xHashiraa/status/2119831681410425152",
-   "text": "This is f*cking insane. Elon Musk, the man behind SpaceXAI, was asked how a 20-year-old can avoid being left behind in the AI transition. His answer:\n\n\"To know what to ask the robots for, you need to formulate the question\"\n\nIn 84 seconds, he lays out the plan: get the broadest education you can. Arts, sciences, engineering. The more you know, the better you can tell AI what you want\n\nHe even names the skill: prompt engineering. You have to convey your wishes to the robot\n\nThen the wild part: there will be so many robots and so much AI that they'll be eager for any request you have, and it gets done immediately\n\nBroad Knowledge → The Right Question → Grok Bot → A Team of Bots → Harness → Done Immediately\n\nSave this before it disappears from your feed\n\nPick your field. Every guide here comes straight from SpaceXAI:\n\nGetting started with Grok Bot\nhttps://t.co/msqNlV4Ufv\n\nEngineering: run a fleet of engineer bots\nhttps://t.co/RSjrvkEIpn\n\nSix bots, one mobile game studio\nhttps://t.co/4qESPIbEwk\n\nDesign: explore more ideas with always-on bots\nhttps://t.co/M1vloVQcEN\n\nPMs: for the first time, a team that reports to you\nhttps://t.co/y4iqRpsyxN\n\nMarketing: six bots that research competitors and draft positioning\nhttps://t.co/O63VVgwZqR\n\nFounder-led sales: research and outreach with bots\nhttps://t.co/F4NYyxqcSo\n\nRecruiting: interview prep, scorecards, sourcing\nhttps://t.co/UBfaapiBqU\n\nLegal ops: contracts, triage and 1:1 prep\nhttps://t.co/6WZPk7k7xw\n\nSupport: work the whole queue with bots\nhttps://t.co/tUFlIeqzC4\n\nTemplates: share a bot as a recipe\nhttps://t.co/lsG4KbeMcA\n\nEvery guide here is free\n\nSoon AI will do the work. The ones who know what to ask will run it\n\n95% will wait for someone to tell them what to study, the 5% who learn to give AI clear jobs will have a team of bots working for them\n\nBookmark it and open the guide for your field tonight\n\nThen use the guide below to build your harness before everyone else does ↓",
-   "user": "0xHashiraa",
-   "followers": 830,
-   "views": 213667,
-   "likes": 3282,
-   "reposts": 863,
-   "replies": 93,
-   "bookmarks": 6692,
-   "age_h": 21.6,
-   "x_factor": 257.4,
-   "per_hour": 9913,
-   "ts": 1794319824.6936913
-  },
   "2119889097053409682": {
    "id": "2119889097053409682",
    "url": "https://x.com/aimlapi/status/2119889097053409682",
@@ -714,22 +440,6 @@
    "x_factor": 82.9,
    "per_hour": 18068,
    "ts": 1794332842.1448169
-  },
-  "2119907318729245180": {
-   "id": "2119907318729245180",
-   "url": "https://x.com/EnvolDev/status/2119907318729245180",
-   "text": "Claude Fable 5.2 vs Claude Opus 5.5 🧊\n\nThe first Fable 5.2 result is here. And it's totally insane. 🤯\n\nSame prompt. Cathedral of Ice.\nFable 5.2: $81.10 · 1h 56m 52s\nOpus 5.5: $45.97 · 3h 11m 26s\n\nI know I say it every time, but this is a huge leap. A huge jump. 😱\n\nFable cost more, but it finished 1h 15m faster. And just look at the ice, the ship, the whale. 👀\n\nThe future looks bright and amazing. 🔥\n\nWhat do you guys think?",
-   "user": "EnvolDev",
-   "followers": 2628,
-   "views": 254723,
-   "likes": 1804,
-   "reposts": 105,
-   "replies": 123,
-   "bookmarks": 509,
-   "age_h": 16.5,
-   "x_factor": 96.9,
-   "per_hour": 15409,
-   "ts": 1794319775.5389614
   },
   "2119970535056846996": {
    "id": "2119970535056846996",
@@ -939,22 +649,6 @@
    "per_hour": 1092,
    "ts": 1794332827.8515878
   },
-  "2119841736679686222": {
-   "id": "2119841736679686222",
-   "url": "https://x.com/DmytroKrasun/status/2119841736679686222",
-   "text": "Welcome to an isometric Tel Aviv-Yafo 🫶\n\n→ 36,604 buildings from open municipal data, built into a 3D model and painted with GPT Image 2.6 in one style. \n→ 230,452 trees where the city tree map puts them.\n→ 2 GB of paintings, but the map opens in under a second (~400 KB). \n→ 218 prompts in Claude Code with Opus 5.5.\n\nIt is the kind of project I always wanted to build but wouldn't even have tried without agents.\n\nhttps://t.co/AikDBubiVm",
-   "user": "DmytroKrasun",
-   "followers": 32636,
-   "views": 71985,
-   "likes": 1007,
-   "reposts": 62,
-   "replies": 101,
-   "bookmarks": 572,
-   "age_h": 20.9,
-   "x_factor": 2.2,
-   "per_hour": 3446,
-   "ts": 1794319824.6937022
-  },
   "2119909030617584020": {
    "id": "2119909030617584020",
    "url": "https://x.com/usevolume/status/2119909030617584020",
@@ -970,22 +664,6 @@
    "x_factor": 285.8,
    "per_hour": 19392,
    "ts": 1794346791.6596832
-  },
-  "2119799283906142568": {
-   "id": "2119799283906142568",
-   "url": "https://x.com/RamSingh_369/status/2119799283906142568",
-   "text": "One of my friends makes $1.2M a year as an Anthropic engineer.\n\nI asked him how he became so good at prompting. He sent me a video that was never meant to be public: Anthropic’s core team prompting playbook.\n\nYou’ll struggle to find a better 30-minute guide to prompting than this.\n\nI watched it last night. Halfway through, I realized I’d been using Claude completely wrong for the past two years.\n\nWatch it. Bookmark it.",
-   "user": "RamSingh_369",
-   "followers": 12069,
-   "views": 312082,
-   "likes": 1061,
-   "reposts": 106,
-   "replies": 20,
-   "bookmarks": 5489,
-   "age_h": 23.7,
-   "x_factor": 25.9,
-   "per_hour": 13175,
-   "ts": 1794319775.5387845
   },
   "2120029347948220500": {
    "id": "2120029347948220500",
@@ -1018,38 +696,6 @@
    "x_factor": 0.5,
    "per_hour": 14913,
    "ts": 1794346791.6600363
-  },
-  "2119907987477422453": {
-   "id": "2119907987477422453",
-   "url": "https://x.com/kanavtwt/status/2119907987477422453",
-   "text": "“From a one-paragraph prompt, Claude Fable 5.2 designed three working electronic devices”\n\nElectrical engineers right now: https://t.co/VFGD0iZWCE",
-   "user": "kanavtwt",
-   "followers": 20737,
-   "views": 371944,
-   "likes": 11315,
-   "reposts": 543,
-   "replies": 60,
-   "bookmarks": 1878,
-   "age_h": 16.5,
-   "x_factor": 17.9,
-   "per_hour": 22560,
-   "ts": 1794319775.5389287
-  },
-  "2119955647542542439": {
-   "id": "2119955647542542439",
-   "url": "https://x.com/MrTacticalX/status/2119955647542542439",
-   "text": "🚨CLAUDE FABLE 5.2 VS OPUS 5.5: GLASS POOL\n\nClaude Fable 5.2\n⏱1 hr 30 min\n💰$57.87\n\nClaude Opus 5.5\n⏱68 min\n💰$14.39\n\nFable took longer and cost 4x more, but the sunset and night scenes are on another level. \n\nWhich one did it better? https://t.co/zMIe4T3lbP",
-   "user": "MrTacticalX",
-   "followers": 2254,
-   "views": 126429,
-   "likes": 898,
-   "reposts": 28,
-   "replies": 24,
-   "bookmarks": 265,
-   "age_h": 13.3,
-   "x_factor": 56.1,
-   "per_hour": 9484,
-   "ts": 1794319775.539072
   },
   "2119923918635241620": {
    "id": "2119923918635241620",
@@ -1131,22 +777,6 @@
    "per_hour": 1018,
    "ts": 1794332799.4430017
   },
-  "2119827278066581688": {
-   "id": "2119827278066581688",
-   "url": "https://x.com/coreyganim/status/2119827278066581688",
-   "text": "“Vibe coded apps can’t make real money.”\n\nI hear this all the time.\n\nThen I meet people like Ryan Mathews who vibe coded an elk call app to $650K annual run rate in 110 days with Claude Code.\n\nThe wildest part to me is how his marketing came together (pretty much by accident):\n\n-He recorded a 45-minute video designed to be a Meta ad then decided to post it to YouTube. He expected ~2k views but it got 150k.\n\n-When his first Meta campaigns weren’t converting, he told Meta to find people who’d watch 75% of that 45-minute video. It cost about $1.50 per person to watch 35 minutes. He was making $2 back for every $1 from the start.\n\n-He launched a “retargeting” campaign that crushed the main one. Then he went to record a Loom for a client and noticed he never saved the targeting. This led him to realize that cold traffic sent straight to the landing page beat the warm-up video in terms of ROAS.\n\n-His wife said “this app sounds like Duolingo.” So he copied Duolingo’s onboarding (test your first call free, get a score, see the upgrade offer). This test led to a 40% conversion rate.\n\n-His knew his marketing was on point when 50% of the comments on his Meta ads were \"there's no way this product works\" and the other 50% were \"this product changed my life\"\n\nThe product is called MtnWispr and you can check it out here: https://t.co/FHeKHObGVG\n\nFull breakdown with Ryan in the video below.\n\n(Also available on the Build With AI podcast wherever you get your pods)",
-   "user": "coreyganim",
-   "followers": 63524,
-   "views": 29251,
-   "likes": 363,
-   "reposts": 23,
-   "replies": 43,
-   "bookmarks": 777,
-   "age_h": 21.8,
-   "x_factor": 0.5,
-   "per_hour": 1339,
-   "ts": 1794319794.7160358
-  },
   "2119910195325481026": {
    "id": "2119910195325481026",
    "url": "https://x.com/ericmaskfr/status/2119910195325481026",
@@ -1210,22 +840,6 @@
    "x_factor": 5.1,
    "per_hour": 2330,
    "ts": 1794362408.7945812
-  },
-  "2119817143927587090": {
-   "id": "2119817143927587090",
-   "url": "https://x.com/0x_fokki/status/2119817143927587090",
-   "text": "NVIDIA sells its desktop AI supercomputer for $3,999. I showed Claude a single picture and got back one that takes itself apart in 24 seconds.\n\nI didn't want something that just looks nice. I wanted to see inside: each part that matters pulled out of the case in turn.\n\n> LID - the top panel comes away at 0:05 and the header switches to PART OUT\n> FANS - both fans lift out at 3,400 rpm with a lime ring on each hub\n> COOLANT - the glass reservoir and 2 pumps come up with lime coolant still moving through the pipes\n> CHIP - the GB10 loses its spreader at 0:15: 20 Arm cores, Blackwell, 128 GB shared\n> CABLES - 7 braided cables slide free, then the whole box scatters at 0:19\n\nClaude wrote all of it in three.js from that one image.\n\nThe gauges run on the timeline that moves the parts. Tensor core load hits 96% the moment the chip is exposed.\n\nGetting inside the real one means a screwdriver and some nerve. This one opens with a click.\n\nEverything I told Claude is in the article below.",
-   "user": "0x_fokki",
-   "followers": 16464,
-   "views": 29580,
-   "likes": 291,
-   "reposts": 23,
-   "replies": 28,
-   "bookmarks": 260,
-   "age_h": 22.5,
-   "x_factor": 1.8,
-   "per_hour": 1313,
-   "ts": 1794319810.4384942
   },
   "2119915615351693483": {
    "id": "2119915615351693483",
@@ -1339,22 +953,6 @@
    "per_hour": 18698,
    "ts": 1794332799.443022
   },
-  "2119844553985302783": {
-   "id": "2119844553985302783",
-   "url": "https://x.com/hayatomaruu/status/2119844553985302783",
-   "text": "THIS IS AN ACTUAL F*CKING GOLDMINE\n\nOpus 5.5 users: learn these 15 official Anthropic commands before writing another mega-prompt and blaming Claude Code\n\n15 essentials to get more out of Opus 5.5:\n\nless busywork → parallel agents → faster iteration\n\nsteal the entire map ↓\n\n01 /goal\nhttps://t.co/Yd5e53hxBz\n\n02 /batch\nhttps://t.co/1ha2i0cykZ\n\n03 /subtask\nhttps://t.co/F50huTZIjK\n\n04 /deep-research\nhttps://t.co/O3VrpinrAL\n\n05 /design\nhttps://t.co/5GPXU8ApnN\n\n06 /plan\nhttps://t.co/0O8HVyG0xz\n\n07 /memory\nhttps://t.co/yFhlTDdQAr\n\n08 /compact\nhttps://t.co/a6UFI5bl24\n\n09 /branch\nhttps://t.co/5GPXU8ApnN\n\n10 /rewind\nhttps://t.co/883jMUOuZx\n\n11 /mcp\nhttps://t.co/kOx363LKVg\n\n12 /loop\nhttps://t.co/aKlJMtfkye\n\n13 /schedule\nhttps://t.co/Ky1m2PMPHr\n\n14 /simplify\nhttps://t.co/5GPXU8ApnN\n\n15 /remote-control\nhttps://t.co/64Ep3txPlQ\n\nstart here: /plan → /goal → /simplify\n\nSave this, then read the full Opus 5.5 \"Context, Harness, Loops, Prompts\" guide below ↓",
-   "user": "hayatomaruu",
-   "followers": 2780,
-   "views": 26093,
-   "likes": 370,
-   "reposts": 42,
-   "replies": 11,
-   "bookmarks": 506,
-   "age_h": 20.7,
-   "x_factor": 9.4,
-   "per_hour": 1261,
-   "ts": 1794319775.5388086
-  },
   "2119951875613344029": {
    "id": "2119951875613344029",
    "url": "https://x.com/RahulTechX/status/2119951875613344029",
@@ -1386,54 +984,6 @@
    "x_factor": 0.5,
    "per_hour": 2030,
    "ts": 1794376639.4188116
-  },
-  "2119869938114736199": {
-   "id": "2119869938114736199",
-   "url": "https://x.com/CoinbasePredict/status/2119869938114736199",
-   "text": "Anthropic CEO right now: https://t.co/OrIP6iJxwF",
-   "user": "CoinbasePredict",
-   "followers": 15160,
-   "views": 17317,
-   "likes": 603,
-   "reposts": 48,
-   "replies": 11,
-   "bookmarks": 44,
-   "age_h": 19.0,
-   "x_factor": 1.1,
-   "per_hour": 911,
-   "ts": 1794319775.5388453
-  },
-  "2119846857581199728": {
-   "id": "2119846857581199728",
-   "url": "https://x.com/leopardracer/status/2119846857581199728",
-   "text": "Claude Code just did the FBI's job in 3 minutes 52 seconds and traced $4.8 billion of NVIDIA chips to a 2-person company in Singapore. One of its execs turned out to be Jensen Huang's mistress.\n\nIt used 23 public sources. Four government probes have been working on this for over a year.\n\nI gave it one question: where did the chips actually go?\n\nIt started with the New York Times and hit a paywall, 403. It didn't ask me what to do, it just switched to CBS and CNBC and kept reading.\n\nThe company is called Megaspeed. It was spun off from a Chinese gaming company in 2023 and had never run a data center. Then it started buying:\n\n→ /purchases → $4.8B of NVIDIA chips in two years (CBS, NYT)\n→ /math → $4.8B ÷ ~$35k per card ≈ 136,000 GPUs\n→ /office → Singapore, 2 employees\n→ /malaysia → 200+ shipments, about $2B in 12 months\n→ /route → orders placed through a US reseller, never NVIDIA directly\n→ /china → a server company in the chain moving hardware back into China\n→ /site_visit → US inspectors found the GPUs still sealed in their boxes\n\n136,000 of the most wanted chips on the planet, and nobody had even opened them.\n\nThen it noticed two numbers that didn't match: $2B in one report, $4.8B in another. Claude checked the dates. The $2B was only the Malaysia route over 12 months, so the real total was the bigger one.\n\nAfter that it found this:\n\n→ a US intel memo says a Megaspeed exec was recruited by Chinese intelligence (TechCrunch, CBS)\n→ according to the memo, her target was the man who decides where NVIDIA's chips go\n→ Nov 8: Jensen Huang tells staff he had an affair with her (CNBC)\n→ the same day, NVIDIA's board opens an independent investigation\n→ 4 probes open: US Senate, Singapore police, US Commerce, and Bain pulled out as a tenant\n→ Nov 18: the House wants a closed-door briefing\n\nI stopped it halfway and asked: wait, didn't NVIDIA say this was debunked?\n\nIt went back and checked. On Oct 29 NVIDIA did call the diversion claims \"debunked\". Ten days later its own board opened an investigation into its own CEO.\n\nAt the end it built the whole map, 19 links, and wouldn't draw a single one without a source behind it.\n\nFour probes in two countries have been at this for over a year. Claude Code finished before my coffee got cold.\n\nNobody has published where the 136,000 GPUs are now.\n\nSave this.",
-   "user": "leopardracer",
-   "followers": 14289,
-   "views": 28840,
-   "likes": 520,
-   "reposts": 161,
-   "replies": 31,
-   "bookmarks": 275,
-   "age_h": 20.5,
-   "x_factor": 2.0,
-   "per_hour": 1404,
-   "ts": 1794319775.538854
-  },
-  "2119877127717658883": {
-   "id": "2119877127717658883",
-   "url": "https://x.com/borjafat/status/2119877127717658883",
-   "text": "BREAKING: Fable 5.2 is out. \nSave and send it this. https://t.co/CfYIWF4Tl2",
-   "user": "borjafat",
-   "followers": 6992,
-   "views": 150502,
-   "likes": 324,
-   "reposts": 31,
-   "replies": 11,
-   "bookmarks": 1845,
-   "age_h": 18.5,
-   "x_factor": 21.5,
-   "per_hour": 8122,
-   "ts": 1794319775.5388618
   },
   "2120002682421182624": {
    "id": "2120002682421182624",
@@ -1467,22 +1017,6 @@
    "per_hour": 740,
    "ts": 1794332799.4428544
   },
-  "2120041683765330077": {
-   "id": "2120041683765330077",
-   "url": "https://x.com/thegreatola/status/2120041683765330077",
-   "text": "How to edit your video with Claude in 60 seconds. \n\nComment “Edit” and I’ll send you my setup. https://t.co/h3XyDZ0zlL",
-   "user": "thegreatola",
-   "followers": 104807,
-   "views": 18748,
-   "likes": 495,
-   "reposts": 39,
-   "replies": 271,
-   "bookmarks": 424,
-   "age_h": 7.6,
-   "x_factor": 0.2,
-   "per_hour": 2456,
-   "ts": 1794319775.5388935
-  },
   "2119875393285210547": {
    "id": "2119875393285210547",
    "url": "https://x.com/CodewizzyX/status/2119875393285210547",
@@ -1514,22 +1048,6 @@
    "x_factor": 0.6,
    "per_hour": 3489,
    "ts": 1794391046.2775116
-  },
-  "2119895873736106212": {
-   "id": "2119895873736106212",
-   "url": "https://x.com/TheAhmadOsman/status/2119895873736106212",
-   "text": "Refusals from Fable 5.2 on LLM research tasks are absurd, Anthropic will never allow frontier research capabilities running on any model post-Opus 5.5",
-   "user": "TheAhmadOsman",
-   "followers": 80718,
-   "views": 25565,
-   "likes": 673,
-   "reposts": 48,
-   "replies": 42,
-   "bookmarks": 62,
-   "age_h": 17.3,
-   "x_factor": 0.3,
-   "per_hour": 1478,
-   "ts": 1794319775.538992
   },
   "2119879319426404780": {
    "id": "2119879319426404780",
@@ -1611,86 +1129,6 @@
    "per_hour": 1151,
    "ts": 1794362380.2789953
   },
-  "2119871020618465772": {
-   "id": "2119871020618465772",
-   "url": "https://x.com/WinstonGu_/status/2119871020618465772",
-   "text": "We just killed Slack,  and open-sourced it. \n\nIntroducing Terminus Teams: we kept everything you like about Slack (channels, calls and meetings, threads) but kicked out the Slack bot, so you can use your existing Claude Code or Codex to read messages and even reply. \n\n100% free, 100% open source, 100% customizable. Export your data anytime.",
-   "user": "WinstonGu_",
-   "followers": 1629,
-   "views": 69329,
-   "likes": 544,
-   "reposts": 65,
-   "replies": 62,
-   "bookmarks": 682,
-   "age_h": 18.9,
-   "x_factor": 42.6,
-   "per_hour": 3661,
-   "ts": 1794319775.5391
-  },
-  "2119911626430431355": {
-   "id": "2119911626430431355",
-   "url": "https://x.com/StockSavvyShay/status/2119911626430431355",
-   "text": "Anthropic is reportedly targeting November 19 or 20 for its Nasdaq debut under $ANT, with its IPO valuation range expected to be unveiled this week.\n\n96% chance of happening. https://t.co/qOeYPq7DiH",
-   "user": "StockSavvyShay",
-   "followers": 462856,
-   "views": 50304,
-   "likes": 310,
-   "reposts": 43,
-   "replies": 20,
-   "bookmarks": 19,
-   "age_h": 16.2,
-   "x_factor": 0.1,
-   "per_hour": 3096,
-   "ts": 1794319775.5391061
-  },
-  "2119798174500221327": {
-   "id": "2119798174500221327",
-   "url": "https://x.com/Jeffar_AI/status/2119798174500221327",
-   "text": "BREAKING: GOODBYE POWERPOINT. 🚨\n\nClaude can now create a full presentation in just 120 seconds.\nNo slides. No stress.\n\nUse these prompts and watch the magic happen. ❤️‍🔥 https://t.co/icHOpY0R7P",
-   "user": "Jeffar_AI",
-   "followers": 15832,
-   "views": 37228,
-   "likes": 491,
-   "reposts": 132,
-   "replies": 32,
-   "bookmarks": 430,
-   "age_h": 23.8,
-   "x_factor": 2.4,
-   "per_hour": 1566,
-   "ts": 1794319775.5391183
-  },
-  "2119983828920058178": {
-   "id": "2119983828920058178",
-   "url": "https://x.com/rdd147/status/2119983828920058178",
-   "text": "Incredibly rare for an IPO to go so poorly that bankers force an entire industry to backstop the company.\n\nAppears to be the case with $ANT Anthropic. Very strange.",
-   "user": "rdd147",
-   "followers": 16751,
-   "views": 19292,
-   "likes": 424,
-   "reposts": 32,
-   "replies": 8,
-   "bookmarks": 26,
-   "age_h": 11.5,
-   "x_factor": 1.2,
-   "per_hour": 1682,
-   "ts": 1794319775.5391307
-  },
-  "2120118760116036029": {
-   "id": "2120118760116036029",
-   "url": "https://x.com/DeItaone/status/2120118760116036029",
-   "text": "ANTHROPIC: TARGETS VALUATION OF ABOUT $1 TRILLION IN IPO",
-   "user": "DeItaone",
-   "followers": 1972909,
-   "views": 264188,
-   "likes": 718,
-   "reposts": 172,
-   "replies": 86,
-   "bookmarks": 54,
-   "age_h": 2.5,
-   "x_factor": 0.1,
-   "per_hour": 104519,
-   "ts": 1794319775.539137
-  },
   "2120103631307645276": {
    "id": "2120103631307645276",
    "url": "https://x.com/theo/status/2120103631307645276",
@@ -1707,22 +1145,6 @@
    "per_hour": 5173,
    "ts": 1794391046.2775066
   },
-  "2119982144671875147": {
-   "id": "2119982144671875147",
-   "url": "https://x.com/JC_ParetsX/status/2119982144671875147",
-   "text": "Anthropic is about to pull off the second largest IPO in history. Tonight they sent investors the wrong prospectus.",
-   "user": "JC_ParetsX",
-   "followers": 214825,
-   "views": 34981,
-   "likes": 487,
-   "reposts": 40,
-   "replies": 17,
-   "bookmarks": 29,
-   "age_h": 11.6,
-   "x_factor": 0.2,
-   "per_hour": 3022,
-   "ts": 1794319775.5391617
-  },
   "2120086515598716933": {
    "id": "2120086515598716933",
    "url": "https://x.com/dhruvtwt_/status/2120086515598716933",
@@ -1738,38 +1160,6 @@
    "x_factor": 5.0,
    "per_hour": 2737,
    "ts": 1794362380.2787776
-  },
-  "2120118037588439496": {
-   "id": "2120118037588439496",
-   "url": "https://x.com/DeItaone/status/2120118037588439496",
-   "text": "AMD, BROADCOM, GOOGLE, OTHERS TO INVEST $26B IN ANTHROPIC",
-   "user": "DeItaone",
-   "followers": 1972909,
-   "views": 104552,
-   "likes": 495,
-   "reposts": 77,
-   "replies": 27,
-   "bookmarks": 22,
-   "age_h": 2.6,
-   "x_factor": 0.1,
-   "per_hour": 40595,
-   "ts": 1794319775.5391803
-  },
-  "2119835571409305753": {
-   "id": "2119835571409305753",
-   "url": "https://x.com/TemsYanik/status/2119835571409305753",
-   "text": "holy f*ck, claude code can now run your youtube channel. for free\n\nit's called youtube agent skill. one install, 11 skills:\n\n1. /yt-script -> writes your script with 21 hook formulas and scores how strong your hook is\n\n2. /yt-edit -> reads your transcript, finds pauses, filler words and repeats, gives you a cut list with timestamps\n\n3. /yt-comment -> drafts replies in your own tone, sorts questions from praise, ignores trolls\n\n4. /yt-plan -> plans your week: one big video, one simpler one, three shorts\n\n5. /yt-package -> builds title + thumbnail as one package\n\n6. /yt-viral -> scans your niche, finds videos that blew up way above the channel's usual, tells you which hook formula worked\n\nno editor. no scriptwriter. no social media manager. just claude code and one plugin\n\nbookmark this before you film your next video",
-   "user": "TemsYanik",
-   "followers": 2496,
-   "views": 22358,
-   "likes": 358,
-   "reposts": 39,
-   "replies": 7,
-   "bookmarks": 691,
-   "age_h": 21.3,
-   "x_factor": 9.0,
-   "per_hour": 1050,
-   "ts": 1794319775.5391953
   },
   "2119928918035910668": {
    "id": "2119928918035910668",
@@ -11194,12 +10584,26 @@
    "x_factor": 0.1,
    "per_hour": 1397,
    "ts": 1794577141.5393262
+  },
+  "2121231257346691323": {
+   "id": "2121231257346691323",
+   "url": "https://x.com/CodeByPoonam/status/2121231257346691323",
+   "text": "China just dropped another crazy one...\n\nI've been testing Qwen4-Max-Preview, now available in Qoder, Alibaba's coding agent, and decided to see what I could build with it.\n\nI gave it just one prompt to create a fun 3D animation, and it coded the whole thing: fuzzy icons, googly eyes, a bouncing ball, and all the little details that bring it to life.\n\nWhat surprised me most was how much it could put together from a single prompt.\n\nThe animation came out playful, with smooth movements and all the elements working together.\n\nIf you want to try it yourself, Qwen4-Max-Preview is currently available in Qoder at 80% off for a limited time.",
+   "user": "CodeByPoonam",
+   "followers": 213361,
+   "views": 1578,
+   "likes": 13,
+   "reposts": 0,
+   "replies": 3,
+   "bookmarks": 2,
+   "age_h": 1.2,
+   "x_factor": 0.0,
+   "per_hour": 1270,
+   "ts": 1794580388.5727375
   }
  },
  "last_run": 1794574987.7288742,
  "sent": {
-  "2119871020618465772": 1794319827.7560506,
-  "2119907987477422453": 1794319834.1057656,
   "2119938067758772403": 1794332844.8565435,
   "2119885741773738033": 1794332846.2585638,
   "2119909593891627068": 1794332847.4604256,
@@ -11285,7 +10689,8 @@
   "2121082861902070130": 1794574985.6192288,
   "2121226279206760526": 1794577151.4528627,
   "2121221667619852660": 1794577160.3371308,
-  "2121220537984954448": 1794577169.2306623
+  "2121220537984954448": 1794577169.2306623,
+  "2121231257346691323": 1794580399.6150467
  },
  "reply_seen": {
   "2120507359445324267": 1794404387.1790442,
@@ -11320,16 +10725,17 @@
   "2120792464403615797": 1794473304.5673177,
   "2120960265277546844": 1794512169.984012,
   "2120957197878485328": 1794512177.3740613,
-  "2120956746667552913": 1794512184.9158587
+  "2120956746667552913": 1794512184.9158587,
+  "2121244466279563588": 1794580364.4805925
  },
- "reply_last_run": 1794577125.6585116,
- "fresh_last_run": 1794577169.230674,
+ "reply_last_run": 1794580372.108521,
+ "fresh_last_run": 1794580399.6150568,
  "reply_day": {
   "date": "2026-11-12",
   "count": 8
  },
  "reply_day_active": {
   "date": "2026-11-13",
-  "count": 3
+  "count": 5
  }
 }
