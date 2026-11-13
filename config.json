@@ -136,8 +136,36 @@
     "min_per_hour": 1000,
     "min_replies": 30
   },
-  "max_reply_alerts_per_day": 8,
-  "reply_active_hours": [8, 23],
+  "max_reply_alerts_per_day": 15,
+  "reply_active_hours": [
+    8,
+    23
+  ],
   "_comment_reply_hours": "Реплай-сповіщення (--replies, --fresh) лише з 8:00 до 23:00 за Нью-Йорком, щоб денний ліміт не з'їдався вночі. Пости для аналогів (🔁) і ранковий топ ідуть цілодобово.",
-  "_comment_reply_alerts": "Реплай-сповіщення (--replies і --fresh разом) не більше max_reply_alerts_per_day за день (Нью-Йорк): план 4–6 реплаїв, з запасом на вибір. Пости-приманки «comment WORD and I'll send» пропускаються завжди (BAIT_PATTERNS у radar.py + перевірка коментарів)."
+  "_comment_reply_alerts": "Реплай-сповіщення (--replies і --fresh разом) не більше max_reply_alerts_per_day за день (Нью-Йорк), з 13.11 це 15, щоб було з чого вибрати. Пости-приманки «comment WORD and I'll send» пропускаються завжди (BAIT_PATTERNS у radar.py + перевірка коментарів).",
+  "toad": {
+    "_comment": "Режим --toad: окремий радар для Gym Toad (@gymtoad0x). Практичні пости про Claude Code, автоматизації, репо, промпти. Реплай: пост до 2 год, що летить (ті самі пороги, що у fresh). Тема для аналога: 20K+ переглядів, X-фактор ×10+, автор до 50K. Свої ліміти на день, не перетинається з постами, які пішли Synra. Раз на ~60 хв, 2 запити ≈ 30 запитів на день у робочі години. Вимкнути: enabled=false.",
+    "enabled": true,
+    "queries": [
+      "(\"claude code\" OR \"CLAUDE.md\" OR \"claude skills\" OR \"plan mode\" OR \"subagents\") (tip OR tips OR workflow OR setup OR guide OR repo OR \"how i\") min_faves:30",
+      "(n8n OR \"mcp server\" OR \"open source\" OR \"free repo\" OR \"github repo\" OR automation) (claude OR cursor OR codex OR agent) min_faves:50"
+    ],
+    "lookback_hours": 24,
+    "pages_per_query": 2,
+    "min_minutes_between_runs": 55,
+    "max_checks_per_run": 10,
+    "max_followers": 300000,
+    "reply_max_age_min": 120,
+    "min_views": 500,
+    "hot_views": 5000,
+    "min_per_hour": 1000,
+    "min_replies": 30,
+    "remake_min_views": 20000,
+    "remake_min_x_factor": 10,
+    "remake_max_followers": 50000,
+    "max_reply_per_day": 3,
+    "max_remake_per_day": 3,
+    "niche": "Gym Toad вчить, як скористатися AI сьогодні: практичні поради по Claude Code (plan mode, CLAUDE.md, subagents, skills, ліміти), автоматизації (n8n, MCP), безкоштовні репозиторії й інструменти для розробки, промпти, «як я зробив X за вечір». Підходять: інструкції, робочі процеси, списки корисних репо й інструментів, тести «що працює, що ні». Не підходять: 3D-сцени, ігри й візуальні шоукейси (це інший акаунт), новини, цифри компаній і гроші, хайп без інструкції, трейдинг, крипта, політика, giveaway, реклама.",
+    "persona": "You write X (Twitter) replies for Gym Toad, a builder who shares practical Claude Code and AI-automation habits with light gym humour (reps, warm-up, leg day), in lowercase. One concrete tip or observation per reply, from someone who uses these tools daily. Never 3D or games talk, never news commentary, never skeptic tone."
+  }
 }

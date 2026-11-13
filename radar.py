@@ -9,6 +9,7 @@
   python radar.py --preview 5  тест вигляду на 5 останніх постах, без пошуку
   python radar.py --replies  нові пости акаунтів зі списку reply_watch -> «НАПИШИ РЕПЛАЙ» + варіанти
   python radar.py --fresh    пости молодші за 2 год, що швидко ростуть -> «реплай з відео зараз»
+  python radar.py --toad     окремий радар для Gym Toad 🐸: практичні пости (реплай або тема для аналога)
   python radar.py --test-bait  перевірка фільтра «напиши слово, отримаєш» на прикладах
 
 Реплай-сповіщення (--replies, --fresh) ідуть лише під пости, що вже летять:
@@ -443,9 +444,11 @@ def suggest_replies(p, cfg, note=None):
     video_hint = (f"Roman may attach his own ready video to the reply: {video}. Make at least one variant work as "
                   "a one-line caption for that video, without claiming anything the video does not show.\n"
                   if video else "")
+    persona = (cfg.get("_persona") or
+               "You write X (Twitter) replies for Roman. He builds 3D scenes, browser games, simulations and short "
+               "videos with Claude and other AI models every day.")
     prompt = (
-        "You write X (Twitter) replies for Roman. He builds 3D scenes, browser games, simulations and short "
-        "videos with Claude and other AI models every day.\n\n"
+        f"{persona}\n\n"
         f"Post by @{p['user']} ({fmt_age(p)} old, {p['views']} views so far):\n{p['text'][:1500]}\n\n"
         f"{video_hint}"
         "Write 4 replies with clearly different angles: (1) a concrete fact, number or second-order "
@@ -599,6 +602,128 @@ def fresh_run(cfg, dry):
         save_state(state)
 
 
+def toad_card(p, kind, note, variants):
+    head = ("🐸 <b>ЖАБА · НАПИШИ РЕПЛАЙ</b> (пост до 2 год, що летить)" if kind == "reply"
+            else f"🐸 <b>ЖАБА · ТЕМА ДЛЯ АНАЛОГА</b> · летить тема, а не автор (×{p['x_factor']:g})")
+    lines = [head,
+             f"⏱ {fmt_age(p)} · 👁 <b>{fmt_num(p['views'])}</b> · 🚀 {fmt_num(p['per_hour'])}/год · 💬 {p['replies']}",
+             f"👤 @{html.escape(p['user'])} · {fmt_num(p['followers'])} підп.", ""]
+    if note and note.get("about"):
+        lines.append(f"<b>{html.escape(note['about'], quote=False)}</b>")
+    else:
+        lines.append(html.escape(p["text"].split("\n")[0][:140], quote=False))
+    if note and note.get("why"):
+        lines.append(f"<i>Чому летить: {html.escape(note['why'], quote=False)}</i>")
+    if variants:
+        lines += ["", "<b>Варіанти реплаю жаби (тапни, щоб скопіювати):</b>" if kind == "reply"
+                  else "<b>Кути для свого поста жаби:</b>"]
+        lines += [f"{i}. <code>{html.escape(v, quote=False)}</code>" for i, v in enumerate(variants, 1)]
+    lines += ["", p["url"]]
+    return "\n".join(lines)
+
+
+def toad_run(cfg, dry):
+    """Окремий радар для Gym Toad: практичні пости про Claude Code, автоматизації, репо й промпти.
+    Два типи: свіжий пост, що летить (реплай), і пост, що летить на малому акаунті (тема для аналога).
+    Свій денний ліміт і своя пам'ять; пости, які вже пішли Synra, жабі не шле (не реплаїти двома акаунтами)."""
+    tc = cfg.get("toad") or {}
+    if not tc.get("enabled") or not tc.get("queries"):
+        print("toad mode is off")
+        return
+    state = load_state()
+    gap_min = (time.time() - state.get("toad_last_run", 0)) / 60
+    if not dry and gap_min < tc.get("min_minutes_between_runs", 55):
+        print(f"skip toad: last run {gap_min:.0f} min ago")
+        return
+    start, end = cfg.get("reply_active_hours", [8, 23])
+    if not dry and not (start <= datetime.now(NY).hour < end):
+        print("skip toad: outside active hours")
+        return
+    key = os.environ["TWITTERAPI_IO_KEY"]
+    since = int(time.time() - tc.get("lookback_hours", 24) * 3600)
+    found = {}
+    for q in tc["queries"]:
+        full = f"{q} since_time:{since} -filter:replies -filter:retweets"
+        if cfg.get("lang"):
+            full += f" lang:{cfg['lang']}"
+        try:
+            for t in search(full, tc.get("pages_per_query", 1), key):
+                p = score(t)
+                found[p["id"]] = p
+        except Exception as e:
+            print(f"Toad query failed: {q!r}: {e}", file=sys.stderr)
+    today = datetime.now(NY).strftime("%Y-%m-%d")
+    day = state.setdefault("toad_day", {})
+    if day.get("date") != today:
+        day.clear()
+        day.update({"date": today, "reply": 0, "remake": 0})
+    seen = state.setdefault("toad_seen", {})
+    synra = set(state.get("sent", {})) | set(state.get("reply_seen", {}))
+    cands = []
+    for p in found.values():
+        if p["id"] in seen or p["id"] in synra or blocked(p["text"], cfg):
+            continue
+        if p["followers"] > tc.get("max_followers", 300000):
+            continue
+        if p["age_h"] <= tc.get("reply_max_age_min", 120) / 60 and takes_off(p, tc):
+            cands.append(("reply", p))
+        elif (p["views"] >= tc.get("remake_min_views", 20000) and p["x_factor"] >= tc.get("remake_min_x_factor", 10)
+              and p["followers"] <= tc.get("remake_max_followers", 50000)):
+            cands.append(("remake", p))
+    cands.sort(key=lambda kp: (kp[0] == "reply", kp[1]["x_factor"] if kp[0] == "remake" else kp[1]["per_hour"]),
+               reverse=True)
+    tcfg = dict(cfg, niche=tc.get("niche", ""), ready_videos=[], _persona=tc.get("persona"))
+    sent = rejected = 0
+    for kind, p in cands[: tc.get("max_checks_per_run", 10)]:
+        if day[kind] >= tc.get(f"max_{kind}_per_day", 3):
+            continue
+        note = analyze(p, tcfg)
+        seen[p["id"]] = time.time()
+        if note and not note["fit"]:
+            rejected += 1
+            print(f"toad off-niche: @{p['user']}: {p['text'][:80]!r}")
+            continue
+        if kind == "reply":
+            cs = comment_stats(p, key)
+            if cs and cs["bait"]:
+                continue
+        variants = suggest_replies(p, tcfg) if kind == "reply" else toad_angles(p, tcfg)
+        send(toad_card(p, kind, note, variants), dry)
+        day[kind] += 1
+        sent += 1
+    print(f"toad: checked {len(found)}, candidates {len(cands)}, off-niche {rejected}, sent {sent}")
+    if not dry:
+        state["toad_last_run"] = time.time()
+        save_state(state)
+
+
+def toad_angles(p, cfg):
+    """2–3 кути для власного поста жаби на ту саму тему. Повертає список рядків або []."""
+    key = os.environ.get("ANTHROPIC_API_KEY")
+    if not key:
+        return []
+    prompt = (
+        f"{cfg.get('_persona', '')}\n\n"
+        f"This post took off on a small account:\n{p['text'][:1500]}\n\n"
+        "Suggest 3 different angles for Gym Toad's own post on the same topic (not a copy). Each angle is one line: "
+        "the hook line he could open with. Practical, specific, gym metaphor optional. English, lowercase, "
+        "under 120 characters, no hashtags, no emoji, no em dashes, do not invent numbers or results.\n"
+        'Answer only with JSON, no markdown: {"angles": ["...", "...", "..."]}'
+    )
+    try:
+        res = http_json("https://api.anthropic.com/v1/messages",
+                        {"x-api-key": key, "anthropic-version": "2023-06-01"},
+                        {"model": cfg.get("reply_watch", {}).get("model", "claude-sonnet-5-5"), "max_tokens": 800,
+                         "thinking": {"type": "disabled"},
+                         "messages": [{"role": "user", "content": prompt}]}, timeout=60)
+        text = "".join(b.get("text", "") for b in res.get("content", [])).strip()
+        out = json.loads(text[text.index("{"):text.rindex("}") + 1])
+        return [str(a).strip() for a in out.get("angles", []) if str(a).strip()][:3]
+    except Exception as e:
+        print("toad angles failed:", e, file=sys.stderr)
+        return []
+
+
 def test_bait():
     """Перевірка фільтра приманок без мережі: python radar.py --test-bait"""
     bait = ['Comment "AGENT" and I\'ll send you the full guide', "Reply with PROMPT and I will DM it",
@@ -624,6 +749,7 @@ def main():
     ap.add_argument("--preview", type=int, metavar="N")
     ap.add_argument("--replies", action="store_true")
     ap.add_argument("--fresh", action="store_true")
+    ap.add_argument("--toad", action="store_true")
     ap.add_argument("--test-bait", action="store_true")
     args = ap.parse_args()
     if args.test_bait:
@@ -636,6 +762,8 @@ def main():
         return replies_run(cfg, args.dry)
     if args.fresh:
         return fresh_run(cfg, args.dry)
+    if args.toad:
+        return toad_run(cfg, args.dry)
     if args.preview:
         return preview(cfg, args.preview, args.dry)
     while True:
