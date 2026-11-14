@@ -1,12 +1,5 @@
 {
  "seen": {
-  "2120598848036892723": 1794427851.9641788,
-  "2120605361615073681": 1794427853.073521,
-  "2120585638970007665": 1794427854.2114348,
-  "2120603090625933425": 1794427855.197693,
-  "2120587202404962567": 1794427857.0440412,
-  "2120582812793475290": 1794427858.257686,
-  "2120591041501815192": 1794427859.8900473,
   "2120410451674882412": 1794432815.1666496,
   "2120271165692461316": 1794432816.1399891,
   "2120443372641141180": 1794432817.2965205,
@@ -692,54 +685,6 @@
    "x_factor": 1.0,
    "per_hour": 442,
    "ts": 1794459522.6147819
-  },
-  "2120603090625933425": {
-   "id": "2120603090625933425",
-   "url": "https://x.com/jankeesvw/status/2120603090625933425",
-   "text": "I rebuilt my village in isometric pixel art. Every house and tree in its real place, all from open data, made with Claude Code. Want one of your own town? Hit \"Make your own village\" and paste the prompt into your agent.\n\nhttps://t.co/GZeAxn9zev https://t.co/ifNXvAsnLK",
-   "user": "jankeesvw",
-   "followers": 8054,
-   "views": 630,
-   "likes": 13,
-   "reposts": 0,
-   "replies": 8,
-   "bookmarks": 6,
-   "age_h": 0.5,
-   "x_factor": 0.1,
-   "per_hour": 1339,
-   "ts": 1794427843.0613272
-  },
-  "2120582812793475290": {
-   "id": "2120582812793475290",
-   "url": "https://x.com/rewind02/status/2120582812793475290",
-   "text": "full 3d farming game was built in one html file with claude fable 5.2 + three.js..\n\nno asset files at all\n\nthe trick is generating everything from code. here’s the workflow:\n\n- step 1: set fable 5.2 to xhigh effort and ask for one self-contained html file using three.js\n- step 2: prompt 1, the world: terrain, ~200k instanced grass blades that sway and flatten underfoot, a farmhouse and a barn with working doors\n- step 3: textures from code: wood grain, peeling paint, wet soil that glistens after watering\n- step 4: prompt 2, the farming loop: hoe for raised furrows, a seed catalogue, a watering can, a sickle, 6 crops from seed to harvest\n- step 5: prompt 3, the atmosphere: 4 seasons, fog and rain, snow that builds up and holds footprints, lanterns that light at sunset\n- step 6: audio from code too: footsteps that change on grass, dirt and wood, rain under a roof, background music\n- step 7: share it as a claude artifact so anyone can play it in the browser\n\nwho does what:\n\n> fable 5.2: every mesh, texture, sound and line of javascript\n> three.js: rendering, lighting, instancing\n> one html file: the whole game\n> you: the brief and the feedback\n\nsmall reactive details beat big features (dev: lucian__03)",
-   "user": "rewind02",
-   "followers": 8222,
-   "views": 850,
-   "likes": 49,
-   "reposts": 4,
-   "replies": 20,
-   "bookmarks": 26,
-   "age_h": 1.8,
-   "x_factor": 0.1,
-   "per_hour": 468,
-   "ts": 1794427843.0613768
-  },
-  "2120591041501815192": {
-   "id": "2120591041501815192",
-   "url": "https://x.com/dom_scholz/status/2120591041501815192",
-   "text": "Opus 5.5 vs. Fable 5.2 (round 2)\n\nyou asked me to give Fable more time. it mogged hard\n\n(in the browser using @threejs) https://t.co/HVyOv5HIA2",
-   "user": "dom_scholz",
-   "followers": 8446,
-   "views": 591,
-   "likes": 11,
-   "reposts": 1,
-   "replies": 2,
-   "bookmarks": 1,
-   "age_h": 1.3,
-   "x_factor": 0.1,
-   "per_hour": 465,
-   "ts": 1794427843.0613601
   },
   "2120363153028477226": {
    "id": "2120363153028477226",
@@ -9208,9 +9153,6 @@
  },
  "last_run": 1794677758.1449285,
  "sent": {
-  "2120603090625933425": 1794427855.8726828,
-  "2120582812793475290": 1794427858.9306252,
-  "2120591041501815192": 1794427860.5561342,
   "2120443372641141180": 1794432817.91216,
   "2120429993755099515": 1794432819.792564,
   "2120626368937619627": 1794433261.6392338,
@@ -9269,11 +9211,6 @@
   "2121647529750311377": 1794677174.8671474
  },
  "reply_seen": {
-  "2120609500118069489": 1794427831.2592385,
-  "2120609393700171975": 1794427832.0796196,
-  "2120608266312987043": 1794427832.7563257,
-  "2120602285541670915": 1794427833.4226687,
-  "2120601091591274513": 1794427834.0816004,
   "2120630147086995890": 1794433243.4089973,
   "2120725234965790865": 1794457702.305789,
   "2120792464403615797": 1794473304.5673177,
@@ -9296,8 +9233,8 @@
   "2121658833114390819": 1794679099.6913083,
   "2121676287030841805": 1794684276.6396766
  },
- "reply_last_run": 1794686429.9465814,
- "fresh_last_run": 1794684292.2182314,
+ "reply_last_run": 1794689080.1997423,
+ "fresh_last_run": 1794689095.162005,
  "reply_day": {
   "date": "2026-11-12",
   "count": 8
