@@ -1,15 +1,5 @@
 {
  "seen": {
-  "2120626368937619627": 1794433260.956656,
-  "2120624097826680985": 1794433262.9511235,
-  "2120615017577959548": 1794433264.7230272,
-  "2120619079967105158": 1794433266.6719227,
-  "2120615591320989905": 1794433267.8832037,
-  "2120613767499092474": 1794433269.4953942,
-  "2120622969584025774": 1794433270.5731947,
-  "2120617070119236035": 1794433271.9710534,
-  "2120608723488178433": 1794433273.2215552,
-  "2120610888797364383": 1794433274.4269133,
   "2120628576290517033": 1794436524.5112627,
   "2120618039368659161": 1794436525.9009793,
   "2120624081611772136": 1794436527.0047913,
@@ -748,70 +738,6 @@
    "x_factor": 0.1,
    "per_hour": 2166,
    "ts": 1794473906.3330984
-  },
-  "2120626368937619627": {
-   "id": "2120626368937619627",
-   "url": "https://x.com/RoundtableSpace/status/2120626368937619627",
-   "text": "This guy one-shot a tool with Fable 5.2 that builds entire 3D walkthrough using just a 2D blueprint\n\nThis is insane\n\n https://t.co/3xlisdIngU",
-   "user": "RoundtableSpace",
-   "followers": 274544,
-   "views": 14091,
-   "likes": 12,
-   "reposts": 1,
-   "replies": 0,
-   "bookmarks": 1,
-   "age_h": 0.4,
-   "x_factor": 0.1,
-   "per_hour": 32682,
-   "ts": 1794433252.1148555
-  },
-  "2120624097826680985": {
-   "id": "2120624097826680985",
-   "url": "https://x.com/runwayml/status/2120624097826680985",
-   "text": "Create with Runway inside Claude using Fable 5.2.\n\nFrom an idea to a playable electronic flute: concepts in Runway, a prototype in Blender and final textures and renders back in Runway. Watch below. https://t.co/PiJUzXO3P2",
-   "user": "runwayml",
-   "followers": 296197,
-   "views": 6688,
-   "likes": 44,
-   "reposts": 15,
-   "replies": 14,
-   "bookmarks": 18,
-   "age_h": 0.6,
-   "x_factor": 0.0,
-   "per_hour": 11497,
-   "ts": 1794433252.1147726
-  },
-  "2120615591320989905": {
-   "id": "2120615591320989905",
-   "url": "https://x.com/dotta/status/2120615591320989905",
-   "text": "It's real: you can ask Fable 5.2 to create a 90's cereal commercial in Blender and it works and it's good\n\nPaperclip Crunsh: All part of a zero-human breakfast https://t.co/0x5jRcZnit",
-   "user": "dotta",
-   "followers": 61806,
-   "views": 1298,
-   "likes": 19,
-   "reposts": 2,
-   "replies": 6,
-   "bookmarks": 9,
-   "age_h": 1.1,
-   "x_factor": 0.0,
-   "per_hour": 1133,
-   "ts": 1794433252.1149204
-  },
-  "2120610888797364383": {
-   "id": "2120610888797364383",
-   "url": "https://x.com/aGim_asf/status/2120610888797364383",
-   "text": "Claude (Fable 5.2) can finally generate good pixel art animation \n\nai couldn’t touch this a few months ago https://t.co/Q3G9fFgSlh",
-   "user": "aGim_asf",
-   "followers": 6909,
-   "views": 628,
-   "likes": 14,
-   "reposts": 1,
-   "replies": 3,
-   "bookmarks": 1,
-   "age_h": 1.5,
-   "x_factor": 0.1,
-   "per_hour": 431,
-   "ts": 1794433252.1148415
   },
   "2120624081611772136": {
    "id": "2120624081611772136",
@@ -9072,10 +8998,6 @@
  },
  "last_run": 1794692242.7863822,
  "sent": {
-  "2120626368937619627": 1794433261.6392338,
-  "2120624097826680985": 1794433263.624018,
-  "2120615591320989905": 1794433268.5333211,
-  "2120610888797364383": 1794433275.0734901,
   "2120624081611772136": 1794436527.4753973,
   "2120624970653134926": 1794436529.0636885,
   "2120623690941354173": 1794436530.6998322,
@@ -9129,7 +9051,6 @@
   "2121674171130511383": 1794692240.6889536
  },
  "reply_seen": {
-  "2120630147086995890": 1794433243.4089973,
   "2120725234965790865": 1794457702.305789,
   "2120792464403615797": 1794473304.5673177,
   "2120960265277546844": 1794512169.984012,
@@ -9151,8 +9072,8 @@
   "2121658833114390819": 1794679099.6913083,
   "2121676287030841805": 1794684276.6396766
  },
- "reply_last_run": 1794691147.0337162,
- "fresh_last_run": 1794689095.162005,
+ "reply_last_run": 1794693590.6729522,
+ "fresh_last_run": 1794693606.2810512,
  "reply_day": {
   "date": "2026-11-12",
   "count": 8
