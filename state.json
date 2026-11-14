@@ -1,12 +1,5 @@
 {
  "seen": {
-  "2120204711790023128": 1794391090.0278525,
-  "2120094418078228980": 1794391091.2715578,
-  "2120129460254933035": 1794391092.7213955,
-  "2120275993088925734": 1794391094.3550777,
-  "2120241909369303077": 1794391095.5001535,
-  "2120224077562675280": 1794391096.7488852,
-  "2120096615184605453": 1794391097.8412185,
   "2120496118563766527": 1794404406.0648313,
   "2120501283304153438": 1794404407.2018788,
   "2120485347515633804": 1794404409.5010862,
@@ -200,41 +193,13 @@
   "2121347636183904560": 1794635396.4534693,
   "2121311300928364717": 1794635397.2805972,
   "2121286732356493418": 1794635398.370643,
-  "2121399044560015748": 1794649523.1297417
+  "2121399044560015748": 1794649523.1297417,
+  "2121571628308156599": 1794662568.45771,
+  "2121573658837897512": 1794662570.0701096,
+  "2121569691663503515": 1794662579.9208174,
+  "2121584144194871614": 1794662581.5005922
  },
  "pool": {
-  "2120121819768520721": {
-   "id": "2120121819768520721",
-   "url": "https://x.com/DarioCpx/status/2120121819768520721",
-   "text": "Oh my god, Anthropic is so desperate to IPO before democrats take control of house and senate that it cut its IPO valuation target by FIFTY PERCENT to $ 1 trillion even below the $1.25 trillion valuation OpenAI fetched in its last private fundraise https://t.co/PuBrSWS4iW",
-   "user": "DarioCpx",
-   "followers": 123109,
-   "views": 77205,
-   "likes": 1512,
-   "reposts": 201,
-   "replies": 56,
-   "bookmarks": 87,
-   "age_h": 22.1,
-   "x_factor": 0.6,
-   "per_hour": 3489,
-   "ts": 1794391046.2775116
-  },
-  "2120103631307645276": {
-   "id": "2120103631307645276",
-   "url": "https://x.com/theo/status/2120103631307645276",
-   "text": "New Claude Code bug I genuinely couldn't believe (happened live when filming!)\n\nIt DOUBLES EVERY SINGLE KEY PRESS IN THE INPUT BOX.\n\nIdk if I'm somehow special but I always find the wildest bullshit when I use these apps 🙃 https://t.co/FsJ0udSjcI",
-   "user": "theo",
-   "followers": 426356,
-   "views": 120692,
-   "likes": 1688,
-   "reposts": 24,
-   "replies": 275,
-   "bookmarks": 103,
-   "age_h": 23.3,
-   "x_factor": 0.3,
-   "per_hour": 5173,
-   "ts": 1794391046.2775066
-  },
   "2120184484725428724": {
    "id": "2120184484725428724",
    "url": "https://x.com/AndrewCurran_/status/2120184484725428724",
@@ -251,22 +216,6 @@
    "per_hour": 2484,
    "ts": 1794406599.4432654
   },
-  "2120102994146627592": {
-   "id": "2120102994146627592",
-   "url": "https://x.com/Dhruvkumar16797/status/2120102994146627592",
-   "text": "BREAKING NEWS 🚨 \n\nClaude FULL COURSE 1 HOUR (Build &amp; Automate Anything) https://t.co/SnUWwYjd55",
-   "user": "Dhruvkumar16797",
-   "followers": 21548,
-   "views": 75210,
-   "likes": 1653,
-   "reposts": 213,
-   "replies": 7,
-   "bookmarks": 1545,
-   "age_h": 23.4,
-   "x_factor": 3.5,
-   "per_hour": 3218,
-   "ts": 1794391046.2770982
-  },
   "2120206365759094857": {
    "id": "2120206365759094857",
    "url": "https://x.com/claudeai/status/2120206365759094857",
@@ -282,38 +231,6 @@
    "x_factor": 4.9,
    "per_hour": 478786,
    "ts": 1794406599.442959
-  },
-  "2120198811297694192": {
-   "id": "2120198811297694192",
-   "url": "https://x.com/sundarpichai/status/2120198811297694192",
-   "text": "Carbon made a pelican demo so you don't have to 😅\n\nfun test of long-horizon coding and the new /swarm feature in Google @Antigravity.\n\nBuilder and critic subagents ran iterative loops across Blender and Three.js - checking their own renders to build a playable 3D game of a pelican biking around our Mountain View campus.",
-   "user": "sundarpichai",
-   "followers": 11881406,
-   "views": 293000,
-   "likes": 4496,
-   "reposts": 384,
-   "replies": 290,
-   "bookmarks": 527,
-   "age_h": 17.0,
-   "x_factor": 0.0,
-   "per_hour": 17203,
-   "ts": 1794391075.0492003
-  },
-  "2120111159726727321": {
-   "id": "2120111159726727321",
-   "url": "https://x.com/chetaslua/status/2120111159726727321",
-   "text": "Fable 5.2 made monica apartment in @threejs \n\ni quoted my fable 5 post on the same prompt &lt; this is the acceleration , feel it &gt;\n\nthis is 5 month of change and you can see the details and work &lt; see how outdated fable 5 looks in comparison&gt; https://t.co/0bSNRrP18D",
-   "user": "chetaslua",
-   "followers": 45265,
-   "views": 12145,
-   "likes": 233,
-   "reposts": 16,
-   "replies": 31,
-   "bookmarks": 55,
-   "age_h": 22.8,
-   "x_factor": 0.3,
-   "per_hour": 531,
-   "ts": 1794391075.0492074
   },
   "2120187753329791341": {
    "id": "2120187753329791341",
@@ -475,22 +392,6 @@
    "per_hour": 7094,
    "ts": 1794406599.4431715
   },
-  "2120230826898293238": {
-   "id": "2120230826898293238",
-   "url": "https://x.com/opencode/status/2120230826898293238",
-   "text": "Gemini 4 Carbon and Claude Fable 5.2 are now available in OpenCode",
-   "user": "opencode",
-   "followers": 232160,
-   "views": 110440,
-   "likes": 3509,
-   "reposts": 120,
-   "replies": 101,
-   "bookmarks": 135,
-   "age_h": 14.9,
-   "x_factor": 0.5,
-   "per_hour": 7410,
-   "ts": 1794391046.2774594
-  },
   "2120172203195211975": {
    "id": "2120172203195211975",
    "url": "https://x.com/SaaSletter/status/2120172203195211975",
@@ -522,22 +423,6 @@
    "x_factor": 0.7,
    "per_hour": 4032,
    "ts": 1794419649.8000917
-  },
-  "2120100129269272967": {
-   "id": "2120100129269272967",
-   "url": "https://x.com/themishra4402/status/2120100129269272967",
-   "text": "One of my greatest contributions to helping Claude achieve AGI https://t.co/mEdUWxrN9s",
-   "user": "themishra4402",
-   "followers": 5270,
-   "views": 325920,
-   "likes": 5206,
-   "reposts": 137,
-   "replies": 100,
-   "bookmarks": 447,
-   "age_h": 23.6,
-   "x_factor": 61.8,
-   "per_hour": 13834,
-   "ts": 1794391046.277166
   },
   "2120227979041341943": {
    "id": "2120227979041341943",
@@ -603,38 +488,6 @@
    "per_hour": 5116,
    "ts": 1794419649.8000216
   },
-  "2120147354334777804": {
-   "id": "2120147354334777804",
-   "url": "https://x.com/garylau_ai/status/2120147354334777804",
-   "text": "APT. — Reimagined with Jensen Huang &amp; Miss Huang\n\nCreated with MiniMax H3. Featuring Jensen's GPUs.🤣 https://t.co/80ewhDL3LQ",
-   "user": "garylau_ai",
-   "followers": 4978,
-   "views": 538769,
-   "likes": 5819,
-   "reposts": 881,
-   "replies": 150,
-   "bookmarks": 2223,
-   "age_h": 20.4,
-   "x_factor": 108.2,
-   "per_hour": 26369,
-   "ts": 1794391046.2773557
-  },
-  "2120106291909840936": {
-   "id": "2120106291909840936",
-   "url": "https://x.com/tec_sany/status/2120106291909840936",
-   "text": "🚨 BREAKING: Claude can now BUILD a YouTube channel from scratch and hit monetization in just 45 days.\n\n100% free.\n\nHere are 09 prompts to make it happen:\n\n(Save Now )",
-   "user": "tec_sany",
-   "followers": 14011,
-   "views": 77579,
-   "likes": 646,
-   "reposts": 87,
-   "replies": 37,
-   "bookmarks": 1237,
-   "age_h": 23.2,
-   "x_factor": 5.5,
-   "per_hour": 3351,
-   "ts": 1794391046.2774868
-  },
   "2120224693705908369": {
    "id": "2120224693705908369",
    "url": "https://x.com/IterIntellectus/status/2120224693705908369",
@@ -650,22 +503,6 @@
    "x_factor": 1.2,
    "per_hour": 15022,
    "ts": 1794406599.443033
-  },
-  "2120198663062622581": {
-   "id": "2120198663062622581",
-   "url": "https://x.com/kevin_t_ngo/status/2120198663062622581",
-   "text": "Thank you @claudeai!\n\nClaude Fable 5.2 made this music video with code. Animated in Python and rendered in Blender https://t.co/ZnS1NJBFan",
-   "user": "kevin_t_ngo",
-   "followers": 26389,
-   "views": 26126,
-   "likes": 633,
-   "reposts": 45,
-   "replies": 33,
-   "bookmarks": 317,
-   "age_h": 17.0,
-   "x_factor": 1.0,
-   "per_hour": 1533,
-   "ts": 1794391046.2773008
   },
   "2120187335413563673": {
    "id": "2120187335413563673",
@@ -811,22 +648,6 @@
    "per_hour": 3033,
    "ts": 1794406599.443012
   },
-  "2120107712474456130": {
-   "id": "2120107712474456130",
-   "url": "https://x.com/shipper_now/status/2120107712474456130",
-   "text": "🚨 BREAKING: Claude can now build a full business.  \n\nA highschooler can reach +$4M/month by giving Fable 5.2 full access to his Mac. 12 months ago this was straight out of a scifi horror movie.\n\nThis is just absurd. https://t.co/5pQYkxKTKH",
-   "user": "shipper_now",
-   "followers": 37797,
-   "views": 404033,
-   "likes": 1504,
-   "reposts": 118,
-   "replies": 50,
-   "bookmarks": 2576,
-   "age_h": 23.1,
-   "x_factor": 10.7,
-   "per_hour": 17523,
-   "ts": 1794391046.277321
-  },
   "2120199024925941812": {
    "id": "2120199024925941812",
    "url": "https://x.com/juampitech/status/2120199024925941812",
@@ -891,22 +712,6 @@
    "per_hour": 8995,
    "ts": 1794445579.0379002
   },
-  "2120233187112636745": {
-   "id": "2120233187112636745",
-   "url": "https://x.com/ns123abc/status/2120233187112636745",
-   "text": "Anthropic CEO predicts cancer, Alzheimer's, heart disease, mental illness will be cured in less than 10 years \n\nACCELERATE https://t.co/pHn6H5jx09",
-   "user": "ns123abc",
-   "followers": 91600,
-   "views": 1103995,
-   "likes": 9784,
-   "reposts": 1276,
-   "replies": 763,
-   "bookmarks": 1787,
-   "age_h": 14.7,
-   "x_factor": 12.1,
-   "per_hour": 74863,
-   "ts": 1794391046.277482
-  },
   "2120237698590130461": {
    "id": "2120237698590130461",
    "url": "https://x.com/Jason/status/2120237698590130461",
@@ -955,22 +760,6 @@
    "per_hour": 6398,
    "ts": 1794419649.7999964
   },
-  "2120135900218937513": {
-   "id": "2120135900218937513",
-   "url": "https://x.com/TommiPedruzzi/status/2120135900218937513",
-   "text": "You can make $8400 per month if you have:\n\n• Google Doc\n• Claude and\n• 1 hour every day\n\nHere's how:",
-   "user": "TommiPedruzzi",
-   "followers": 150798,
-   "views": 121962,
-   "likes": 583,
-   "reposts": 61,
-   "replies": 17,
-   "bookmarks": 1237,
-   "age_h": 21.2,
-   "x_factor": 0.8,
-   "per_hour": 5755,
-   "ts": 1794391046.277308
-  },
   "2120295110093254832": {
    "id": "2120295110093254832",
    "url": "https://x.com/MarceloLima/status/2120295110093254832",
@@ -986,54 +775,6 @@
    "x_factor": 27.0,
    "per_hour": 37258,
    "ts": 1794432768.7691905
-  },
-  "2120229243590189500": {
-   "id": "2120229243590189500",
-   "url": "https://x.com/Jason/status/2120229243590189500",
-   "text": "MICROSOFT is no longer the bundler -- they are now the bundled.  \n\nThe biggest threat to Microsoft Office is \"Claude Office.\"\n\nAnthropic is dumping free Office products and features to its giant AI customer base. \n\nMicrosoft has no choice: they must launch a CLAUDE competitor quickly.",
-   "user": "Jason",
-   "followers": 1832638,
-   "views": 548089,
-   "likes": 4029,
-   "reposts": 325,
-   "replies": 388,
-   "bookmarks": 961,
-   "age_h": 15.0,
-   "x_factor": 0.3,
-   "per_hour": 36520,
-   "ts": 1794391046.2774968
-  },
-  "2120102631288995938": {
-   "id": "2120102631288995938",
-   "url": "https://x.com/socialwithaayan/status/2120102631288995938",
-   "text": "Ok Claude Fable 5.2 is insane.\n\nAnthropic dropped it last night and builders didn't sleep.\n\n10 wild examples:",
-   "user": "socialwithaayan",
-   "followers": 69525,
-   "views": 447772,
-   "likes": 932,
-   "reposts": 66,
-   "replies": 26,
-   "bookmarks": 1026,
-   "age_h": 23.4,
-   "x_factor": 6.4,
-   "per_hour": 19141,
-   "ts": 1794391046.2773488
-  },
-  "2120261568328073710": {
-   "id": "2120261568328073710",
-   "url": "https://x.com/nateberkopec/status/2120261568328073710",
-   "text": "\"Claude, make an isolated VM, cap CPU/RAM. Run 10 Pi agents (DeepSeek v4.1 1017) that self-organize w/ pi-intercom. Egress to LLM gateway only. Inside VM, provide source code + running copy of &lt;app&gt;, instruct swarm to report all repro'd exploits consistent w/our threat model.\"",
-   "user": "nateberkopec",
-   "followers": 34243,
-   "views": 31346,
-   "likes": 984,
-   "reposts": 32,
-   "replies": 16,
-   "bookmarks": 1229,
-   "age_h": 12.9,
-   "x_factor": 0.9,
-   "per_hour": 2436,
-   "ts": 1794391046.2773278
   },
   "2120206833411600436": {
    "id": "2120206833411600436",
@@ -1099,22 +840,6 @@
    "per_hour": 3833,
    "ts": 1794406599.443055
   },
-  "2120119277004960088": {
-   "id": "2120119277004960088",
-   "url": "https://x.com/Kalshi/status/2120119277004960088",
-   "text": "JUST IN: Google, AMD, Broadcom and other firms will invest $26 billion in Anthropic",
-   "user": "Kalshi",
-   "followers": 508171,
-   "views": 42763,
-   "likes": 1106,
-   "reposts": 84,
-   "replies": 24,
-   "bookmarks": 54,
-   "age_h": 22.3,
-   "x_factor": 0.1,
-   "per_hour": 1918,
-   "ts": 1794391046.2774122
-  },
   "2120209242363969728": {
    "id": "2120209242363969728",
    "url": "https://x.com/Jason/status/2120209242363969728",
@@ -1147,70 +872,6 @@
    "per_hour": 873,
    "ts": 1794419649.8000133
   },
-  "2120181939919536271": {
-   "id": "2120181939919536271",
-   "url": "https://x.com/Kalshi/status/2120181939919536271",
-   "text": "JUST IN: Anthropic warns its AI is improving its own models faster than its safety measures can keep up",
-   "user": "Kalshi",
-   "followers": 508171,
-   "views": 58769,
-   "likes": 1710,
-   "reposts": 160,
-   "replies": 82,
-   "bookmarks": 119,
-   "age_h": 18.1,
-   "x_factor": 0.1,
-   "per_hour": 3239,
-   "ts": 1794391046.2773345
-  },
-  "2120186524645916776": {
-   "id": "2120186524645916776",
-   "url": "https://x.com/fightinggirls8/status/2120186524645916776",
-   "text": "Your personal AI slut is one prompt away – start sexting now! 👉\nhttps://t.co/MdnuXw6H0s https://t.co/ENXNHnpdHn",
-   "user": "fightinggirls8",
-   "followers": 299695,
-   "views": 95481,
-   "likes": 2023,
-   "reposts": 330,
-   "replies": 16,
-   "bookmarks": 1694,
-   "age_h": 17.8,
-   "x_factor": 0.3,
-   "per_hour": 5351,
-   "ts": 1794391060.9644244
-  },
-  "2120125429482688718": {
-   "id": "2120125429482688718",
-   "url": "https://x.com/aiexoticdotcom/status/2120125429482688718",
-   "text": "Goth BBW in the back seat of a van, big tits out and her ass up\nHe pulls out and finishes across her face and chest.\n\nAI-generated. Yours is one prompt away. https://t.co/jLJ3trzO19\n\n#cumshot #AIgirl #Realistic https://t.co/p6TwgwIvKp",
-   "user": "aiexoticdotcom",
-   "followers": 188989,
-   "views": 15802,
-   "likes": 461,
-   "reposts": 24,
-   "replies": 0,
-   "bookmarks": 360,
-   "age_h": 21.9,
-   "x_factor": 0.1,
-   "per_hour": 721,
-   "ts": 1794391060.964452
-  },
-  "2120178233698386284": {
-   "id": "2120178233698386284",
-   "url": "https://x.com/lovemoms097/status/2120178233698386284",
-   "text": "Your personal AI slut is one prompt away – start sexting now! 👉🏻\n\nhttps://t.co/dCBBTU2IJd https://t.co/08QFlYYxIe",
-   "user": "lovemoms097",
-   "followers": 219281,
-   "views": 121042,
-   "likes": 3610,
-   "reposts": 497,
-   "replies": 15,
-   "bookmarks": 3088,
-   "age_h": 18.4,
-   "x_factor": 0.6,
-   "per_hour": 6581,
-   "ts": 1794391060.9644456
-  },
   "2120253236309569696": {
    "id": "2120253236309569696",
    "url": "https://x.com/M__Houser/status/2120253236309569696",
@@ -1226,22 +887,6 @@
    "x_factor": 254.3,
    "per_hour": 12099,
    "ts": 1794419678.5441465
-  },
-  "2120129460254933035": {
-   "id": "2120129460254933035",
-   "url": "https://x.com/0xclayo/status/2120129460254933035",
-   "text": "HOLY F*CK. I STOPPED PAYING FOR A VIDEO TEAM. 12 CLAUDE SKILLS DO IT ALL NOW.\n\nStoryboard, VFX, SFX and the edit. All inside Claude Code with Opus 5.5.\n\nThis is the stack I actually use:\n\nVideo. Storyboard. VFX. Sound.\n\n01 HyperFrames → Write HTML, get a video. Now ships free music, SFX, stock and TTS.\nhttps://t.co/h7wlDTV0r8\n\n02 Remotion Skills → Claude cuts real videos in React.\nhttps://t.co/8Z41rCQHZV\n\n03 Claude Animated Shorts → Viral animated shorts, 2D characters in a 3D world.\nhttps://t.co/ZmQGwyuV9W\n\n04 Cinematic Director → Script in, shot list and keyframe prompts out.\nhttps://t.co/nfxqc18KSt\n\n05 Drama Skills → Idea to episodes, character sheets and storyboards.\nhttps://t.co/9RYK9ESJPo\n\n06 Seedance Storyboard → Story to storyboards to Seedance 2.0 shots.\nhttps://t.co/v0oVAwaqCA\n\n07 PixelFX → 244 pixel effects in code, plus a skill that makes more.\nhttps://t.co/Gh9pbhT7zw\n\n08 Shader Skills → GLSL, Shadertoy, SDF raymarching, water and clouds.\nhttps://t.co/OVGzxp51tE\n\n09 WebGPU Skill → Three.js WebGPU, TSL and compute particles.\nhttps://t.co/07YNMV7FTy\n\n10 ComfyUI MCP → Claude builds and runs your Comfy graph.\nhttps://t.co/UbyuPjSrt7\n\n11 ElevenLabs Skills → Official. Sound effects, music and voices.\nhttps://t.co/Q0TwEkkCXc\n\n12 AI Music Skills → A full album pipeline on Suno.\nhttps://t.co/autGFbojdg\n\nScript → storyboard → shots → VFX → sound → edit.\n\nEvery card in the video is a real 3D scene I rendered with Claude. Same little orange guy, one Blender file.\n\nSave this if you want to try it yourself.\n\nI broke down the full motion design workflow with Opus 5.5 in the article below ↓",
-   "user": "0xclayo",
-   "followers": 893,
-   "views": 50005,
-   "likes": 493,
-   "reposts": 66,
-   "replies": 12,
-   "bookmarks": 1022,
-   "age_h": 21.6,
-   "x_factor": 56.0,
-   "per_hour": 2312,
-   "ts": 1794391075.0491536
   },
   "2120197632500887856": {
    "id": "2120197632500887856",
@@ -1579,38 +1224,6 @@
    "per_hour": 4334,
    "ts": 1794419649.800055
   },
-  "2120185766148010139": {
-   "id": "2120185766148010139",
-   "url": "https://x.com/Ric_RTP/status/2120185766148010139",
-   "text": "Anthropic is about to sell the public a trillion-dollar company controlled by 2 shares worth less than a penny.\n\nAnd the people buying it will have almost no way to change anything that happens next.\n\nI read the voting section of Anthropic's IPO filing, and I think it's the most one-sided deal ever offered to regular investors at this size:\n\nThere is exactly ONE Class F share. It belongs to an LLC owned by 7 of Anthropic's co-founders, and it carries 50.1% of all the votes.\n\nThere is exactly ONE Class T share. It belongs to Anthropic's Long-Term Benefit Trust, and it elects a majority of the board.\n\nIf Anthropic were ever liquidated, each of those 2 shares would get its par value of $0.00001.\n\nThe public gets Class A shares instead. And Anthropic's own filing says this structure may effectively eliminate their ability to influence important decisions, including a sale of the company.\n\nSo here's what that means for anyone who buys:\n\n- They can't replace the board if the company stumbles, because the trust picks the majority and the founders hold half the vote.\n- They can't push for a sale, even if someone offers a huge premium.\n- They can't stop the board from putting the mission ahead of their money. Anthropic is a public benefit corporation, so the board has to weigh shareholders against the long-term benefit of humanity.\n- And they can't easily sue over it. Delaware law requires at least 2% of the shares or $2 million worth of stock to bring that kind of claim.\n\nThis isn't some far-off hypothetical either.\n\nThe filing warns that slowing AI development for safety may not maximize stockholder value. It also says Anthropic recently paused training a next-generation model for more than a month over safety and security concerns.\n\nA public shareholder would've had zero say in that pause.\n\nAnd here's the part I can't get past:\n\nEach co-founder has pledged to give 80% of their Anthropic equity to charity. The Class F vote stays at 50.1% no matter how much stock they still own.\n\nSo the founders can give away most of their money and keep all of their control.\n\nDario Amodei told 60 Minutes last year that he's deeply uncomfortable with AI decisions being made by a few companies and a few people. When he was asked who elected him, he said no one.\n\nNow his company's IPO hands 50.1% of the votes to 7 people, and he's one of them.\n\nAnd guess who's being lined up to buy it?\n\nAnthropic has weighed reserving 15% to 20% of the IPO for individual investors, according to Bloomberg. JPMorgan is leading the US retail push, and Citigroup is handling retail buyers in places like Japan, Britain and Canada.\n\nThe same filing warns that AI could pose catastrophic or existential risks to humanity.\n\nSo regular people are being asked to buy a company that says its product could threaten humanity, with no real vote on how it's run.\n\nAnthropic's answer is that this is the whole point. The structure is built to keep Wall Street from pressuring it into cutting corners on safety. The trustees have no financial stake in the company. Google and Meta gave their founders control and still made shareholders rich. And every buyer gets all of this in writing before they buy.\n\nBut Zuckerberg's control comes from shares he owns, so when Meta's stock falls, he loses money too. Anthropic's 2 control shares can't lose anything.\n\nAnyone buying this IPO is paying full price to hand control to 7 founders and 5 trustees.\n\nThey're desperate for money and they don't care about your money.",
-   "user": "Ric_RTP",
-   "followers": 48839,
-   "views": 187512,
-   "likes": 1431,
-   "reposts": 406,
-   "replies": 127,
-   "bookmarks": 631,
-   "age_h": 17.9,
-   "x_factor": 3.8,
-   "per_hour": 10482,
-   "ts": 1794391046.277273
-  },
-  "2120209428230160714": {
-   "id": "2120209428230160714",
-   "url": "https://x.com/AIGuide_/status/2120209428230160714",
-   "text": "Claude can basically handle everything behind the scenes for a business now...\n\nyour backend should be fully automated behind the scenes:\n\n> new leads coming in and getting sorted\n> invoices sent and followed up on\n> orders and customers tracked\n> weekly numbers turned into a report\n> next month's plan mapped out\n\nthis is how you need to set it up:\n\n1. write down every task your business repeats each week\n2. map out how those tasks connect to each other on a Whiteboard\n3. connect Claude to the apps your business runs on\n4. turn each repeated task into a skill Claude can follow\n5. track all the work Claude handles in one Sheet\n6. put those skills on a schedule so your backend runs on its own\n\nthere's absolutely zero reason you shouldn't be automating your whole business's back end with Claude.",
-   "user": "AIGuide_",
-   "followers": 509530,
-   "views": 46731,
-   "likes": 311,
-   "reposts": 11,
-   "replies": 10,
-   "bookmarks": 470,
-   "age_h": 16.3,
-   "x_factor": 0.1,
-   "per_hour": 2863,
-   "ts": 1794391046.27728
-  },
   "2120169953412202718": {
    "id": "2120169953412202718",
    "url": "https://x.com/alanchan_tw/status/2120169953412202718",
@@ -1626,22 +1239,6 @@
    "x_factor": 8.8,
    "per_hour": 1557,
    "ts": 1794406599.4431212
-  },
-  "2120202746121085321": {
-   "id": "2120202746121085321",
-   "url": "https://x.com/HashemGhaili/status/2120202746121085321",
-   "text": "I built an X-ray mirror using Claude Fable 5.2. 💀\n\nPoint a webcam at your face and see the skull, brain and muscles inside your head, tracked live as you move. Open your mouth and the jaw opens. Hold up a hand and you see its bones.\n\nOne web page, no install, and the video never leaves the computer. Built with Claude Fable 5.2 by describing what I wanted. You can download it and try it for free. Link in the comment section. 👇🔗\n\nAnatomy models: BodyParts3D, © DBCLS, CC BY-SA 2.1 Japan.",
-   "user": "HashemGhaili",
-   "followers": 32600,
-   "views": 29708,
-   "likes": 703,
-   "reposts": 116,
-   "replies": 47,
-   "bookmarks": 587,
-   "age_h": 16.8,
-   "x_factor": 0.9,
-   "per_hour": 1772,
-   "ts": 1794391046.2773423
   },
   "2120275993088925734": {
    "id": "2120275993088925734",
@@ -1659,54 +1256,6 @@
    "per_hour": 8495,
    "ts": 1794432768.7695625
   },
-  "2120187722144858613": {
-   "id": "2120187722144858613",
-   "url": "https://x.com/ChristianityOn/status/2120187722144858613",
-   "text": "one thing that worries me is that I can slowly feel my social skills deteriorating because Claude will talk to me about 1886 colonial Burma at a length and to an extent that no other human would ever tolerate and that is teaching me very bad habits",
-   "user": "ChristianityOn",
-   "followers": 7720,
-   "views": 7393,
-   "likes": 471,
-   "reposts": 20,
-   "replies": 19,
-   "bookmarks": 47,
-   "age_h": 17.8,
-   "x_factor": 1.0,
-   "per_hour": 416,
-   "ts": 1794391046.2773833
-  },
-  "2120096615184605453": {
-   "id": "2120096615184605453",
-   "url": "https://x.com/BadisDesigns/status/2120096615184605453",
-   "text": "I wonder if Claude Fable 5.2 is capable of this 🧐 https://t.co/vwYxgFihan",
-   "user": "BadisDesigns",
-   "followers": 8422,
-   "views": 153331,
-   "likes": 332,
-   "reposts": 8,
-   "replies": 11,
-   "bookmarks": 209,
-   "age_h": 23.8,
-   "x_factor": 18.2,
-   "per_hour": 6444,
-   "ts": 1794391046.277397
-  },
-  "2120119623257575632": {
-   "id": "2120119623257575632",
-   "url": "https://x.com/wallstengine/status/2120119623257575632",
-   "text": "WHO'S BUYING THE $26B OF ANTHROPIC STOCK IN THE PRIVATE PLACEMENT\n\n• Google: $10.0B\n• Nvidia: $10.0B\n• AMD: $2.5B\n• Broadcom: $1.0B\n• Micron: $1.0B\n• Microsoft: $1.0B\n• TSMC: $500M\n\nAll at the IPO price, per Anthropic's updated SEC filing. https://t.co/Cfqi3dTsDB",
-   "user": "wallstengine",
-   "followers": 214319,
-   "views": 53978,
-   "likes": 528,
-   "reposts": 54,
-   "replies": 18,
-   "bookmarks": 59,
-   "age_h": 22.3,
-   "x_factor": 0.3,
-   "per_hour": 2424,
-   "ts": 1794391046.2774038
-  },
   "2120310190654316934": {
    "id": "2120310190654316934",
    "url": "https://x.com/lateinteraction/status/2120310190654316934",
@@ -1722,22 +1271,6 @@
    "x_factor": 0.5,
    "per_hour": 1007,
    "ts": 1794432768.7692802
-  },
-  "2120188366562251155": {
-   "id": "2120188366562251155",
-   "url": "https://x.com/JCVD/status/2120188366562251155",
-   "text": "Finally… I’m back.\n\nA new chapter is being born.\n\nLove.",
-   "user": "JCVD",
-   "followers": 412888,
-   "views": 819724,
-   "likes": 28393,
-   "reposts": 2069,
-   "replies": 1693,
-   "bookmarks": 677,
-   "age_h": 17.7,
-   "x_factor": 2.0,
-   "per_hour": 46272,
-   "ts": 1794391046.277424
   },
   "2120241909369303077": {
    "id": "2120241909369303077",
@@ -1787,22 +1320,6 @@
    "per_hour": 8812,
    "ts": 1794419649.7999651
   },
-  "2120094418078228980": {
-   "id": "2120094418078228980",
-   "url": "https://x.com/facedevstuff/status/2120094418078228980",
-   "text": "Claude shut down the PC after you're done I'm going to sleep https://t.co/Ipwlr4eqvp",
-   "user": "facedevstuff",
-   "followers": 2187,
-   "views": 300684,
-   "likes": 17725,
-   "reposts": 874,
-   "replies": 51,
-   "bookmarks": 1269,
-   "age_h": 23.9,
-   "x_factor": 137.5,
-   "per_hour": 12561,
-   "ts": 1794391046.2774544
-  },
   "2120336961797857401": {
    "id": "2120336961797857401",
    "url": "https://x.com/kirillk_web3/status/2120336961797857401",
@@ -1835,22 +1352,6 @@
    "per_hour": 52338,
    "ts": 1794406599.4433599
   },
-  "2120215853576950179": {
-   "id": "2120215853576950179",
-   "url": "https://x.com/Polymarket/status/2120215853576950179",
-   "text": "JUST IN: Center for AI Safety warns AI is rapidly approaching the ability to automate all remote work, as Claude Fable 5.2 successfully completes 41.3% of real freelance projects — up from 2.5% a year ago.",
-   "user": "Polymarket",
-   "followers": 2050317,
-   "views": 492532,
-   "likes": 5926,
-   "reposts": 456,
-   "replies": 189,
-   "bookmarks": 1095,
-   "age_h": 15.9,
-   "x_factor": 0.2,
-   "per_hour": 30986,
-   "ts": 1794391046.2774918
-  },
   "2120320377163501817": {
    "id": "2120320377163501817",
    "url": "https://x.com/petergyang/status/2120320377163501817",
@@ -1867,22 +1368,6 @@
    "per_hour": 2432,
    "ts": 1794432768.769464
   },
-  "2120333724357399024": {
-   "id": "2120333724357399024",
-   "url": "https://x.com/MTSlive/status/2120333724357399024",
-   "text": "SITUATION DETECTED: Anthropic CEO Dario Amodei says AI breakthroughs will turn cancer, Alzheimer's, heart disease, and mental illness into \"relics of the past\" in less than a decade, ushering in \"an age of miracles.\"",
-   "user": "MTSlive",
-   "followers": 583024,
-   "views": 56357,
-   "likes": 1906,
-   "reposts": 131,
-   "replies": 53,
-   "bookmarks": 170,
-   "age_h": 8.1,
-   "x_factor": 0.1,
-   "per_hour": 6967,
-   "ts": 1794391046.2775235
-  },
   "2120248196584648758": {
    "id": "2120248196584648758",
    "url": "https://x.com/AlexPi194641/status/2120248196584648758",
@@ -1898,38 +1383,6 @@
    "x_factor": 164.4,
    "per_hour": 1682,
    "ts": 1794419664.6817992
-  },
-  "2120132839135994108": {
-   "id": "2120132839135994108",
-   "url": "https://x.com/shmidtqq/status/2120132839135994108",
-   "text": "A 24-year-old girl from Austin asked Claude one prompt and made $11,340 in 20 days\n\nShe was broke, laid off, no audience, no savings\n\nShe typed one message to Claude:\n\"Give me 2 ways to make $1,000 in 30 days using skills I already have, no audience, sellable in 48 hours. Ask me questions until you are 95% confident\"\n\nClaude asked her 12 questions back, picked one niche:\nwriting cold-email scripts for small B2B SaaS\n\nSecond prompt: \n\"Pick the single most successful person in this niche, pretend you are them, write a 20-day plan under $1000 that gets me a paying customer by Day 1\"\n\nClaude handed her the whole thing: who to DM, the exact script, the price ladder, follow-up timing\n\nDay 1 she closed her first $200 client\n\nBy Day 20 she had 18 clients at $500 to $1,200 each\n\nTotal spent: $84\n\nThe craziest part: the prompt that cracked it is 3 sentences long\n\nFull prompt in the article below, copy it before everyone has it",
-   "user": "shmidtqq",
-   "followers": 13063,
-   "views": 25644,
-   "likes": 336,
-   "reposts": 29,
-   "replies": 16,
-   "bookmarks": 587,
-   "age_h": 21.4,
-   "x_factor": 2.0,
-   "per_hour": 1198,
-   "ts": 1794391060.9643958
-  },
-  "2120211009709150400": {
-   "id": "2120211009709150400",
-   "url": "https://x.com/aiexoticdotcom/status/2120211009709150400",
-   "text": "POV: she thinks the blonde is still reading her magazine\nThen she's on her knees between her thighs.\n\nAI-generated. Yours is one prompt away. https://t.co/9IzdwWN0CQ\n\n#pov #LesbianPorn #GirlOnGirl https://t.co/iLhvj8m3gQ",
-   "user": "aiexoticdotcom",
-   "followers": 188989,
-   "views": 29280,
-   "likes": 430,
-   "reposts": 19,
-   "replies": 0,
-   "bookmarks": 203,
-   "age_h": 16.2,
-   "x_factor": 0.2,
-   "per_hour": 1805,
-   "ts": 1794391060.9644587
   },
   "2120306434575392793": {
    "id": "2120306434575392793",
@@ -10762,14 +10215,26 @@
    "x_factor": 1.6,
    "per_hour": 11261,
    "ts": 1794649521.834319
+  },
+  "2121573658837897512": {
+   "id": "2121573658837897512",
+   "url": "https://x.com/RimonR23/status/2121573658837897512",
+   "text": "Holy shit. Claude Code can now make animated videos with this free tool.\n\nsomeone open sourced a tool that packs 18 creators' Claude Code video skills into one app.\n\nno After Effects. no video model. no API key.\n\n109 styles: claymation, pixel art, retro anime, Lego, neon noir, paper cutout.\n\nthe best part, you only do this:\n\n① pick a style\n② write any prompt\n③ Claude writes a timed script, scene by scene\n④ add voice and music, click generate\n\nClaude Code builds every scene by itself and gives you the MP4.\n\nruns on your own computer with your Claude Pro or Max plan.\n\nsetup is one command: node setup.mjs\n\nneeds Node, git, ffmpeg, Python. Blender only for the Blender clay styles.\n\nfree: https://t.co/ZIYeR7LV8D",
+   "user": "RimonR23",
+   "followers": 9858,
+   "views": 697,
+   "likes": 53,
+   "reposts": 2,
+   "replies": 31,
+   "bookmarks": 2,
+   "age_h": 1.4,
+   "x_factor": 0.1,
+   "per_hour": 501,
+   "ts": 1794662559.3786302
   }
  },
  "last_run": 1794649523.6247272,
  "sent": {
-  "2120204711790023128": 1794391090.4668298,
-  "2120094418078228980": 1794391091.7043507,
-  "2120129460254933035": 1794391093.1081402,
-  "2120096615184605453": 1794391098.2030535,
   "2120501283304153438": 1794404407.8215687,
   "2120498448550023604": 1794404412.3479779,
   "2120500302759838203": 1794404414.042649,
@@ -10843,7 +10308,8 @@
   "2121278820707872981": 1794593569.201974,
   "2121302457062162761": 1794593578.1283398,
   "2121120155052953657": 1794621612.544931,
-  "2121399044560015748": 1794649523.6247122
+  "2121399044560015748": 1794649523.6247122,
+  "2121573658837897512": 1794662578.1895456
  },
  "reply_seen": {
   "2120507359445324267": 1794404387.1790442,
@@ -10886,22 +10352,23 @@
   "2121253187453685922": 1794583585.7612789,
   "2121298854259962319": 1794593529.5623698,
   "2121296924351607110": 1794593537.6053836,
-  "2121316825883455803": 1794596439.5614276
+  "2121316825883455803": 1794596439.5614276,
+  "2121592737413886113": 1794662541.324547
  },
- "reply_last_run": 1794626229.3884094,
- "fresh_last_run": 1794623292.1073818,
+ "reply_last_run": 1794662551.181188,
+ "fresh_last_run": 1794662581.5006073,
  "reply_day": {
   "date": "2026-11-12",
   "count": 8
  },
  "reply_day_active": {
-  "date": "2026-11-13",
-  "count": 15
+  "date": "2026-11-14",
+  "count": 2
  },
  "toad_day": {
-  "date": "2026-11-13",
-  "reply": 3,
-  "remake": 3
+  "date": "2026-11-14",
+  "reply": 0,
+  "remake": 1
  },
  "toad_seen": {
   "2121271762688111055": 1794590516.689939,
@@ -10911,12 +10378,15 @@
   "2121031171572412716": 1794590521.5931838,
   "2121299518041800912": 1794596485.8170586,
   "2121327669534933025": 1794599947.6493225,
-  "2121317407398445080": 1794599956.648883
+  "2121317407398445080": 1794599956.648883,
+  "2121268512681340962": 1794662615.0978093,
+  "2121242111538536900": 1794662616.2141087,
+  "2121440415387615605": 1794662617.1835556
  },
- "toad_last_run": 1794623324.495875,
+ "toad_last_run": 1794662617.8668041,
  "bear_day": {
-  "date": "2026-11-13",
-  "reply": 5,
+  "date": "2026-11-14",
+  "reply": 0,
   "remake": 3
  },
  "bear_seen": {
@@ -10929,7 +10399,13 @@
   "2121321351768166520": 1794599997.8832483,
   "2121305483671642321": 1794599999.0396373,
   "2121303040045011168": 1794600008.810001,
-  "2121331333654086124": 1794605909.35714
+  "2121331333654086124": 1794605909.35714,
+  "2121583638538010848": 1794662669.4753597,
+  "2121256499552915586": 1794662670.450718,
+  "2121321789192081583": 1794662672.4057562,
+  "2121353793577369670": 1794662673.358997,
+  "2121260624034374000": 1794662675.3500624,
+  "2121350281548214706": 1794662676.667581
  },
  "bear_sent": {
   "2121280764562067474": 1794593622.1878498,
@@ -10939,12 +10415,16 @@
   "2121034699145699586": 1794593643.902881,
   "2121086066677719059": 1794593646.786301,
   "2121305483671642321": 1794600007.935362,
-  "2121331333654086124": 1794605917.3565245
+  "2121331333654086124": 1794605917.3565245,
+  "2121256499552915586": 1794662671.2976675,
+  "2121353793577369670": 1794662674.083784,
+  "2121350281548214706": 1794662677.4095216
  },
- "bear_last_run": 1794623358.0727394,
+ "bear_last_run": 1794662677.4095323,
  "toad_sent": {
   "2121299518041800912": 1794596496.2928264,
   "2121327669534933025": 1794599955.5757625,
-  "2121317407398445080": 1794599964.2899148
+  "2121317407398445080": 1794599964.2899148,
+  "2121440415387615605": 1794662617.8667934
  }
 }
