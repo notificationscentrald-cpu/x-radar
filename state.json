@@ -1,14 +1,5 @@
 {
  "seen": {
-  "2120546378292330591": 1794417914.9251626,
-  "2120549559604527205": 1794417915.8915899,
-  "2120539547620790424": 1794417917.0594258,
-  "2120545195997667676": 1794417918.194291,
-  "2120554995128963481": 1794417919.3349235,
-  "2120549388745379867": 1794417921.0162115,
-  "2120542368827097253": 1794417922.38317,
-  "2120551422324527242": 1794417923.5397053,
-  "2120547963613143541": 1794417925.9239612,
   "2120242009029988739": 1794419694.977736,
   "2120281300607304007": 1794419695.9406393,
   "2120546950496043111": 1794419697.5208573,
@@ -175,7 +166,14 @@
   "2121630960126959888": 1794672397.7454755,
   "2121632145991205280": 1794672406.9591687,
   "2121610718105706659": 1794672417.0090435,
-  "2121619461232812194": 1794672418.111239
+  "2121619461232812194": 1794672418.111239,
+  "2121642720045261185": 1794677138.1783245,
+  "2121651873430052967": 1794677147.5637498,
+  "2121642650965315953": 1794677155.9109879,
+  "2121627112981569577": 1794677157.1146023,
+  "2121641644197896389": 1794677158.1258097,
+  "2121634005745635683": 1794677159.16021,
+  "2121647529750311377": 1794677167.626413
  },
  "pool": {
   "2120214247326232787": {
@@ -897,70 +895,6 @@
    "x_factor": 0.8,
    "per_hour": 963,
    "ts": 1794488753.145398
-  },
-  "2120554995128963481": {
-   "id": "2120554995128963481",
-   "url": "https://x.com/devteamdrew/status/2120554995128963481",
-   "text": "Claude Fable 5.2 created this animation in JavaScript\n\nThe Lifecycle of the Phoenix\n\n@claudeai https://t.co/Y0HFyzCS5F",
-   "user": "devteamdrew",
-   "followers": 3276,
-   "views": 890,
-   "likes": 28,
-   "reposts": 5,
-   "replies": 5,
-   "bookmarks": 15,
-   "age_h": 0.9,
-   "x_factor": 0.3,
-   "per_hour": 994,
-   "ts": 1794417905.451694
-  },
-  "2120549388745379867": {
-   "id": "2120549388745379867",
-   "url": "https://x.com/scottstts/status/2120549388745379867",
-   "text": "Roadside in @threejs, made with Fable 5.2, everything is 100% procedural in this one, including the bike and the arms\n\nFable 5.2 is by far the best model I've seen on 3d modeling, you just gotta push it a bit https://t.co/m95h0jHZEY",
-   "user": "scottstts",
-   "followers": 5664,
-   "views": 1192,
-   "likes": 31,
-   "reposts": 1,
-   "replies": 9,
-   "bookmarks": 14,
-   "age_h": 1.3,
-   "x_factor": 0.2,
-   "per_hour": 941,
-   "ts": 1794417905.4517894
-  },
-  "2120551422324527242": {
-   "id": "2120551422324527242",
-   "url": "https://x.com/dhruvalgolakiya/status/2120551422324527242",
-   "text": "Fable 5.2 continues to amaze me.\n\nNo keyframes, no animator. It rigged the dragon, animated the flight, simulated the fire and rendered every frame in blender\n\nHere’s how 👇 https://t.co/Ltx7q27xGT",
-   "user": "dhruvalgolakiya",
-   "followers": 8252,
-   "views": 700,
-   "likes": 15,
-   "reposts": 3,
-   "replies": 4,
-   "bookmarks": 8,
-   "age_h": 1.1,
-   "x_factor": 0.1,
-   "per_hour": 618,
-   "ts": 1794417905.4516597
-  },
-  "2120547963613143541": {
-   "id": "2120547963613143541",
-   "url": "https://x.com/0xRhinoX/status/2120547963613143541",
-   "text": "I paid Fable 5.2 $350 for a f*cking Skyrim. The real one is $40 on Steam\n\nIt built mine in one night. It even starts with you waking up on a cart.\n\n→ A whole valley: village, forest, crypt, frozen lake, bandit tower\n→ Sword in one hand, fire in the other\n→ A dragon burns the village. You absorb its soul\n→ Giants still launch you into the sky\n→ The hares run away. Smart hares\n\nThe dragon and every other 3D model: @tripoai\n\nWorth it? Play it free below 👇\nBethesda, your move.",
-   "user": "0xRhinoX",
-   "followers": 303,
-   "views": 779,
-   "likes": 15,
-   "reposts": 2,
-   "replies": 5,
-   "bookmarks": 9,
-   "age_h": 1.4,
-   "x_factor": 2.6,
-   "per_hour": 572,
-   "ts": 1794417905.4517236
   },
   "2120443372641141180": {
    "id": "2120443372641141180",
@@ -9553,14 +9487,74 @@
    "x_factor": 0.0,
    "per_hour": 1325,
    "ts": 1794672395.1084905
+  },
+  "2121642720045261185": {
+   "id": "2121642720045261185",
+   "url": "https://x.com/rileybrown/status/2121642720045261185",
+   "text": "The Fable of Clawd\n\nA 2 minute 4K film made entirely in Blender, from one prompt on Fable 5.2. It took about 4.5 hours.\n\nClaude built every asset in Blender by writing Python:\n- 5 characters and props: Clawd, his friend Pip, a toy truck, a 3D-printed tulip and a gift box\n- 7 full sets: a study, a staircase, a street, a workshop, an airport, a night sky and a house\n- every camera move and every frame of animation across 52 shots\n\nThat came to 12,500 lines of code. It started 7 copies of itself to build the sets at the same time.\n\nThen it rented 89 GPUs through RunPod to render 3,220 frames as fast as possible, 36 of them running at once. Total cost: a little over $20.\n\nMy biggest takeaway is my Claude Code knows it has access to cloud compute, so it's much more ambitious.\n\nI tried a similar prompt on my other computer that doesn't have the runpod skill setup and it wasn't nearly as high quality\n\nFull details linked below.",
+   "user": "rileybrown",
+   "followers": 266078,
+   "views": 6845,
+   "likes": 93,
+   "reposts": 9,
+   "replies": 39,
+   "bookmarks": 97,
+   "age_h": 0.9,
+   "x_factor": 0.0,
+   "per_hour": 7898,
+   "ts": 1794677137.0070574
+  },
+  "2121651873430052967": {
+   "id": "2121651873430052967",
+   "url": "https://x.com/TokenGremlin/status/2121651873430052967",
+   "text": "Another output from GPT-6.2 Astra in early access. Every single detail here was created from scratch, so look closely. The creativity and attention to detail in this model are absolutely unreal.\n\nI used to build games with placeholders and swap them for real 3D assets later. Now the placeholders themselves already look incredible. Holy shit.",
+   "user": "TokenGremlin",
+   "followers": 19791,
+   "views": 1602,
+   "likes": 57,
+   "reposts": 4,
+   "replies": 13,
+   "bookmarks": 4,
+   "age_h": 0.3,
+   "x_factor": 0.1,
+   "per_hour": 6148,
+   "ts": 1794677137.0070848
+  },
+  "2121634005745635683": {
+   "id": "2121634005745635683",
+   "url": "https://x.com/LexnLin/status/2121634005745635683",
+   "text": "a painted 3D world with Opus 5.5 https://t.co/fgHexNKXBi",
+   "user": "LexnLin",
+   "followers": 34504,
+   "views": 2700,
+   "likes": 89,
+   "reposts": 1,
+   "replies": 9,
+   "bookmarks": 22,
+   "age_h": 1.4,
+   "x_factor": 0.1,
+   "per_hour": 1872,
+   "ts": 1794677129.0206897
+  },
+  "2121647529750311377": {
+   "id": "2121647529750311377",
+   "url": "https://x.com/Stefan_3D_AI/status/2121647529750311377",
+   "text": "The main menu of our MegaJam game: a book drops on the table, opens, and the menu pops up out of its pages. Turn a page and you're in the bestiary 📖\n\nBuilt in Blender in about 6 hours with Claude Fable 5.2 and GPT Image 2.6 + Tripo P2.0 via Higgsfield MCP. \n\n#MegaJam https://t.co/J6kQwP0ZYj",
+   "user": "Stefan_3D_AI",
+   "followers": 16023,
+   "views": 745,
+   "likes": 32,
+   "reposts": 2,
+   "replies": 3,
+   "bookmarks": 14,
+   "age_h": 0.5,
+   "x_factor": 0.0,
+   "per_hour": 1359,
+   "ts": 1794677137.007134
   }
  },
  "last_run": 1794664268.25861,
  "sent": {
-  "2120554995128963481": 1794417919.9400296,
-  "2120549388745379867": 1794417921.4814758,
-  "2120551422324527242": 1794417924.0170376,
-  "2120547963613143541": 1794417926.3898807,
   "2120306434575392793": 1794419701.8744738,
   "2120583940830363901": 1794424456.131192,
   "2120575846805287256": 1794424461.740649,
@@ -9618,12 +9612,13 @@
   "2121614786245104107": 1794667887.2136123,
   "2121630960126959888": 1794672405.789059,
   "2121632145991205280": 1794672415.9616427,
-  "2121619461232812194": 1794672426.0781186
+  "2121619461232812194": 1794672426.0781186,
+  "2121642720045261185": 1794677145.878517,
+  "2121651873430052967": 1794677154.9066985,
+  "2121634005745635683": 1794677166.3498394,
+  "2121647529750311377": 1794677174.8671474
  },
  "reply_seen": {
-  "2120564454198755372": 1794417895.0254169,
-  "2120560711260627370": 1794417895.743363,
-  "2120560313489854520": 1794417896.2109056,
   "2120580980318797955": 1794420891.4344902,
   "2120580063561216141": 1794420892.117277,
   "2120576853987799230": 1794420892.592913,
@@ -9652,15 +9647,15 @@
   "2121607019710877712": 1794667842.3997834,
   "2121631309294452920": 1794672379.1012516
  },
- "reply_last_run": 1794674773.090662,
- "fresh_last_run": 1794672426.0781307,
+ "reply_last_run": 1794677119.6796963,
+ "fresh_last_run": 1794677174.8671598,
  "reply_day": {
   "date": "2026-11-12",
   "count": 8
  },
  "reply_day_active": {
   "date": "2026-11-14",
-  "count": 10
+  "count": 14
  },
  "toad_day": {
   "date": "2026-11-14",
@@ -9685,7 +9680,7 @@
   "2121344659163095163": 1794667925.7761734,
   "2121630168867582039": 1794672459.7497106
  },
- "toad_last_run": 1794672459.7497342,
+ "toad_last_run": 1794677206.4121597,
  "bear_day": {
   "date": "2026-11-14",
   "reply": 1,
@@ -9709,7 +9704,8 @@
   "2121260624034374000": 1794662675.3500624,
   "2121350281548214706": 1794662676.667581,
   "2121595857908748345": 1794667959.8158734,
-  "2121608196863177049": 1794672493.9913025
+  "2121608196863177049": 1794672493.9913025,
+  "2121632307417342191": 1794677239.284096
  },
  "bear_sent": {
   "2121280764562067474": 1794593622.1878498,
@@ -9725,7 +9721,7 @@
   "2121350281548214706": 1794662677.4095216,
   "2121595857908748345": 1794667967.8864582
  },
- "bear_last_run": 1794672493.991324,
+ "bear_last_run": 1794677239.2841575,
  "toad_sent": {
   "2121299518041800912": 1794596496.2928264,
   "2121327669534933025": 1794599955.5757625,
