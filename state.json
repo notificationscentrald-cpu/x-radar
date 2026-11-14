@@ -1,11 +1,5 @@
 {
  "seen": {
-  "2120535911800906028": 1794410830.6618826,
-  "2120524451184001519": 1794410831.5266101,
-  "2120531902826525019": 1794410832.5914786,
-  "2120529912180445591": 1794410835.0874224,
-  "2120524447383683270": 1794410836.7132452,
-  "2120518961221529661": 1794410838.7249167,
   "2120540964909711415": 1794414124.8007042,
   "2120537068724179219": 1794414126.3547149,
   "2120550084706292202": 1794414127.394079,
@@ -183,7 +177,12 @@
   "2121608196863177049": 1794667869.071054,
   "2121594536153718972": 1794667870.322825,
   "2121614786245104107": 1794667879.5115216,
-  "2121599103809307111": 1794667888.3990948
+  "2121599103809307111": 1794667888.3990948,
+  "2121625151263670358": 1794672396.748284,
+  "2121630960126959888": 1794672397.7454755,
+  "2121632145991205280": 1794672406.9591687,
+  "2121610718105706659": 1794672417.0090435,
+  "2121619461232812194": 1794672418.111239
  },
  "pool": {
   "2120214247326232787": {
@@ -889,70 +888,6 @@
    "x_factor": 88.5,
    "per_hour": 2977,
    "ts": 1794419693.6314006
-  },
-  "2120531902826525019": {
-   "id": "2120531902826525019",
-   "url": "https://x.com/Stefan_3D_AI/status/2120531902826525019",
-   "text": "NEW Claude Fable 5.2 vs Opus 5.5, GPT-6 Astra and Gemini 4 Argon.\n10 different 3D tests in Blender and Three.js.\nEvery model got the same prompts and files for a direct comparison. I also tracked generation time and estimated API costs to see how quality, speed and cost compare across different 3D tasks.\nWhich one offers the best balance of quality, speed, and cost?\nhttps://t.co/nlLuiCcvvy\n\n#AI #Blender #3D #Claude #GameDev",
-   "user": "Stefan_3D_AI",
-   "followers": 15879,
-   "views": 682,
-   "likes": 14,
-   "reposts": 0,
-   "replies": 1,
-   "bookmarks": 4,
-   "age_h": 0.5,
-   "x_factor": 0.0,
-   "per_hour": 1485,
-   "ts": 1794410829.5660582
-  },
-  "2120529912180445591": {
-   "id": "2120529912180445591",
-   "url": "https://x.com/ice_bearcute/status/2120529912180445591",
-   "text": "fable 5.2 is out now, and this dev went straight for the limit\n\n100 single-file HTML experiments, 76 published\n\nthese are games, 3D scenes, interactive tools, all from one prompt each\n\n@AnthropicAI did it again 🔥 link to all files below \n\nhave you tested fable 5.2 yet? it's in your pro plan",
-   "user": "ice_bearcute",
-   "followers": 4922,
-   "views": 660,
-   "likes": 51,
-   "reposts": 3,
-   "replies": 18,
-   "bookmarks": 0,
-   "age_h": 0.6,
-   "x_factor": 0.1,
-   "per_hour": 1117,
-   "ts": 1794410829.5660708
-  },
-  "2120524447383683270": {
-   "id": "2120524447383683270",
-   "url": "https://x.com/pankajkumar_dev/status/2120524447383683270",
-   "text": "Fable 5.2 is very good at building games.\n\nI asked it to build a 3D Tokyo drifting game with AAA-style visuals.\n\nAnd it actually built the whole game, and it genuinely has that AAA vibe.\n\nJust look at the colors, lighting, shadows, reflections, and all those tiny street details. Everything looks so good.\n\nThe overall game is already quite good, and with more iterations and polish, I can take it even closer to AAA-level quality.",
-   "user": "pankajkumar_dev",
-   "followers": 17390,
-   "views": 1006,
-   "likes": 15,
-   "reposts": 2,
-   "replies": 5,
-   "bookmarks": 3,
-   "age_h": 1.0,
-   "x_factor": 0.1,
-   "per_hour": 1058,
-   "ts": 1794410821.296454
-  },
-  "2120518961221529661": {
-   "id": "2120518961221529661",
-   "url": "https://x.com/0xKense1/status/2120518961221529661",
-   "text": "give FABLE 5.2 a 3-view drawing and it sculpts your game boss in blender by code FOR FREE\n\n380 steps and no 3d generator\n\n> the only input was the concept sheet: front, side and back\n> it blocked him out of boulders, grew root arms, a face and vines, then refit the silhouette 20 times\n> front, side and back now match the drawing at 0.89 to 0.90 iou\n> stone cracks, bark and moss are shader nodes, and the 7,701 plants are modelled and scattered by code\n> 1,675 lines of python, about 32 minutes of fable time\n\ntry it with your own 3-view sheet, the full character pipeline from drawing to rigged model is in the article below",
-   "user": "0xKense1",
-   "followers": 1018,
-   "views": 1267,
-   "likes": 34,
-   "reposts": 0,
-   "replies": 8,
-   "bookmarks": 35,
-   "age_h": 1.3,
-   "x_factor": 1.2,
-   "per_hour": 964,
-   "ts": 1794410821.2965465
   },
   "2120540964909711415": {
    "id": "2120540964909711415",
@@ -9625,14 +9560,58 @@
    "x_factor": 0.0,
    "per_hour": 4136,
    "ts": 1794667860.4923522
+  },
+  "2121630960126959888": {
+   "id": "2121630960126959888",
+   "url": "https://x.com/whizz_xD/status/2121630960126959888",
+   "text": "POV: you're the site manager and nothing goes wrong for once\n\nBuilt entirely with Claude Code + Three.js. No models, no assets, all code https://t.co/iz8Tf8Gxu3",
+   "user": "whizz_xD",
+   "followers": 11098,
+   "views": 663,
+   "likes": 24,
+   "reposts": 3,
+   "replies": 11,
+   "bookmarks": 2,
+   "age_h": 0.3,
+   "x_factor": 0.1,
+   "per_hour": 2031,
+   "ts": 1794672387.8673341
+  },
+  "2121632145991205280": {
+   "id": "2121632145991205280",
+   "url": "https://x.com/notjazii/status/2121632145991205280",
+   "text": "fable 5.2 is beast at game development\n\nstarted weekend side project and so far it’s looking good\n\nastra made some references using gpt images and rest was done by fable in about two hours\n\nplanning to finish everything before monday so i can publish game https://t.co/NIncGOdfbN",
+   "user": "notjazii",
+   "followers": 12930,
+   "views": 513,
+   "likes": 24,
+   "reposts": 0,
+   "replies": 6,
+   "bookmarks": 0,
+   "age_h": 0.2,
+   "x_factor": 0.0,
+   "per_hour": 2052,
+   "ts": 1794672395.1084561
+  },
+  "2121619461232812194": {
+   "id": "2121619461232812194",
+   "url": "https://x.com/ivanfioravanti/status/2121619461232812194",
+   "text": "Herdr with Fable 5.2 (I know it's overkill here) orchestrating Kimi K3.1 Pro (API), Qwen 3.8 Next Flash on mlx-serve, GLM 5.3 Flash EXL3 on Mia/Tensorfold recipe, all fighting with each other to use 2xM3 Ultra machines with Inference and Blender. https://t.co/tinnI96GsL",
+   "user": "ivanfioravanti",
+   "followers": 45216,
+   "views": 1445,
+   "likes": 14,
+   "reposts": 1,
+   "replies": 6,
+   "bookmarks": 10,
+   "age_h": 1.1,
+   "x_factor": 0.0,
+   "per_hour": 1325,
+   "ts": 1794672395.1084905
   }
  },
  "last_run": 1794664268.25861,
  "sent": {
-  "2120531902826525019": 1794410833.169128,
-  "2120529912180445591": 1794410835.6039171,
-  "2120524447383683270": 1794410837.2181885,
-  "2120518961221529661": 1794410839.285291,
   "2120540964909711415": 1794414125.3556004,
   "2120550084706292202": 1794414127.9803038,
   "2120526918621515872": 1794414129.8098385,
@@ -9695,7 +9674,10 @@
   "2121573658837897512": 1794662578.1895456,
   "2121242111538536900": 1794664268.2585988,
   "2121594536153718972": 1794667878.326162,
-  "2121614786245104107": 1794667887.2136123
+  "2121614786245104107": 1794667887.2136123,
+  "2121630960126959888": 1794672405.789059,
+  "2121632145991205280": 1794672415.9616427,
+  "2121619461232812194": 1794672426.0781186
  },
  "reply_seen": {
   "2120549379769540677": 1794414104.158801,
@@ -9732,17 +9714,18 @@
   "2121592737413886113": 1794662541.324547,
   "2121600686374699125": 1794665518.5025816,
   "2121596332280549774": 1794665526.2894986,
-  "2121607019710877712": 1794667842.3997834
+  "2121607019710877712": 1794667842.3997834,
+  "2121631309294452920": 1794672379.1012516
  },
- "reply_last_run": 1794670020.456708,
- "fresh_last_run": 1794667888.3991082,
+ "reply_last_run": 1794672379.1014948,
+ "fresh_last_run": 1794672426.0781307,
  "reply_day": {
   "date": "2026-11-12",
   "count": 8
  },
  "reply_day_active": {
   "date": "2026-11-14",
-  "count": 7
+  "count": 10
  },
  "toad_day": {
   "date": "2026-11-14",
@@ -9764,9 +9747,10 @@
   "2121601663924412867": 1794667921.6562707,
   "2121549362530562403": 1794667922.803869,
   "2121340063254556890": 1794667924.5704727,
-  "2121344659163095163": 1794667925.7761734
+  "2121344659163095163": 1794667925.7761734,
+  "2121630168867582039": 1794672459.7497106
  },
- "toad_last_run": 1794667926.498868,
+ "toad_last_run": 1794672459.7497342,
  "bear_day": {
   "date": "2026-11-14",
   "reply": 1,
@@ -9789,7 +9773,8 @@
   "2121353793577369670": 1794662673.358997,
   "2121260624034374000": 1794662675.3500624,
   "2121350281548214706": 1794662676.667581,
-  "2121595857908748345": 1794667959.8158734
+  "2121595857908748345": 1794667959.8158734,
+  "2121608196863177049": 1794672493.9913025
  },
  "bear_sent": {
   "2121280764562067474": 1794593622.1878498,
@@ -9805,7 +9790,7 @@
   "2121350281548214706": 1794662677.4095216,
   "2121595857908748345": 1794667967.8864582
  },
- "bear_last_run": 1794667967.8864768,
+ "bear_last_run": 1794672493.991324,
  "toad_sent": {
   "2121299518041800912": 1794596496.2928264,
   "2121327669534933025": 1794599955.5757625,
