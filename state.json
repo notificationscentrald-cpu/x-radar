@@ -1,7 +1,5 @@
 {
  "seen": {
-  "2120947173131207101": 1794515281.1874206,
-  "2120966712342544622": 1794515282.2696917,
   "2120752985949057215": 1794516615.476118,
   "2120723454861467810": 1794516617.5678146,
   "2120789832276533409": 1794516618.5190694,
@@ -868,22 +866,6 @@
    "x_factor": 9.1,
    "per_hour": 672,
    "ts": 1794560186.500359
-  },
-  "2120966712342544622": {
-   "id": "2120966712342544622",
-   "url": "https://x.com/BenMildenhall/status/2120966712342544622",
-   "text": "There’s been massive progress in agentic 3D world creation in the past year, but producing polished, high fidelity pixels purely procedurally via code is still orders of magnitude more expensive than generating them directly.\n\nI view these strategies as complementary – in our Atlas release today, both the Chisel web app and Codex/Claude Code integrations are designed for using an agent to build out coarse geometry in 3D and control precise final pixel generation through Atlas model endpoints.\n\nThis demo showcases the Chisel variant of Atlas we finetuned for flexible control, capable of taking in any combination of partial RGB and partial depth frames. We can take masked depth renders of the car model and use text prompting to control both stylistic appearance and what fills in the rest of the scene.",
-   "user": "BenMildenhall",
-   "followers": 12271,
-   "views": 2712,
-   "likes": 38,
-   "reposts": 3,
-   "replies": 4,
-   "bookmarks": 10,
-   "age_h": 0.7,
-   "x_factor": 0.2,
-   "per_hour": 4020,
-   "ts": 1794515272.519562
   },
   "2120939739431972922": {
    "id": "2120939739431972922",
@@ -8536,7 +8518,6 @@
  },
  "last_run": 1794764219.97239,
  "sent": {
-  "2120966712342544622": 1794515289.786465,
   "2120752985949057215": 1794516616.282425,
   "2121082861902070130": 1794574985.6192288,
   "2121226279206760526": 1794577151.4528627,
@@ -8600,8 +8581,8 @@
   "2122005309346734463": 1794762567.1373208,
   "2122038423082963328": 1794770022.4475522
  },
- "reply_last_run": 1794772387.8715367,
- "fresh_last_run": 1794770037.7767951,
+ "reply_last_run": 1794774405.4932241,
+ "fresh_last_run": 1794774420.7266855,
  "reply_day": {
   "date": "2026-11-12",
   "count": 8
@@ -8641,10 +8622,10 @@
   "2121632431497195767": 1794750329.976684,
   "2121682208532688904": 1794750331.5656154
  },
- "toad_last_run": 1794770074.7723372,
+ "toad_last_run": 1794774454.0994725,
  "bear_day": {
   "date": "2026-11-15",
-  "reply": 4,
+  "reply": 5,
   "remake": 3
  },
  "bear_seen": {
@@ -8681,7 +8662,8 @@
   "2121959481642738018": 1794755544.8645139,
   "2121945259244503454": 1794755546.0458891,
   "2122009985005597027": 1794764650.650848,
-  "2122022345091232088": 1794770107.1109126
+  "2122022345091232088": 1794770107.1109126,
+  "2122053130808615293": 1794774487.603029
  },
  "bear_sent": {
   "2121280764562067474": 1794593622.1878498,
@@ -8706,9 +8688,10 @@
   "2121955822108320105": 1794755543.875618,
   "2121945259244503454": 1794755546.6213408,
   "2122009985005597027": 1794764659.1398184,
-  "2122022345091232088": 1794770114.6157777
+  "2122022345091232088": 1794770114.6157777,
+  "2122053130808615293": 1794774495.2590537
  },
- "bear_last_run": 1794770114.6157923,
+ "bear_last_run": 1794774495.2590995,
  "toad_sent": {
   "2121299518041800912": 1794596496.2928264,
   "2121327669534933025": 1794599955.5757625,
