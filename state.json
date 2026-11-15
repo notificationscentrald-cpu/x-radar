@@ -117,7 +117,9 @@
   "2121785259024867827": 1794750785.3278058,
   "2121720755192799480": 1794750786.490855,
   "2121738107267481862": 1794750787.308526,
-  "2121671659371585638": 1794750788.5162985
+  "2121671659371585638": 1794750788.5162985,
+  "2121955124163842347": 1794755444.9413443,
+  "2121975678371234136": 1794755453.6154778
  },
  "pool": {
   "2120617704101155270": {
@@ -8551,6 +8553,38 @@
    "x_factor": 1.0,
    "per_hour": 758,
    "ts": 1794750769.6229765
+  },
+  "2121955124163842347": {
+   "id": "2121955124163842347",
+   "url": "https://x.com/RoundtableSpace/status/2121955124163842347",
+   "text": "Those animated story shorts all over your feed? You can make them for free with Claude.\n\nSomeone open-sourced the full skill:\n→ 55 to 70 second vertical shorts\n→ 2D characters in a colorful 3D world, with ink outlines, lens blur and gliding cameras\n→ Music and sound effects included\n→ Rendered on your own PC with three.js and Remotion. No AI video generator\n→ Comes with a style guide measured from 20 viral shorts\n\nhttps://t.co/KrAhFgexqI",
+   "user": "RoundtableSpace",
+   "followers": 274505,
+   "views": 46728,
+   "likes": 37,
+   "reposts": 0,
+   "replies": 7,
+   "bookmarks": 31,
+   "age_h": 1.9,
+   "x_factor": 0.2,
+   "per_hour": 24253,
+   "ts": 1794755436.0243592
+  },
+  "2121975678371234136": {
+   "id": "2121975678371234136",
+   "url": "https://x.com/Lummox_eth/status/2121975678371234136",
+   "text": "12 BEST skills for AI-powered 3D\n\nmodel props. rig characters. build materials. animate scenes. ship interactive 3D\n\nMy picks for Blender + Three.js workflows with Opus 5.5 & Fable 5.2\n\nMODEL IT → RIG IT → SHADE IT → ANIMATE IT → SHIP IT\n\nthe full collection ↓\n\n01 / SHAPE + STRUCTURE\n\n1. Hard-Surface Modeling\nBuild props and mechanical parts with bevels, booleans and modifier stacks.\nhttps://t.co/VSk6wVGwQg\n\n2. Geometry Nodes\nCreate procedural assets, scattering systems and parametric tools.\nhttps://t.co/SzQCp0AfgU\n\n3. Retopology + UV\nClean up meshes and prepare UVs for textures and baking.\nhttps://t.co/6PbH0DfFhB\n\n02 / RIG + SURFACE\n\n4. Character Rigging\nSet up armatures, skinning, IK/FK and deformation checks.\nhttps://t.co/1oPY1uvsVm\n\n5. Animation\nWork with keyframes, actions, mocap retargeting and animation loops.\nhttps://t.co/fdvqf9V8nE\n\n6. PBR Materials\nSet up texture maps, roughness, metalness and material inputs.\nhttps://t.co/cc80ahSAHH\n\n03 / LOOK + EFFECTS\n\n7. Texture Baking\nTransfer high-poly detail into normal, AO and other texture maps.\nhttps://t.co/WTBHiaOJev\n\n8. Lighting + Lookdev\nBuild studio lighting, HDRI setups and asset turntables.\nhttps://t.co/6PBz2qJeqh\n\n9. Three.js Shaders\nCreate custom GLSL effects, uniforms and vertex deformation.\nhttps://t.co/70Xzgjmx9z\n\n04 / WEB + DELIVERY\n\n10. Three.js Particles\nBuild point clouds, particle systems and simulations.\nhttps://t.co/twoEOKGy7Z\n\n11. Export Pipelines\nPrepare assets for game engines and the web with export presets.\nhttps://t.co/2zPZucRedc\n\n12. Product Viewer\nBuild interactive 3D viewers with material variants and camera controls.\nhttps://t.co/EoN1rzSwL7\n\nThese are community agent skills. Follow each repo’s setup and dependencies.\n\nsave this for your next 3D build → pick the skills you need → make something worth rotating 🙂",
+   "user": "Lummox_eth",
+   "followers": 9619,
+   "views": 584,
+   "likes": 23,
+   "reposts": 3,
+   "replies": 7,
+   "bookmarks": 21,
+   "age_h": 0.6,
+   "x_factor": 0.1,
+   "per_hour": 1032,
+   "ts": 1794755436.0243402
   }
  },
  "last_run": 1794750789.2176237,
@@ -8590,7 +8624,9 @@
   "2121950776310534266": 1794750264.4690843,
   "2121933776884269192": 1794750274.6084213,
   "2121951993212076357": 1794750284.0591283,
-  "2121671659371585638": 1794750789.217612
+  "2121671659371585638": 1794750789.217612,
+  "2121955124163842347": 1794755452.5466156,
+  "2121975678371234136": 1794755460.95579
  },
  "reply_seen": {
   "2120960265277546844": 1794512169.984012,
@@ -8615,15 +8651,15 @@
   "2121955126894370926": 1794750232.8625593,
   "2121964983319761118": 1794752889.9746854
  },
- "reply_last_run": 1794752898.9471378,
- "fresh_last_run": 1794750284.0591378,
+ "reply_last_run": 1794755427.9618828,
+ "fresh_last_run": 1794755460.9558032,
  "reply_day": {
   "date": "2026-11-12",
   "count": 8
  },
  "reply_day_active": {
   "date": "2026-11-15",
-  "count": 6
+  "count": 8
  },
  "toad_day": {
   "date": "2026-11-15",
@@ -8656,11 +8692,11 @@
   "2121632431497195767": 1794750329.976684,
   "2121682208532688904": 1794750331.5656154
  },
- "toad_last_run": 1794750332.302816,
+ "toad_last_run": 1794755493.409769,
  "bear_day": {
   "date": "2026-11-15",
-  "reply": 0,
-  "remake": 2
+  "reply": 2,
+  "remake": 3
  },
  "bear_seen": {
   "2121280764562067474": 1794593613.9623926,
@@ -8690,7 +8726,11 @@
   "2121636561871937726": 1794750368.075006,
   "2121660006873317639": 1794750370.0647001,
   "2121720755192799480": 1794750371.9554608,
-  "2121738107267481862": 1794750373.1354086
+  "2121738107267481862": 1794750373.1354086,
+  "2121958760197562396": 1794755527.086007,
+  "2121955822108320105": 1794755536.1533728,
+  "2121959481642738018": 1794755544.8645139,
+  "2121945259244503454": 1794755546.0458891
  },
  "bear_sent": {
   "2121280764562067474": 1794593622.1878498,
@@ -8710,9 +8750,12 @@
   "2121690979904446885": 1794691231.852164,
   "2121766500524589160": 1794707410.9477065,
   "2121636561871937726": 1794750368.7792377,
-  "2121660006873317639": 1794750370.7993562
+  "2121660006873317639": 1794750370.7993562,
+  "2121958760197562396": 1794755534.7157497,
+  "2121955822108320105": 1794755543.875618,
+  "2121945259244503454": 1794755546.6213408
  },
- "bear_last_run": 1794750373.1354215,
+ "bear_last_run": 1794755546.621353,
  "toad_sent": {
   "2121299518041800912": 1794596496.2928264,
   "2121327669534933025": 1794599955.5757625,
