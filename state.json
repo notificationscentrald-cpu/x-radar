@@ -119,7 +119,12 @@
   "2121738107267481862": 1794750787.308526,
   "2121671659371585638": 1794750788.5162985,
   "2121955124163842347": 1794755444.9413443,
-  "2121975678371234136": 1794755453.6154778
+  "2121975678371234136": 1794755453.6154778,
+  "2121982602122760352": 1794760080.6613135,
+  "2121979178656395361": 1794760089.4062755,
+  "2121989717713412312": 1794760090.6288295,
+  "2121989497252438473": 1794760098.992143,
+  "2121991760825995575": 1794760108.2383604
  },
  "pool": {
   "2120617704101155270": {
@@ -8585,6 +8590,70 @@
    "x_factor": 0.1,
    "per_hour": 1032,
    "ts": 1794755436.0243402
+  },
+  "2121982602122760352": {
+   "id": "2121982602122760352",
+   "url": "https://x.com/AmirMushich/status/2121982602122760352",
+   "text": "Claude Opus 5.5 did (prompt)\n\nMy input + 9 revisions in Claude Code using Blender\nSound is still very weak (even in Fable) - so I'm cooking a plugin for Claude to make it sound better\n\n Try this prompt with any [OBJECT] 👇",
+   "user": "AmirMushich",
+   "followers": 93137,
+   "views": 4570,
+   "likes": 55,
+   "reposts": 3,
+   "replies": 16,
+   "bookmarks": 57,
+   "age_h": 1.4,
+   "x_factor": 0.0,
+   "per_hour": 3276,
+   "ts": 1794760072.132948
+  },
+  "2121989717713412312": {
+   "id": "2121989717713412312",
+   "url": "https://x.com/_MaxBlade/status/2121989717713412312",
+   "text": "I have only 10 hours left to finish my game for the UNREAL ENGINE mega jam. \n\nin the last 3 days ive used 10 billion tokens. \n\nThe game is simple :\n\ni have the last lawn left and ai robots are coming to turn it into a data center... They can have it over my dead body.\n\ni am using fable 5.2 to orchestrate opus 5.5 agents inside a custom harness controlling the UE 5.9 BETA MCP \n\nIf tasks fail my review then fable handles itself.",
+   "user": "_MaxBlade",
+   "followers": 25372,
+   "views": 2584,
+   "likes": 18,
+   "reposts": 2,
+   "replies": 11,
+   "bookmarks": 1,
+   "age_h": 0.9,
+   "x_factor": 0.1,
+   "per_hour": 2798,
+   "ts": 1794760072.1330457
+  },
+  "2121989497252438473": {
+   "id": "2121989497252438473",
+   "url": "https://x.com/AiBattle_/status/2121989497252438473",
+   "text": "Fable 5.2 vs Opus 5.5 Humanoid Worm Swarm (Unreal Engine + Blender)\n\nThe prompt was to build a humanoid creature made of hundreds of living worms. When you shoot it, the worms fly off, crawl back, and rebuild the body.\n\nAPI Cost:\n\nFable 5.2 (High) = $49.68\nOpus  5.5 (High) = $30.08\n\nDuration: \n\nFable 5.2 (High) = 1h 27m\nOpus  5.5 (High) = 1h 2m",
+   "user": "AiBattle_",
+   "followers": 8741,
+   "views": 1304,
+   "likes": 21,
+   "reposts": 0,
+   "replies": 4,
+   "bookmarks": 4,
+   "age_h": 0.9,
+   "x_factor": 0.1,
+   "per_hour": 1390,
+   "ts": 1794760072.1330144
+  },
+  "2121991760825995575": {
+   "id": "2121991760825995575",
+   "url": "https://x.com/rewind02/status/2121991760825995575",
+   "text": "build a painted 3D world in the browser with Opus 5.5 + Three.js,,,\n\nevery frame looks painted, and when the sun goes down it turns from gouache into oil paint\n\nhere’s the workflow:\n\n- step 1: opus 5.5: “plan a walk: forest path > open hill > sunset over the sea”\n- step 2: three.js: opus builds the terrain, path and sea from code, with no models\n- step 3: three.js: procedural trees, grass and flowers with InstancedMesh\n- step 4: three.js: the hero props from basic shapes: blossom tree, floating islands, kid, kite\n- step 5: custom shaders: god rays, fog, birds, fireflies and kite string sway\n- step 6: custom shaders: a paint post-pass that turns every frame into brushstrokes\n- step 7: custom shaders: tie the brush style to sun height: gouache by day, oil at sunset\n- step 8: three.js: a camera path along the walk, with the sun setting as you go \n\nwho does what:\n\n> opus 5.5: writes every mesh, shader and camera move\n> three.js: renders the world\n> the paint shader: makes it look like a painting\n> you: judge each frame like a painting, not a game\n \nthe brushstrokes hide what code-built shapes can’t fake",
+   "user": "rewind02",
+   "followers": 8392,
+   "views": 853,
+   "likes": 27,
+   "reposts": 0,
+   "replies": 8,
+   "bookmarks": 18,
+   "age_h": 0.8,
+   "x_factor": 0.1,
+   "per_hour": 1082,
+   "ts": 1794760072.133098
   }
  },
  "last_run": 1794750789.2176237,
@@ -8626,7 +8695,11 @@
   "2121951993212076357": 1794750284.0591283,
   "2121671659371585638": 1794750789.217612,
   "2121955124163842347": 1794755452.5466156,
-  "2121975678371234136": 1794755460.95579
+  "2121975678371234136": 1794755460.95579,
+  "2121982602122760352": 1794760088.3578742,
+  "2121989717713412312": 1794760097.997112,
+  "2121989497252438473": 1794760107.2094758,
+  "2121991760825995575": 1794760115.3843517
  },
  "reply_seen": {
   "2120960265277546844": 1794512169.984012,
@@ -8651,17 +8724,18 @@
   "2121955126894370926": 1794750232.8625593,
   "2121964983319761118": 1794752889.9746854,
   "2121991111648399669": 1794757580.1586566,
-  "2121989598616400298": 1794757580.1591992
+  "2121989598616400298": 1794757580.1591992,
+  "2121996706636304582": 1794760057.0605268
  },
- "reply_last_run": 1794757587.3115468,
- "fresh_last_run": 1794755460.9558032,
+ "reply_last_run": 1794760064.784708,
+ "fresh_last_run": 1794760115.3843622,
  "reply_day": {
   "date": "2026-11-12",
   "count": 8
  },
  "reply_day_active": {
   "date": "2026-11-15",
-  "count": 9
+  "count": 14
  },
  "toad_day": {
   "date": "2026-11-15",
@@ -8694,7 +8768,7 @@
   "2121632431497195767": 1794750329.976684,
   "2121682208532688904": 1794750331.5656154
  },
- "toad_last_run": 1794755493.409769,
+ "toad_last_run": 1794760146.2964623,
  "bear_day": {
   "date": "2026-11-15",
   "reply": 2,
@@ -8757,7 +8831,7 @@
   "2121955822108320105": 1794755543.875618,
   "2121945259244503454": 1794755546.6213408
  },
- "bear_last_run": 1794755546.621353,
+ "bear_last_run": 1794760176.2553008,
  "toad_sent": {
   "2121299518041800912": 1794596496.2928264,
   "2121327669534933025": 1794599955.5757625,
