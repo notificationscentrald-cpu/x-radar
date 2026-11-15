@@ -1,15 +1,5 @@
 {
  "seen": {
-  "2120466272723034278": 1794445615.3187876,
-  "2120389388555416011": 1794445616.3058236,
-  "2120547277240459632": 1794445617.5858376,
-  "2120444230589972929": 1794445618.6390102,
-  "2120540672696451162": 1794445619.614101,
-  "2120502720079835550": 1794445620.723909,
-  "2120664117233033317": 1794447818.4564085,
-  "2120666050685469123": 1794447826.7711508,
-  "2120682002521202844": 1794447827.7539546,
-  "2120680637900447975": 1794447828.7867053,
   "2120701865818223086": 1794454205.2533107,
   "2120712048300744720": 1794454214.2683241,
   "2120702340668039170": 1794454223.11836,
@@ -141,38 +131,6 @@
   "2121489451415130251": 1794692242.7863626
  },
  "pool": {
-  "2120323074860179674": {
-   "id": "2120323074860179674",
-   "url": "https://x.com/AndrewCurran_/status/2120323074860179674",
-   "text": "From the Anthropic Road Show video:\n'This has also made us really good at bringing up new chips. As an example, this year, we started working with AMD GPUs for the first time. In the past, bringing on a new chip platform took dozens of engineers months of work. This time we had Mythos try it out. It got Claude running on AMD in just 3 days with basically no human intervention. Claude ported or wrote almost 100% of the kernels.'",
-   "user": "AndrewCurran_",
-   "followers": 116101,
-   "views": 215359,
-   "likes": 2337,
-   "reposts": 237,
-   "replies": 101,
-   "bookmarks": 694,
-   "age_h": 23.9,
-   "x_factor": 1.9,
-   "per_hour": 8995,
-   "ts": 1794445579.0379002
-  },
-  "2120336961797857401": {
-   "id": "2120336961797857401",
-   "url": "https://x.com/kirillk_web3/status/2120336961797857401",
-   "text": "Microsoft CEO after Anthropic shipped its own Word, Excel, PowerPoint and Teams in one day: https://t.co/5Wv5M2Ojyj",
-   "user": "kirillk_web3",
-   "followers": 44095,
-   "views": 313652,
-   "likes": 2311,
-   "reposts": 159,
-   "replies": 39,
-   "bookmarks": 531,
-   "age_h": 23.0,
-   "x_factor": 7.1,
-   "per_hour": 13624,
-   "ts": 1794445579.0375357
-  },
   "2120444230589972929": {
    "id": "2120444230589972929",
    "url": "https://x.com/Mike_Andreuzza/status/2120444230589972929",
@@ -253,22 +211,6 @@
    "per_hour": 10674,
    "ts": 1794459495.2604973
   },
-  "2120327641538416789": {
-   "id": "2120327641538416789",
-   "url": "https://x.com/MikeLongTerm/status/2120327641538416789",
-   "text": "BREAKING @AnthropicAI just said $AMD GPUs can run 3 days with Mythos with no human involved!\nTLDR: CUDA MOAT is gone! \n\nPeople were in denial when I said Anthropic gonna own data center with @AMD chips first because it has the best TDP, TCO, and Lowest $/M tokens at nearly half the price of $NVDA . \n\nAnd Anthropic Claude frounder wants to scale Agentic to 100s-1000s of agents on AMD CPUs, hence they are booking CPUs into 2030 already. \n\nThe truth can hurt your long term thesis on other semis, but it is very difficult to beat a competitive leader like Dr. Su. \n\nWhen she said she gonna make the best CPU GPU years ago, u better believe it, I did. And I'm winning!\nMost people dont know this, Dr. Su actually loves competitions, so please keep her entertained :))\n\nNot Financial Advice! DYOR!",
-   "user": "MikeLongTerm",
-   "followers": 28252,
-   "views": 36178,
-   "likes": 334,
-   "reposts": 31,
-   "replies": 16,
-   "bookmarks": 80,
-   "age_h": 23.6,
-   "x_factor": 1.3,
-   "per_hour": 1530,
-   "ts": 1794445579.03784
-  },
   "2120389388555416011": {
    "id": "2120389388555416011",
    "url": "https://x.com/wtf_nakul7/status/2120389388555416011",
@@ -333,38 +275,6 @@
    "per_hour": 4759,
    "ts": 1794459495.2607257
   },
-  "2120470691900219678": {
-   "id": "2120470691900219678",
-   "url": "https://x.com/0xbeepit/status/2120470691900219678",
-   "text": "NEW: Financial Times reports Anthropic's bankers are preparing to raise its IPO valuation to $1.5 trillion or more. $NVDA\n\nRiffed it: a portfolio you can copy, 8 picks led by chip and memory sellers over debt-funded GPU renters 👇\nhttps://t.co/71VF9ibo8O",
-   "user": "0xbeepit",
-   "followers": 63332,
-   "views": 48268,
-   "likes": 360,
-   "reposts": 49,
-   "replies": 26,
-   "bookmarks": 39,
-   "age_h": 14.2,
-   "x_factor": 0.8,
-   "per_hour": 3407,
-   "ts": 1794445579.0379066
-  },
-  "2120511565027999880": {
-   "id": "2120511565027999880",
-   "url": "https://x.com/jimstewartson/status/2120511565027999880",
-   "text": "This is mental illness. There is no evidence for any of this. Dario is just a cult leader.\n\nAnthropic not a business. It is a money furnace run by misguided kids religiously convinced they’re building a machine god. It should be left to die from natural causes.",
-   "user": "jimstewartson",
-   "followers": 159529,
-   "views": 17808,
-   "likes": 1280,
-   "reposts": 324,
-   "replies": 89,
-   "bookmarks": 64,
-   "age_h": 11.5,
-   "x_factor": 0.1,
-   "per_hour": 1554,
-   "ts": 1794445579.037787
-  },
   "2120552287730794818": {
    "id": "2120552287730794818",
    "url": "https://x.com/ByteEcosystem/status/2120552287730794818",
@@ -381,22 +291,6 @@
    "per_hour": 4637,
    "ts": 1794488753.1455672
   },
-  "2120510448202342849": {
-   "id": "2120510448202342849",
-   "url": "https://x.com/AndrewCurran_/status/2120510448202342849",
-   "text": "Anthropic is now looking at raising $90 billion in their IPO, and it is massively oversubscribed. There will be a livestreamed event with Dario Amodei on Friday. https://t.co/G362ctA9KD",
-   "user": "AndrewCurran_",
-   "followers": 116101,
-   "views": 28007,
-   "likes": 604,
-   "reposts": 35,
-   "replies": 58,
-   "bookmarks": 57,
-   "age_h": 11.5,
-   "x_factor": 0.2,
-   "per_hour": 2428,
-   "ts": 1794445579.037624
-  },
   "2120380498635563423": {
    "id": "2120380498635563423",
    "url": "https://x.com/sonsakripto/status/2120380498635563423",
@@ -412,22 +306,6 @@
    "x_factor": 1.0,
    "per_hour": 442,
    "ts": 1794459522.6147819
-  },
-  "2120363153028477226": {
-   "id": "2120363153028477226",
-   "url": "https://x.com/imsanyi/status/2120363153028477226",
-   "text": "I'm 17 and I've secured $34,425 in startup credits to build my Startup.\n\n$0 raised. No investors. Just building.\n\nWe recived the Credits from AWS, Google Cloud, E2B, Anthropic, MongoDB and etc.\n\nTurns out you don't always need funding to get started.\n\nNow I just need to turn those credits into revenue 😭",
-   "user": "imsanyi",
-   "followers": 6665,
-   "views": 17768,
-   "likes": 628,
-   "reposts": 30,
-   "replies": 93,
-   "bookmarks": 93,
-   "age_h": 21.3,
-   "x_factor": 2.7,
-   "per_hour": 834,
-   "ts": 1794445579.0379412
   },
   "2120446395031155055": {
    "id": "2120446395031155055",
@@ -476,22 +354,6 @@
    "x_factor": 331.3,
    "per_hour": 27458,
    "ts": 1794459495.2604427
-  },
-  "2120551211195642338": {
-   "id": "2120551211195642338",
-   "url": "https://x.com/davidchalmers42/status/2120551211195642338",
-   "text": "a number of respected researchers (e.g. @DKokotajlo @bshlgrs @ajeya_cotra @RyanGreenblatt)  have suggested that the METR-documented ~2x speedup in AI progress at anthropic over the last year supports the hypothesis that there will be a near-term (e.g. 2027) intelligence explosion (IE). how exactly does this reasoning work?\n\none way to think about this: perhaps the leading alternative to the near-term IE hypothesis is what we might call the factor F hypothesis, which says that there's at least one key factor F [e.g. creativity, research vision, planning ability, ...] such that (i) high F is required for an AI system to reach the superhuman levels required for full-scale IE [e.g. ASI, artificial superhuman general intelligence or at least SAR, superhuman AI researcher], and (ii) F is so difficult to build into AI systems that leading AI systems won't have high F in the near term. i don't know whether the factor F hypothesis is true, but it's not obvious to me why the 2x speedup makes it much less likely. \n\nit's widely agreed that the 2x speedup reflects an even larger (perhaps 10x) speedup in other capacities G such as coding and experimentation.  under the F hypothesis, G could explode locally, leading to major progress in sub-AGI capacities without much progress in F (think of G as the easy part of AGI and F as the hard part). that tends to lead just to a weak form of recursive self-improvement (call it an intelligence subexplosion) below AGI levels.\n\nthe AI futures document responding to the METR report is usefully explicit about nearby issues. the authors report believing in a high-ish growth rate for \"research taste\" (AI research factors beyond coding and experimentation) relative to increases in general capacity. presumably they take potential Fs to be aspects of research taste that will grow fast too. but i don't really see where the evidence counts again a relatively-low-growth F hypothesis where F stays below threshold for years.  maybe one could argue that the explosion in G provides bayesian evidence against this F hypothesis (G's exploding is antecedently less likely under the F hypothesis than under its negation), but that's far from clear, and even if true there will remain a solid mass of credence under the F hypothesis.\n\nmaybe there are other reasons to reject the factor F hypothesis: e.g. because AI research is relevantly like math research, and AI math research is becoming superhuman already. but if we have reasons like that, the 2x speedup isn't really needed to make the case for near-term SAR and IE. maybe the 2x speedup could speed up an expected IE slightly from 2028 (two years away) to 2027 (one year away), and/or maybe it could be extrapolated into ever-faster speedups (another 2x in 6 months, 3 months, and so on) converging in 2027. but those are very different arguments that require huge premises to work. \n\nam i missing something here?  i'm curious to hear which evidential routes from 2x speedup to near-term IE people have in mind. \n\nN.B. i'm not saying you shouldn't worry about near-term ASI. i'm worried!",
-   "user": "davidchalmers42",
-   "followers": 45722,
-   "views": 27633,
-   "likes": 380,
-   "reposts": 49,
-   "replies": 38,
-   "bookmarks": 228,
-   "age_h": 8.8,
-   "x_factor": 0.6,
-   "per_hour": 3128,
-   "ts": 1794445579.0378098
   },
   "2120609815135474064": {
    "id": "2120609815135474064",
@@ -557,38 +419,6 @@
    "per_hour": 14423,
    "ts": 1794488753.1454828
   },
-  "2120322553600430213": {
-   "id": "2120322553600430213",
-   "url": "https://x.com/alexmashrabov/status/2120322553600430213",
-   "text": "We’re on track to hit $2B in annualized run rate in the next 3 months.\n\nWe crossed $1B and got faster. In October we hit $1.35B.\n\nHiggsfield is the third-largest independent, private AI-native company by annualized revenue, behind only Anthropic and OpenAI.\n\nWhen they go public, Higgsfield becomes the largest AI-native company still private.\n\nAI video is going to be a trillion-dollar market. This is only the beginning.",
-   "user": "alexmashrabov",
-   "followers": 20721,
-   "views": 1873547,
-   "likes": 1229,
-   "reposts": 417,
-   "replies": 157,
-   "bookmarks": 297,
-   "age_h": 24.0,
-   "x_factor": 90.4,
-   "per_hour": 78142,
-   "ts": 1794445579.0376756
-  },
-  "2120560650854580278": {
-   "id": "2120560650854580278",
-   "url": "https://x.com/edzitron/status/2120560650854580278",
-   "text": "Oh my GOD it’s exactly what I’ve been saying for months!",
-   "user": "edzitron",
-   "followers": 162787,
-   "views": 143439,
-   "likes": 3081,
-   "reposts": 225,
-   "replies": 20,
-   "bookmarks": 242,
-   "age_h": 8.2,
-   "x_factor": 0.9,
-   "per_hour": 17475,
-   "ts": 1794445579.0378752
-  },
   "2120533136656474303": {
    "id": "2120533136656474303",
    "url": "https://x.com/quantian1/status/2120533136656474303",
@@ -620,38 +450,6 @@
    "x_factor": 0.9,
    "per_hour": 4296,
    "ts": 1794459495.2607353
-  },
-  "2120429993755099515": {
-   "id": "2120429993755099515",
-   "url": "https://x.com/jasondainter/status/2120429993755099515",
-   "text": "99% AI. Hope you enjoy!\n\nLyrics: Me + Claude Opus 5.5\nImage Stills: Midjourney v8\nVideo: Minimax H3\nEditing: Me + Davinci + Claude Opus 5.5\nMusic: Suno v6 wild https://t.co/l6Ivu8KTr8",
-   "user": "jasondainter",
-   "followers": 1891,
-   "views": 177064,
-   "likes": 2003,
-   "reposts": 293,
-   "replies": 285,
-   "bookmarks": 1524,
-   "age_h": 16.9,
-   "x_factor": 93.6,
-   "per_hour": 10501,
-   "ts": 1794445579.0375993
-  },
-  "2120572762892751348": {
-   "id": "2120572762892751348",
-   "url": "https://x.com/DocumentingAGI/status/2120572762892751348",
-   "text": "ByteDance founder Zhang Yiming has reportedly told his AI team that catching up with OpenAI and Anthropic in frontier AI could take until 2029 or 2030.\n\nAccording to Bloomberg, he also acknowledged that ByteDance's Seed models have pretraining datasets several orders of magnitude smaller than those used by US rivals.\n\nThe company is preparing a Meta Muse-like AI assistant for launch within weeks.",
-   "user": "DocumentingAGI",
-   "followers": 67261,
-   "views": 55644,
-   "likes": 754,
-   "reposts": 69,
-   "replies": 23,
-   "bookmarks": 20,
-   "age_h": 7.4,
-   "x_factor": 0.8,
-   "per_hour": 7513,
-   "ts": 1794445579.037927
   },
   "2120617704101155270": {
    "id": "2120617704101155270",
@@ -877,38 +675,6 @@
    "per_hour": 3550,
    "ts": 1794459495.2608027
   },
-  "2120343751478382977": {
-   "id": "2120343751478382977",
-   "url": "https://x.com/cryptopunk7213/status/2120343751478382977",
-   "text": "woah if Apple really is building a way to let you run open source models locally on your macbooks without leaking data then this is will turn them into the #1 AI hardware network worth billions.\n\nso many companies are freaking out about anthropic and openai copy-pasting their entire product, the solution is privately hosted models but they're expensive to setup and run.\n\nApple's hardware could be the best compromise. connect a network of macbooks, mac mini pro's and inference the shit out any model.",
-   "user": "cryptopunk7213",
-   "followers": 57973,
-   "views": 44497,
-   "likes": 462,
-   "reposts": 30,
-   "replies": 12,
-   "bookmarks": 195,
-   "age_h": 22.6,
-   "x_factor": 0.8,
-   "per_hour": 1971,
-   "ts": 1794445579.0376854
-  },
-  "2120533451279642808": {
-   "id": "2120533451279642808",
-   "url": "https://x.com/aleabitoreddit/status/2120533451279642808",
-   "text": "Let's fking go $ANT\n\nThis is how you sell the future of AI... by entering an \"Age of Miracles,\" not human extinction.\n\nI still think Anthropic is overvalued, but even I'm getting hyped by this IPO teaser. https://t.co/ebNkiRoogo",
-   "user": "aleabitoreddit",
-   "followers": 1069039,
-   "views": 283772,
-   "likes": 1720,
-   "reposts": 108,
-   "replies": 89,
-   "bookmarks": 458,
-   "age_h": 10.0,
-   "x_factor": 0.3,
-   "per_hour": 28351,
-   "ts": 1794445579.0377016
-  },
   "2120518905290744218": {
    "id": "2120518905290744218",
    "url": "https://x.com/retro_dodo/status/2120518905290744218",
@@ -957,38 +723,6 @@
    "per_hour": 459,
    "ts": 1794459495.260822
   },
-  "2120385367618486370": {
-   "id": "2120385367618486370",
-   "url": "https://x.com/rileybrown/status/2120385367618486370",
-   "text": "Fable 5.2 is the best model ever released..\nand it's not close. \n\nEspecially at any visual task.\n\nHere are the 6 reasons why: \n\n(This entire video was edited by Fable 5.2 in 40 min)\n\nIf you want to use the same intro style as me i'm putting the github-for-video link down below. Just copy and paste it into claude and tell it to edit a video just like it.\n\n00:00 Intro\n00:41 1. Blender & 3D\n06:24 2. Video Editing\n09:55 3. Video Games\n13:13 4. Apps Are Solved\n15:08 5. Research Decks\n16:26 6. Vibe Coding Hardware",
-   "user": "rileybrown",
-   "followers": 265156,
-   "views": 26548,
-   "likes": 431,
-   "reposts": 38,
-   "replies": 64,
-   "bookmarks": 438,
-   "age_h": 19.8,
-   "x_factor": 0.1,
-   "per_hour": 1339,
-   "ts": 1794445579.0377948
-  },
-  "2120655348810019059": {
-   "id": "2120655348810019059",
-   "url": "https://x.com/kevinnbass/status/2120655348810019059",
-   "text": "The exposes on Jensen Huang are part of a long-running campaign by the Democrats/Anthropic to harm open source and give Anthropic an AI monopoly heavily regulated for the political left. Suffocating nanny surveillance state AI is the final goal. Censorship regime on steroids.",
-   "user": "kevinnbass",
-   "followers": 238079,
-   "views": 16703,
-   "likes": 546,
-   "reposts": 88,
-   "replies": 29,
-   "bookmarks": 35,
-   "age_h": 1.9,
-   "x_factor": 0.1,
-   "per_hour": 8627,
-   "ts": 1794445579.037818
-  },
   "2120547277240459632": {
    "id": "2120547277240459632",
    "url": "https://x.com/Sownjuinho/status/2120547277240459632",
@@ -1005,38 +739,6 @@
    "per_hour": 6974,
    "ts": 1794488753.145435
   },
-  "2120506035626729895": {
-   "id": "2120506035626729895",
-   "url": "https://x.com/wallstengine/status/2120506035626729895",
-   "text": "Sam Altman told Samsung executives AI demand has been \"double counted\" amid neocloud bubble concerns.\n\nHe said only OpenAI and Anthropic drive major demand growth, warning of supply shocks and turbulence, but expects AI demand to surge long term.\n\nSource: fnnews h/t @jukan05",
-   "user": "wallstengine",
-   "followers": 214680,
-   "views": 295318,
-   "likes": 755,
-   "reposts": 105,
-   "replies": 59,
-   "bookmarks": 193,
-   "age_h": 11.8,
-   "x_factor": 1.4,
-   "per_hour": 24974,
-   "ts": 1794445579.0378327
-  },
-  "2120430754220085726": {
-   "id": "2120430754220085726",
-   "url": "https://x.com/the_codewala/status/2120430754220085726",
-   "text": "I saw a guy coding at my coworking space today.\n\n- No Codex\n- No Cursor\n- No Claude\n\nHe just sat there, typing code by hand.\n\nLike a psychopath.",
-   "user": "the_codewala",
-   "followers": 10419,
-   "views": 24993,
-   "likes": 769,
-   "reposts": 35,
-   "replies": 108,
-   "bookmarks": 20,
-   "age_h": 16.8,
-   "x_factor": 2.4,
-   "per_hour": 1486,
-   "ts": 1794445579.0378473
-  },
   "2120540672696451162": {
    "id": "2120540672696451162",
    "url": "https://x.com/Da7_Tech/status/2120540672696451162",
@@ -1052,38 +754,6 @@
    "x_factor": 30.8,
    "per_hour": 29088,
    "ts": 1794473884.7079706
-  },
-  "2120393122438119830": {
-   "id": "2120393122438119830",
-   "url": "https://x.com/AndrewDudum/status/2120393122438119830",
-   "text": "Agree 100%",
-   "user": "AndrewDudum",
-   "followers": 62250,
-   "views": 27690,
-   "likes": 492,
-   "reposts": 25,
-   "replies": 32,
-   "bookmarks": 28,
-   "age_h": 19.3,
-   "x_factor": 0.4,
-   "per_hour": 1434,
-   "ts": 1794445579.0378814
-  },
-  "2120540366810095769": {
-   "id": "2120540366810095769",
-   "url": "https://x.com/patrick_oshag/status/2120540366810095769",
-   "text": "GLP-1s still out-earn OpenAI and Anthropic combined\n\nThe two drugs behind Ozempic and Mounjaro did $71B in 2025 vs $18B for OpenAI + Anthropic\n\nBut through September this year it’s $70B vs $56B https://t.co/a4k72wWybT",
-   "user": "patrick_oshag",
-   "followers": 365435,
-   "views": 73672,
-   "likes": 408,
-   "reposts": 67,
-   "replies": 39,
-   "bookmarks": 145,
-   "age_h": 9.6,
-   "x_factor": 0.2,
-   "per_hour": 7713,
-   "ts": 1794445579.037888
   },
   "2120554019177611668": {
    "id": "2120554019177611668",
@@ -1117,38 +787,6 @@
    "per_hour": 15199,
    "ts": 1794502777.6092396
   },
-  "2120551910789046391": {
-   "id": "2120551910789046391",
-   "url": "https://x.com/meetgranola/status/2120551910789046391",
-   "text": "Introducing Agent Briefs. Every night, Granola crunches everything it knows about you and summarizes it for your agents: priorities, habits, relationships - even how you communicate.\n\nThis way, all agents have your best, most up-to-date context.\n\nSee what yours says below 👇\n\nClaude: https://t.co/5wFan71Drz\n\nChatGPT: https://t.co/fs4zuVqqL5",
-   "user": "meetgranola",
-   "followers": 27730,
-   "views": 68400,
-   "likes": 536,
-   "reposts": 38,
-   "replies": 54,
-   "bookmarks": 438,
-   "age_h": 8.8,
-   "x_factor": 2.5,
-   "per_hour": 7784,
-   "ts": 1794445579.0379207
-  },
-  "2120490473454522490": {
-   "id": "2120490473454522490",
-   "url": "https://x.com/Kalshi/status/2120490473454522490",
-   "text": "BREAKING: Anthropic discloses over $10 billion of new compute deals with Microsoft and Google",
-   "user": "Kalshi",
-   "followers": 509127,
-   "views": 50731,
-   "likes": 811,
-   "reposts": 55,
-   "replies": 46,
-   "bookmarks": 20,
-   "age_h": 12.9,
-   "x_factor": 0.1,
-   "per_hour": 3946,
-   "ts": 1794445579.037933
-  },
   "2120674945177128994": {
    "id": "2120674945177128994",
    "url": "https://x.com/Kalshi/status/2120674945177128994",
@@ -1180,22 +818,6 @@
    "x_factor": 5.5,
    "per_hour": 15942,
    "ts": 1794516569.2331276
-  },
-  "2120426302440419721": {
-   "id": "2120426302440419721",
-   "url": "https://x.com/LexnLin/status/2120426302440419721",
-   "text": "Claude Fable 5.2 can generate pretty decent \"images\" with code https://t.co/tRdiJJfe2T",
-   "user": "LexnLin",
-   "followers": 33759,
-   "views": 10786,
-   "likes": 540,
-   "reposts": 16,
-   "replies": 35,
-   "bookmarks": 79,
-   "age_h": 17.1,
-   "x_factor": 0.3,
-   "per_hour": 630,
-   "ts": 1794445579.0379663
   },
   "2120466272723034278": {
    "id": "2120466272723034278",
@@ -1244,38 +866,6 @@
    "x_factor": 0.0,
    "per_hour": 2748,
    "ts": 1794459495.2605214
-  },
-  "2120650042264744171": {
-   "id": "2120650042264744171",
-   "url": "https://x.com/SammyKoppelman/status/2120650042264744171",
-   "text": "Just as a reminder, Nvidia is:\n\n*Anchoring the Anthropic IPO\n*OpenAI’s big investor \n*Backstopping neoclouds like Coreweave\n*Guaranteeing Stargate data centers \n\nDeals negotiated by Jensen personally. \n\nThe idea that this problem can be isolated to one company is absurd.",
-   "user": "SammyKoppelman",
-   "followers": 17360,
-   "views": 51276,
-   "likes": 652,
-   "reposts": 80,
-   "replies": 18,
-   "bookmarks": 81,
-   "age_h": 2.3,
-   "x_factor": 3.0,
-   "per_hour": 22415,
-   "ts": 1794445579.0379937
-  },
-  "2120664117233033317": {
-   "id": "2120664117233033317",
-   "url": "https://x.com/RoundtableSpace/status/2120664117233033317",
-   "text": "Van Gogh riding through his own Starry Night, turned into a game with Claude Fable 5.2.\n\n  Play it: https://t.co/ghdaXdABP3\n\n https://t.co/RQ3wLvGeVx",
-   "user": "RoundtableSpace",
-   "followers": 274552,
-   "views": 48185,
-   "likes": 21,
-   "reposts": 4,
-   "replies": 7,
-   "bookmarks": 6,
-   "age_h": 2.0,
-   "x_factor": 0.2,
-   "per_hour": 24397,
-   "ts": 1794447809.9335258
   },
   "2120701865818223086": {
    "id": "2120701865818223086",
@@ -8928,8 +8518,6 @@
  },
  "last_run": 1794692242.7863822,
  "sent": {
-  "2120502720079835550": 1794445621.252478,
-  "2120664117233033317": 1794447825.7397752,
   "2120701865818223086": 1794454212.9971514,
   "2120712048300744720": 1794454222.0010028,
   "2120716006884786498": 1794457738.300926,
@@ -8998,8 +8586,8 @@
   "2121658833114390819": 1794679099.6913083,
   "2121676287030841805": 1794684276.6396766
  },
- "reply_last_run": 1794702715.1525497,
- "fresh_last_run": 1794702731.5238698,
+ "reply_last_run": 1794707326.0410712,
+ "fresh_last_run": 1794707340.1660926,
  "reply_day": {
   "date": "2026-11-12",
   "count": 8
@@ -9034,10 +8622,10 @@
   "2121666769651917064": 1794686468.855975,
   "2121664139726835869": 1794686477.666566
  },
- "toad_last_run": 1794700058.116681,
+ "toad_last_run": 1794707371.8355565,
  "bear_day": {
   "date": "2026-11-14",
-  "reply": 4,
+  "reply": 5,
   "remake": 3
  },
  "bear_seen": {
@@ -9062,7 +8650,8 @@
   "2121632307417342191": 1794677239.284096,
   "2121668663342407899": 1794686519.3790596,
   "2121706479489331699": 1794691214.922134,
-  "2121690979904446885": 1794691223.9180398
+  "2121690979904446885": 1794691223.9180398,
+  "2121766500524589160": 1794707403.5604472
  },
  "bear_sent": {
   "2121280764562067474": 1794593622.1878498,
@@ -9079,9 +8668,10 @@
   "2121595857908748345": 1794667967.8864582,
   "2121668663342407899": 1794686526.7631204,
   "2121706479489331699": 1794691222.747525,
-  "2121690979904446885": 1794691231.852164
+  "2121690979904446885": 1794691231.852164,
+  "2121766500524589160": 1794707410.9477065
  },
- "bear_last_run": 1794700088.6856885,
+ "bear_last_run": 1794707410.9477222,
  "toad_sent": {
   "2121299518041800912": 1794596496.2928264,
   "2121327669534933025": 1794599955.5757625,
