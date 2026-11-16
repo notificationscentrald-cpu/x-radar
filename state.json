@@ -113,7 +113,12 @@
   "2122329367150039348": 1794843240.960439,
   "2122335845160243693": 1794843242.1509113,
   "2122328012787949985": 1794843243.4049199,
-  "2122324810223304734": 1794843252.636212
+  "2122324810223304734": 1794843252.636212,
+  "2122357314686448005": 1794848262.838399,
+  "2122350425546641599": 1794848264.0118637,
+  "2122357976413467104": 1794848272.8889296,
+  "2122364865067295169": 1794848274.2053359,
+  "2122362965689090158": 1794848282.95319
  },
  "pool": {
   "2120939739431972922": {
@@ -8051,6 +8056,38 @@
    "x_factor": 0.2,
    "per_hour": 1065,
    "ts": 1794843213.5978956
+  },
+  "2122350425546641599": {
+   "id": "2122350425546641599",
+   "url": "https://x.com/RodmanAi/status/2122350425546641599",
+   "text": "8 GITHUB REPOS TO MAKE YOUR AI VIDEO CREATION WORKFLOW BETTER 🎬\n\nWant to create better AI videos without figuring everything out from scratch?\n\nThese 8 GitHub repositories offer video examples, reusable prompts, animation styles, and creative workflows worth exploring.\n\n1. Awesome Opus Videos\nDiscover AI-generated video examples and the prompts behind them.\nhttps://t.co/Hom9OpsHXJ\n\n2. Lemo Opuscar\nExplore short-film creation with Claude Code across 51 visual styles.\nhttps://t.co/Xidp4w403u\n\n3. pdoom-video\nExplore a locally rendered 4K60 karaoke music-video project.\nhttps://t.co/JOWim1uoHz\n\n4. PDoomVideo\nStudy another implementation of the same music-video concept.\nhttps://t.co/ZxuXbLDMbC\n\n5. mg-styles-15\nExplore 15 motion graphics styles with examples, prompts, and source code.\nhttps://t.co/MSTsWbXO0N\n\n6. ClaudeAnimationBase\nExperiment with hand-drawn cartoon animations and 31 character expressions.\nhttps://t.co/0dRbBzh75x\n\n7. Awesome Claude Videos\nFind video-generation examples and workflows built around Claude.\nhttps://t.co/SEm4DE4Z0s\n\n8. Opus Video Prompts\nExplore Chinese-language AI video examples and reusable prompt ideas.\nhttps://t.co/fAKcSi78v2\n\nHere's a simple way to learn from them:\n\n→ Find a video that catches your eye.\n→ Study how its prompt is written.\n→ Explore the project and source code.\n→ Experiment with your own creative direction.\n\nYou don't always need to start with a blank page. Sometimes, exploring what others have built is the best way to find your next creative idea.\n\n🔖 Bookmark these 8 repos for your next AI video project!",
+   "user": "RodmanAi",
+   "followers": 35240,
+   "views": 1859,
+   "likes": 32,
+   "reposts": 15,
+   "replies": 6,
+   "bookmarks": 9,
+   "age_h": 1.5,
+   "x_factor": 0.1,
+   "per_hour": 1215,
+   "ts": 1794848253.7762706
+  },
+  "2122364865067295169": {
+   "id": "2122364865067295169",
+   "url": "https://x.com/techartist_/status/2122364865067295169",
+   "text": "finished the first level of my game. added more powers, vfx and a super villain. \n\nbuilt with fable 5.2 using blender and three.js https://t.co/VaW23NnjW1",
+   "user": "techartist_",
+   "followers": 23874,
+   "views": 577,
+   "likes": 19,
+   "reposts": 2,
+   "replies": 3,
+   "bookmarks": 1,
+   "age_h": 0.6,
+   "x_factor": 0.0,
+   "per_hour": 1006,
+   "ts": 1794848253.7762337
   }
  },
  "last_run": 1794841547.213585,
@@ -8089,7 +8126,9 @@
   "2121959932660703488": 1794778689.7631917,
   "2122072152686121146": 1794809244.4072628,
   "2122328012787949985": 1794843251.3878546,
-  "2122324810223304734": 1794843260.6799717
+  "2122324810223304734": 1794843260.6799717,
+  "2122350425546641599": 1794848271.8605173,
+  "2122364865067295169": 1794848281.7661486
  },
  "reply_seen": {
   "2121298854259962319": 1794593529.5623698,
@@ -8109,22 +8148,23 @@
   "2121989598616400298": 1794757580.1591992,
   "2121996706636304582": 1794760057.0605268,
   "2122005309346734463": 1794762567.1373208,
-  "2122038423082963328": 1794770022.4475522
+  "2122038423082963328": 1794770022.4475522,
+  "2122363234732675445": 1794848238.229911
  },
- "reply_last_run": 1794843205.62069,
- "fresh_last_run": 1794843260.679983,
+ "reply_last_run": 1794848246.0880647,
+ "fresh_last_run": 1794848282.953204,
  "reply_day": {
   "date": "2026-11-12",
   "count": 8
  },
  "reply_day_active": {
   "date": "2026-11-16",
-  "count": 2
+  "count": 5
  },
  "toad_day": {
   "date": "2026-11-16",
-  "reply": 0,
-  "remake": 2
+  "reply": 1,
+  "remake": 3
  },
  "toad_seen": {
   "2121271762688111055": 1794590516.689939,
@@ -8154,13 +8194,15 @@
   "2122332600500978064": 1794843296.780351,
   "2122093193340620836": 1794843297.9989424,
   "2122033411531399501": 1794843299.8680382,
-  "2122081284902285564": 1794843302.0740647
+  "2122081284902285564": 1794843302.0740647,
+  "2122348438603825649": 1794848317.6915715,
+  "2122073602355073089": 1794848326.7067688
  },
- "toad_last_run": 1794843302.0740798,
+ "toad_last_run": 1794848327.5107508,
  "bear_day": {
   "date": "2026-11-16",
   "reply": 5,
-  "remake": 1
+  "remake": 2
  },
  "bear_seen": {
   "2121280764562067474": 1794593613.9623926,
@@ -8204,7 +8246,8 @@
   "2122325062531604670": 1794843365.3446548,
   "2122336914078572875": 1794843374.5305078,
   "2122329545248505862": 1794843375.820557,
-  "2122300247212786027": 1794843385.1633182
+  "2122300247212786027": 1794843385.1633182,
+  "2122096856624742716": 1794848360.8705318
  },
  "bear_sent": {
   "2121280764562067474": 1794593622.1878498,
@@ -8236,9 +8279,10 @@
   "2122334427636527108": 1794843364.054359,
   "2122325062531604670": 1794843373.1966908,
   "2122329545248505862": 1794843383.8020346,
-  "2122300247212786027": 1794843385.9143186
+  "2122300247212786027": 1794843385.9143186,
+  "2122096856624742716": 1794848361.5935087
  },
- "bear_last_run": 1794843385.9143317,
+ "bear_last_run": 1794848361.5935235,
  "toad_sent": {
   "2121299518041800912": 1794596496.2928264,
   "2121327669534933025": 1794599955.5757625,
@@ -8254,6 +8298,8 @@
   "2121632431497195767": 1794750330.6807325,
   "2121682208532688904": 1794750332.3028028,
   "2122093193340620836": 1794843298.7449574,
-  "2122033411531399501": 1794843300.628428
+  "2122033411531399501": 1794843300.628428,
+  "2122348438603825649": 1794848325.4701536,
+  "2122073602355073089": 1794848327.510738
  }
 }
