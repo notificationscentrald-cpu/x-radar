@@ -1,9 +1,5 @@
 {
  "seen": {
-  "2121599667192680937": 1794692238.9828155,
-  "2121674171130511383": 1794692239.9933064,
-  "2121535693507953082": 1794692241.5694842,
-  "2121489451415130251": 1794692242.7863626,
   "2121632431497195767": 1794708189.8468657,
   "2121443725415153982": 1794708190.912249,
   "2121682208532688904": 1794708192.8083196,
@@ -125,70 +121,6 @@
   "2122487516393554130": 1794948862.415358
  },
  "pool": {
-  "2121393251425128738": {
-   "id": "2121393251425128738",
-   "url": "https://x.com/lydiahallie/status/2121393251425128738",
-   "text": "so hyped for this!! can't wait to see the themes you all come up with lol",
-   "user": "lydiahallie",
-   "followers": 183372,
-   "views": 61813,
-   "likes": 1206,
-   "reposts": 26,
-   "replies": 103,
-   "bookmarks": 209,
-   "age_h": 21.6,
-   "x_factor": 0.3,
-   "per_hour": 2865,
-   "ts": 1794692188.8639948
-  },
-  "2121387152328061313": {
-   "id": "2121387152328061313",
-   "url": "https://x.com/kimmonismus/status/2121387152328061313",
-   "text": "Ex-Anthropic pretraining researcher Jacob Coxon says this slide from the Anthropic IPO roadshow was a big factor in his decision to quit. \n\nIt shows the pre-training compute multiplier for code since July 2024, on a log scale (!), and the line keeps bending upward. \n\nHis take: superexponential algorithmic progress, and Mythos could already be retrained with a fraction of the compute it first needed.\n\nso tl;dr Recursive self-improvement is now part of an IPO pitch.",
-   "user": "kimmonismus",
-   "followers": 159044,
-   "views": 84308,
-   "likes": 1135,
-   "reposts": 76,
-   "replies": 65,
-   "bookmarks": 303,
-   "age_h": 22.0,
-   "x_factor": 0.5,
-   "per_hour": 3836,
-   "ts": 1794692188.8642313
-  },
-  "2121361553731760240": {
-   "id": "2121361553731760240",
-   "url": "https://x.com/joemccann/status/2121361553731760240",
-   "text": "It's all so obvious now...but are you paying attention?\n\n> @AnthropicAI warns of catastrophic effects of AI for months leading up to IPO (free marketing).\n> Anthropic CEO, @DarioAmodei, claims open source/open weights models are bad.\n> @JensenHuang  champions open source/open weights (to sell more @nvidia GPUs).\n> Dems run on an anti-AI/Datacenter/Billionaire campaign into mid-terms.\n> Dems sweep mid-terms.\n> Huang news conveniently drops after the mid-terms of an affair with an alleged Chinese \"spy\".\n> Anthropic announces @Microsoft Office competitor on November 10th, 2026.\n> November 11th, the NY Times reports Huang had an affair with a coworker.\n> November 12th, 2026, Huang \"resigns\" (is pushed out).\n> Anthropic announces IPO date of November 19th the same day Huang resigns, November 12th, 2026.\n> Microsoft Outlook and other products have major outage as well on November 12th, 2026.\n> The next day (today), November 13th, 2026, after the market closes, the FAA halts all flights due to \"extraordinary circumstances\" with most reports claiming a major cyberattack likely coordinated/executed with AI.\n\nSo what happens next?\n\nLikely, cries and screams get louder for a regulatory body to be created and pushed forward by the Democrats to \"regulate\" AI and put an end to open source/open weight AI models thus coronating @AnthropicAI as the single frontier lab with immense reach and power.\n\nRegulatory capture 101.\n\n$ANT IPO is a blockbuster on the 19th as it is the must own, AI monopoly.",
-   "user": "joemccann",
-   "followers": 108296,
-   "views": 151747,
-   "likes": 2259,
-   "reposts": 434,
-   "replies": 105,
-   "bookmarks": 1004,
-   "age_h": 23.7,
-   "x_factor": 1.4,
-   "per_hour": 6411,
-   "ts": 1794692188.8641143
-  },
-  "2121370497346887716": {
-   "id": "2121370497346887716",
-   "url": "https://x.com/theo/status/2121370497346887716",
-   "text": "I would like to thank Anthropic and OpenAI for not releasing anything important during my vacation",
-   "user": "theo",
-   "followers": 428340,
-   "views": 63384,
-   "likes": 2236,
-   "reposts": 18,
-   "replies": 117,
-   "bookmarks": 23,
-   "age_h": 23.1,
-   "x_factor": 0.1,
-   "per_hour": 2746,
-   "ts": 1794692188.8642402
-  },
   "2121430914983248273": {
    "id": "2121430914983248273",
    "url": "https://x.com/kdqg1/status/2121430914983248273",
@@ -204,22 +136,6 @@
    "x_factor": 26.3,
    "per_hour": 4618,
    "ts": 1794708145.6922276
-  },
-  "2121396714083156339": {
-   "id": "2121396714083156339",
-   "url": "https://x.com/davis7/status/2121396714083156339",
-   "text": "I feel like this should have gotten way more attention, the fact that Anthropic could get prompt processing working on AMD chips with Mythos in 3 days is absurd\n\nNothing is safe, not even Nvidia https://t.co/3LG0XvqNG9",
-   "user": "davis7",
-   "followers": 24560,
-   "views": 16421,
-   "likes": 495,
-   "reposts": 17,
-   "replies": 24,
-   "bookmarks": 59,
-   "age_h": 21.3,
-   "x_factor": 0.7,
-   "per_hour": 769,
-   "ts": 1794692188.8644044
   },
   "2121436091722997834": {
    "id": "2121436091722997834",
@@ -237,38 +153,6 @@
    "per_hour": 64565,
    "ts": 1794708145.6926057
   },
-  "2121360633342074888": {
-   "id": "2121360633342074888",
-   "url": "https://x.com/scottstts/status/2121360633342074888",
-   "text": "This is the craziest improvement in AI ever, only a year ago AI with threejs produced literally laughable result, now it’s basically a image and video model\n\nI’m just blown away when compared side by side. By this time next year I can’t even imagine how awesome it would be🤯 https://t.co/SxhHIChKFt",
-   "user": "scottstts",
-   "followers": 5804,
-   "views": 28778,
-   "likes": 1308,
-   "reposts": 96,
-   "replies": 32,
-   "bookmarks": 236,
-   "age_h": 23.7,
-   "x_factor": 5.0,
-   "per_hour": 1212,
-   "ts": 1794692216.9248102
-  },
-  "2121388806326952311": {
-   "id": "2121388806326952311",
-   "url": "https://x.com/gnoble79/status/2121388806326952311",
-   "text": "Your Nasdaq index fund is about to become exit liquidity for the Anthropic IPO.\n\nNasdaq rewrote its rules so a $1.4 TRILLION IPO gets forced into every Nasdaq 100 fund within 15 trading days.\n\nThat's crony capitalism, and it's destroying our markets. https://t.co/CFvzKYzXpq",
-   "user": "gnoble79",
-   "followers": 118631,
-   "views": 34006,
-   "likes": 690,
-   "reposts": 176,
-   "replies": 61,
-   "bookmarks": 125,
-   "age_h": 21.9,
-   "x_factor": 0.3,
-   "per_hour": 1555,
-   "ts": 1794692188.8639176
-  },
   "2121440415387615605": {
    "id": "2121440415387615605",
    "url": "https://x.com/effyyzhang/status/2121440415387615605",
@@ -284,86 +168,6 @@
    "x_factor": 21.4,
    "per_hour": 3551,
    "ts": 1794708145.6922688
-  },
-  "2121399044560015748": {
-   "id": "2121399044560015748",
-   "url": "https://x.com/handsher_NGU/status/2121399044560015748",
-   "text": "Anthropic just shipped my themes🤯\n\n17 days from a tweet to Claude Code https://t.co/mT9UsKbJAE",
-   "user": "handsher_NGU",
-   "followers": 1358,
-   "views": 214448,
-   "likes": 3720,
-   "reposts": 126,
-   "replies": 84,
-   "bookmarks": 1448,
-   "age_h": 21.2,
-   "x_factor": 157.9,
-   "per_hour": 10122,
-   "ts": 1794692188.8640943
-  },
-  "2121375309287301360": {
-   "id": "2121375309287301360",
-   "url": "https://x.com/ClaudeDevs/status/2121375309287301360",
-   "text": "We've made some big updates to Projects in Claude Code!\n\nIn a project, Claude coordinates your tasks across parallel threads. The coordinator is now much more proactive. It answers your questions in the project chat and gives you updates on the status of your ongoing threads. https://t.co/OQAvXKN1pc",
-   "user": "ClaudeDevs",
-   "followers": 823653,
-   "views": 1111327,
-   "likes": 15864,
-   "reposts": 999,
-   "replies": 554,
-   "bookmarks": 6361,
-   "age_h": 22.8,
-   "x_factor": 1.3,
-   "per_hour": 48832,
-   "ts": 1794692188.8641858
-  },
-  "2121377129875312998": {
-   "id": "2121377129875312998",
-   "url": "https://x.com/TokenGremlin/status/2121377129875312998",
-   "text": "Anthropic updates Claude literally every single day. It's hard to even keep up with everything.",
-   "user": "TokenGremlin",
-   "followers": 19818,
-   "views": 21102,
-   "likes": 510,
-   "reposts": 14,
-   "replies": 26,
-   "bookmarks": 33,
-   "age_h": 22.6,
-   "x_factor": 1.1,
-   "per_hour": 932,
-   "ts": 1794692188.8643358
-  },
-  "2121399402141233334": {
-   "id": "2121399402141233334",
-   "url": "https://x.com/testingcatalog/status/2121399402141233334",
-   "text": "ANTHROPIC 🔥: Claude Code on desktop now supports custom themes! \n\nUsers can tell Claude how they want an app to look, so it can tailor it to their preferences. That needs testing!\n\nFriday feature drop 👀 https://t.co/KWg9Gv3Y3n",
-   "user": "testingcatalog",
-   "followers": 84798,
-   "views": 21748,
-   "likes": 506,
-   "reposts": 17,
-   "replies": 68,
-   "bookmarks": 70,
-   "age_h": 21.2,
-   "x_factor": 0.3,
-   "per_hour": 1027,
-   "ts": 1794692188.864195
-  },
-  "2121407777507848407": {
-   "id": "2121407777507848407",
-   "url": "https://x.com/turtlesausage/status/2121407777507848407",
-   "text": "Legend of Ethan: #9 Slowpoke rescue with Officer Jenny https://t.co/jjbnvbx07r",
-   "user": "turtlesausage",
-   "followers": 62378,
-   "views": 170969,
-   "likes": 13944,
-   "reposts": 977,
-   "replies": 13,
-   "bookmarks": 9630,
-   "age_h": 20.6,
-   "x_factor": 2.7,
-   "per_hour": 8290,
-   "ts": 1794692237.8020105
   },
   "2121549362530562403": {
    "id": "2121549362530562403",
@@ -412,70 +216,6 @@
    "x_factor": 8.0,
    "per_hour": 4205,
    "ts": 1794721961.7416048
-  },
-  "2121390525911622026": {
-   "id": "2121390525911622026",
-   "url": "https://x.com/FT/status/2121390525911622026",
-   "text": "Sam Bankman-Fried would have made nearly $40bn in Anthropic IPO https://t.co/A9Kqhl5C8d",
-   "user": "FT",
-   "followers": 7123246,
-   "views": 123117,
-   "likes": 586,
-   "reposts": 105,
-   "replies": 39,
-   "bookmarks": 86,
-   "age_h": 21.7,
-   "x_factor": 0.0,
-   "per_hour": 5660,
-   "ts": 1794692188.8644133
-  },
-  "2121389208510116134": {
-   "id": "2121389208510116134",
-   "url": "https://x.com/formlabs/status/2121389208510116134",
-   "text": "What happens when you let an AI do the CAD? Kennedy made these completely 3D printed water blasters, and he didn’t touch a CAD to design them. \n\nHe gave Claude its own Python environment and let it model everything. The result: two fully working water blasters, designed in a fraction of the time it would have taken in traditional CAD.\n\nEvery part is modeled from parametric scripts, including easy to remove supports. \n\nThe bodies, printed in Alpha Clear Resin, let you watch the water travel through the internal coiled channel, while both the pump bellows and one-way duckbill valves were printed in Flexible 80A Resin.\n\nEverything you see was printed on Form Studio 1 https://t.co/SbjbtEXA4a",
-   "user": "formlabs",
-   "followers": 30220,
-   "views": 80275,
-   "likes": 537,
-   "reposts": 53,
-   "replies": 13,
-   "bookmarks": 286,
-   "age_h": 21.8,
-   "x_factor": 2.7,
-   "per_hour": 3676,
-   "ts": 1794692188.8643634
-  },
-  "2121396190910562805": {
-   "id": "2121396190910562805",
-   "url": "https://x.com/Kalshi/status/2121396190910562805",
-   "text": "JUST IN: Anthropic CEO Dario Amodei says AI could \"solve biology\" within the next few years",
-   "user": "Kalshi",
-   "followers": 513693,
-   "views": 46278,
-   "likes": 592,
-   "reposts": 47,
-   "replies": 74,
-   "bookmarks": 33,
-   "age_h": 21.4,
-   "x_factor": 0.1,
-   "per_hour": 2165,
-   "ts": 1794692188.8642228
-  },
-  "2121397944775475374": {
-   "id": "2121397944775475374",
-   "url": "https://x.com/ParadisLabs/status/2121397944775475374",
-   "text": "Recommended reading for the weekend:\n\n1. @SemiAnalysis_ — Nvidia and the World Without Jensen\n2. @Lux_Capital / @wolfejosh — Lux Capital LP Letter - Q3 2026\n3. @BNPParibas — Equity Focus - November 2026\n4. @Brookfield — A layman thinks about AI\n5. @Google — Google Cloud and NASA: Testing robotic systems for deep space missions\n6. @federalreserve — Financial Stability Report (I suggest digesting it via Claude as it's always a dense read)\n\nHope everyone has a great weekend!",
-   "user": "ParadisLabs",
-   "followers": 84653,
-   "views": 64643,
-   "likes": 1010,
-   "reposts": 83,
-   "replies": 13,
-   "bookmarks": 1257,
-   "age_h": 21.3,
-   "x_factor": 0.8,
-   "per_hour": 3040,
-   "ts": 1794692188.8638945
   },
   "2121482517358285287": {
    "id": "2121482517358285287",
@@ -541,22 +281,6 @@
    "per_hour": 26515,
    "ts": 1794708145.6924105
   },
-  "2121371593943466167": {
-   "id": "2121371593943466167",
-   "url": "https://x.com/lukaspet/status/2121371593943466167",
-   "text": "Wojak-Bench 3D is NOT saturated.\n\nClaude Fable 5.2 fails to plug the cord into the outlet. https://t.co/qhTX9KGfSx",
-   "user": "lukaspet",
-   "followers": 3743,
-   "views": 36089,
-   "likes": 1451,
-   "reposts": 41,
-   "replies": 8,
-   "bookmarks": 109,
-   "age_h": 23.0,
-   "x_factor": 9.6,
-   "per_hour": 1568,
-   "ts": 1794692188.8642862
-  },
   "2121525074163646846": {
    "id": "2121525074163646846",
    "url": "https://x.com/jdlichtman/status/2121525074163646846",
@@ -621,38 +345,6 @@
    "per_hour": 18162,
    "ts": 1794708145.6924498
   },
-  "2121480836830957917": {
-   "id": "2121480836830957917",
-   "url": "https://x.com/hecubian_devil/status/2121480836830957917",
-   "text": "As someone who uses Claude regularly, I find this completely insane. Claude’s coding ability is so useful, and its writing is still so bad! Why would you do this!!!",
-   "user": "hecubian_devil",
-   "followers": 50803,
-   "views": 21751,
-   "likes": 714,
-   "reposts": 24,
-   "replies": 64,
-   "bookmarks": 86,
-   "age_h": 15.8,
-   "x_factor": 0.4,
-   "per_hour": 1379,
-   "ts": 1794692188.8641236
-  },
-  "2121422024283472102": {
-   "id": "2121422024283472102",
-   "url": "https://x.com/jarrodwatts/status/2121422024283472102",
-   "text": "my 5 most used phrases to claude:\n\n· \"what is a more ambitious version of this?\"\n· \"fix the problem not the symptom\"\n· \"it must remain easy to reason about\"\n· \"explain it from fundamentals, in simple terms\"\n· \"ask me a few rounds of questions to align on vision\"",
-   "user": "jarrodwatts",
-   "followers": 34020,
-   "views": 32595,
-   "likes": 1076,
-   "reposts": 30,
-   "replies": 44,
-   "bookmarks": 1069,
-   "age_h": 19.7,
-   "x_factor": 1.0,
-   "per_hour": 1657,
-   "ts": 1794692188.8640842
-  },
   "2121616846021349446": {
    "id": "2121616846021349446",
    "url": "https://x.com/paddycosgrave/status/2121616846021349446",
@@ -668,22 +360,6 @@
    "x_factor": 1.3,
    "per_hour": 5787,
    "ts": 1794750741.4425118
-  },
-  "2121364313554214949": {
-   "id": "2121364313554214949",
-   "url": "https://x.com/shakhzod1001/status/2121364313554214949",
-   "text": "Claude gets unlimited usage tomorrow.\n\nAre you switching or sticking with Codex?",
-   "user": "shakhzod1001",
-   "followers": 5486,
-   "views": 213836,
-   "likes": 871,
-   "reposts": 29,
-   "replies": 133,
-   "bookmarks": 206,
-   "age_h": 23.5,
-   "x_factor": 39.0,
-   "per_hour": 9104,
-   "ts": 1794692188.86438
   },
   "2121431721321324669": {
    "id": "2121431721321324669",
@@ -716,22 +392,6 @@
    "x_factor": 1.5,
    "per_hour": 135,
    "ts": 1794721961.7415135
-  },
-  "2121386791580078530": {
-   "id": "2121386791580078530",
-   "url": "https://x.com/JamesC_Alpha/status/2121386791580078530",
-   "text": "Claude Code built this whole minimalistic  dashboard in one session. No Figma, no After Effects.\n\nSkill is free in the comments 🫡 https://t.co/dSr79sky2M",
-   "user": "JamesC_Alpha",
-   "followers": 468,
-   "views": 13119,
-   "likes": 408,
-   "reposts": 6,
-   "replies": 17,
-   "bookmarks": 350,
-   "age_h": 22.0,
-   "x_factor": 28.0,
-   "per_hour": 596,
-   "ts": 1794692188.864155
   },
   "2121643847088546090": {
    "id": "2121643847088546090",
@@ -845,38 +505,6 @@
    "per_hour": 2356,
    "ts": 1794708145.6921992
   },
-  "2121578394907533680": {
-   "id": "2121578394907533680",
-   "url": "https://x.com/TrueFactsStated/status/2121578394907533680",
-   "text": "As usual, Mamdani is ahead on this issue…",
-   "user": "TrueFactsStated",
-   "followers": 210955,
-   "views": 4335,
-   "likes": 386,
-   "reposts": 94,
-   "replies": 9,
-   "bookmarks": 4,
-   "age_h": 9.3,
-   "x_factor": 0.0,
-   "per_hour": 465,
-   "ts": 1794692188.8639846
-  },
-  "2121418866677174572": {
-   "id": "2121418866677174572",
-   "url": "https://x.com/RahulTechX/status/2121418866677174572",
-   "text": "My friend makes $1.2 million a year as an Anthropic engineer.  \n\nI asked him how he learned prompting so well.  He sent me a video that was never supposed to get out. Their core team's prompting playbook.  \n\nYou won’t find anything better about prompting than this 30 minutes video. \n\n I watched it last night.  Halfway through, I realized I've been using Claude completely wrong for two years.  \n\nWatch it, then read my article below.",
-   "user": "RahulTechX",
-   "followers": 22626,
-   "views": 97533,
-   "likes": 664,
-   "reposts": 81,
-   "replies": 8,
-   "bookmarks": 1453,
-   "age_h": 19.9,
-   "x_factor": 4.3,
-   "per_hour": 4907,
-   "ts": 1794692188.8640044
-  },
   "2121615232657449438": {
    "id": "2121615232657449438",
    "url": "https://x.com/0xPickleCati/status/2121615232657449438",
@@ -908,22 +536,6 @@
    "x_factor": 50.9,
    "per_hour": 3660,
    "ts": 1794750741.4426286
-  },
-  "2121522045829726718": {
-   "id": "2121522045829726718",
-   "url": "https://x.com/adamemedia/status/2121522045829726718",
-   "text": "THIS IS WHY THEY TOOK DOWN JENSEN HUNAG\n\nFour months ago, Jensen Huang revealed he was about to BREAK the closed-model monopoly over AI and completely reshape the AI industry. \n\nHe made a direct THREAT to America’s biggest AI companies.\n\nHe revealed Nvidia was working on a MASSIVE new frontier-level, open AI named Nemotron 3 Ultra and that it would be competing directly with Claude Opus…\n\nAnd most importantly, it would be MUCH cheaper. \n\nThink about what that means. An American, open-weight, frontier-level model at a fraction of the cost could destroy the business models, valuations and upcoming IPOs of America’s AI oligarchs.\n\nAnd what do you know, the person who leaked the “honeypot” story to the press was none other than ANTHROPIC CO-FOUNDER Jack Clark, who reportedly holds a larger stake in Anthropic than Dario Amodei himself…\n\nNVIDA is well placed to dominate AI as it has the one thing almost every AI company needs but doesn’t produce. The hardware. \n\nAnd if NVIDIA starts competing directly with its biggest customers with frontier-level, open-weight AI, at dramatically lower prices, its over for the AI  Epstein class. And it would be amazing for humanity. \n\nSo he had to go. \n\nHe has been replaced by a Zionist who starts her day every day talking to Israel. And 3 Israelis are on the list to replace him permanently. \n\nWill they shelve or nerf the Nemotron family and the coalition of eight labs building frontier OPEN models? \n\nWill they CANCEL his five-year, $26 billion commitment to open-weight model development?\n\nAnd will they kill the pending $13B acquisition of Hugging Face, the default distribution layer for open models. A deal that has not yet closed, very convenient timing. \n\nFounder priorities rarely survive such transitions intact, especially when the stock dives 30%. They know this.",
-   "user": "adamemedia",
-   "followers": 81409,
-   "views": 723281,
-   "likes": 18669,
-   "reposts": 5939,
-   "replies": 470,
-   "bookmarks": 5364,
-   "age_h": 13.0,
-   "x_factor": 8.9,
-   "per_hour": 55467,
-   "ts": 1794692188.8641047
   },
   "2121551464317456651": {
    "id": "2121551464317456651",
@@ -989,22 +601,6 @@
    "per_hour": 915,
    "ts": 1794708145.6926105
   },
-  "2121380177020157963": {
-   "id": "2121380177020157963",
-   "url": "https://x.com/Voxyz_ai/status/2121380177020157963",
-   "text": "Anthropic just shipped a 𝗯𝗶𝗴 𝘂𝗽𝗱𝗮𝘁𝗲 𝘁𝗼 𝗣𝗿𝗼𝗷𝗲𝗰𝘁𝘀 in Claude Code. I've been using it for a long time. It fully replaced running Claude Code on my own machine through Remote Control, and 𝗲𝘃𝗲𝗿𝘆𝘁𝗵𝗶𝗻𝗴 𝗜 𝗱𝗼 𝗶𝘀 𝗮 𝗽𝗿𝗼𝗷𝗲𝗰𝘁 𝗻𝗼𝘄.\n\n→ Ask for a status update in the project chat and the coordinator tells you where each thread is\n→ /btw: something else comes up mid-task, it gets its own thread and the one you're in stays on topic\n→ /fork: want to try a different approach, it starts a new thread from the one you're in\n→ Set a reminder on any thread, or just ask Claude to remind you. When it's time, it brings the thread up in the project chat\n→ Share a single thread as a read-only link\n\nIt works on web, desktop and the mobile app. Projects is in public beta on Pro and Max. If you don't have it yet, join the waitlist.",
-   "user": "Voxyz_ai",
-   "followers": 30098,
-   "views": 62474,
-   "likes": 335,
-   "reposts": 13,
-   "replies": 21,
-   "bookmarks": 383,
-   "age_h": 22.4,
-   "x_factor": 2.1,
-   "per_hour": 2784,
-   "ts": 1794692188.8642585
-  },
   "2121670268091502893": {
    "id": "2121670268091502893",
    "url": "https://x.com/Yuchenj_UW/status/2121670268091502893",
@@ -1020,22 +616,6 @@
    "x_factor": 0.1,
    "per_hour": 4041,
    "ts": 1794708145.6926534
-  },
-  "2121397011983597933": {
-   "id": "2121397011983597933",
-   "url": "https://x.com/kr0der/status/2121397011983597933",
-   "text": "i'm convinced Anthropic is already using Fable 6 internally\n\nthey're shipping at an insane pace lately",
-   "user": "kr0der",
-   "followers": 6671,
-   "views": 83134,
-   "likes": 2124,
-   "reposts": 39,
-   "replies": 38,
-   "bookmarks": 217,
-   "age_h": 21.3,
-   "x_factor": 12.5,
-   "per_hour": 3899,
-   "ts": 1794692188.8642952
   },
   "2121599667192680937": {
    "id": "2121599667192680937",
@@ -1068,22 +648,6 @@
    "x_factor": 2.1,
    "per_hour": 2250,
    "ts": 1794708145.6923852
-  },
-  "2121556020208025822": {
-   "id": "2121556020208025822",
-   "url": "https://x.com/TokenGremlin/status/2121556020208025822",
-   "text": "GPT-6.2 Astra made all of this. The ships, the cranes, the textures, everything. Every asset.\n\nThis model is on another level, and I really think OpenAI is saving it to steal the spotlight near the Anthropic IPO. https://t.co/ipzyOaV6eE",
-   "user": "TokenGremlin",
-   "followers": 19818,
-   "views": 31244,
-   "likes": 470,
-   "reposts": 33,
-   "replies": 88,
-   "bookmarks": 73,
-   "age_h": 10.8,
-   "x_factor": 1.6,
-   "per_hour": 2895,
-   "ts": 1794692188.8643196
   },
   "2121591704809505019": {
    "id": "2121591704809505019",
@@ -1164,38 +728,6 @@
    "x_factor": 1.3,
    "per_hour": 2036,
    "ts": 1794708145.6926203
-  },
-  "2121456581498024007": {
-   "id": "2121456581498024007",
-   "url": "https://x.com/kalomaze/status/2121456581498024007",
-   "text": "i'm really not a big fan of \"invisible nontransparent harness bullshit\" and Anthropic appear to be really big fans of \"invisible nontransparent harness bullshit\"",
-   "user": "kalomaze",
-   "followers": 25070,
-   "views": 11748,
-   "likes": 442,
-   "reposts": 18,
-   "replies": 18,
-   "bookmarks": 43,
-   "age_h": 17.4,
-   "x_factor": 0.5,
-   "per_hour": 676,
-   "ts": 1794692188.8644214
-  },
-  "2121503572156432626": {
-   "id": "2121503572156432626",
-   "url": "https://x.com/sporadica/status/2121503572156432626",
-   "text": "Marco Rubio is practically TELLING you it’s him behind the Jensen reports and people on X dot com will still somehow psyop themselves into believing this was Dario and Anthropic lmao you guys blow my mind",
-   "user": "sporadica",
-   "followers": 221660,
-   "views": 43657,
-   "likes": 1544,
-   "reposts": 66,
-   "replies": 33,
-   "bookmarks": 210,
-   "age_h": 14.3,
-   "x_factor": 0.2,
-   "per_hour": 3060,
-   "ts": 1794692188.8644319
   },
   "2121424256303046915": {
    "id": "2121424256303046915",
@@ -9200,7 +8732,6 @@
  },
  "last_run": 1794948862.4153702,
  "sent": {
-  "2121674171130511383": 1794692240.6889536,
   "2121443725415153982": 1794708191.5301793,
   "2121622541286727974": 1794735984.85508,
   "2121950776310534266": 1794750264.4690843,
@@ -9260,8 +8791,8 @@
   "2122724014338814043": 1794933763.729197,
   "2122721681567547820": 1794933771.7239687
  },
- "reply_last_run": 1794951047.2887583,
- "fresh_last_run": 1794951063.503486,
+ "reply_last_run": 1794954742.531585,
+ "fresh_last_run": 1794954757.822252,
  "reply_day": {
   "date": "2026-11-12",
   "count": 8
@@ -9272,7 +8803,7 @@
  },
  "toad_day": {
   "date": "2026-11-17",
-  "reply": 1,
+  "reply": 3,
   "remake": 3
  },
  "toad_seen": {
@@ -9296,9 +8827,11 @@
   "2122336408769597460": 1794923702.0232394,
   "2122347049651720260": 1794923703.7553337,
   "2122714711095468195": 1794933842.6990705,
-  "2122791221026234724": 1794951098.9267445
+  "2122791221026234724": 1794951098.9267445,
+  "2122807736941609261": 1794954790.5002847,
+  "2122809523970945079": 1794954799.1218789
  },
- "toad_last_run": 1794951106.4790914,
+ "toad_last_run": 1794954808.069318,
  "bear_day": {
   "date": "2026-11-17",
   "reply": 5,
@@ -9367,7 +8900,7 @@
   "2122710148242452514": 1794933883.8711355,
   "2122709090518638891": 1794951141.3229997
  },
- "bear_last_run": 1794951141.3230166,
+ "bear_last_run": 1794954839.5999146,
  "toad_sent": {
   "2121949681022304357": 1794750325.440009,
   "2121744606543118474": 1794750328.6415362,
@@ -9382,6 +8915,8 @@
   "2122364321036468682": 1794923700.993197,
   "2122336408769597460": 1794923702.7432716,
   "2122347049651720260": 1794923704.5590246,
-  "2122791221026234724": 1794951106.479074
+  "2122791221026234724": 1794951106.479074,
+  "2122807736941609261": 1794954798.2638164,
+  "2122809523970945079": 1794954808.069303
  }
 }
