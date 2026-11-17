@@ -121,7 +121,12 @@
   "2122675151204503639": 1794923647.5327485,
   "2122682898704749019": 1794923648.4893262,
   "2122682962647122403": 1794923649.6356018,
-  "2122681113579782150": 1794923658.7742977
+  "2122681113579782150": 1794923658.7742977,
+  "2122678312791347639": 1794926870.3676949,
+  "2122691793770987856": 1794926878.3937812,
+  "2122677878932267438": 1794926887.1141686,
+  "2122681202457092367": 1794926888.3346267,
+  "2122695712651493561": 1794926889.3274012
  },
  "pool": {
   "2121332990836163033": {
@@ -8683,6 +8688,38 @@
    "x_factor": 0.0,
    "per_hour": 1439,
    "ts": 1794923616.8440964
+  },
+  "2122678312791347639": {
+   "id": "2122678312791347639",
+   "url": "https://x.com/BharukaShraddha/status/2122678312791347639",
+   "text": "This might be the closest AGI moment for game creation I’ve seen yet.\n\nI gave HolyMolly one prompt. About 25 minutes later, I was playing this.\n\nI was expecting something pretty rough, but the scene was surprisingly detailed, the 3D models looked good, and the player could run, jump, and attack with animations already in place.\n\nNo extra prompts. No tweaking. This was literally the first build.\n\nDidn’t expect it to get this much right on the first try. And it’s free now",
+   "user": "BharukaShraddha",
+   "followers": 35742,
+   "views": 6030,
+   "likes": 10,
+   "reposts": 0,
+   "replies": 1,
+   "bookmarks": 1,
+   "age_h": 1.7,
+   "x_factor": 0.2,
+   "per_hour": 3649,
+   "ts": 1794926869.328842
+  },
+  "2122691793770987856": {
+   "id": "2122691793770987856",
+   "url": "https://x.com/ottleyai/status/2122691793770987856",
+   "text": "I started with ONE prompt and ONE reference image. Somehow, that turned into TINY GOD, my own playable 3D civilization game.\n\nBuilt with @HolyMolly_AI, then refined step by step.\n\nVillagers gather resources, build their settlement, and react to the world around them. I can even step in with god powers and change what happens next.\n\nThe fun part wasn't just generating the game. It was watching the little world come to life as I kept improving it.\n\nHere's how I built it 👇",
+   "user": "ottleyai",
+   "followers": 50991,
+   "views": 1940,
+   "likes": 10,
+   "reposts": 6,
+   "replies": 7,
+   "bookmarks": 7,
+   "age_h": 0.8,
+   "x_factor": 0.0,
+   "per_hour": 2554,
+   "ts": 1794926869.3287997
   }
  },
  "last_run": 1794920604.8058884,
@@ -8724,11 +8761,11 @@
   "2122660208086319387": 1794923634.442859,
   "2122664921280516153": 1794923645.4567745,
   "2122682962647122403": 1794923657.650041,
-  "2122681113579782150": 1794923666.762575
+  "2122681113579782150": 1794923666.762575,
+  "2122678312791347639": 1794926877.5433435,
+  "2122691793770987856": 1794926885.9091852
  },
  "reply_seen": {
-  "2121600686374699125": 1794665518.5025816,
-  "2121596332280549774": 1794665526.2894986,
   "2121607019710877712": 1794667842.3997834,
   "2121631309294452920": 1794672379.1012516,
   "2121658833114390819": 1794679099.6913083,
@@ -8749,17 +8786,19 @@
   "2122409142233251966": 1794858024.8523095,
   "2122423825413345523": 1794860884.3898246,
   "2122418012548403215": 1794860884.38998,
-  "2122683873934852443": 1794923600.9528117
+  "2122683873934852443": 1794923600.9528117,
+  "2122695693194104983": 1794926837.610354,
+  "2122694058845839769": 1794926845.2963343
  },
- "reply_last_run": 1794923608.7487273,
- "fresh_last_run": 1794923666.7625847,
+ "reply_last_run": 1794926852.4832366,
+ "fresh_last_run": 1794926889.3274133,
  "reply_day": {
   "date": "2026-11-12",
   "count": 8
  },
  "reply_day_active": {
   "date": "2026-11-17",
-  "count": 5
+  "count": 9
  },
  "toad_day": {
   "date": "2026-11-17",
