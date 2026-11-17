@@ -1,13 +1,5 @@
 {
  "seen": {
-  "2121300599815737837": 1794621608.5916653,
-  "2121175196497575952": 1794621609.6432176,
-  "2121298127248666872": 1794621610.7851708,
-  "2121120155052953657": 1794621611.95388,
-  "2121342485641228344": 1794621613.5466845,
-  "2121298342701662395": 1794621614.5635774,
-  "2121332990836163033": 1794621615.359627,
-  "2121142420436103512": 1794621616.306671,
   "2121347636183904560": 1794635396.4534693,
   "2121311300928364717": 1794635397.2805972,
   "2121286732356493418": 1794635398.370643,
@@ -122,70 +114,6 @@
   "2122099527523958907": 1794869252.0299928
  },
  "pool": {
-  "2121078287627853890": {
-   "id": "2121078287627853890",
-   "url": "https://x.com/eliadele/status/2121078287627853890",
-   "text": "Anthropic just filed for a Nasdaq IPO.\n\nTicker: ANT.\nValuation: up to $1.4 TRILLION.\nRevenue run rate: $81B.\n\n5 years ago it was a research lab.",
-   "user": "eliadele",
-   "followers": 3429,
-   "views": 41640,
-   "likes": 1782,
-   "reposts": 87,
-   "replies": 19,
-   "bookmarks": 42,
-   "age_h": 22.8,
-   "x_factor": 12.1,
-   "per_hour": 1825,
-   "ts": 1794621563.3584392
-  },
-  "2121069016114757799": {
-   "id": "2121069016114757799",
-   "url": "https://x.com/paraschopra/status/2121069016114757799",
-   "text": "By the time Fable 6 comes along, perhaps Anthropic will simply prompt it to build all of SaaS automatically and bundle it in one Claude subscription. They will be the new Microsoft.\n\nStartups being created and run by AGIs is going to be the default going forward.",
-   "user": "paraschopra",
-   "followers": 241333,
-   "views": 37134,
-   "likes": 1113,
-   "reposts": 65,
-   "replies": 77,
-   "bookmarks": 108,
-   "age_h": 23.4,
-   "x_factor": 0.2,
-   "per_hour": 1585,
-   "ts": 1794621563.3584347
-  },
-  "2121060481117147637": {
-   "id": "2121060481117147637",
-   "url": "https://x.com/Pirat_Nation/status/2121060481117147637",
-   "text": "Henry Cavill has his own video game now, and it’s available to play for free in your browser.\n\nMustache Protocol is a retro-style platformer built with AI, where Cavill fights enemies with his iconic moustache.\n\nGoogle is also donating money to Movember for every playthrough until November 30.",
-   "user": "Pirat_Nation",
-   "followers": 376701,
-   "views": 42298,
-   "likes": 1027,
-   "reposts": 78,
-   "replies": 32,
-   "bookmarks": 165,
-   "age_h": 24.0,
-   "x_factor": 0.1,
-   "per_hour": 1762,
-   "ts": 1794621577.596529
-  },
-  "2121083574799753397": {
-   "id": "2121083574799753397",
-   "url": "https://x.com/mattpiccolella/status/2121083574799753397",
-   "text": "I’m the PM for Claude Meetings. Working on this product has been crazy - when you use it, you feel like you’re working and living in the future. Loved building this with @triketora @Flomerboy @omarmihilmy and many other awesome people",
-   "user": "mattpiccolella",
-   "followers": 3104,
-   "views": 110398,
-   "likes": 2600,
-   "reposts": 100,
-   "replies": 176,
-   "bookmarks": 477,
-   "age_h": 22.5,
-   "x_factor": 35.6,
-   "per_hour": 4915,
-   "ts": 1794621563.3581321
-  },
   "2121178254140915883": {
    "id": "2121178254140915883",
    "url": "https://x.com/ParamMehta24/status/2121178254140915883",
@@ -234,22 +162,6 @@
    "per_hour": 28638,
    "ts": 1794649479.6275365
   },
-  "2121181449277571116": {
-   "id": "2121181449277571116",
-   "url": "https://x.com/Denche2005/status/2121181449277571116",
-   "text": "Cloudflare and Claude are down at the same time.\n\nThe internet is basically running on hopes and prayers right now.",
-   "user": "Denche2005",
-   "followers": 5058,
-   "views": 34421,
-   "likes": 488,
-   "reposts": 52,
-   "replies": 64,
-   "bookmarks": 22,
-   "age_h": 16.0,
-   "x_factor": 6.8,
-   "per_hour": 2154,
-   "ts": 1794621563.3584437
-  },
   "2121119412036276313": {
    "id": "2121119412036276313",
    "url": "https://x.com/OjasSharma276/status/2121119412036276313",
@@ -265,22 +177,6 @@
    "x_factor": 6.8,
    "per_hour": 2358,
    "ts": 1794635352.9439352
-  },
-  "2121073966341382629": {
-   "id": "2121073966341382629",
-   "url": "https://x.com/RationalBlonde/status/2121073966341382629",
-   "text": "Microsoft's entire IT department is just three guys taking turns asking Claude what the error message means",
-   "user": "RationalBlonde",
-   "followers": 16268,
-   "views": 205878,
-   "likes": 15151,
-   "reposts": 1137,
-   "replies": 100,
-   "bookmarks": 183,
-   "age_h": 23.1,
-   "x_factor": 12.7,
-   "per_hour": 8913,
-   "ts": 1794621563.3582342
   },
   "2121239751181393940": {
    "id": "2121239751181393940",
@@ -329,22 +225,6 @@
    "x_factor": 0.2,
    "per_hour": 19079,
    "ts": 1794649479.6272748
-  },
-  "2121104965150384421": {
-   "id": "2121104965150384421",
-   "url": "https://x.com/AdamHoltererer/status/2121104965150384421",
-   "text": "Anthropic strips the reasoning when you switch from Fable down to Opus, but it doesn't when you switch from Opus to Fable\n\nJust Anthropic being annoying, no technical reason https://t.co/EhbrOEmGM0",
-   "user": "AdamHoltererer",
-   "followers": 24958,
-   "views": 14180,
-   "likes": 348,
-   "reposts": 5,
-   "replies": 16,
-   "bookmarks": 55,
-   "age_h": 21.0,
-   "x_factor": 0.6,
-   "per_hour": 673,
-   "ts": 1794621563.3583322
   },
   "2121289799617462738": {
    "id": "2121289799617462738",
@@ -410,38 +290,6 @@
    "per_hour": 2516,
    "ts": 1794635352.9442024
   },
-  "2121158936476983613": {
-   "id": "2121158936476983613",
-   "url": "https://x.com/eliadele/status/2121158936476983613",
-   "text": "Building in 2026:\n\nClaude Code: 2 hours\nLanding page: 20 minutes\nStripe setup: 10 minutes\nFirst paying customer: ???\n\nBuilding is solved. Distribution isn't.",
-   "user": "eliadele",
-   "followers": 3429,
-   "views": 35695,
-   "likes": 3026,
-   "reposts": 92,
-   "replies": 58,
-   "bookmarks": 97,
-   "age_h": 17.5,
-   "x_factor": 10.4,
-   "per_hour": 2043,
-   "ts": 1794621563.3583496
-  },
-  "2121079253672546493": {
-   "id": "2121079253672546493",
-   "url": "https://x.com/blancmontagnard/status/2121079253672546493",
-   "text": "I am really taken aback that Anthropic has already managed to control so many institutions. I see no plausible future where they do not rewrite enormous parts of US legislature in the coming years around their wishes.",
-   "user": "blancmontagnard",
-   "followers": 5503,
-   "views": 23936,
-   "likes": 890,
-   "reposts": 60,
-   "replies": 15,
-   "bookmarks": 96,
-   "age_h": 22.7,
-   "x_factor": 4.3,
-   "per_hour": 1052,
-   "ts": 1794621563.3584259
-  },
   "2121233581561524471": {
    "id": "2121233581561524471",
    "url": "https://x.com/kimmonismus/status/2121233581561524471",
@@ -457,22 +305,6 @@
    "x_factor": 0.3,
    "per_hour": 2264,
    "ts": 1794649479.6277068
-  },
-  "2121111191489589358": {
-   "id": "2121111191489589358",
-   "url": "https://x.com/elshayib_/status/2121111191489589358",
-   "text": "Anthropic is the worst company on earth.",
-   "user": "elshayib_",
-   "followers": 7067,
-   "views": 195687,
-   "likes": 5388,
-   "reposts": 291,
-   "replies": 402,
-   "bookmarks": 124,
-   "age_h": 20.6,
-   "x_factor": 27.7,
-   "per_hour": 9484,
-   "ts": 1794621563.3583016
   },
   "2121274901898170752": {
    "id": "2121274901898170752",
@@ -634,22 +466,6 @@
    "per_hour": 1203,
    "ts": 1794664222.1529167
   },
-  "2121231545713262893": {
-   "id": "2121231545713262893",
-   "url": "https://x.com/ADHDwithAI/status/2121231545713262893",
-   "text": "Claude Duet in EUROPE !!!! https://t.co/G0swDikdJX",
-   "user": "ADHDwithAI",
-   "followers": 433,
-   "views": 115966,
-   "likes": 1141,
-   "reposts": 18,
-   "replies": 45,
-   "bookmarks": 201,
-   "age_h": 12.7,
-   "x_factor": 267.8,
-   "per_hour": 9159,
-   "ts": 1794621563.3583438
-  },
   "2121337915087433772": {
    "id": "2121337915087433772",
    "url": "https://x.com/AndrewCurran_/status/2121337915087433772",
@@ -762,38 +578,6 @@
    "per_hour": 927,
    "ts": 1794664222.1528218
   },
-  "2121284250943340883": {
-   "id": "2121284250943340883",
-   "url": "https://x.com/ishuagra02/status/2121284250943340883",
-   "text": "Your dot can now securely cancel your ChatGPT Pro subscription for a Claude Ultra sub.",
-   "user": "ishuagra02",
-   "followers": 1933,
-   "views": 11729,
-   "likes": 452,
-   "reposts": 10,
-   "replies": 9,
-   "bookmarks": 5,
-   "age_h": 9.2,
-   "x_factor": 6.1,
-   "per_hour": 1279,
-   "ts": 1794621563.358468
-  },
-  "2121086066677719059": {
-   "id": "2121086066677719059",
-   "url": "https://x.com/alwayspriyesh/status/2121086066677719059",
-   "text": "Gemini 4 Hydrogen just DESTROYED Claude Fable 5.2 &amp; all other models in the latest benchmark\n\nGoogle Won the AI race https://t.co/INX4E86mRm",
-   "user": "alwayspriyesh",
-   "followers": 2835,
-   "views": 213587,
-   "likes": 5467,
-   "reposts": 265,
-   "replies": 161,
-   "bookmarks": 253,
-   "age_h": 22.3,
-   "x_factor": 75.3,
-   "per_hour": 9579,
-   "ts": 1794621563.3582776
-  },
   "2121216542574567842": {
    "id": "2121216542574567842",
    "url": "https://x.com/flxrnc/status/2121216542574567842",
@@ -858,22 +642,6 @@
    "per_hour": 1944,
    "ts": 1794664222.153035
   },
-  "2121227699897471387": {
-   "id": "2121227699897471387",
-   "url": "https://x.com/jocke/status/2121227699897471387",
-   "text": "Open letter to Dario about Claude Meetings. Please don't be Satya. https://t.co/0uaBwprBq3",
-   "user": "jocke",
-   "followers": 25121,
-   "views": 172754,
-   "likes": 577,
-   "reposts": 10,
-   "replies": 40,
-   "bookmarks": 127,
-   "age_h": 12.9,
-   "x_factor": 6.9,
-   "per_hour": 13375,
-   "ts": 1794621563.3581667
-  },
   "2121320139299688474": {
    "id": "2121320139299688474",
    "url": "https://x.com/TokenGremlin/status/2121320139299688474",
@@ -889,22 +657,6 @@
    "x_factor": 3.7,
    "per_hour": 3238,
    "ts": 1794677710.202713
-  },
-  "2121130188570239178": {
-   "id": "2121130188570239178",
-   "url": "https://x.com/Mr_Buzzoni/status/2121130188570239178",
-   "text": "ok this paper is f*cking insane\n\nChinese researchers just put out a paper with a title that should make every agent framework nervous: \"The End of Harness Engineering\"\n\nthe argument fits in one line: hand-writing the program around the model is finished as a skill\n\na harness written by a person is one guess about one task on one afternoon\nit ships, then runs for months unread and unscored\n\na harness written by the loop is a file that grades itself\n\na small 4B model reads what failed and proposes 8 edits\nonly the edit that scores best on held-out questions survives\n\nthe big model stays frozen the whole time\nput Claude Fable 5.2 in that seat and every round rewrites the harness around it\n\nso the human job shrinks to one artifact: the scoring set, the questions the harness gets graded on\n\nframeworks turn disposable, and the exam becomes the job\n\nthe whole paper in one line: write the exam before the code\n\nthe builder's guide to the harness this loop starts from is below ↓",
-   "user": "Mr_Buzzoni",
-   "followers": 29271,
-   "views": 18221,
-   "likes": 319,
-   "reposts": 41,
-   "replies": 11,
-   "bookmarks": 364,
-   "age_h": 19.4,
-   "x_factor": 0.6,
-   "per_hour": 940,
-   "ts": 1794621563.358182
   },
   "2121120155052953657": {
    "id": "2121120155052953657",
@@ -1050,22 +802,6 @@
    "per_hour": 66996,
    "ts": 1794677710.2026184
   },
-  "2121175196497575952": {
-   "id": "2121175196497575952",
-   "url": "https://x.com/simocellmusic/status/2121175196497575952",
-   "text": "omg this is so so so good, can't wait to play this claude track this week end in the club. Seriously, people will go crazy.",
-   "user": "simocellmusic",
-   "followers": 3760,
-   "views": 343772,
-   "likes": 1179,
-   "reposts": 14,
-   "replies": 23,
-   "bookmarks": 829,
-   "age_h": 16.4,
-   "x_factor": 91.4,
-   "per_hour": 20971,
-   "ts": 1794621563.358284
-  },
   "2121299892849025512": {
    "id": "2121299892849025512",
    "url": "https://x.com/MishaTeplitskiy/status/2121299892849025512",
@@ -1210,22 +946,6 @@
    "per_hour": 2746,
    "ts": 1794692188.8642402
   },
-  "2121133123413192715": {
-   "id": "2121133123413192715",
-   "url": "https://x.com/naveen_saradhi_/status/2121133123413192715",
-   "text": "WHY ? GEMINI 4 CARBON is only for ULTRA users its similar to OPUS level model , not fable level . \n\nEven CLAUDE pro users get fable 5.2 \nwhy not CARBON for pro users ?\n\nWhen do PRO users will get it ? @GeminiApp https://t.co/2XwOxLOsOH",
-   "user": "naveen_saradhi_",
-   "followers": 586,
-   "views": 23523,
-   "likes": 356,
-   "reposts": 15,
-   "replies": 31,
-   "bookmarks": 22,
-   "age_h": 19.2,
-   "x_factor": 40.1,
-   "per_hour": 1226,
-   "ts": 1794621563.3584213
-  },
   "2121233927352250754": {
    "id": "2121233927352250754",
    "url": "https://x.com/gnoble79/status/2121233927352250754",
@@ -1241,22 +961,6 @@
    "x_factor": 0.7,
    "per_hour": 4381,
    "ts": 1794649479.6278462
-  },
-  "2121301390895288785": {
-   "id": "2121301390895288785",
-   "url": "https://x.com/RGVzoomin/status/2121301390895288785",
-   "text": "I can’t judge what is better between ChatGPT, Grok ,Claude , Gemini etc etc because I am far low  than all of them and also each of them ..So I will be like an ant judging the relative differences between a tiger , elephant ,whale and a dinosaur  🙏",
-   "user": "RGVzoomin",
-   "followers": 6128489,
-   "views": 73434,
-   "likes": 1231,
-   "reposts": 61,
-   "replies": 84,
-   "bookmarks": 57,
-   "age_h": 8.0,
-   "x_factor": 0.0,
-   "per_hour": 9139,
-   "ts": 1794621563.3584576
   },
   "2121241680867111395": {
    "id": "2121241680867111395",
@@ -8429,7 +8133,6 @@
  },
  "last_run": 1794869252.0300128,
  "sent": {
-  "2121120155052953657": 1794621612.544931,
   "2121399044560015748": 1794649523.6247122,
   "2121573658837897512": 1794662578.1895456,
   "2121242111538536900": 1794664268.2585988,
@@ -8492,8 +8195,8 @@
   "2122423825413345523": 1794860884.3898246,
   "2122418012548403215": 1794860884.38998
  },
- "reply_last_run": 1794879843.1986003,
- "fresh_last_run": 1794879858.732796,
+ "reply_last_run": 1794882998.050295,
+ "fresh_last_run": 1794883012.951501,
  "reply_day": {
   "date": "2026-11-12",
   "count": 8
