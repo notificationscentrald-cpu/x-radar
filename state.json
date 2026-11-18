@@ -133,7 +133,10 @@
   "2122784770992308506": 1795021391.2420747,
   "2122854206709051691": 1795021392.3696697,
   "2122800268706259244": 1795021394.2165136,
-  "2122809523970945079": 1795021396.0900843
+  "2122809523970945079": 1795021396.0900843,
+  "2123092646432284828": 1795021978.8722403,
+  "2123093309794984142": 1795021979.981892,
+  "2123083491407802739": 1795021981.2073872
  },
  "pool": {
   "2121674171130511383": {
@@ -9575,6 +9578,22 @@
    "x_factor": 0.6,
    "per_hour": 910,
    "ts": 1795021387.0679433
+  },
+  "2123083491407802739": {
+   "id": "2123083491407802739",
+   "url": "https://x.com/VaibhavSisinty/status/2123083491407802739",
+   "text": "I sat down with @OfficialLoganK   from Google and he opened AI Studio live.\n\nIn one shot, he built a Minecraft-style game. A video studio. A native Android app. An ocean simulation. A Counter-Strike shooter.\n\nThen he made an oil painting. 700,000 brushstrokes. All generated.\n\nThen a live map tracking 16,000 objects orbiting Earth. In real time.\n\nAll with Gemini 4.\n\nThen we got into the real stuff.\n\n⏱️ CHAPTERS\n\n00:00 Inside Google with Logan Kilpatrick\n\n01:20 Intro\n\n01:49 Logan's go-to test: \"Build me a Minecraft game\"\n\n07:22 Why AI games matter\n\n10:00 How Logan uses Google AI Studio every day\n\n12:31 A native Android app in 23 minutes\n\n14:02 Just-in-time software\n\n15:37 An ocean simulation that's all code\n\n18:00 An oil painting, 700,000 brushstrokes\n\n20:14 Every satellite, live, from two prompts\n\n22:25 Why you should scope the task tightly\n\n23:56 A Counter-Strike clone in one shot\n\n25:39 The big questions: what's your p(doom)?\n\n26:32 The risk that actually keeps Logan up at night\n\n29:00 What Google should be doing more of\n\n31:00 Alignment, security and the Hugging Face incident\n\n32:30 Why Google's Flash models kept winning\n\n33:43 What changed with Gemini 4: the most ambitious \npre-training run\n\n35:34 What really sets AI labs apart\n\n38:21 Gemini 4 inside Antigravity and Google's products\n\n39:04 \"The model eats the harness\"\n\n43:04 From AI research labs to AI engineering labs\n\n45:34 Research and engineering are blurring\n\n46:37 Text diffusion and open research with Gemma\n\n48:23 Is recursive self-improvement (RSI) already here?\n\n51:02 How Logan actually uses AI\n\n52:17 Why Logan still writes his own thoughts\n\n56:24 Rapid fire with Logan Kilpatrick\n\n1:02:15 \"30 million AI engineering jobs\"\n\n1:04:31 Design taste and the comeback of generalists\n\n1:06:30 One thing Gemini still can't do\n\n1:07:17 We tested Gemini 4 Carbon on real projects\n\n1:08:07 An animated mascot film from one picture\n\n1:09:17 A 3D-printable bust from one photo\n\n1:10:06 A Call of Duty clone from one line\n\n1:11:17 The Feastables website from one link\n\n1:12:30 A try-on app for clothes from one photo\n\n1:13:30 My life story as a retro music video\n\n1:14:35 A room redesign from five photos\n\n1:15:47 An interactive textbook\n\n1:16:34 Planning our next YouTube video\n\n1:17:33 Verdict on Carbon\n\nBookmark this!",
+   "user": "VaibhavSisinty",
+   "followers": 178390,
+   "views": 9071,
+   "likes": 59,
+   "reposts": 50,
+   "replies": 10,
+   "bookmarks": 31,
+   "age_h": 1.2,
+   "x_factor": 0.1,
+   "per_hour": 7330,
+   "ts": 1795021977.8319285
   }
  },
  "last_run": 1795021396.0900984,
@@ -9615,10 +9634,10 @@
   "2123081289657897424": 1795018011.8124862,
   "2122920706086412588": 1795021389.1026776,
   "2122854206709051691": 1795021393.1154323,
-  "2122800268706259244": 1795021394.8918078
+  "2122800268706259244": 1795021394.8918078,
+  "2123083491407802739": 1795021988.6324503
  },
  "reply_seen": {
-  "2122005309346734463": 1794762567.1373208,
   "2122038423082963328": 1794770022.4475522,
   "2122363234732675445": 1794848238.229911,
   "2122382772463337554": 1794851612.517359,
@@ -9636,21 +9655,23 @@
   "2123053673421095033": 1795010789.7895114,
   "2123084075905040867": 1795017941.0060256,
   "2123079535877087414": 1795017949.1318727,
-  "2123074881575084205": 1795017957.3264046
+  "2123074881575084205": 1795017957.3264046,
+  "2123100224369402239": 1795021947.571185,
+  "2123093545053458444": 1795021955.2401845
  },
- "reply_last_run": 1795017965.2781367,
- "fresh_last_run": 1795018015.1045673,
+ "reply_last_run": 1795021962.602591,
+ "fresh_last_run": 1795021988.6324928,
  "reply_day": {
   "date": "2026-11-12",
   "count": 8
  },
  "reply_day_active": {
   "date": "2026-11-18",
-  "count": 12
+  "count": 15
  },
  "toad_day": {
   "date": "2026-11-18",
-  "reply": 1,
+  "reply": 3,
   "remake": 3
  },
  "toad_seen": {
@@ -9676,13 +9697,15 @@
   "2122727131159343557": 1795010886.9590757,
   "2122833308736192522": 1795010888.7269342,
   "2122799619109195816": 1795010889.8233712,
-  "2123064944631648321": 1795018049.2821703
+  "2123064944631648321": 1795018049.2821703,
+  "2123083871830913124": 1795022019.7276413,
+  "2123078038598365335": 1795022028.6570373
  },
- "toad_last_run": 1795018057.526995,
+ "toad_last_run": 1795022036.1106195,
  "bear_day": {
   "date": "2026-11-18",
-  "reply": 2,
-  "remake": 2
+  "reply": 3,
+  "remake": 3
  },
  "bear_seen": {
   "2122009985005597027": 1794764650.650848,
@@ -9714,7 +9737,10 @@
   "2122714711095468195": 1795010930.7546024,
   "2122785981896212527": 1795010931.7661998,
   "2123074509037273140": 1795018091.0405335,
-  "2123061437031489648": 1795018100.257764
+  "2123061437031489648": 1795018100.257764,
+  "2123079474639962552": 1795022066.6755369,
+  "2122828264200634572": 1795022075.4755886,
+  "2122893512140279810": 1795022076.6248226
  },
  "bear_sent": {
   "2122009985005597027": 1794764659.1398184,
@@ -9739,9 +9765,11 @@
   "2123034938211815730": 1795010928.2222605,
   "2122740224849809780": 1795010929.7800758,
   "2122785981896212527": 1795010932.2930064,
-  "2123074509037273140": 1795018099.2117612
+  "2123074509037273140": 1795018099.2117612,
+  "2123079474639962552": 1795022074.2072728,
+  "2122893512140279810": 1795022077.3265374
  },
- "bear_last_run": 1795018100.2577853,
+ "bear_last_run": 1795022077.326549,
  "toad_sent": {
   "2122093193340620836": 1794843298.7449574,
   "2122033411531399501": 1794843300.628428,
@@ -9758,6 +9786,8 @@
   "2122713676511867009": 1795010885.8071225,
   "2122727131159343557": 1795010887.5620632,
   "2122799619109195816": 1795010890.326717,
-  "2123064944631648321": 1795018057.5269773
+  "2123064944631648321": 1795018057.5269773,
+  "2123083871830913124": 1795022027.602386,
+  "2123078038598365335": 1795022036.1106021
  }
 }
