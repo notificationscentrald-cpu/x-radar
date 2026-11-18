@@ -1,9 +1,5 @@
 {
  "seen": {
-  "2121959521837056436": 1794778687.9951117,
-  "2121959932660703488": 1794778689.0766103,
-  "2121808114991456534": 1794778690.8249016,
-  "2121918786081087702": 1794778691.7943852,
   "2121804512272814548": 1794791961.3926685,
   "2121859229682192405": 1794791962.4750733,
   "2121848717632295240": 1794791963.3199494,
@@ -145,70 +141,6 @@
   "2122828264200634572": 1795035241.8142009
  },
  "pool": {
-  "2121732470118965298": {
-   "id": "2121732470118965298",
-   "url": "https://x.com/addyosmani/status/2121732470118965298",
-   "text": "Opus 5.5 at medium is a great daily driver. \n\nIf it struggles, raise the effort before you switch models. Otherwise Fable 5.2 is good for the genuinely hard stuff (big migrations, long unattended runs).\n\nI wrote more about how to pick a model: https://t.co/vTCQAifmRq",
-   "user": "addyosmani",
-   "followers": 496268,
-   "views": 76822,
-   "likes": 1142,
-   "reposts": 80,
-   "replies": 162,
-   "bookmarks": 497,
-   "age_h": 23.1,
-   "x_factor": 0.2,
-   "per_hour": 3322,
-   "ts": 1794778651.3959336
-  },
-  "2121729777677849048": {
-   "id": "2121729777677849048",
-   "url": "https://x.com/pitdesi/status/2121729777677849048",
-   "text": "Bets settled. Thanks for playing ball, @rabois!\n\nKeith's bets were that:\n\n1) No SF-based company founded between March 2020 and Sept 2023 would exit above $10B. Cursor sold for $60B, and Anthropic is set to exit above $1T next week.\n2) Democrats would lose the House https://t.co/jU3qZlpwFC",
-   "user": "pitdesi",
-   "followers": 216438,
-   "views": 566950,
-   "likes": 4015,
-   "reposts": 137,
-   "replies": 202,
-   "bookmarks": 504,
-   "age_h": 23.3,
-   "x_factor": 2.6,
-   "per_hour": 24333,
-   "ts": 1794778651.3956356
-  },
-  "2121725048402681946": {
-   "id": "2121725048402681946",
-   "url": "https://x.com/SemiAnalysis_/status/2121725048402681946",
-   "text": "Six of Nvidia’s seven biggest customers are building their own chips.\n\n“NVIDIA’s seven biggest customers account for the vast majority of GPUs being deployed: Google, Microsoft, Meta, Amazon, SpaceX, Anthropic and OpenAI. All of them, except SpaceX, are making their own chips.”\n\n“If NVIDIA didn’t prop up CoreWeave and the other neoclouds, those industries just would not exist, and the hyperscalers would have full control.”\n\n“Jensen’s the only executive in the semiconductor industry convincing supply chain companies to invest like they’ve never done before. From our benchmarking, the TPU is just as good as NVIDIA. But Google doesn’t have that DNA of wheeling and dealing.”",
-   "user": "SemiAnalysis_",
-   "followers": 186981,
-   "views": 259445,
-   "likes": 2208,
-   "reposts": 282,
-   "replies": 132,
-   "bookmarks": 938,
-   "age_h": 23.6,
-   "x_factor": 1.4,
-   "per_hour": 10987,
-   "ts": 1794778651.3959794
-  },
-  "2121725990649184500": {
-   "id": "2121725990649184500",
-   "url": "https://x.com/graaafo/status/2121725990649184500",
-   "text": "lol 2 by claude",
-   "user": "graaafo",
-   "followers": 146204,
-   "views": 52433,
-   "likes": 4008,
-   "reposts": 204,
-   "replies": 24,
-   "bookmarks": 36,
-   "age_h": 23.6,
-   "x_factor": 0.4,
-   "per_hour": 2226,
-   "ts": 1794778651.3959079
-  },
   "2121789088499933223": {
    "id": "2121789088499933223",
    "url": "https://x.com/dani_avila7/status/2121789088499933223",
@@ -224,70 +156,6 @@
    "x_factor": 6.9,
    "per_hour": 10642,
    "ts": 1794791917.969852
-  },
-  "2121746842677330022": {
-   "id": "2121746842677330022",
-   "url": "https://x.com/alexmichael/status/2121746842677330022",
-   "text": "It's been 24 hours since custom themes released for Claude Code\n\nHere are the best ones people have made so far https://t.co/oLHGd4S9rA",
-   "user": "alexmichael",
-   "followers": 3061,
-   "views": 44703,
-   "likes": 871,
-   "reposts": 40,
-   "replies": 47,
-   "bookmarks": 578,
-   "age_h": 22.2,
-   "x_factor": 14.6,
-   "per_hour": 2016,
-   "ts": 1794778651.3955462
-  },
-  "2121724781376786584": {
-   "id": "2121724781376786584",
-   "url": "https://x.com/rohit3a/status/2121724781376786584",
-   "text": "Meet T3 Clawd. Claude Code recreated inside of T3 Code. \n\nHuge shoutout to team T3 Code for this feature. This was such a seamless experience to do with Opus 5.5\n\nI love the functionality of T3 Code but always went back to Claude Code since I preferred it's UI more\n\nI was able to massively redo the UI inside of T3 Code with the new theming features, to make it exactly how I wanted\n\nNow? I think I'll stick around to T3 Code permanantly\n\nbtw is the model picker good, @theo? 🫣\n\nLink to the theme in the comments.",
-   "user": "rohit3a",
-   "followers": 1520,
-   "views": 93448,
-   "likes": 1124,
-   "reposts": 38,
-   "replies": 93,
-   "bookmarks": 826,
-   "age_h": 23.6,
-   "x_factor": 61.5,
-   "per_hour": 3954,
-   "ts": 1794778651.395706
-  },
-  "2121737343287828694": {
-   "id": "2121737343287828694",
-   "url": "https://x.com/LexnLin/status/2121737343287828694",
-   "text": "Claude Fable 5.2 built a little city in threejs and the colors look INSANE\n\nno assets were used, everything is code (except sound) https://t.co/xCS3JLDiXx",
-   "user": "LexnLin",
-   "followers": 34750,
-   "views": 24653,
-   "likes": 620,
-   "reposts": 34,
-   "replies": 64,
-   "bookmarks": 273,
-   "age_h": 22.8,
-   "x_factor": 0.7,
-   "per_hour": 1080,
-   "ts": 1794778679.3691735
-  },
-  "2121744606543118474": {
-   "id": "2121744606543118474",
-   "url": "https://x.com/adamgrag/status/2121744606543118474",
-   "text": "claude fable 5.2 is f*cking insane for video editing\n\ni'm in a cafe pouring tea, and my laptop is cutting my next video by itself. the timeline you see filling up on the screen is claude code putting the clips together while my hands are busy with the teapot\n\nediting used to eat my evenings. now all the raw footage goes into one folder and i write one message about how the video should feel. fable 5.2 picks the best takes and cuts out the pauses. by the time the tea is gone there's a draft waiting on my phone\n\nmy setup:\n\n1. drop every raw clip into one folder\n2. open claude code in that folder and switch to fable 5.2\n3. describe the mood and the length in one message\n4. go drink something and check the draft on your phone\n\none person now ships videos like a small studio. the editing runs in the background and my time goes into ideas and filming\n\nthe exact prompt is in the reply ↓",
-   "user": "adamgrag",
-   "followers": 1259,
-   "views": 804732,
-   "likes": 6603,
-   "reposts": 699,
-   "replies": 284,
-   "bookmarks": 5157,
-   "age_h": 22.3,
-   "x_factor": 639.2,
-   "per_hour": 36058,
-   "ts": 1794778651.3954585
   },
   "2121787604215664891": {
    "id": "2121787604215664891",
@@ -321,22 +189,6 @@
    "per_hour": 2210,
    "ts": 1794791917.9699237
   },
-  "2121772032597910005": {
-   "id": "2121772032597910005",
-   "url": "https://x.com/jun_song/status/2121772032597910005",
-   "text": "Buying into the Anthropic IPO means taking part in the biggest crime in human history.",
-   "user": "jun_song",
-   "followers": 53549,
-   "views": 52510,
-   "likes": 1948,
-   "reposts": 160,
-   "replies": 86,
-   "bookmarks": 53,
-   "age_h": 20.5,
-   "x_factor": 1.0,
-   "per_hour": 2561,
-   "ts": 1794778651.395951
-  },
   "2121774832618463324": {
    "id": "2121774832618463324",
    "url": "https://x.com/pipislover1997/status/2121774832618463324",
@@ -353,22 +205,6 @@
    "per_hour": 6164,
    "ts": 1794791917.9697537
   },
-  "2121755174871900235": {
-   "id": "2121755174871900235",
-   "url": "https://x.com/zerohedge/status/2121755174871900235",
-   "text": "Was Jensen Taken Out Over Open Source? Sacks Says Anthropic's 'Safetyist' Allies Want Full Government Control Over Models &amp; Chips https://t.co/2nJFjfxslB",
-   "user": "zerohedge",
-   "followers": 3437111,
-   "views": 171111,
-   "likes": 3287,
-   "reposts": 713,
-   "replies": 128,
-   "bookmarks": 333,
-   "age_h": 21.6,
-   "x_factor": 0.0,
-   "per_hour": 7915,
-   "ts": 1794778651.3959253
-  },
   "2121785560356249610": {
    "id": "2121785560356249610",
    "url": "https://x.com/CryptoCX1/status/2121785560356249610",
@@ -384,22 +220,6 @@
    "x_factor": 1.1,
    "per_hour": 2249,
    "ts": 1794791917.9698267
-  },
-  "2121752688048377902": {
-   "id": "2121752688048377902",
-   "url": "https://x.com/alexcooldev/status/2121752688048377902",
-   "text": "This is actually crazy.\n\nI just tried this guy’s prompt to generate a video using Claude Fable 5.2, and the result completely blew my mind.\n\nClaude can't generate videos directly like traditional AI video models, but it can literally write code to create videos from scratch.\n\nThe fact that an AI coding model can produce something like this just shows how far AI has come. And we're still only scratching the surface of what's possible.",
-   "user": "alexcooldev",
-   "followers": 69560,
-   "views": 44487,
-   "likes": 633,
-   "reposts": 28,
-   "replies": 33,
-   "bookmarks": 809,
-   "age_h": 21.8,
-   "x_factor": 0.6,
-   "per_hour": 2042,
-   "ts": 1794778651.3958907
   },
   "2121799455041011723": {
    "id": "2121799455041011723",
@@ -433,22 +253,6 @@
    "per_hour": 1047,
    "ts": 1794791917.969949
   },
-  "2121738107267481862": {
-   "id": "2121738107267481862",
-   "url": "https://x.com/xsmryze/status/2121738107267481862",
-   "text": "THIS IS ACTUAL F*CKING GOLD\n\nAnthropic just shared one of the best tricks for Claude Code.\n\nThe idea: run Sonnet, Haiku and Opus 5.5 together, each one doing only the job it's best at.\n\nOpus-level judgment on every big call, without paying Opus rates for every routine turn.\n\nYou just launch Claude Code like this:\n\nclaude --model sonnet --advisor opus\n\nhere's the split:\n\n→ Sonnet 5.5 runs the session and writes the code\n→ Haiku 5.5 explores files and docs in parallel\n→ Opus 5.5 stays on call as advisor for the big calls\n→ you stop spending Opus on work that doesn't need it\n\nOpus only steps in at three moments:\n\n→ before a plan locks\n→ when the same error shows up twice\n→ before calling it done\n\nSonnet builds. Haiku explores. Opus reviews.\n\nJEV engineering is the same move one layer down: the forks that need no thinker (which file, which tool, retry or stop) go to JEV in milliseconds, and the big models only see the ones that split\n\nthe full tree\n> Sonnet 5.5 runs the main session and edits code\n> search maps the repo on Haiku 5.5\n> grep finds call sites on Haiku 5.5\n> docs pulls the API reference on Haiku 5.5\n> Opus 5.5 on call as advisor, reads the whole transcript when consulted\n> JEV routes micro-forks in milliseconds\n\npaste the tree and this prompt into Claude Code ↓\n\n\"Rebuild my Claude Code setup around this tree:\n1. Run the main session on Sonnet 5.5 with Opus 5.5 as advisor.\n2. Create three read-only Haiku 5.5 subagents: search (maps the repo), grep (finds call sites), docs (pulls the API reference).\n3. Add one rule to CLAUDE.md: consult the advisor before locking a plan, after the same error twice, and before calling a task done.\n4. Route fast deterministic forks (tool choice, path selection, retries) through JEV.\nShow me every change as a diff first. No edits until I say go.\"\n\n↳ https://t.co/bsYb2K5H9G\n\nsave it, you'll use this every single day.",
-   "user": "xsmryze",
-   "followers": 2824,
-   "views": 60590,
-   "likes": 445,
-   "reposts": 40,
-   "replies": 30,
-   "bookmarks": 726,
-   "age_h": 22.7,
-   "x_factor": 21.5,
-   "per_hour": 2663,
-   "ts": 1794778651.3955123
-  },
   "2121785259024867827": {
    "id": "2121785259024867827",
    "url": "https://x.com/0xAIGOAT/status/2121785259024867827",
@@ -480,38 +284,6 @@
    "x_factor": 0.0,
    "per_hour": 1385,
    "ts": 1794809200.1760948
-  },
-  "2121720755192799480": {
-   "id": "2121720755192799480",
-   "url": "https://x.com/thedelost/status/2121720755192799480",
-   "text": "Anthropic just released the best trick for Claude Code:\n\nFable 5.2 thinks → Sonnet 5.5 builds → Opus 5.5 reviews → Haiku 5.5 coordinates a swarm of agents\n\n1 minute + the /advisor command = 3.4 times cheaper\n\nHere's how to set it up:\n\nFirst, understand how it works:\n\n• This setup works for any task: Sonnet 5.5 builds, Opus 5.5 reviews on the spot, and a swarm of Haiku 5.5 agents searches for information and does research, at a per-token cost 80 times lower than Fable\n\n• Fable 5.2 never writes code. It only kicks in at 3 points: before finalizing a plan, when an error keeps recurring, and before declaring the work done\n\n• You only pay Fable's price for making decisions. The cheap models handle everything else\n\nHere's how to set it up:\n\n1 → Run claude update. Fable 5.2 requires Claude Code v2.1.321 or later\n\n2 → Paste the prompt below into Claude Code. It will first read Anthropic's official documentation on advisor mode\n\n3 → Set up the team at the user level so it works across all your projects: Sonnet as the main model, Fable as the advisor, Haiku for the subagents, and Opus as the reviewer\n\n4 → It backs up your config and shows you every change before applying it, comparing before and after\n\n5 → What nobody tells you: there's a line that tells Sonnet 5.5 WHEN to consult Fable. Without it, the advisor didn't activate even once in the 198 cases in Anthropic's test\n\nI'll leave the full prompt and Anthropic's official documentation on advisor mode below\n\nthen read the article below ↓",
-   "user": "thedelost",
-   "followers": 5673,
-   "views": 168160,
-   "likes": 1046,
-   "reposts": 91,
-   "replies": 24,
-   "bookmarks": 2252,
-   "age_h": 23.9,
-   "x_factor": 29.6,
-   "per_hour": 7036,
-   "ts": 1794778651.3955343
-  },
-  "2121728308312248505": {
-   "id": "2121728308312248505",
-   "url": "https://x.com/VullnetAdemaj/status/2121728308312248505",
-   "text": "If you’re building with AI, save these 👇\n\n1. https://t.co/SnN1CeM6iR → 192+ website templates with live previews, ready for inspiration or AI-powered builds.\n2. https://t.co/1zSdQqN3jC → 70 beautifully designed website sections, with 41 free to copy, including full prompts and source code.\n3. https://t.co/i2Pmsx2yC0 → AI explainer video kits to create polished product videos with Claude.\n\nStop starting from a blank canvas. Give your AI something good to work with.\n\nSave this 🔖",
-   "user": "VullnetAdemaj",
-   "followers": 1772,
-   "views": 17397,
-   "likes": 485,
-   "reposts": 68,
-   "replies": 11,
-   "bookmarks": 568,
-   "age_h": 23.4,
-   "x_factor": 9.8,
-   "per_hour": 743,
-   "ts": 1794778651.3955863
   },
   "2121896633848017145": {
    "id": "2121896633848017145",
@@ -625,22 +397,6 @@
    "per_hour": 10344,
    "ts": 1794841502.2782302
   },
-  "2121779229729677816": {
-   "id": "2121779229729677816",
-   "url": "https://x.com/51bodila/status/2121779229729677816",
-   "text": "Jane Street just released absolutely f*cking genius 30-page PDF\n\nthey revealed why 99% AI trading agents fail, and how to build one that doesn't\n\nthe shift: the more data you feed your AI trading system, the dumber it gets (up to 80% dumber)\n\nhere's what else they found + how to build yours:\n\nwhat they found:\n\n1. they tested 30 AI models on 12 tasks, feeding them from 8K up to 512K tokens\n\n2. almost every model scores 90%+ at finding one fact in the data. ask it to track what changed or learn a pattern, and it falls apart\n\n3. on Jane Street's own market data, GPT-5.6 Sol scored 40%. Claude Opus 4.8 and Gemini 3.5 Flash got 24%. random guessing gets ~20%\n\n4. on a simulated order book, Gemini 3.5 Flash scored 20 vs 50 for a simple rule. worse than no AI at all\n\n5. Claude Opus 4.8 barely beat that same rule: 52.7 vs 49.6\n\n6. predicting price moves from social posts: every model scored 10-28%. a naive guess gets 22\n\n7. one model \"found\" a pattern in market data that didn't exist, and answered with full confidence\n\n8. \"thinking\" made some open models dumber, not smarter. extra thinking stopped helping after 16K tokens\n\nhow to build yours:\n\nstep 1 → pick the brain by test, not hype: GPT-5.6 Sol led their market tasks, but run 2-3 models on your own past trades\n\nstep 2 → ask Claude Code to log how many tokens your bot sends per call, most bots send way more than they need\n\nstep 3 → let code do the math: indicators, levels and positions get computed in Python, the AI gets a 10-line summary instead of raw candles\n\nstep 4 → let code track the state too: open orders, positions, the order book. this is exactly where top models broke\n\nstep 5 → one question per call, short input: scores fell as inputs grew from 8K toward 128K tokens\n\nstep 6 → keep \"thinking\" off by default, test it against normal mode on your past trades and keep the winner\n\nstep 7 → re-test every time you switch models: Gemini was 2nd on social posts and last on the order book\n\nstep 8 → make it answer from fixed options only: LONG / SHORT / WAIT\n\nstep 9 → always test it against \"do nothing\". if it can't beat that, it doesn't trade\n\nstep 10 → paper trade first. real money only after the log proves it\n\nthe result: fewer tokens = cheaper, faster, and less room for your AI to get lost\n\nRead this now and send to your trading system. Then read article below on how to build it and use at 100%:",
-   "user": "51bodila",
-   "followers": 16410,
-   "views": 47724,
-   "likes": 474,
-   "reposts": 63,
-   "replies": 19,
-   "bookmarks": 780,
-   "age_h": 20.0,
-   "x_factor": 2.9,
-   "per_hour": 2383,
-   "ts": 1794778651.395626
-  },
   "2121865932289228845": {
    "id": "2121865932289228845",
    "url": "https://x.com/AnkanXplorer/status/2121865932289228845",
@@ -688,38 +444,6 @@
    "x_factor": 0.1,
    "per_hour": 2619,
    "ts": 1794809200.1763282
-  },
-  "2121766500524589160": {
-   "id": "2121766500524589160",
-   "url": "https://x.com/deedydas/status/2121766500524589160",
-   "text": "Every single private AI startup with $10B+ valuation and $100M+ in revenue run rate: https://t.co/8xP5z4iGIT",
-   "user": "deedydas",
-   "followers": 262923,
-   "views": 192806,
-   "likes": 874,
-   "reposts": 103,
-   "replies": 106,
-   "bookmarks": 1015,
-   "age_h": 20.9,
-   "x_factor": 0.7,
-   "per_hour": 9239,
-   "ts": 1794778651.3959968
-  },
-  "2121748524148851062": {
-   "id": "2121748524148851062",
-   "url": "https://x.com/edzitron/status/2121748524148851062",
-   "text": "The Aristocrats! Jacob didn’t really give a shit it turns out",
-   "user": "edzitron",
-   "followers": 163894,
-   "views": 40548,
-   "likes": 970,
-   "reposts": 83,
-   "replies": 37,
-   "bookmarks": 81,
-   "age_h": 22.1,
-   "x_factor": 0.2,
-   "per_hour": 1838,
-   "ts": 1794778651.3959594
   },
   "2121918786081087702": {
    "id": "2121918786081087702",
@@ -816,22 +540,6 @@
    "x_factor": 0.1,
    "per_hour": 130470,
    "ts": 1794809200.1763117
-  },
-  "2121723304226517013": {
-   "id": "2121723304226517013",
-   "url": "https://x.com/hanakoxbt/status/2121723304226517013",
-   "text": "I'm sharing with you one of the best papers I've read on Harness Engineering\n\nit pulls apart Claude Code (Fable 5.2), Codex, Gemini CLI and more, and boils all of them down to one line:\n\nagent = model + harness\n\nwhat you take away:\n> what a harness is, in plain terms\n> how today's coding agents are built under the hood\n> the patterns they all share\n> the direction the entire field is moving\n> a checklist for building your own\n\nthe model collects the applause\nthe harness decides whether the agent actually works\n\nthen read the article below ↓",
-   "user": "hanakoxbt",
-   "followers": 26034,
-   "views": 43976,
-   "likes": 494,
-   "reposts": 57,
-   "replies": 42,
-   "bookmarks": 607,
-   "age_h": 23.7,
-   "x_factor": 1.7,
-   "per_hour": 1853,
-   "ts": 1794778651.3956742
   },
   "2121981551215083885": {
    "id": "2121981551215083885",
@@ -1025,38 +733,6 @@
    "per_hour": 2054,
    "ts": 1794809200.176221
   },
-  "2121873012676808858": {
-   "id": "2121873012676808858",
-   "url": "https://x.com/criptopaul/status/2121873012676808858",
-   "text": "The Washington Post just confirmed what we laid out from day one. Even the CIA had doubts about the China spy narrative, so Marco Rubio stepped in with hard force, rewriting the intelligence report to destroy Jensen Huang's influence over Trump and permanently shut the chip tap to Beijing.\n\nBehind the scenes, emerging reconstructions point straight to Anthropic, right ahead of its massive IPO, pushing to take out its biggest rival and kill open source AI. The real target was the hardware itself. Jensen was the last major obstacle blocking mandates to embed remote tracking, telemetry, and a physical \"kill switch\" inside every single AI chip sold worldwide, allowing authorities to monitor and shut down any GPU cluster remotely.\n\nWith Jensen out and Colette Kress sitting as a temporary placeholder, the door is wide open for the Israeli and Zionist candidates, Kagan, Waldman, and Srouji, lined up to take over Nvidia. That locks in the final hardware piece of the single grid we already exposed: legacy media, social networks, AI models, and now the chips.\n\nMeanwhile, overexposed retail traders are still signing meaningless online petitions thinking this is about the free market. They do not realize Wall Street is not pulling the strings. It is Israel taking total control over information, artificial intelligence, compute power, and global surveillance.",
-   "user": "criptopaul",
-   "followers": 104082,
-   "views": 45603,
-   "likes": 410,
-   "reposts": 100,
-   "replies": 14,
-   "bookmarks": 129,
-   "age_h": 13.8,
-   "x_factor": 0.4,
-   "per_hour": 3301,
-   "ts": 1794778651.395726
-  },
-  "2121756374183121213": {
-   "id": "2121756374183121213",
-   "url": "https://x.com/rohanpaul_ai/status/2121756374183121213",
-   "text": "\"I like money, bro. I agree. It's blood money.\"\n\nJacob Coxon, the researcher who sensationally quit Anthropic, in a new interview at Stanford.\n\nPressed by Rob Reich on whether keeping his OpenAI equity hurts his credibility, Coxon openly admits he still holds it, likes the money, and agrees it is \"blood money.\" He argues that giving it away would not change anything\n\n----\nFull video on \"Stanford HAI\" YouTube channel, (link in comment)",
-   "user": "rohanpaul_ai",
-   "followers": 161419,
-   "views": 137501,
-   "likes": 416,
-   "reposts": 65,
-   "replies": 47,
-   "bookmarks": 408,
-   "age_h": 21.5,
-   "x_factor": 0.9,
-   "per_hour": 6384,
-   "ts": 1794778651.3957353
-  },
   "2121868595273535634": {
    "id": "2121868595273535634",
    "url": "https://x.com/NadaAndersen/status/2121868595273535634",
@@ -1089,22 +765,6 @@
    "per_hour": 3105,
    "ts": 1794825586.3742986
   },
-  "2122013352755126431": {
-   "id": "2122013352755126431",
-   "url": "https://x.com/Rubzem/status/2122013352755126431",
-   "text": "I asked Fable 5.2 for a beautiful & low-cortisol 2D game with a hand-painted feel. Made from scratch in 4 hours.\n\nI can’t draw, but somehow I made a little storybook game about a kid, a dog and a long way home. \n\n14 chapters to play through. You travel by fot, canoe, train, hot air balloon, mine cart and biplane.\n\nIt’s called Getting There 🐕  \nAll assets & sounds are made fully procedurally.\n\nGame link in the comments. Claude guarantees lower cortisol after an entire playthrough.",
-   "user": "Rubzem",
-   "followers": 1845,
-   "views": 21762,
-   "likes": 417,
-   "reposts": 27,
-   "replies": 26,
-   "bookmarks": 285,
-   "age_h": 4.5,
-   "x_factor": 11.8,
-   "per_hour": 4815,
-   "ts": 1794778651.395798
-  },
   "2122008547009687840": {
    "id": "2122008547009687840",
    "url": "https://x.com/dhruvtwt_/status/2122008547009687840",
@@ -1136,22 +796,6 @@
    "x_factor": 7.7,
    "per_hour": 17563,
    "ts": 1794809200.1763363
-  },
-  "2121753623936065645": {
-   "id": "2121753623936065645",
-   "url": "https://x.com/coinbureau/status/2121753623936065645",
-   "text": "🚨Are whales rotating to Anthropic’s IPO?\n\n$2.35 BILLION exits Bitcoin ETFs in 2 WEEKS.\n\nBlackRock’s IBIT led Bitcoin ETF outflows, with 11 STRAIGHT sessions of redemptions, about 90% of November’s total outflows.\n\nMany speculate investors COULD be selling crypto to fund IPO allocations. \n\nWe’ve seen a similar SETUP before with SpaceX:\n\n1. Bitcoin fell 28% from its May peak, a week before the listing.\n2. Bitcoin bottomed at about $59,000.\n3. Bitcoin rose 8% towards SpaceX’s June 12 trading day.\n4. Bitcoin rallied about 37% from that low.\n\nNow, if that pattern repeats...\n\nMORE SELLING could happen before and even after Anthropic starts trading on Nov. 19.\n\nYet, Anthropic’s retail allocation is SMALLER.\n\nIt plans to offer retail investors up to 20% of its IPO, worth about $12.9B, versus SpaceX’s 30%, or roughly $22B.\n\nThat could mean LESS SELLING pressure on Bitcoin if investors did sell crypto to fund their IPO purchases.\n\nIt also separate $26B corporate placement is funded by companies like Nvidia and Google, so it doesn’t compete for the same cash pool.\n\nThe BETTER news? \n\nBitcoin could be nearing a bottom before a STRONGER recovery.\n\nHowever, if the Fed's interest rates decision and the tech selloff keep driving investors out of risk, the IPO alone won’t turn $BTC around.\n\nNow, are you BUYING THIS DIP?",
-   "user": "coinbureau",
-   "followers": 1133408,
-   "views": 74241,
-   "likes": 573,
-   "reposts": 80,
-   "replies": 77,
-   "bookmarks": 105,
-   "age_h": 21.7,
-   "x_factor": 0.1,
-   "per_hour": 3418,
-   "ts": 1794778651.3958342
   },
   "2121955822108320105": {
    "id": "2121955822108320105",
@@ -1216,22 +860,6 @@
    "x_factor": 0.0,
    "per_hour": 3858,
    "ts": 1794809200.176211
-  },
-  "2121927725783126384": {
-   "id": "2121927725783126384",
-   "url": "https://x.com/GaryMarcus/status/2121927725783126384",
-   "text": "anthropic is here to fleece humanity, not save it.",
-   "user": "GaryMarcus",
-   "followers": 258188,
-   "views": 20803,
-   "likes": 485,
-   "reposts": 98,
-   "replies": 24,
-   "bookmarks": 51,
-   "age_h": 10.2,
-   "x_factor": 0.1,
-   "per_hour": 2041,
-   "ts": 1794778651.3959677
   },
   "2121801244297638121": {
    "id": "2121801244297638121",
@@ -9844,7 +9472,6 @@
  },
  "last_run": 1795035241.8142142,
  "sent": {
-  "2121959932660703488": 1794778689.7631917,
   "2122072152686121146": 1794809244.4072628,
   "2122328012787949985": 1794843251.3878546,
   "2122324810223304734": 1794843260.6799717,
@@ -9906,8 +9533,8 @@
   "2123110824432529487": 1795024825.6371582,
   "2123118288490434990": 1795028392.2638779
  },
- "reply_last_run": 1795037699.6435153,
- "fresh_last_run": 1795037714.3818834,
+ "reply_last_run": 1795041076.622122,
+ "fresh_last_run": 1795041092.2117198,
  "reply_day": {
   "date": "2026-11-12",
   "count": 8
@@ -9948,7 +9575,7 @@
   "2123083871830913124": 1795022019.7276413,
   "2123078038598365335": 1795022028.6570373
  },
- "toad_last_run": 1795034565.2350473,
+ "toad_last_run": 1795041122.6958117,
  "bear_day": {
   "date": "2026-11-18",
   "reply": 5,
@@ -10014,7 +9641,7 @@
   "2123099143996616741": 1795028480.564113,
   "2123144312494178479": 1795034605.7911851
  },
- "bear_last_run": 1795034605.7912037,
+ "bear_last_run": 1795041151.9140954,
  "toad_sent": {
   "2122093193340620836": 1794843298.7449574,
   "2122033411531399501": 1794843300.628428,
