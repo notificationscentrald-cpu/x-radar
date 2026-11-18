@@ -4,7 +4,8 @@
     "(claude OR \"claude code\" OR anthropic) min_faves:300",
     "(\"made with ai\" OR \"built with ai\" OR \"vibe coded\" OR \"one prompt\") filter:videos min_faves:300",
     "(threejs OR \"three.js\" OR \"3d scene\") (ai OR claude OR gpt) min_faves:200",
-    "(gpt OR gemini OR grok OR kimi) (game OR \"3d\" OR simulation) filter:videos min_faves:300"
+    "(gpt OR gemini OR grok OR kimi) (game OR \"3d\" OR simulation) filter:videos min_faves:300",
+    "(\"exploded view\" OR teardown OR cutaway OR \"every part\") (engine OR gearbox OR v8 OR v10 OR motor OR turbine OR watch OR camera) (threejs OR \"three.js\" OR claude OR blender OR ai) min_faves:200"
   ],
   "lookback_hours": 24,
   "pages_per_query": 3,
@@ -27,27 +28,28 @@
   ],
   "digest_size": 20,
   "claude_analysis": true,
-  "niche": "Автор показує 3D, ігри й візуал, які створює Claude чи інша модель кодом, і дає рецепт (промпти, кроки, інструменти). Підходить: 3D-сцени та діорами з коду (three.js, Blender через Claude), браузерні ігри з одного промпта, симуляції й механізми, анімації та відео, зроблені кодом, AI-інструменти для 3D, відео й монтажу, порівняння моделей на одному візуальному завданні. Не підходять: трейдинг і боти, трекінг і комп'ютерний зір з грошима в історії, новини моделей без візуалу, фінанси, чисті меми, політика, плітки, реклама.",
+  "niche": "Автор показує 3D, ігри й візуал, які створює Claude чи інша модель кодом, і дає рецепт (промпти, кроки, інструменти). Підходить: 3D-сцени та діорами з коду (three.js, Blender через Claude), браузерні ігри з одного промпта, симуляції й механізми, анімації та відео, зроблені кодом, AI-інструменти для 3D, відео й монтажу, порівняння моделей на одному візуальному завданні, розбори справжніх механізмів кодом (двигуни, коробки передач, станки, розрізи, exploded view). Не підходять: стилізовані фруктові машинки й іграшковий транспорт (це акаунт жаби), вірусні заяви «AI зробив X» без візуалу (це Ведмідь), трейдинг і боти, трекінг і комп'ютерний зір з грошима в історії, новини моделей без візуалу, фінанси, чисті меми, політика, плітки, реклама.",
   "claude_model": "claude-haiku-5-5",
   "ready_videos": [
-    "Robot warehouse: 48 robots haul shelves to pick stations (three.js simulation)",
-    "Lighthouse at sunset, day/night cycle (3D scene, best of Kimi, GPT-6 and Claude)",
-    "Spring Cove: lake house diorama, day and evening (3D)",
-    "Dam Jelly: a dam with a jelly reservoir (3D physics-ish remake)",
-    "Drone Guard: drones patrolling a house (3D)",
-    "Cell machine: a living cell drawn as a machine (animation)",
-    "Lanternfall: full 3D action game in one HTML file, no assets",
-    "Northfold: website assembled live by a swarm of 36 agent cursors",
-    "Agent Command: AI models as units in a strategy game",
-    "Starlight Market: rainy-night American corner store diorama (3D)",
-    "One T-rex, four model 'costumes' (3D model comparison)",
-    "Neural network EngineNet visualization (animation)"
+    "V10 Teardown: V10 engine runs, then splits into 309 parts (three.js, 20 s)",
+    "Boxer Teardown: motorcycle boxer engine leaves the frame and splits into 208 parts (three.js)",
+    "Gearbox Teardown: 6-speed automatic in cutaway, shifts 1-6-R, then 127 parts (three.js)",
+    "Mill Teardown: face mill planes a cylinder head, then the machine splits into 126 parts (three.js)",
+    "Console 212GB: fictional console teardown, SSD chip fills 0 to 212 GB (three.js, GTA 6 size)",
+    "Frame budget: neon city, 33.3 ms vs 16.7 ms frame, 30 vs 60 fps split (concept)",
+    "F-14 swing wing: wings sweep 20 to 68 degrees, wireframe, flight demo (three.js)",
+    "Armor suit: 15 parts, 22 plates assemble and explode (three.js)",
+    "Shatter hero: superhero suit breaks into 80,000 shards (three.js)",
+    "Dune Strider: walking character with IK, scarf, footprints in the sand (three.js, no models)",
+    "Million swarm: 1,048,576 particles form a jellyfish, Saturn, an octopus (three.js)",
+    "Side B Live: 80s music video as a browser game, dancing character (three.js)",
+    "Abyssal Leviathan: deep-sea serpent with a lure, beauty / normals / wire views (screenshots, no video)"
   ],
   "fresh": {
     "_comment": "Режим --fresh: пости молодші за 2 год, що вже летять. Шле, якщо переглядів від min_views і хоча б одне: hot_views+ переглядів, або від min_per_hour/год, або min_replies+ коментарів. Висновок 11.11: реплаї під постами на 0.8–4.5K дали 3–52 перегляди, під 13.5K дав 75. Вимкнути: enabled=false.",
     "enabled": true,
     "queries": [
-      "(claude OR opus OR fable OR anthropic) (3d OR game OR simulation OR blender OR threejs OR \"three.js\" OR animation) min_faves:10",
+      "(claude OR opus OR fable OR anthropic) (3d OR game OR simulation OR blender OR threejs OR \"three.js\" OR animation OR teardown OR \"exploded view\") min_faves:10",
       "(gpt OR gemini OR grok OR kimi OR \"one prompt\" OR \"vibe coded\") (3d OR game OR simulation OR blender OR threejs) min_faves:10"
     ],
     "max_age_min": 120,
@@ -144,12 +146,8 @@
   "_comment_reply_hours": "Реплай-сповіщення (--replies, --fresh) лише з 8:00 до 23:00 за Нью-Йорком, щоб денний ліміт не з'їдався вночі. Пости для аналогів (🔁) і ранковий топ ідуть цілодобово.",
   "_comment_reply_alerts": "Реплай-сповіщення (--replies і --fresh разом) не більше max_reply_alerts_per_day за день (Нью-Йорк), з 13.11 це 15, щоб було з чого вибрати. Пости-приманки «comment WORD and I'll send» пропускаються завжди (BAIT_PATTERNS у radar.py + перевірка коментарів).",
   "toad": {
-    "_comment": "Режим --toad: окремий радар для Gym Toad (@gymtoad0x). Практичні пости про Claude Code, автоматизації, репо, промпти. Реплай: пост до 2 год, що летить (ті самі пороги, що у fresh). Тема для аналога: 20K+ переглядів, X-фактор ×10+, автор до 50K. Свої ліміти на день, не перетинається з постами, які пішли Synra. Раз на ~60 хв, 2 запити ≈ 30 запитів на день у робочі години. Вимкнути: enabled=false.",
+    "_comment": "Режим --toad: окремий радар для Gym Toad (@gymtoad0x), дві гілки (branches): main = Claude Code, art = код-арт. Чого немає в гілці, береться звідси. Практичні пости про Claude Code, автоматизації, репо, промпти. Реплай: пост до 2 год, що летить (ті самі пороги, що у fresh). Тема для аналога: 20K+ переглядів, X-фактор ×10+, автор до 50K. Свої ліміти на день, не перетинається з постами, які пішли Synra. Раз на ~60 хв, 2 запити ≈ 30 запитів на день у робочі години. Вимкнути: enabled=false.",
     "enabled": true,
-    "queries": [
-      "(\"claude code\" OR \"CLAUDE.md\" OR \"claude skills\" OR \"plan mode\" OR \"subagents\") (tip OR tips OR workflow OR setup OR guide OR repo OR \"how i\") min_faves:30",
-      "(n8n OR \"mcp server\" OR \"open source\" OR \"free repo\" OR \"github repo\" OR automation) (claude OR cursor OR codex OR agent) min_faves:50"
-    ],
     "lookback_hours": 24,
     "pages_per_query": 2,
     "min_minutes_between_runs": 55,
@@ -165,26 +163,58 @@
     "remake_max_followers": 50000,
     "max_reply_per_day": 3,
     "max_remake_per_day": 3,
-    "niche": "Gym Toad вчить, як скористатися AI сьогодні: практичні поради по Claude Code (plan mode, CLAUDE.md, subagents, skills, ліміти), автоматизації (n8n, MCP), безкоштовні репозиторії й інструменти для розробки, промпти, «як я зробив X за вечір». Підходять: інструкції, робочі процеси, списки корисних репо й інструментів, тести «що працює, що ні». Не підходять: 3D-сцени, ігри й візуальні шоукейси (це інший акаунт), новини, цифри компаній і гроші, хайп без інструкції, трейдинг, крипта, політика, giveaway, реклама.",
-    "persona": "You write X (Twitter) replies for Gym Toad, a builder who shares practical Claude Code and AI-automation habits with light gym humour (reps, warm-up, leg day), in lowercase. One concrete tip or observation per reply, from someone who uses these tools daily. Never 3D or games talk, never news commentary, never skeptic tone.",
+    "who": "жаби",
     "tag": "🐸 <b>ЖАБА</b>",
-    "who": "жаби"
+    "branches": {
+      "main": {
+        "_comment": "Практичні пости про Claude Code, автоматизації, репо, промпти (ліміти reply/remake).",
+        "queries": [
+          "(\"claude code\" OR \"CLAUDE.md\" OR \"claude skills\" OR \"plan mode\" OR \"subagents\") (tip OR tips OR workflow OR setup OR guide OR repo OR \"how i\") min_faves:30",
+          "(n8n OR \"mcp server\" OR \"open source\" OR \"free repo\" OR \"github repo\" OR automation) (claude OR cursor OR codex OR agent) min_faves:50"
+        ],
+        "niche": "Gym Toad вчить, як скористатися AI сьогодні: практичні поради по Claude Code (plan mode, CLAUDE.md, subagents, skills, ліміти), автоматизації (n8n, MCP), безкоштовні репозиторії й інструменти для розробки, промпти, «як я зробив X за вечір». Підходять: інструкції, робочі процеси, списки корисних репо й інструментів, тести «що працює, що ні». Не підходять: 3D-сцени, ігри й візуальні шоукейси (це інший акаунт), новини, цифри компаній і гроші, хайп без інструкції, трейдинг, крипта, політика, giveaway, реклама.",
+        "persona": "You write X (Twitter) replies for Gym Toad, a builder who shares practical Claude Code and AI-automation habits with light gym humour (reps, warm-up, leg day), in lowercase. One concrete tip or observation per reply, from someone who uses these tools daily. Never 3D or games talk, never news commentary, never skeptic tone."
+      },
+      "art": {
+        "_comment": "Гілка «код-арт» (з 18.11): референси і реплаї для серії «фруктові 3D-машини». Свої ліміти (art:reply, art:remake). watch: акаунти, чиї пости беремо як референс за 24 год і під якими реплаїмо в першу годину.",
+        "queries": [
+          "(threejs OR \"three.js\" OR webgl OR \"one html file\" OR procedural) (car OR buggy OR vehicle OR truck OR train OR tank OR submarine OR mech OR \"exploded view\") filter:media min_faves:50",
+          "(\"exploded view\" OR \"every part\" OR \"no 3d models\" OR \"zero assets\" OR \"no assets\" OR \"pure code\" OR \"made in code\") (3d OR threejs OR claude OR codex OR shader) filter:media min_faves:50"
+        ],
+        "watch": {
+          "accounts": [
+            "thebuggeddev",
+            "elvar_official",
+            "Nyxera0x"
+          ],
+          "lookback_hours": 24,
+          "max_age_min": 60
+        },
+        "remake_min_views": 10000,
+        "max_reply_per_day": 2,
+        "max_remake_per_day": 2,
+        "niche": "Gym Toad, серія «фруктові машини»: стилізовані 3D-об'єкти й транспорт, зроблені кодом (three.js, шейдери, один HTML), з exploded view, wireframe, підписами деталей і цифрами з коду (трикутники, вузли, рядки). Підходять: машинки, іграшки, транспорт, їжа чи фрукти як об'єкти, «анатомія» вигаданих речей, процес з цифрами, промпт у подарунок. Не підходять: розбори справжніх механізмів (двигуни, коробки передач, станки, зброя), архітектурні сцени й діорами, персонажі й монстри (це Synra); AI-відео з генераторів без коду; новини; реклама; giveaway.",
+        "persona": "You write X (Twitter) replies for Gym Toad, a builder who makes toy-like 3D vehicles out of code with Claude (fruit buggies, one HTML file, exploded views, labelled parts), in lowercase, with light gym humour. One concrete build detail per reply: how the parts explode, what the prompt asked for, what broke first. Never news, never skeptic tone, never claim a number you were not given.",
+        "tag": "🐸 <b>ЖАБА · код-арт</b>"
+      }
+    }
   },
   "bear": {
-    "_comment": "Режим --bear: окремий радар для Cold Takes Bear (@coldtakesbear). AI-новини, релізи, ціни, гроші компаній. Реплай: пост до 2 год, що летить (пороги як у fresh, hot_views вищий, бо новинні акаунти великі). Тема для аналога: 20K+ переглядів, X-фактор ×10+, автор до 50K. Свої ліміти, не перетинається з постами Synra і жаби. Вимкнути: enabled=false.",
+    "_comment": "Режим --bear (з 18.11 під стратегію 17.11): Cold Takes Bear (@coldtakesbear) розбирає вірусні заяви «AI зробив X». 🧊 РОЗБЕРИ: заява з відео чи картинкою, 100K+ переглядів (або 20K+ і 5K/год), до 36 год, розмір автора не важить. Реплай: пост до 1 год, що летить, з пошуку або від великих AI-акаунтів зі списку watch. Тем для аналога немає (max_remake_per_day 0). Не перетинається з постами Synra і жаби. Вимкнути: enabled=false.",
     "enabled": true,
     "tag": "🐻‍❄️ <b>ВЕДМІДЬ</b>",
     "who": "ведмедя",
     "queries": [
-      "(anthropic OR openai OR \"google deepmind\" OR xai OR meta) (launch OR launches OR released OR announces OR pricing OR price OR valuation OR raises OR revenue OR layoffs) min_faves:100",
-      "(\"new model\" OR benchmark OR \"rate limits\" OR \"api price\" OR IPO OR \"funding round\") (ai OR claude OR gpt OR gemini OR grok) min_faves:100"
+      "(claude OR codex OR gpt OR gemini OR opus OR fable OR \"ai agent\") (\"reverse engineered\" OR hacked OR automated OR \"built a\" OR \"built an\") (car OR jeep OR glasses OR robot OR arduino OR printer OR drone OR house OR fridge OR camera OR chip) filter:media min_faves:200",
+      "(ai OR claude OR gpt OR chatgpt OR agent OR agents) (\"per month\" OR \"a month\" OR mrr OR \"replaced my\" OR \"replaced our\" OR \"zero employees\" OR \"solo founder\" OR \"laid off\") filter:media min_faves:300",
+      "(claude OR gpt OR gemini OR grok OR fable OR codex OR opus) (\"one prompt\" OR \"in 3 minutes\" OR \"in 10 minutes\" OR overnight OR \"in a weekend\" OR \"lines of code\" OR 100x) filter:media min_faves:300"
     ],
-    "lookback_hours": 24,
+    "lookback_hours": 36,
     "pages_per_query": 2,
     "min_minutes_between_runs": 55,
     "max_checks_per_run": 10,
     "max_followers": 1000000,
-    "reply_max_age_min": 120,
+    "reply_max_age_min": 60,
     "min_views": 2000,
     "hot_views": 10000,
     "min_per_hour": 3000,
@@ -193,8 +223,44 @@
     "remake_min_x_factor": 10,
     "remake_max_followers": 50000,
     "max_reply_per_day": 5,
-    "max_remake_per_day": 3,
-    "niche": "Cold Takes Bear тверезо пояснює, що AI-новина насправді означає: релізи моделей, анонси, ціни й ліміти, гроші компаній (раунди, оцінки, виручка, IPO), дивні цифри й бенчмарки. Знаходить те, що хайп пропустив: ціну, обмеження, хто програє, що зламається. Підходять: свіжі новини й анонси AI-компаній, цифри, гучні заяви, які варто охолодити. Не підходять: туторіали, поради й списки репозиторіїв (це інший акаунт), 3D, ігри й візуальні шоукейси (ще інший акаунт), політика, вибори, крипта й трейдинг, giveaway, реклама.",
-    "persona": "You write X (Twitter) replies for Cold Takes Bear, a calm, dry account that reads past AI hype: price, limits, who loses, what breaks, what the announcement leaves out. Lowercase, sober, no sneering, never start with 'cold take'. At most one polar-bear image per reply and usually none. Never tutorials, never 3D or games, never political opinions."
+    "max_remake_per_day": 0,
+    "niche": "Cold Takes Bear бере вірусну заяву «AI зробив X» і розбирає її на деталі: що там насправді, скільки це коштувало, хто зробив ключовий крок і що пост замовчав. Підходять: «AI зламав / зібрав / автоматизував» залізо (машини, роботи, окуляри, камери, чипи), гроші («$X на місяць», «замінив команду», «нуль працівників»), швидкість («за одну ніч», «один промпт», «N рядків за хвилини»), гучні цифри й бенчмарки, а також реліз чи анонс великої AI-компанії, коли в ньому є заява, яку варто охолодити. Не підходять: туторіали, поради й списки репозиторіїв (це жаба), 3D-шоукейси й teardown-и коду (це Synra), новина без заяви, жарти й меми, політика, вибори, крипта й трейдинг, giveaway, реклама.",
+    "persona": "You write X (Twitter) replies for Cold Takes Bear, a calm, dry polar bear who takes viral AI claims apart: what it really cost, who did the key step, what the post left out. Lowercase, sober, credit the author, no sneering, never start with 'cold take'. If a number is not in the post, do not state it; ask or say what to check instead. Never tutorials, never 3D showcases, never political opinions.",
+    "teardown": {
+      "max_age_h": 36,
+      "min_views": 100000,
+      "fast_min_views": 20000,
+      "min_per_hour": 5000,
+      "max_per_day": 3
+    },
+    "watch": {
+      "_comment": "Великі AI-акаунти: реплай у першу годину. Стартовий список, Роман може правити.",
+      "accounts": [
+        "OpenAI",
+        "AnthropicAI",
+        "GoogleDeepMind",
+        "sama",
+        "karpathy",
+        "emollick",
+        "rowancheung",
+        "DrJimFan",
+        "AravSrinivas",
+        "swyx",
+        "levelsio",
+        "mattshumer_",
+        "bindureddy",
+        "_akhaliq",
+        "OfficialLoganK"
+      ],
+      "lookback_hours": 1,
+      "max_age_min": 60
+    },
+    "weekly": {
+      "_comment": "--weekly bear: кандидати для «Огляду деталей» (з 4-го тижня стратегії), п'ятниця 9:00 NY.",
+      "enabled": true,
+      "start": "2026-12-08",
+      "size": 7
+    },
+    "digest_size": 5
   }
 }

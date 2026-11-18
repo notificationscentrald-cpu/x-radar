@@ -10,7 +10,9 @@
   python radar.py --replies  нові пости акаунтів зі списку reply_watch -> «НАПИШИ РЕПЛАЙ» + варіанти
   python radar.py --fresh    пости молодші за 2 год, що швидко ростуть -> «реплай з відео зараз»
   python radar.py --toad     окремий радар для Gym Toad 🐸: практичні пости (реплай або тема для аналога)
-  python radar.py --bear     окремий радар для Cold Takes Bear 🐻‍❄️: AI-новини, релізи, гроші (реплай або аналог)
+  python radar.py --bear     окремий радар для Cold Takes Bear 🐻‍❄️: вірусні заяви «AI зробив X» з медіа під розбір
+                             (🧊 РОЗБЕРИ) і реплаї під великими AI-акаунтами в першу годину
+  python radar.py --weekly bear  кандидати тижня для «Огляду деталей» Ведмедя
   python radar.py --test-bait  перевірка фільтра «напиши слово, отримаєш» на прикладах
 
 Реплай-сповіщення (--replies, --fresh) ідуть лише під пости, що вже летять:
@@ -51,6 +53,8 @@ STATE_PATH = os.path.join(HERE, "state.json")
 SEARCH_URL = "https://api.twitterapi.io/twitter/tweet/advanced_search"
 REPLIES_URL = "https://api.twitterapi.io/twitter/tweet/replies"
 NY = ZoneInfo("America/New_York")
+# Додаткові акаунти: кожен має свій розділ у config.json і свій прапорець (--toad, --bear).
+ACCOUNT_MODES = ("toad", "bear")
 
 # Пости-приманки: «напиши слово / постав лайк, і я скину». Реплаї під ними X рахує спамом
 # (на акаунті вже був тіньовий бан), тому такі пости пропускаємо в усіх режимах.
@@ -110,11 +114,15 @@ def save_state(state):
     state["pool"] = {k: v for k, v in state["pool"].items() if v["ts"] > cutoff}
     state["sent"] = {k: v for k, v in state.get("sent", {}).items() if v > cutoff}
     state["reply_seen"] = {k: v for k, v in state.get("reply_seen", {}).items() if v > cutoff}
-    for name in ("toad", "bear"):
+    for name in ACCOUNT_MODES:
         for part in ("seen", "sent"):
             k = f"{name}_{part}"
             if k in state:
                 state[k] = {i: v for i, v in state[k].items() if v > cutoff}
+        # Для тижневої добірки тримаємо 8 діб.
+        k = f"{name}_week"
+        if k in state:
+            state[k] = {i: v for i, v in state[k].items() if v["ts"] > time.time() - 8 * 86400}
     json.dump(state, open(STATE_PATH, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 
 
@@ -215,6 +223,7 @@ def score(t):
         created = datetime.now(timezone.utc)
     age_h = max((datetime.now(timezone.utc) - created).total_seconds() / 3600, 0.25)
     return {
+        "media": media_kind(t),
         "id": t["id"],
         "url": t.get("url") or f"https://x.com/{a.get('userName')}/status/{t['id']}",
         "text": (t.get("text") or "").strip(),
@@ -230,6 +239,36 @@ def score(t):
         "per_hour": int(views / age_h),
         "ts": time.time(),
     }
+
+
+def media_kind(t):
+    """video / photo / "" за полями відповіді twitterapi.io. Поле може бути в extendedEntities або entities;
+    якщо його немає зовсім, повертаємо "" (запити з filter:media і так приносять лише пости з медіа)."""
+    items = []
+    for k in ("extendedEntities", "extended_entities", "entities"):
+        items += ((t.get(k) or {}).get("media") or [])
+    if isinstance(t.get("media"), list):
+        items += t["media"]
+    kinds = {str(m.get("type", "")).lower() for m in items if isinstance(m, dict)}
+    if kinds & {"video", "animated_gif"}:
+        return "video"
+    return "photo" if "photo" in kinds else ""
+
+
+def media_icon(p):
+    return {"video": " · 🎬 відео", "photo": " · 🖼 картинка"}.get(p.get("media", ""), "")
+
+
+def other_accounts_sent(state, name=None):
+    """Пости, які вже пішли іншим акаунтам: двома акаунтами під одним постом не працюємо.
+    name=None означає Synra (основний радар); інакше ім'я акаунта з ACCOUNT_MODES."""
+    ids = set()
+    if name is not None:
+        ids |= set(state.get("sent", {})) | set(state.get("reply_seen", {}))
+    for other in ACCOUNT_MODES:
+        if other != name:
+            ids |= set(state.get(f"{other}_sent", {}))
+    return ids
 
 
 def is_hot(p, cfg):
@@ -375,7 +414,8 @@ def run(cfg, dry):
     for p in found.values():
         state["pool"][p["id"]] = p  # для ранкового дайджесту
 
-    hot = [p for p in found.values() if is_hot(p, cfg) and p["id"] not in state["seen"]]
+    others = other_accounts_sent(state)
+    hot = [p for p in found.values() if is_hot(p, cfg) and p["id"] not in state["seen"] and p["id"] not in others]
     hot.sort(key=lambda p: (p["x_factor"], p["per_hour"]), reverse=True)
     sent = rejected = 0
     # Claude відсіює пости не з ніші; ліміт перевірок тримає ціну під контролем.
@@ -406,16 +446,23 @@ def digest(cfg, dry):
     pool = [state["pool"][i] for i, ts in sent.items() if ts > day_ago and i in state["pool"]]
     pool.sort(key=lambda p: p["x_factor"], reverse=True)
     top = pool[: cfg["digest_size"]]
-    if not top:
+    lines = []
+    if top:
+        lines += [f"📡 <b>Радар: топ-{len(top)} за добу для Synra</b> (сортування за X-фактором)\n"
+                  "🟡 ще можна квотувати · ⚪ лише як ідея\n"]
+        for i, p in enumerate(top, 1):
+            lines.append(digest_line(i, p))
+    # Окремі блоки для кожного акаунта: те, що радар надіслав їм за добу, за переглядами.
+    for name in ACCOUNT_MODES:
+        ac = cfg.get(name) or {}
+        ids = [i for i, ts in state.get(f"{name}_sent", {}).items() if ts > day_ago and i in state["pool"]]
+        posts = sorted((state["pool"][i] for i in ids), key=lambda p: -p["views"])[: ac.get("digest_size", 5)]
+        if posts:
+            lines.append(f"\n{ac.get('tag', name)} · <b>топ-{len(posts)} за добу</b>\n")
+            lines += [digest_line(i, p) for i, p in enumerate(posts, 1)]
+    if not lines:
         send("📡 Радар: за добу нічого гарячого під твої фільтри. Може, знизити min_views?", dry)
         return
-    lines = [f"📡 <b>Радар: топ-{len(top)} за добу</b> (сортування за X-фактором)\n"
-             "🟡 ще можна квотувати · ⚪ лише як ідея\n"]
-    for i, p in enumerate(top, 1):
-        first = html.escape(p["text"].split("\n")[0][:90])
-        mark = "🟡" if age_now_h(p) < 24 else "⚪"
-        lines.append(f"{i}. {mark} ×{p['x_factor']} · {fmt_num(p['views'])} · @{html.escape(p['user'])} ({fmt_num(p['followers'])})\n"
-                     f"   {first}\n   {p['url']}")
     # Telegram обмежує 4096 символів, тому ріжемо на шматки.
     chunk = ""
     for line in lines:
@@ -424,6 +471,14 @@ def digest(cfg, dry):
             chunk = ""
         chunk += line + "\n"
     send(chunk, dry)
+
+
+def digest_line(i, p):
+    first = html.escape(p["text"].split("\n")[0][:90])
+    mark = "🟡" if age_now_h(p) < 24 else "⚪"
+    kind = {"teardown": "🧊 ", "reply": "💬 "}.get(p.get("kind"), "")
+    return (f"{i}. {mark} {kind}×{p['x_factor']} · {fmt_num(p['views'])} · @{html.escape(p['user'])} "
+            f"({fmt_num(p['followers'])})\n   {first}\n   {p['url']}")
 
 
 def preview(cfg, n, dry):
@@ -519,13 +574,14 @@ def replies_run(cfg, dry):
     who = " OR ".join(f"from:{a['user']}" for a in accounts.values())
     query = f"({who}) since_time:{since} -filter:replies -filter:retweets"
     seen = state.setdefault("reply_seen", {})
+    others = other_accounts_sent(state)
     key = os.environ["TWITTERAPI_IO_KEY"]
     sent = slow = 0
     for t in search(query, 1, key, "Latest"):
         p = score(t)
         acc = accounts.get(p["user"].lower())
         p["age_min"] = int(p["age_h"] * 60)
-        if not acc or p["id"] in seen or p["age_min"] > max_age:
+        if not acc or p["id"] in seen or p["age_min"] > max_age or p["id"] in others:
             continue
         if blocked(p["text"], cfg):
             seen[p["id"]] = time.time()
@@ -576,8 +632,9 @@ def fresh_run(cfg, dry):
                 found[p["id"]] = p
         except Exception as e:
             print(f"Fresh query failed: {q!r}: {e}", file=sys.stderr)
+    others = other_accounts_sent(state)
     hot = [p for p in found.values()
-           if p["id"] not in state["seen"] and p["age_h"] <= max_age_h
+           if p["id"] not in state["seen"] and p["id"] not in others and p["age_h"] <= max_age_h
            and takes_off(p, fc)
            and p["followers"] <= fc.get("max_followers", 300000)
            and not blocked(p["text"], cfg)]
@@ -609,10 +666,16 @@ def fresh_run(cfg, dry):
 
 
 def toad_card(p, kind, note, variants, tag="🐸 <b>ЖАБА</b>", who="жаби"):
-    head = (f"{tag} · <b>НАПИШИ РЕПЛАЙ</b> (пост до 2 год, що летить)" if kind == "reply"
-            else f"{tag} · <b>ТЕМА ДЛЯ АНАЛОГА</b> · летить тема, а не автор (×{p['x_factor']:g})")
+    if kind == "reply":
+        head = (f"{tag} · <b>НАПИШИ РЕПЛАЙ</b> · акаунт зі списку, перша година" if p.get("_watch")
+                else f"{tag} · <b>НАПИШИ РЕПЛАЙ</b> (пост до 2 год, що летить)")
+    elif p.get("_watch"):
+        head = f"{tag} · <b>РЕФЕРЕНС</b> · пост акаунта зі списку, що летить"
+    else:
+        head = f"{tag} · <b>ТЕМА ДЛЯ АНАЛОГА</b> · летить тема, а не автор (×{p['x_factor']:g})"
     lines = [head,
-             f"⏱ {fmt_age(p)} · 👁 <b>{fmt_num(p['views'])}</b> · 🚀 {fmt_num(p['per_hour'])}/год · 💬 {p['replies']}",
+             f"⏱ {fmt_age(p)} · 👁 <b>{fmt_num(p['views'])}</b> · 🚀 {fmt_num(p['per_hour'])}/год · 💬 {p['replies']}"
+             f"{media_icon(p)}",
              f"👤 @{html.escape(p['user'])} · {fmt_num(p['followers'])} підп.", ""]
     if note and note.get("about"):
         lines.append(f"<b>{html.escape(note['about'], quote=False)}</b>")
@@ -628,16 +691,91 @@ def toad_card(p, kind, note, variants, tag="🐸 <b>ЖАБА</b>", who="жаби
     return "\n".join(lines)
 
 
-ACCOUNT_MODES = ("toad", "bear")
+def teardown_card(p, td, tag, hours):
+    """Картка 🧊 РОЗБЕРИ для Ведмедя: вірусна заява з медіа, яку квотуємо розбором."""
+    lines = [f"{tag} · 🧊 <b>РОЗБЕРИ</b> · квотуй розбором (поки пост молодший за {hours:g} год)",
+             f"⏱ {fmt_age(p)} · 👁 <b>{fmt_num(p['views'])}</b> · 🚀 {fmt_num(p['per_hour'])}/год · "
+             f"🔖 {fmt_num(p['bookmarks'])} · 💬 {p['replies']}{media_icon(p)}",
+             f"👤 @{html.escape(p['user'])} · {fmt_num(p['followers'])} підп.", ""]
+    if td and td.get("claim"):
+        lines.append(f"<b>Заява: {html.escape(td['claim'], quote=False)}</b>")
+    else:
+        lines.append(html.escape(p["text"].split("\n")[0][:200], quote=False))
+    if td and td.get("check"):
+        lines += ["", "<b>Перевірити в першоджерелі:</b>"]
+        lines += [f"• {html.escape(c, quote=False)}" for c in td["check"]]
+    if td and td.get("missing"):
+        lines.append(f"<i>Що пост, схоже, замовчав (гіпотеза, не факт): {html.escape(td['missing'], quote=False)}</i>")
+    if td and td.get("hook"):
+        lines += ["", "<b>Перший рядок квоти:</b>", f"<code>{html.escape(td['hook'], quote=False)}</code>"]
+    lines += ["", p["url"]]
+    return "\n".join(lines)
+
+
+def teardown_note(p, tc):
+    """Claude: чи це заява «AI зробив X», яку можна розібрати, і що саме перевіряти.
+    Повертає dict (fit, claim, check, missing, hook) або None, якщо Claude недоступний."""
+    key = os.environ.get("ANTHROPIC_API_KEY")
+    if not key:
+        return None
+    prompt = (
+        f"Ніша акаунта: {tc.get('niche', '')}\n\n"
+        f"Пост з X (@{p['user']}, {p['followers']} підписників, {p['views']} переглядів за {p['age_h']} год, "
+        f"медіа: {p.get('media') or 'є'}):\n{p['text'][:1500]}\n\n"
+        "Відповідай лише JSON без markdown: "
+        '{"fit": true/false, "claim": "...", "check": ["...", "..."], "missing": "...", "hook": "..."}\n'
+        "fit: true лише якщо в пості є конкретна вірусна заява про те, що AI щось зробив, заробив, замінив чи "
+        "побудував, і її можна розібрати на деталі. Новина без заяви, туторіал, мем, реклама, політика: false.\n"
+        "claim: українською, заява одним реченням (до 20 слів), як її подає автор.\n"
+        "check: українською, 2–3 конкретні речі, які треба перевірити в першоджерелі, щоб розібрати заяву "
+        "(хто зробив ключовий крок, скільки коштувало, що саме виміряли, звідки цифра).\n"
+        "missing: українською, одне речення: що пост, схоже, замовчав. Це гіпотеза, пиши «можливо» або «не видно».\n"
+        f"hook: {tc.get('persona', '')} One English line under 110 characters that could open a quote-post "
+        "teardown of this claim. Do not state anything as fact unless it is in the post; no hashtags, no emoji, "
+        "no em dashes, do not sneer at the author."
+    )
+    try:
+        res = http_json("https://api.anthropic.com/v1/messages",
+                        {"x-api-key": key, "anthropic-version": "2023-06-01"},
+                        {"model": tc.get("model", "claude-sonnet-5-5"), "max_tokens": 1200,
+                         "thinking": {"type": "disabled"},
+                         "messages": [{"role": "user", "content": prompt}]}, timeout=60)
+        text = "".join(b.get("text", "") for b in res.get("content", [])).strip()
+        out = json.loads(text[text.index("{"):text.rindex("}") + 1])
+        return {"fit": bool(out.get("fit", True)), "claim": str(out.get("claim", "")).strip(),
+                "check": [str(c).strip() for c in out.get("check", []) if str(c).strip()][:3],
+                "missing": str(out.get("missing", "")).strip(), "hook": str(out.get("hook", "")).strip()}
+    except Exception as e:
+        print("teardown note failed:", e, file=sys.stderr)
+        return None
+
+
+def is_teardown(p, td):
+    """Вірусна заява для розбору: велике охоплення або швидкий ріст, і пост ще не застарів для квоти.
+    Розмір автора не важить: розбираємо заяву, а не шукаємо малий акаунт."""
+    if not td or p["age_h"] > td.get("max_age_h", 36):
+        return False
+    return (p["views"] >= td.get("min_views", 100000)
+            or (p["views"] >= td.get("fast_min_views", 20000) and p["per_hour"] >= td.get("min_per_hour", 5000)))
+
+
+def account_branches(tc):
+    """Гілки акаунта (наприклад, у жаби «код-арт» і «claude code»). Кожна гілка має свої запити, нішу,
+    персону і денні ліміти; чого в гілці немає, береться з налаштувань акаунта. Без branches гілка одна."""
+    base = {k: v for k, v in tc.items() if k != "branches"}
+    branches = tc.get("branches") or {"main": {}}
+    return [(b, dict(base, **bc)) for b, bc in branches.items() if bc.get("enabled", True)]
 
 
 def toad_run(cfg, dry, name="toad"):
-    """Окремий радар для Gym Toad: практичні пости про Claude Code, автоматизації, репо й промпти.
-    Два типи: свіжий пост, що летить (реплай), і пост, що летить на малому акаунті (тема для аналога).
-    Свій денний ліміт і своя пам'ять; пости, які вже пішли Synra чи іншому акаунту, не шле (не реплаїти двома акаунтами).
-    name: ключ у config.json (toad, bear); той самий код для кожного додаткового акаунта."""
+    """Окремий радар для додаткового акаунта (toad, bear). Типи сповіщень:
+      reply     свіжий пост, що летить (з пошуку або від акаунта зі списку watch у першу годину)
+      teardown  вірусна заява з медіа, яку квотуємо розбором (лише якщо в налаштуваннях є teardown)
+      remake    пост, що летить на малому акаунті (тема для аналога), або референс від акаунта зі списку
+    Свій денний ліміт і своя пам'ять; пости, які вже пішли Synra чи іншому акаунту, не шле.
+    name: ключ у config.json; той самий код для кожного додаткового акаунта."""
     tc = cfg.get(name) or {}
-    if not tc.get("enabled") or not tc.get("queries"):
+    if not tc.get("enabled"):
         print(f"{name} mode is off")
         return
     state = load_state()
@@ -650,67 +788,125 @@ def toad_run(cfg, dry, name="toad"):
         print(f"skip {name}: outside active hours")
         return
     key = os.environ["TWITTERAPI_IO_KEY"]
-    since = int(time.time() - tc.get("lookback_hours", 24) * 3600)
-    found = {}
-    for q in tc["queries"]:
-        full = f"{q} since_time:{since} -filter:replies -filter:retweets"
-        if cfg.get("lang"):
-            full += f" lang:{cfg['lang']}"
-        try:
-            for t in search(full, tc.get("pages_per_query", 1), key):
-                p = score(t)
-                found[p["id"]] = p
-        except Exception as e:
-            print(f"{name} query failed: {q!r}: {e}", file=sys.stderr)
     today = datetime.now(NY).strftime("%Y-%m-%d")
     day = state.setdefault(f"{name}_day", {})
     if day.get("date") != today:
         day.clear()
-        day.update({"date": today, "reply": 0, "remake": 0})
+        day["date"] = today
     seen = state.setdefault(f"{name}_seen", {})
     mine = state.setdefault(f"{name}_sent", {})
-    # Пости, які вже пішли Synra або іншому додатковому акаунту.
-    synra = set(state.get("sent", {})) | set(state.get("reply_seen", {}))
-    for other in ACCOUNT_MODES:
-        if other != name:
-            synra |= set(state.get(f"{other}_sent", {}))
-    cands = []
-    for p in found.values():
-        if p["id"] in seen or p["id"] in synra or blocked(p["text"], cfg):
-            continue
-        if p["followers"] > tc.get("max_followers", 300000):
-            continue
-        if p["age_h"] <= tc.get("reply_max_age_min", 120) / 60 and takes_off(p, tc):
-            cands.append(("reply", p))
-        elif (p["views"] >= tc.get("remake_min_views", 20000) and p["x_factor"] >= tc.get("remake_min_x_factor", 10)
-              and p["followers"] <= tc.get("remake_max_followers", 50000)):
-            cands.append(("remake", p))
-    cands.sort(key=lambda kp: (kp[0] == "reply", kp[1]["x_factor"] if kp[0] == "remake" else kp[1]["per_hour"]),
-               reverse=True)
-    tcfg = dict(cfg, niche=tc.get("niche", ""), ready_videos=[], _persona=tc.get("persona"))
-    sent = rejected = 0
-    for kind, p in cands[: tc.get("max_checks_per_run", 10)]:
-        if day[kind] >= tc.get(f"max_{kind}_per_day", 3):
-            continue
-        note = analyze(p, tcfg)
-        seen[p["id"]] = time.time()
-        if note and not note["fit"]:
-            rejected += 1
-            print(f"{name} off-niche: @{p['user']}: {p['text'][:80]!r}")
-            continue
-        if kind == "reply":
-            cs = comment_stats(p, key)
-            if cs and cs["bait"]:
+    week = state.setdefault(f"{name}_week", {})
+    others = other_accounts_sent(state, name)
+    for branch, bc in account_branches(tc):
+        found = {}
+        since = int(time.time() - bc.get("lookback_hours", 24) * 3600)
+        for q in bc.get("queries", []):
+            full = f"{q} since_time:{since} -filter:replies -filter:retweets"
+            if cfg.get("lang"):
+                full += f" lang:{cfg['lang']}"
+            try:
+                for t in search(full, bc.get("pages_per_query", 1), key):
+                    p = score(t)
+                    found[p["id"]] = p
+            except Exception as e:
+                print(f"{name}/{branch} query failed: {q!r}: {e}", file=sys.stderr)
+        # Акаунти зі списку: свіжі пости для реплаю в першу годину або референси.
+        watch = bc.get("watch") or {}
+        if watch.get("accounts"):
+            wsince = int(time.time() - watch.get("lookback_hours", 1) * 3600)
+            who = " OR ".join(f"from:{u}" for u in watch["accounts"])
+            try:
+                for t in search(f"({who}) since_time:{wsince} -filter:replies -filter:retweets", 1, key, "Latest"):
+                    p = score(t)
+                    p["_watch"] = True
+                    found[p["id"]] = p
+            except Exception as e:
+                print(f"{name}/{branch} watch failed: {e}", file=sys.stderr)
+        cands = []
+        for p in found.values():
+            if p["id"] in seen or p["id"] in others or blocked(p["text"], cfg):
                 continue
-        variants = suggest_replies(p, tcfg) if kind == "reply" else toad_angles(p, tcfg)
-        send(toad_card(p, kind, note, variants, tc.get("tag", "🐸 <b>ЖАБА</b>"), tc.get("who", "жаби")), dry)
-        mine[p["id"]] = time.time()
-        day[kind] += 1
-        sent += 1
-    print(f"{name}: checked {len(found)}, candidates {len(cands)}, off-niche {rejected}, sent {sent}")
+            w = p.get("_watch")
+            if not w and p["followers"] > bc.get("max_followers", 300000):
+                continue
+            reply_age = (watch.get("max_age_min", 60) if w else bc.get("reply_max_age_min", 120)) / 60
+            if p["age_h"] <= reply_age and takes_off(p, bc):
+                cands.append(("reply", p))
+            elif bc.get("teardown") and is_teardown(p, bc["teardown"]):
+                cands.append(("teardown", p))
+            elif (p["views"] >= bc.get("remake_min_views", 20000)
+                  and (w or (p["x_factor"] >= bc.get("remake_min_x_factor", 10)
+                             and p["followers"] <= bc.get("remake_max_followers", 50000)))):
+                cands.append(("remake", p))
+        order = {"reply": 2, "teardown": 1, "remake": 0}
+        cands.sort(key=lambda kp: (order[kp[0]], kp[1]["per_hour"] if kp[0] == "reply" else
+                                   kp[1]["views"] if kp[0] == "teardown" else kp[1]["x_factor"]), reverse=True)
+        bcfg = dict(cfg, niche=bc.get("niche", ""), ready_videos=[], _persona=bc.get("persona"))
+        tag = bc.get("tag", "🐸 <b>ЖАБА</b>")
+        sent = rejected = 0
+        for kind, p in cands[: bc.get("max_checks_per_run", 10)]:
+            dk = kind if branch == "main" else f"{branch}:{kind}"
+            limit = (bc["teardown"].get("max_per_day", 3) if kind == "teardown"
+                     else bc.get(f"max_{kind}_per_day", 3))
+            if day.get(dk, 0) >= limit:
+                continue
+            seen[p["id"]] = time.time()
+            if kind == "teardown":
+                note = teardown_note(p, bc)
+            else:
+                note = analyze(p, bcfg)
+            if note and not note["fit"]:
+                rejected += 1
+                print(f"{name}/{branch} off-niche: @{p['user']}: {p['text'][:80]!r}")
+                continue
+            if kind == "reply":
+                cs = comment_stats(p, key)
+                if cs and cs["bait"]:
+                    continue
+                text = toad_card(p, kind, note, suggest_replies(p, bcfg), tag, bc.get("who", "жаби"))
+            elif kind == "teardown":
+                text = teardown_card(p, note, tag, bc["teardown"].get("max_age_h", 36))
+                week[p["id"]] = {"ts": time.time(), "url": p["url"], "user": p["user"], "views": p["views"],
+                                 "bookmarks": p["bookmarks"],
+                                 "claim": (note or {}).get("claim") or p["text"].split("\n")[0][:160]}
+            else:
+                text = toad_card(p, kind, note, toad_angles(p, bcfg), tag, bc.get("who", "жаби"))
+            send(text, dry)
+            mine[p["id"]] = time.time()
+            state["pool"][p["id"]] = dict({k: v for k, v in p.items() if not k.startswith("_")},
+                                          acct=name, kind=kind)
+            day[dk] = day.get(dk, 0) + 1
+            sent += 1
+        print(f"{name}/{branch}: checked {len(found)}, candidates {len(cands)}, off-niche {rejected}, sent {sent}")
     if not dry:
         state[f"{name}_last_run"] = time.time()
         save_state(state)
+
+
+def weekly(cfg, dry, name="bear"):
+    """Кандидати тижня для «Огляду деталей»: заяви, які радар приніс на розбір за 7 днів, за охопленням."""
+    wc = (cfg.get(name) or {}).get("weekly") or {}
+    if not wc.get("enabled", True):
+        print(f"{name} weekly is off")
+        return
+    if not dry and wc.get("start") and datetime.now(NY).strftime("%Y-%m-%d") < wc["start"]:
+        print(f"skip {name} weekly: starts {wc['start']}")
+        return
+    state = load_state()
+    week_ago = time.time() - 7 * 86400
+    items = sorted((v for v in state.get(f"{name}_week", {}).values() if v["ts"] > week_ago),
+                   key=lambda v: -v["views"])[: wc.get("size", 7)]
+    tag = (cfg.get(name) or {}).get("tag", name)
+    if not items:
+        send(f"{tag} · Огляд деталей: за тиждень радар не приніс жодної заяви на розбір.", dry)
+        return
+    lines = [f"{tag} · 🧊 <b>Огляд деталей: кандидати тижня</b>",
+             "Вирішити по кожному: правда / частково / не перевіряється. Вердикт лише за першоджерелом.", ""]
+    for i, v in enumerate(items, 1):
+        lines.append(f"{i}. {html.escape(v['claim'], quote=False)}\n"
+                     f"   👁 {fmt_num(v['views'])} · 🔖 {fmt_num(v.get('bookmarks', 0))} · @{html.escape(v['user'])}\n"
+                     f"   {v['url']}")
+    send("\n".join(lines), dry)
 
 
 def toad_angles(p, cfg):
@@ -767,6 +963,7 @@ def main():
     ap.add_argument("--fresh", action="store_true")
     ap.add_argument("--toad", action="store_true")
     ap.add_argument("--bear", action="store_true")
+    ap.add_argument("--weekly", metavar="ACCOUNT")
     ap.add_argument("--test-bait", action="store_true")
     args = ap.parse_args()
     if args.test_bait:
@@ -783,6 +980,8 @@ def main():
         return toad_run(cfg, args.dry)
     if args.bear:
         return toad_run(cfg, args.dry, "bear")
+    if args.weekly:
+        return weekly(cfg, args.dry, args.weekly)
     if args.preview:
         return preview(cfg, args.preview, args.dry)
     while True:

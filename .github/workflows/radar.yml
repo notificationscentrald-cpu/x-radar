@@ -4,6 +4,7 @@ on:
     - cron: "7 * * * *"     # щогодини перевірка; пошук не частіше ніж раз на 3,5 год (min_hours_between_runs)
     - cron: "0 13 * * *"    # 13:00 UTC = 8:00 Нью-Йорк взимку (9:00 влітку): ранковий топ за добу
     - cron: "*/15 * * * *"  # реплаї (reply_watch, ~30 хв), свіжі пости (--fresh, ~60 хв), жаба (--toad) і ведмідь (--bear), обидва ~60 хв
+    - cron: "0 14 * * 5"    # п'ятниця 14:00 UTC = 9:00 Нью-Йорк: кандидати тижня для «Огляду деталей» Ведмедя (з 08.12)
   workflow_dispatch:
     inputs:
       preview:
@@ -34,6 +35,8 @@ jobs:
             python radar.py --preview "${{ inputs.preview }}"
           elif [ "${{ github.event.schedule }}" = "0 13 * * *" ]; then
             python radar.py --digest
+          elif [ "${{ github.event.schedule }}" = "0 14 * * 5" ]; then
+            python radar.py --weekly bear
           elif [ "${{ github.event.schedule }}" = "*/15 * * * *" ]; then
             python radar.py --replies || true
             python radar.py --fresh || true
