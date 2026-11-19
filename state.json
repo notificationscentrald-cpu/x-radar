@@ -147,7 +147,9 @@
   "2123403188669722899": 1795097472.6133046,
   "2123414633935520052": 1795097473.7022753,
   "2123416013605605786": 1795097474.8145058,
-  "2123392905934999811": 1795097476.0021348
+  "2123392905934999811": 1795097476.0021348,
+  "2123416831369355316": 1795100550.7260687,
+  "2123416523515556080": 1795100559.3550935
  },
  "pool": {
   "2122011748752318857": {
@@ -9957,6 +9959,22 @@
    "x_factor": 0.7,
    "per_hour": 1452,
    "ts": 1795097466.8021545
+  },
+  "2123416831369355316": {
+   "id": "2123416831369355316",
+   "url": "https://x.com/VaibhavSisinty/status/2123416831369355316",
+   "text": "Someone on X says he got GTA VI running on PC at 200 to 300 FPS.\n\nHe spent a day with Claude Code. The video shows a C++ DirectX 12 build called rgta-vi-port next to the gameplay.\n\nGTA VI is not on PC. It is PS5 and Xbox only.\n\nSo the honest question is what is actually running here. A stream from a console, a wrapper, or a real port.\n\nThe FPS counter in the corner shows the game rendering. It does not show where it is rendering.\n\nThe catch: until he shows the setup, this is a claim, not a port. And a day is not enough to port a game.\n\nIf it is real, it is the biggest Claude Code build ever shown. If it is a stream, it is a good demo dressed as a port.\n\nCredit: @monokern",
+   "user": "VaibhavSisinty",
+   "followers": 178446,
+   "views": 4431,
+   "likes": 18,
+   "reposts": 1,
+   "replies": 3,
+   "bookmarks": 9,
+   "age_h": 1.0,
+   "x_factor": 0.0,
+   "per_hour": 4501,
+   "ts": 1795100541.398216
   }
  },
  "last_run": 1795093993.531665,
@@ -9999,7 +10017,8 @@
   "2123083491407802739": 1795021988.6324503,
   "2122884312706043956": 1795050438.3131151,
   "2123155526272065990": 1795050439.9982078,
-  "2123392905934999811": 1795097483.5334287
+  "2123392905934999811": 1795097483.5334287,
+  "2123416831369355316": 1795100558.0098212
  },
  "reply_seen": {
   "2122363234732675445": 1794848238.229911,
@@ -10022,17 +10041,18 @@
   "2123100224369402239": 1795021947.571185,
   "2123093545053458444": 1795021955.2401845,
   "2123110824432529487": 1795024825.6371582,
-  "2123118288490434990": 1795028392.2638779
+  "2123118288490434990": 1795028392.2638779,
+  "2123426385662247330": 1795100524.893521
  },
- "reply_last_run": 1795097450.8830502,
- "fresh_last_run": 1795097483.5334394,
+ "reply_last_run": 1795100532.7920284,
+ "fresh_last_run": 1795100559.3551147,
  "reply_day": {
   "date": "2026-11-12",
   "count": 8
  },
  "reply_day_active": {
   "date": "2026-11-19",
-  "count": 1
+  "count": 3
  },
  "toad_day": {
   "date": "2026-11-19",
