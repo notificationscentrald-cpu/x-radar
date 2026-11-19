@@ -1,10 +1,5 @@
 {
  "seen": {
-  "2122397692135395635": 1794858050.4407244,
-  "2122405720192880911": 1794858051.4257996,
-  "2122384838095167912": 1794858052.6219397,
-  "2122395738730856644": 1794858061.5117502,
-  "2122393646159007869": 1794858070.817591,
   "2122403975341433287": 1794869249.2754524,
   "2122343605163683945": 1794869250.3365872,
   "2122099527523958907": 1794869252.0299928,
@@ -821,38 +816,6 @@
    "x_factor": 105.9,
    "per_hour": 15765,
    "ts": 1794869248.1855059
-  },
-  "2122384838095167912": {
-   "id": "2122384838095167912",
-   "url": "https://x.com/BloosBTC/status/2122384838095167912",
-   "text": "What if creating a video game no longer required you to begin with programming tutorials, complicated development tools or hours of writing code?\n\nThat’s the idea behind the new Game Creation Agent from @termix_ai, now available on https://t.co/QEazhCXA1g and powered by Claude Fable 5.2.\n\nThe concept is simple: instead of manually building everything from the ground up, you explain the kind of game you have in mind using ordinary language, and the AI agent helps turn that description into an interactive game.\n\nYou could describe the gameplay, explain what the characters should do, outline the objectives and give the agent an idea of the experience you want to create.\n\nIt then works from your instructions to generate the game.\n\nWhat makes this interesting to me is how it lowers the entry barrier for people who have creative ideas but don’t necessarily have the technical skills to develop them.\n\nSomeone with no experience in game programming can now explore an idea, experiment with different concepts and potentially bring a playable version to life through natural language.\n\nOf course, generating something that looks like a game is only the beginning. The real test is whether the result has responsive controls, engaging mechanics, smooth gameplay and enough depth to keep people interested.\n\nThat’s what I’m curious to see as more people experiment with this agent.\n\nI also think this represents a bigger shift in how we use AI.\n\nWe’re moving beyond agents that simply provide information or complete repetitive tasks. They’re increasingly becoming tools that can produce interactive experiences and turn ideas into things people can actually use.\n\nThe interesting question now is: what could someone create if the only starting point was their imagination?\n\nI’d love to see what the community builds with @termix_ai.",
-   "user": "BloosBTC",
-   "followers": 177457,
-   "views": 669,
-   "likes": 36,
-   "reposts": 2,
-   "replies": 41,
-   "bookmarks": 0,
-   "age_h": 2.0,
-   "x_factor": 0.0,
-   "per_hour": 339,
-   "ts": 1794858040.5394876
-  },
-  "2122395738730856644": {
-   "id": "2122395738730856644",
-   "url": "https://x.com/trymirage/status/2122395738730856644",
-   "text": "Create 3D worlds with Claude using Tesseract. https://t.co/arCXsEc41W",
-   "user": "trymirage",
-   "followers": 27074,
-   "views": 2098,
-   "likes": 45,
-   "reposts": 8,
-   "replies": 9,
-   "bookmarks": 23,
-   "age_h": 1.2,
-   "x_factor": 0.1,
-   "per_hour": 1681,
-   "ts": 1794858040.5394342
   },
   "2122284071850246309": {
    "id": "2122284071850246309",
@@ -10137,8 +10100,6 @@
  },
  "last_run": 1795107907.1927412,
  "sent": {
-  "2122384838095167912": 1794858060.4555745,
-  "2122395738730856644": 1794858069.7328596,
   "2122343605163683945": 1794869251.0482414,
   "2122336732079161572": 1794920604.8058786,
   "2122660208086319387": 1794923634.442859,
@@ -10180,7 +10141,6 @@
   "2123451440782086611": 1795108401.479713
  },
  "reply_seen": {
-  "2122409142233251966": 1794858024.8523095,
   "2122423825413345523": 1794860884.3898246,
   "2122418012548403215": 1794860884.38998,
   "2122683873934852443": 1794923600.9528117,
@@ -10201,17 +10161,18 @@
   "2123439143199867237": 1795104363.1260707,
   "2123470162460348841": 1795111207.0097353,
   "2123483444797743369": 1795114494.4118235,
-  "2123479448829694410": 1795114494.412035
+  "2123479448829694410": 1795114494.412035,
+  "2123496971130593297": 1795117978.8479984
  },
- "reply_last_run": 1795114501.9190543,
- "fresh_last_run": 1795114521.555843,
+ "reply_last_run": 1795117986.5627084,
+ "fresh_last_run": 1795118001.862702,
  "reply_day": {
   "date": "2026-11-12",
   "count": 8
  },
  "reply_day_active": {
   "date": "2026-11-19",
-  "count": 14
+  "count": 15
  },
  "toad_day": {
   "date": "2026-11-19",
@@ -10219,7 +10180,6 @@
   "remake": 3
  },
  "toad_seen": {
-  "2122388855374704774": 1794858108.8499408,
   "2122444807843041778": 1794869804.9792016,
   "2122442535234859196": 1794869805.9256587,
   "2122469912006344921": 1794875097.5614603,
@@ -10243,9 +10203,10 @@
   "2123083914918912079": 1795097519.5174837,
   "2123423816210587658": 1795104445.0130842,
   "2123456265858740600": 1795108432.8888166,
-  "2123449830291001575": 1795108433.8841488
+  "2123449830291001575": 1795108433.8841488,
+  "2123478910444949670": 1795118032.6909592
  },
- "toad_last_run": 1795114551.7260163,
+ "toad_last_run": 1795118032.6909862,
  "bear_day": {
   "date": "2026-11-19",
   "reply": 5,
@@ -10312,9 +10273,8 @@
   "2123103669080281097": 1795097590.271535,
   "2123435182128496757": 1795104491.5577488
  },
- "bear_last_run": 1795114581.423568,
+ "bear_last_run": 1795118062.047003,
  "toad_sent": {
-  "2122388855374704774": 1794858115.8857188,
   "2122469912006344921": 1794875105.4842935,
   "2122364321036468682": 1794923700.993197,
   "2122336408769597460": 1794923702.7432716,
