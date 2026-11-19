@@ -147,7 +147,12 @@
   "2123382007174406410": 1795107904.146393,
   "2123312979844403660": 1795107905.143967,
   "2123298540298633618": 1795107906.0619223,
-  "2123178258523132016": 1795107907.192727
+  "2123178258523132016": 1795107907.192727,
+  "2123457524162871391": 1795108367.3627572,
+  "2123459194435346539": 1795108376.3628993,
+  "2123457461629993070": 1795108384.7809064,
+  "2123459172335292592": 1795108385.848744,
+  "2123451440782086611": 1795108394.2050552
  },
  "pool": {
   "2122085050368037023": {
@@ -10565,6 +10570,70 @@
    "x_factor": 0.9,
    "per_hour": 3160,
    "ts": 1795107901.9500985
+  },
+  "2123457524162871391": {
+   "id": "2123457524162871391",
+   "url": "https://x.com/RoundtableSpace/status/2123457524162871391",
+   "text": "GPT-6.2 Astra just built a full 3D web experience in 13 minutes and 32 seconds.\n\nA walkable world with painted skies, reflections and WASD controls, all in the browser. https://t.co/fzVOZuWpQe",
+   "user": "RoundtableSpace",
+   "followers": 274685,
+   "views": 17039,
+   "likes": 16,
+   "reposts": 1,
+   "replies": 3,
+   "bookmarks": 1,
+   "age_h": 0.5,
+   "x_factor": 0.1,
+   "per_hour": 36813,
+   "ts": 1795108366.2641768
+  },
+  "2123459194435346539": {
+   "id": "2123459194435346539",
+   "url": "https://x.com/chetaslua/status/2123459194435346539",
+   "text": "Gemini 4 Neon made this motion graphic in pure @threejs\n\nthe robot dance at the end goes hard https://t.co/63ooYc8HdI",
+   "user": "chetaslua",
+   "followers": 46240,
+   "views": 2818,
+   "likes": 59,
+   "reposts": 1,
+   "replies": 6,
+   "bookmarks": 16,
+   "age_h": 0.4,
+   "x_factor": 0.1,
+   "per_hour": 7998,
+   "ts": 1795108366.2641075
+  },
+  "2123459172335292592": {
+   "id": "2123459172335292592",
+   "url": "https://x.com/Angaisb_/status/2123459172335292592",
+   "text": "The current state of AI \n\nAnthropic: 💸💸💸\n\nOpenAI: I know you've asked us to fix model personality, taste, intelligence and image gen but hear me out, what about a new model that's good at 3D?\n\nxAI: \n\nGoogle: argon, carbon, hydrogen, krypton, actinium, aluminium, americium, antimony, arsenic, astatine, barium, berkelium, beryllium, bismuth, bohrium, boron, bromine, cadmium, caesium, calcium, californium, cerium, chlorine, chromium, cobalt, copernicium, copper, curium, darmstadtium, dubnium, dysprosium, einsteinium, erbium, europium, fermium, flerovium, fluorine, francium, gadolinium, gallium, germanium, gold, hafnium, hassium, helium, holmium, indium, iodine, iridium, iron, lanthanum, lawrencium, lead, lithium, livermorium, lutetium, magnesium, manganese, meitnerium, mendelevium, mercury, molybdenum, moscovium, neodymium, neon, neptunium, nickel, nihonium, niobium, nitrogen, nobelium, oganesson, osmium, oxygen, palladium, phosphorus, platinum, plutonium, polonium, potassium, praseodymium, promethium, protactinium, radium, radon, rhenium, rhodium, roentgenium, rubidium, ruthenium, rutherfordium, samarium, scandium, seaborgium, selenium, silicon, silver, sodium, strontium, sulfur, tantalum, technetium, tellurium, tennessine, terbium, thallium, thorium, thulium, tin, titanium, tungsten, uranium, vanadium, xenon, ytterbium, yttrium, zinc, zirconium",
+   "user": "Angaisb_",
+   "followers": 15006,
+   "views": 793,
+   "likes": 38,
+   "reposts": 2,
+   "replies": 15,
+   "bookmarks": 3,
+   "age_h": 0.4,
+   "x_factor": 0.1,
+   "per_hour": 2255,
+   "ts": 1795108358.8320026
+  },
+  "2123451440782086611": {
+   "id": "2123451440782086611",
+   "url": "https://x.com/thtbee_/status/2123451440782086611",
+   "text": "Gemini 4 Neon - Frosted Flowers in three.js\n\nNeon excels in UI work too.. I don't even know what to write.. these creations are so good..\n\nThis one took ~1h 15m as i did multiple sequence changes and how things will transition etc.. the first pass was in 40 mins and was pretty good..\n\nI like this model.. more than Opus 5.5 tbh. I'm doing a lot more tests on real codebase too so let's see how it does..",
+   "user": "thtbee_",
+   "followers": 5794,
+   "views": 1636,
+   "likes": 75,
+   "reposts": 4,
+   "replies": 16,
+   "bookmarks": 12,
+   "age_h": 0.9,
+   "x_factor": 0.3,
+   "per_hour": 1893,
+   "ts": 1795108358.831936
   }
  },
  "last_run": 1795107907.1927412,
@@ -10607,7 +10676,11 @@
   "2123416831369355316": 1795100558.0098212,
   "2123434875663302950": 1795104394.8232465,
   "2123435174801391797": 1795104405.0706382,
-  "2123436149784150438": 1795104413.6254272
+  "2123436149784150438": 1795104413.6254272,
+  "2123457524162871391": 1795108375.1970167,
+  "2123459194435346539": 1795108383.761145,
+  "2123459172335292592": 1795108393.2538512,
+  "2123451440782086611": 1795108401.479713
  },
  "reply_seen": {
   "2122382772463337554": 1794851612.517359,
@@ -10634,15 +10707,15 @@
   "2123446495735332897": 1795104355.366973,
   "2123439143199867237": 1795104363.1260707
  },
- "reply_last_run": 1795104370.5634599,
- "fresh_last_run": 1795104413.625438,
+ "reply_last_run": 1795108351.0917277,
+ "fresh_last_run": 1795108401.4797254,
  "reply_day": {
   "date": "2026-11-12",
   "count": 8
  },
  "reply_day_active": {
   "date": "2026-11-19",
-  "count": 8
+  "count": 12
  },
  "toad_day": {
   "date": "2026-11-19",
@@ -10673,9 +10746,11 @@
   "2123237197050794364": 1795097515.7851322,
   "2123088677404385568": 1795097517.5701902,
   "2123083914918912079": 1795097519.5174837,
-  "2123423816210587658": 1795104445.0130842
+  "2123423816210587658": 1795104445.0130842,
+  "2123456265858740600": 1795108432.8888166,
+  "2123449830291001575": 1795108433.8841488
  },
- "toad_last_run": 1795104452.7751117,
+ "toad_last_run": 1795108433.884165,
  "bear_day": {
   "date": "2026-11-19",
   "reply": 5,
@@ -10742,7 +10817,7 @@
   "2123103669080281097": 1795097590.271535,
   "2123435182128496757": 1795104491.5577488
  },
- "bear_last_run": 1795104491.557768,
+ "bear_last_run": 1795108467.7496412,
  "toad_sent": {
   "2122388855374704774": 1794858115.8857188,
   "2122469912006344921": 1794875105.4842935,
