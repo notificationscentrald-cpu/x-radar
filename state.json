@@ -1,9 +1,5 @@
 {
  "seen": {
-  "2122378319480115684": 1794851643.9476917,
-  "2122369694586015972": 1794851644.972581,
-  "2122378912227364925": 1794851646.0839427,
-  "2122379927064596561": 1794851656.6356094,
   "2122244027529764898": 1794855284.3050895,
   "2122233375771754870": 1794855285.3424718,
   "2122317025628606910": 1794855286.3819056,
@@ -474,38 +470,6 @@
    "x_factor": 0.1,
    "per_hour": 84,
    "ts": 1794887625.7927232
-  },
-  "2122378912227364925": {
-   "id": "2122378912227364925",
-   "url": "https://x.com/0xMovez/status/2122378912227364925",
-   "text": "I replaced MIT “Robotics Engineering” course with Fable 5.2 in 3-hours..\n\nfull course in one site - no need to spend $3,750+ to learn what a GPIO pin does\n\n• 8 real boards in 3D: Arduino Uno, Raspberry Pi 4…\n• hyper-realistic graphics with real-life actions\n• build part by part: place chips, connectors and headers, then solder them\n• wire real circuits: blink an LED, read a sensor, drive a motor\n\nFable 5.2 generated every 3D model in code - no ready-made 3D files or photos.\n\ntry it free, no sign-up ↓\nhttps://t.co/ghuy6bVFKu",
-   "user": "0xMovez",
-   "followers": 49891,
-   "views": 767,
-   "likes": 23,
-   "reposts": 1,
-   "replies": 5,
-   "bookmarks": 14,
-   "age_h": 0.6,
-   "x_factor": 0.0,
-   "per_hour": 1317,
-   "ts": 1794851635.2102442
-  },
-  "2122379927064596561": {
-   "id": "2122379927064596561",
-   "url": "https://x.com/mojeskoqq/status/2122379927064596561",
-   "text": "A 20-year-old high schooler mass-typed one prompt into Claude Fable 5.2 and mass-built a playable GTA 6 prototype on his phone\n\nNo engine. No code. No experience. He's in 10th grade.\n\nOne prompt:\n\"Build a 3D open world game with a city, a beach, cars, and a character I can walk around with. It has to run on my phone.\"\n\nClaude Fable wrote the entire game in one session. Streets. Ocean. Physics. A playable character with a camera that follows you.\n\nThen he typed:\n\"Now play it yourself. Walk to the beach. Find a car. Drive across the city.\"\n\nThe AI that built the game drove through its own city and described what it saw.\n\nHe screen-recorded it. Posted it. 2.4 million views in 48 hours.\n\nA mobile game studio DM'd him the next morning.\n\nThey licensed his prompt chain and the full game prototype for $18,500.\n\nHe's 20. He signed the deal on his phone during lunch break.\n\nRockstar spent $2 billion and 8 years on GTA 6.\n\nThis kid spent $20 and one evening after homework.\n\nThe full prompt is in the article below. Copy it before your classmates do.",
-   "user": "mojeskoqq",
-   "followers": 3636,
-   "views": 629,
-   "likes": 26,
-   "reposts": 0,
-   "replies": 7,
-   "bookmarks": 17,
-   "age_h": 0.5,
-   "x_factor": 0.2,
-   "per_hour": 1216,
-   "ts": 1794851643.0498254
   },
   "2122043455887020493": {
    "id": "2122043455887020493",
@@ -10638,8 +10602,6 @@
  },
  "last_run": 1795107907.1927412,
  "sent": {
-  "2122378912227364925": 1794851655.5451076,
-  "2122379927064596561": 1794851664.2118323,
   "2122384838095167912": 1794858060.4555745,
   "2122395738730856644": 1794858069.7328596,
   "2122343605163683945": 1794869251.0482414,
@@ -10683,8 +10645,6 @@
   "2123451440782086611": 1795108401.479713
  },
  "reply_seen": {
-  "2122382772463337554": 1794851612.517359,
-  "2122378912227364925": 1794851620.006533,
   "2122399015949988308": 1794854547.9202714,
   "2122395858465362038": 1794854555.8131661,
   "2122409142233251966": 1794858024.8523095,
@@ -10705,9 +10665,10 @@
   "2123118288490434990": 1795028392.2638779,
   "2123426385662247330": 1795100524.893521,
   "2123446495735332897": 1795104355.366973,
-  "2123439143199867237": 1795104363.1260707
+  "2123439143199867237": 1795104363.1260707,
+  "2123470162460348841": 1795111207.0097353
  },
- "reply_last_run": 1795108351.0917277,
+ "reply_last_run": 1795111214.6013432,
  "fresh_last_run": 1795108401.4797254,
  "reply_day": {
   "date": "2026-11-12",
@@ -10715,7 +10676,7 @@
  },
  "reply_day_active": {
   "date": "2026-11-19",
-  "count": 12
+  "count": 13
  },
  "toad_day": {
   "date": "2026-11-19",
@@ -10723,7 +10684,6 @@
   "remake": 3
  },
  "toad_seen": {
-  "2122363322121048228": 1794851712.8279257,
   "2122388855374704774": 1794858108.8499408,
   "2122444807843041778": 1794869804.9792016,
   "2122442535234859196": 1794869805.9256587,
