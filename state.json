@@ -147,7 +147,9 @@
   "2123398408266457202": 1795165257.077622,
   "2123406298377326840": 1795180041.3778849,
   "2123535460312166477": 1795180042.609419,
-  "2123421544039026703": 1795180043.8379414
+  "2123421544039026703": 1795180043.8379414,
+  "2123758979318686062": 1795180694.6893346,
+  "2123745767286276410": 1795180703.6597724
  },
  "pool": {
   "2122439098740674839": {
@@ -10933,6 +10935,38 @@
    "x_factor": 0.1,
    "per_hour": 126,
    "ts": 1795180040.1293426
+  },
+  "2123758979318686062": {
+   "id": "2123758979318686062",
+   "url": "https://x.com/maxt3chno/status/2123758979318686062",
+   "text": "This enitre 3D game scene was built autonomously by AI while I was at my 9-to-5\n\nall I used was Opus 5.5 + Tripo API:\n\n1. Discussed every detail with Opus 5.5 (objects, setting, style)\n2. Opus 5.5 hit the Tripo API for 57 meshes\n3. Combined everything into a Godot project\n\nall you need is @tripoai + any top LLM (Astra 6.2, Opus 5.5, Fable 5.2, Gemini Neon) to start bringing your own 3D ideas to life",
+   "user": "maxt3chno",
+   "followers": 1778,
+   "views": 703,
+   "likes": 20,
+   "reposts": 1,
+   "replies": 8,
+   "bookmarks": 5,
+   "age_h": 0.6,
+   "x_factor": 0.4,
+   "per_hour": 1192,
+   "ts": 1795180693.5321145
+  },
+  "2123745767286276410": {
+   "id": "2123745767286276410",
+   "url": "https://x.com/rewind02/status/2123745767286276410",
+   "text": "aaa-looking game environments in the browser with Opus 5.5 + Three.js..\n\nthe look comes from a rendering pipeline, not from image gen\n\ntuning it with math instead of gut feeling:\n\n- step 1: opus 5.5: build a pbr pipeline in three.js from papers, talks and unreal’s published techniques\n- step 2: three.js: fft ocean, physical atmosphere, global illumination, volumetric clouds\n- step 3: three.js: gtao, volumetric fog, auto exposure, local tone mapping\n- step 4: references: a dozen frames from real games or film stills, picked by hand for weather, time and composition\n- step 5: opus 5.5: pick 7–8 sample areas per reference: sunlit grass, shaded grass, sky near the sun, distant water\n- step 6: opus 5.5: measure brightness, chroma and hue in each area, then the same areas in your render\n- step 7: opus 5.5: least-squares fit across 100+ points to find the parameters with the lowest error\n- step 8: three.js: render, measure, adjust, repeat until the numbers match\n\ndon’t ask the ai for a “better-looking” scene. give it physics to render and numbers to hit",
+   "user": "rewind02",
+   "followers": 8575,
+   "views": 1476,
+   "likes": 65,
+   "reposts": 4,
+   "replies": 11,
+   "bookmarks": 49,
+   "age_h": 1.5,
+   "x_factor": 0.2,
+   "per_hour": 1009,
+   "ts": 1795180686.482008
   }
  },
  "last_run": 1795180043.837961,
@@ -10978,7 +11012,9 @@
   "2123362270139109827": 1795136431.8921688,
   "2123394478853513496": 1795136433.463255,
   "2123268369369514311": 1795136436.1169734,
-  "2123487166831734894": 1795165253.9349332
+  "2123487166831734894": 1795165253.9349332,
+  "2123758979318686062": 1795180702.2897718,
+  "2123745767286276410": 1795180711.3026228
  },
  "reply_seen": {
   "2122683873934852443": 1794923600.9528117,
@@ -11000,21 +11036,23 @@
   "2123470162460348841": 1795111207.0097353,
   "2123483444797743369": 1795114494.4118235,
   "2123479448829694410": 1795114494.412035,
-  "2123496971130593297": 1795117978.8479984
+  "2123496971130593297": 1795117978.8479984,
+  "2123767067707138223": 1795180664.7120116,
+  "2123764559332917348": 1795180672.2989001
  },
- "reply_last_run": 1795147118.3411143,
- "fresh_last_run": 1795144259.2291734,
+ "reply_last_run": 1795180679.3756983,
+ "fresh_last_run": 1795180711.3026361,
  "reply_day": {
   "date": "2026-11-12",
   "count": 8
  },
  "reply_day_active": {
-  "date": "2026-11-19",
-  "count": 15
+  "date": "2026-11-20",
+  "count": 4
  },
  "toad_day": {
-  "date": "2026-11-19",
-  "reply": 2,
+  "date": "2026-11-20",
+  "reply": 0,
   "remake": 3
  },
  "toad_seen": {
@@ -11042,13 +11080,17 @@
   "2123478910444949670": 1795118032.6909592,
   "2123526383444148253": 1795123961.7308807,
   "2123506665291239565": 1795123962.7134187,
-  "2123540312756793667": 1795133231.5056868
+  "2123540312756793667": 1795133231.5056868,
+  "2123437536240419200": 1795180741.368321,
+  "2123481632384422288": 1795180742.9503531,
+  "2123535460312166477": 1795180743.974899,
+  "2123447329659269333": 1795180745.5489452
  },
- "toad_last_run": 1795147147.451461,
+ "toad_last_run": 1795180746.1066186,
  "bear_day": {
-  "date": "2026-11-19",
-  "reply": 5,
-  "remake": 3
+  "date": "2026-11-20",
+  "reply": 0,
+  "remake": 1
  },
  "bear_seen": {
   "2122661054723547449": 1794923738.040248,
@@ -11081,7 +11123,8 @@
   "2123180540933419060": 1795097585.6511626,
   "2123069814663160304": 1795097587.593109,
   "2123103669080281097": 1795097589.4778864,
-  "2123435182128496757": 1795104483.5339367
+  "2123435182128496757": 1795104483.5339367,
+  "2123485713056633138": 1795180776.5643315
  },
  "bear_sent": {
   "2122661054723547449": 1794923745.7360487,
@@ -11107,9 +11150,10 @@
   "2123180540933419060": 1795097586.3742537,
   "2123069814663160304": 1795097588.4316518,
   "2123103669080281097": 1795097590.271535,
-  "2123435182128496757": 1795104491.5577488
+  "2123435182128496757": 1795104491.5577488,
+  "2123485713056633138": 1795180777.2006474
  },
- "bear_last_run": 1795147175.4903977,
+ "bear_last_run": 1795180777.2006624,
  "toad_sent": {
   "2122364321036468682": 1794923700.993197,
   "2122336408769597460": 1794923702.7432716,
@@ -11127,6 +11171,9 @@
   "2123088677404385568": 1795097518.3210459,
   "2123083914918912079": 1795097520.2523084,
   "2123423816210587658": 1795104452.775094,
-  "2123540312756793667": 1795133239.1508791
+  "2123540312756793667": 1795133239.1508791,
+  "2123437536240419200": 1795180741.9948626,
+  "2123535460312166477": 1795180744.4621937,
+  "2123447329659269333": 1795180746.1066062
  }
 }
