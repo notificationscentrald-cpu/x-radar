@@ -1,10 +1,5 @@
 {
  "seen": {
-  "2122678312791347639": 1794926870.3676949,
-  "2122691793770987856": 1794926878.3937812,
-  "2122677878932267438": 1794926887.1141686,
-  "2122681202457092367": 1794926888.3346267,
-  "2122695712651493561": 1794926889.3274012,
   "2122705177203642485": 1794930199.548033,
   "2122687029339185225": 1794930209.1307235,
   "2122688861071380487": 1794930217.678306,
@@ -150,7 +145,10 @@
   "2123783818410594701": 1795184945.0408094,
   "2123764559332917348": 1795184953.4209526,
   "2123778480751997336": 1795184954.5835304,
-  "2123767604925874246": 1795184955.7058437
+  "2123767604925874246": 1795184955.7058437,
+  "2123795503842464252": 1795188220.5065598,
+  "2123773494613999838": 1795188221.5538845,
+  "2123776324397334733": 1795188222.5311701
  },
  "pool": {
   "2122439098740674839": {
@@ -712,38 +710,6 @@
    "x_factor": 3.4,
    "per_hour": 1869,
    "ts": 1794948858.5246127
-  },
-  "2122678312791347639": {
-   "id": "2122678312791347639",
-   "url": "https://x.com/BharukaShraddha/status/2122678312791347639",
-   "text": "This might be the closest AGI moment for game creation I’ve seen yet.\n\nI gave HolyMolly one prompt. About 25 minutes later, I was playing this.\n\nI was expecting something pretty rough, but the scene was surprisingly detailed, the 3D models looked good, and the player could run, jump, and attack with animations already in place.\n\nNo extra prompts. No tweaking. This was literally the first build.\n\nDidn’t expect it to get this much right on the first try. And it’s free now",
-   "user": "BharukaShraddha",
-   "followers": 35742,
-   "views": 6030,
-   "likes": 10,
-   "reposts": 0,
-   "replies": 1,
-   "bookmarks": 1,
-   "age_h": 1.7,
-   "x_factor": 0.2,
-   "per_hour": 3649,
-   "ts": 1794926869.328842
-  },
-  "2122691793770987856": {
-   "id": "2122691793770987856",
-   "url": "https://x.com/ottleyai/status/2122691793770987856",
-   "text": "I started with ONE prompt and ONE reference image. Somehow, that turned into TINY GOD, my own playable 3D civilization game.\n\nBuilt with @HolyMolly_AI, then refined step by step.\n\nVillagers gather resources, build their settlement, and react to the world around them. I can even step in with god powers and change what happens next.\n\nThe fun part wasn't just generating the game. It was watching the little world come to life as I kept improving it.\n\nHere's how I built it 👇",
-   "user": "ottleyai",
-   "followers": 50991,
-   "views": 1940,
-   "likes": 10,
-   "reposts": 6,
-   "replies": 7,
-   "bookmarks": 7,
-   "age_h": 0.8,
-   "x_factor": 0.0,
-   "per_hour": 2554,
-   "ts": 1794926869.3287997
   },
   "2122705177203642485": {
    "id": "2122705177203642485",
@@ -10972,8 +10938,6 @@
  },
  "last_run": 1795180043.837961,
  "sent": {
-  "2122678312791347639": 1794926877.5433435,
-  "2122691793770987856": 1794926885.9091852,
   "2122705177203642485": 1794930208.0717785,
   "2122687029339185225": 1794930216.560135,
   "2122688861071380487": 1794930226.1473331,
@@ -11018,8 +10982,6 @@
   "2123767604925874246": 1795184963.1311147
  },
  "reply_seen": {
-  "2122695693194104983": 1794926837.610354,
-  "2122694058845839769": 1794926845.2963343,
   "2122724014338814043": 1794933763.729197,
   "2122721681567547820": 1794933771.7239687,
   "2123053673421095033": 1795010789.7895114,
@@ -11040,17 +11002,18 @@
   "2123767067707138223": 1795180664.7120116,
   "2123764559332917348": 1795180672.2989001,
   "2123778647962059253": 1795184900.0505507,
-  "2123777915498172810": 1795184900.0511642
+  "2123777915498172810": 1795184900.0511642,
+  "2123793874678141183": 1795188196.8271956
  },
- "reply_last_run": 1795184907.6694593,
- "fresh_last_run": 1795184963.1311266,
+ "reply_last_run": 1795188204.5383906,
+ "fresh_last_run": 1795188222.5311844,
  "reply_day": {
   "date": "2026-11-12",
   "count": 8
  },
  "reply_day_active": {
   "date": "2026-11-20",
-  "count": 9
+  "count": 10
  },
  "toad_day": {
   "date": "2026-11-20",
