@@ -9,17 +9,9 @@ declare const Storage: {
 export type Clip = "idle" | "walk" | "knock" | "wipe" | "eat" | "sleep" | "sad" | "happy"
 export type Action = "feed" | "pet" | "knock"
 
-// frame count and loop length (seconds) of every pre-rendered clip in ./frames/<clip>/NN.jpg
-export const CLIPS: Record<Clip, { n: number; dur: number }> = {
-  idle: { n: 24, dur: 4 },
-  walk: { n: 32, dur: 6.4 },
-  knock: { n: 24, dur: 4 },
-  wipe: { n: 24, dur: 4 },
-  eat: { n: 18, dur: 3 },
-  sleep: { n: 16, dur: 4 },
-  sad: { n: 16, dur: 4 },
-  happy: { n: 18, dur: 3 },
-}
+// Each clip lives in ./frames/<clip>/: bg.jpg (the room) and NNN.png (the golem only, cropped tight).
+// frames_meta.json holds, for every clip, n frames, loop length dur (s) and r[i] = [x, y, w, h]:
+// where frame i sits inside the full 504x236 scene, as fractions of the scene size.
 
 export type Golem = {
   food: number      // 0..100, 100 = full

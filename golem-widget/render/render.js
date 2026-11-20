@@ -13,10 +13,13 @@ const fs = require('fs');
   fs.writeFileSync('frames-info.json', JSON.stringify(info));
   for (const [name, c] of Object.entries(info)) {
     if (only && !only.includes(name)) continue;
-    fs.mkdirSync('frames/' + name, { recursive: true });
+    fs.rmSync('raw/' + name, { recursive: true, force: true });
+    fs.mkdirSync('raw/' + name, { recursive: true });
+    const bgu = await p.evaluate(([n]) => renderClip(n, 0, 'bg'), [name]);
+    fs.writeFileSync(`raw/${name}/bg.jpg`, Buffer.from(bgu.split(',')[1], 'base64'));
     for (let i = 0; i < c.n; i++) {
-      const url = await p.evaluate(([n, i]) => renderClip(n, i), [name, i]);
-      fs.writeFileSync(`frames/${name}/${String(i).padStart(2, '0')}.jpg`, Buffer.from(url.split(',')[1], 'base64'));
+      const url = await p.evaluate(([n, i]) => renderClip(n, i, 'fg'), [name, i]);
+      fs.writeFileSync(`raw/${name}/${String(i).padStart(3, '0')}.png`, Buffer.from(url.split(',')[1], 'base64'));
     }
     console.log(name, c.n);
   }

@@ -3,24 +3,51 @@
 import * as S from "scripting"
 import { Button, HStack, Image, Path, Script, Spacer, Text, VStack, Widget, ZStack } from "scripting"
 import { FeedGolem, KnockGolem, PetGolem } from "./app_intents"
-import { CLIPS, Clip, load, pick, save } from "./golem_state"
+import { Clip, load, pick, save } from "./golem_state"
+
+declare const FileManager: any
 
 const INK = "#1c1b18"
 const PAPER = "#f5f3ee"
 const AMBER = "#e8a33a"
+const SCENE_W = 504, SCENE_H = 236   // size the frames were rendered at
 
-function frame(clip: Clip, i: number) {
-  return Path.join(Script.directory, "frames", clip, String(i).padStart(2, "0") + ".jpg")
+type Meta = Record<Clip, { n: number; dur: number; r: number[][] }>
+const META: Meta = JSON.parse(FileManager.readAsStringSync(Path.join(Script.directory, "frames_meta.json")))
+
+const file = (clip: Clip, name: string) => Path.join(Script.directory, "frames", clip, name)
+
+// Where the scene sits in the widget: scaled to fill, centred (same as scaleToFill on the room picture).
+function sceneBox(W: number, H: number) {
+  const k = Math.max(W / SCENE_W, H / SCENE_H)
+  const w = SCENE_W * k, h = SCENE_H * k
+  return { w, h, ox: (W - w) / 2, oy: (H - h) / 2 }
 }
 
-function Scene({ clip }: { clip: Clip }) {
-  const c = CLIPS[clip]
+// The room: one still picture behind everything.
+function Room({ clip, W, H }: { clip: Clip; W: number; H: number }) {
+  return <Image filePath={file(clip, "bg.jpg")} resizable scaleToFill frame={{ width: W, height: H }} />
+}
+
+// The golem: a loop of small transparent pictures, each placed where it belongs in the scene.
+// Widget parameter "12" halves the frame rate if the 24 fps version is too heavy for a phone.
+function Golem({ clip, W, H }: { clip: Clip; W: number; H: number }) {
+  const m = META[clip]
+  const box = sceneBox(W, H)
+  const step = String(Widget.parameter ?? "").trim() === "12" ? 2 : 1
+  const one = (i: number) => {
+    const [x, y, w, h] = m.r[i]
+    return <ZStack frame={{ width: W, height: H, alignment: "topLeading" }}>
+      <Image filePath={file(clip, String(i).padStart(3, "0") + ".png")} resizable
+        frame={{ width: w * box.w, height: h * box.h }}
+        offset={{ x: box.ox + x * box.w, y: box.oy + y * box.h }} />
+    </ZStack>
+  }
   const Frames = (S as any).AnimatedFrames
-  const img = (i: number) => <Image filePath={frame(clip, i)} resizable scaleToFill />
-  if (!Frames) return img(0)        // older app version: a still picture instead of a loop
+  if (!Frames) return one(0)        // older app version: a still golem instead of a loop
   const kids = []
-  for (let i = 0; i < c.n; i++) kids.push(img(i))
-  return <Frames duration={c.dur}>{kids}</Frames>
+  for (let i = 0; i < m.n; i += step) kids.push(one(i))
+  return <Frames duration={m.dur}>{kids}</Frames>
 }
 
 function Bar({ label, value, color }: { label: string; value: number; color: string }) {
@@ -34,7 +61,7 @@ function Bar({ label, value, color }: { label: string; value: number; color: str
 
 function Btn({ icon, intent }: { icon: string; intent: any }) {
   return <Button intent={intent} buttonStyle="plain">
-    <Text font={17} frame={{ width: 34, height: 34 }} background={PAPER} clipShape="circle">{icon}</Text>
+    <Text font={17} frame={{ width: 34, height: 34 }} background={PAPER} clipShape={{ type: "capsule" }}>{icon}</Text>
   </Button>
 }
 
@@ -45,20 +72,22 @@ function View() {
   const { clip, until, line } = pick(g, now)
   const small = Widget.family === "systemSmall"
 
-  const view = <ZStack widgetBackground={PAPER} frame={{ maxWidth: "infinity", maxHeight: "infinity" }}>
-    <Scene clip={clip} />
-    <VStack frame={{ maxWidth: "infinity", maxHeight: "infinity" }} padding={small ? 8 : 10} alignment="leading">
-      <HStack>
-        <VStack alignment="leading" spacing={1} padding={{ horizontal: 6, vertical: 3 }} background={PAPER} clipShape={{ type: "rect", cornerRadius: 8 }}>
-          {small ? null : <Text font={10} fontWeight="heavy" foregroundStyle={INK}>{line}</Text>}
-          <Bar label="Їжа" value={g.food} color={AMBER} />
-          <Bar label="Настрій" value={g.mood} color="#7aa84a" />
-        </VStack>
-        <Spacer />
-      </HStack>
-      <Spacer />
+  const W = Widget.displaySize.width, H = Widget.displaySize.height
+  const pad = small ? 8 : 10
+
+  // back to front: room, the food/mood panel, the golem (so he walks in front of the panel), buttons
+  const view = <ZStack widgetBackground={PAPER} frame={{ width: W, height: H }}>
+    <Room clip={clip} W={W} H={H} />
+    <VStack frame={{ width: W, height: H, alignment: "topLeading" }} padding={pad}>
+      <VStack alignment="leading" spacing={1} padding={{ horizontal: 6, vertical: 3 }}>
+        {small ? null : <Text font={10} fontWeight="heavy" foregroundStyle={INK}>{line}</Text>}
+        <Bar label="Їжа" value={g.food} color={AMBER} />
+        <Bar label="Настрій" value={g.mood} color="#7aa84a" />
+      </VStack>
+    </VStack>
+    <Golem clip={clip} W={W} H={H} />
+    <VStack frame={{ width: W, height: H, alignment: "bottomTrailing" }} padding={pad}>
       <HStack spacing={small ? 6 : 8}>
-        <Spacer />
         <Btn icon="🪨" intent={FeedGolem(undefined)} />
         <Btn icon="🤚" intent={PetGolem(undefined)} />
         <Btn icon="✊" intent={KnockGolem(undefined)} />

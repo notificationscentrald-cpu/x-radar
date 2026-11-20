@@ -7,7 +7,7 @@
   for (const o of scene.children) if (!keep.has(o) && !o.isLight) o.visible = false;
   golem.visible = true;
 
-  const W = 480, H = 224;
+  const W = 504, H = 236;
   renderer.setPixelRatio(1);
   renderer.setSize(W, H, false);
   camera.aspect = W / H; camera.updateProjectionMatrix();
@@ -20,6 +20,13 @@
   const lerp = (a, b, t) => a + (b - a) * t;
   const ss = (a, b, x) => { const t = clamp((x - a) / (b - a), 0, 1); return t * t * (3 - 2 * t); };
   const bump = (a, b, x) => ss(a, (a + b) / 2, x) * (1 - ss((a + b) / 2, b, x));
+
+  // transparent shadow catcher for the golem layer
+  const shadowPlane = new THREE.Mesh(new THREE.PlaneGeometry(400, 400).rotateX(-Math.PI / 2), new THREE.ShadowMaterial({ color: 0x2a2620, opacity: 0.3 }));
+  shadowPlane.receiveShadow = true; shadowPlane.position.y = 0.02; shadowPlane.visible = false; scene.add(shadowPlane);
+  let LAYER = 'fg';
+  const fg = (fn) => (LAYER === 'fg' ? fn() : undefined);
+  const bg = (fn) => (LAYER === 'bg' ? fn() : undefined);
 
   // a pebble the golem can hold (eat clip)
   const pebble = new THREE.Mesh(new THREE.DodecahedronGeometry(0.75, 0), new THREE.MeshToonMaterial({ color: 0x9a948a }));
@@ -111,7 +118,7 @@
   const PRINTS = [[0.33, 0.36, 0], [0.47, 0.52, 1], [0.6, 0.33, 2]];   // where the fist lands on the glass (screen fractions)
 
   const clips = {
-    idle: { n: 24, dur: 4, draw(t) {
+    idle: { n: 96, dur: 4, draw(t) {
       const b = walkPose(0, 0, t * 2);
       const look = Math.sin(t * TAU);
       add(b, { ny: 0.55 * look, hyaw: 0.08 * look, cy: 0.12 * look, nx: 0.06 * Math.sin(t * TAU * 2) });
@@ -119,7 +126,7 @@
       const lid = 1 - bump(0.5, 0.56, t) - bump(0.58, 0.64, t) * 0.9;
       WIDE(); place(0, 0, 0, b, lid); return () => {};
     } },
-    walk: { n: 32, dur: 6.4, draw(t) {
+    walk: { n: 144, dur: 6, draw(t) {
       // right for 42%, turn, left for 42%, turn
       const X = 13;
       let x, rot, w;
@@ -132,7 +139,7 @@
       const lid = 1 - bump(0.2, 0.25, t) - bump(0.7, 0.75, t);
       WIDE(); place(x, 0, rot, b, lid); return () => {};
     } },
-    knock: { n: 24, dur: 4, draw(t, i) {
+    knock: { n: 96, dur: 4, draw(t, i) {
       const b = walkPose(0, 0, t);
       const up = ss(0.0, 0.16, t) * (1 - ss(0.84, 0.98, t));
       // knock k: back at (k), hit at (k+.06)
@@ -143,20 +150,19 @@
       const peek = bump(0.66, 0.86, t);
       add(b, { ny: -0.35 * peek, nx: 0.12 * peek, hroll: 0.06 * peek });
       CLOSE(); place(0, 0, 0, b, 1 - bump(0.7, 0.76, t));
-      const near = hits.map((h) => Math.abs(t - h) < 0.01);
+      const near = hits.map((h) => Math.abs(t - h) < 0.005);
       near.forEach((on, k) => { if (on) { const [fx, fy] = toScreen(handPos('R')); PRINTS[k] = [fx / W, fy / H, k]; } });
       return () => {
-        const shake = near.some(Boolean) ? 4 : 0;
+        const shake = hits.some((h) => Math.abs(t - h) < 0.016) ? 4 : 0;
         if (shake) { const img = ctx.getImageData(0, 0, W, H); ctx.putImageData(img, shake, -shake * 0.5); }
         hits.forEach((h, k) => {
           const [px, py] = PRINTS[k];
           if (t >= h - 0.01) smudge(px * W, py * H, 26, 0.9, k + 1);
-          if (Math.abs(t - h) < 0.01) { burst(px * W, py * H, 30, 46, 9, k, 3.2); txt('ТУК!', px * W + 34, py * H - 34, 26, -0.18 + k * 0.12); }
+          if (Math.abs(t - h) < 0.03) { burst(px * W, py * H, 30, 46, 9, k, 3.2); txt('ТУК!', px * W + 34, py * H - 34, 26, -0.18 + k * 0.12); }
         });
-        glassSheen(0.1);
       };
     } },
-    wipe: { n: 24, dur: 4, draw(t) {
+    wipe: { n: 96, dur: 4, draw(t) {
       const b = walkPose(0, 0, t);
       const up = ss(0.0, 0.14, t) * (1 - ss(0.78, 0.94, t));
       const sweep = Math.sin(clamp((t - 0.14) / 0.64, 0, 1) * TAU * 2);   // two passes, left-right
@@ -167,11 +173,10 @@
       const clean = ss(0.16, 0.74, t);
       return () => {
         PRINTS.forEach(([px, py], k) => smudge(px * W, py * H, 26, 0.9 * (1 - ss(0.16 + k * 0.17, 0.4 + k * 0.17, t)), k + 1));
-        glassSheen(0.1 + 0.3 * clean * (1 - ss(0.85, 1, t)));
         if (t > 0.78) { sparkle(W * 0.72, H * 0.26, 14 * bump(0.78, 1, t) + 2, bump(0.78, 1, t)); sparkle(W * 0.26, H * 0.62, 10 * bump(0.82, 1, t) + 2, bump(0.82, 1, t)); }
       };
     } },
-    eat: { n: 18, dur: 3, draw(t) {
+    eat: { n: 72, dur: 3, draw(t) {
       const b = walkPose(0, 0, t);
       const lift = ss(0.0, 0.25, t) * (1 - ss(0.62, 0.8, t));
       over(b, { rsx: -1.45, rsz: 0.55, rex: -1.95, rwx: -0.3, rfc: 0.55, cy: 0.12, nx: -0.1 }, lift);
@@ -187,21 +192,24 @@
         if (joy > 0.05) { const [hx, hy] = toScreen(headPos()); heart(hx + 52, hy - 30 - joy * 16, 20 + joy * 6, Math.min(1, joy * 2)); }
       };
     } },
-    sleep: { n: 16, dur: 4, draw(t) {
+    sleep: { n: 48, dur: 4, draw(t) {
       const b = walkPose(0, 0, 0);
       const br = Math.sin(t * TAU);
       over(b, { hy: -2.0, hz: -0.3, hx: 0.1, tx: 0.12, cx: 0.0, nx: -0.55, lsx: 0.25, rsx: 0.25, lsz: 0.25, rsz: -0.25, lex: -0.9, rex: -0.9, lfz: 1.2, rfz: 1.2 });
       add(b, { cx: 0.04 * br, hy: 0.08 * br, nx: 0.04 * br });
       cam(0, 4.6, 30, 0, 5.6, 0, 30); place(0, 0, 0.35, b, 0.06);
       return () => {
-        ctx.fillStyle = 'rgba(40,52,92,0.30)'; ctx.fillRect(0, 0, W, H);
+        if (LAYER === 'bg') {
+          ctx.fillStyle = 'rgba(40,52,92,0.30)'; ctx.fillRect(0, 0, W, H);
+          ctx.fillStyle = '#fff6c8'; ctx.beginPath(); ctx.arc(W * 0.84, H * 0.2, 12, 0, TAU); ctx.fill();
+          return;
+        }
+        ctx.save(); ctx.globalCompositeOperation = 'source-atop'; ctx.fillStyle = 'rgba(40,52,92,0.30)'; ctx.fillRect(0, 0, W, H); ctx.restore();
         const [hx, hy] = toScreen(headPos());
         for (let k = 0; k < 3; k++) { const u = (t + k / 3) % 1; txt('z', hx + 30 + u * 46, hy + 14 - u * 46, 14 + u * 16, -0.2, Math.sin(u * Math.PI)); }
-        ctx.fillStyle = '#fff6c8'; ctx.beginPath(); ctx.arc(W * 0.84, H * 0.2, 13, 0, TAU); ctx.fill();
-        ctx.fillStyle = 'rgba(40,52,92,1)'; ctx.globalAlpha = 0.0; ctx.globalAlpha = 1;
       };
     } },
-    sad: { n: 16, dur: 4, draw(t) {
+    sad: { n: 48, dur: 4, draw(t) {
       const b = walkPose(0, 0, t);
       const sw = Math.sin(t * TAU);
       over(b, { hy: -0.6, tx: 0.3, cx: 0.3, nx: -0.15, lsx: 0.25, rsx: -0.6, rsz: 0.5, rex: -1.4, rfc: 0.4, lsz: 0.08 });
@@ -215,7 +223,7 @@
         txt('.'.repeat(dots), hx + 62, hy - 38, 22, 0);
       };
     } },
-    happy: { n: 18, dur: 3, draw(t) {
+    happy: { n: 72, dur: 3, draw(t) {
       const b = walkPose(0, 0, t);
       const hop = Math.abs(Math.sin(t * TAU * 2));
       over(b, { lsx: -2.7, rsx: -2.7, lsz: 0.45, rsz: -0.45, lex: -0.5, rex: -0.5, nx: 0.2, lfc: 0.1, rfc: 0.1 }, 0.85);
@@ -230,15 +238,19 @@
     } },
   };
 
-  window.renderClip = (name, i, fmt = 'image/jpeg') => {
+  window.renderClip = (name, i, layer = 'fg') => {
     const c = clips[name], t = i / c.n;
+    LAYER = layer;
     golem.position.set(0, 0, 0);
     const post = c.draw(t, i);
+    const isFg = layer === 'fg';
+    golem.visible = isFg; shadowPlane.visible = isFg; G.ground.visible = !isFg;
+    renderer.setClearColor(0xf5f3ee, isFg ? 0 : 1);
     renderer.render(scene, camera);
     ctx.clearRect(0, 0, W, H);
     ctx.drawImage(renderer.domElement, 0, 0, W, H);
-    post();
-    return out.toDataURL(fmt, 0.88);
+    if (isFg || name === 'sleep') post();
+    return out.toDataURL(isFg ? 'image/png' : 'image/jpeg', 0.88);
   };
   window.clipInfo = () => Object.fromEntries(Object.entries(clips).map(([k, c]) => [k, { n: c.n, dur: c.dur }]));
 })();
