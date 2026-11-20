@@ -7,7 +7,7 @@
   for (const o of scene.children) if (!keep.has(o) && !o.isLight) o.visible = false;
   golem.visible = true;
 
-  const W = 504, H = 236;
+  const W = 420, H = 196;
   renderer.setPixelRatio(1);
   renderer.setSize(W, H, false);
   camera.aspect = W / H; camera.updateProjectionMatrix();
@@ -33,8 +33,8 @@
   const pebInk = new THREE.Mesh(pebble.geometry, new THREE.MeshBasicMaterial({ color: 0x1c1b18, side: THREE.BackSide }));
   pebInk.scale.setScalar(1.12); pebble.add(pebInk);
   pebble.visible = false;
-  G.rig.arm.R.hand.add(pebble);
-  pebble.position.set(0, -1.9, 0.9);
+  pebble.castShadow = true;
+  scene.add(pebble);
 
   // the walk layer, copied from the game's pose() so the gait matches
   function walkPose(ph, w, time) {
@@ -118,7 +118,7 @@
   const PRINTS = [[0.33, 0.36, 0], [0.47, 0.52, 1], [0.6, 0.33, 2]];   // where the fist lands on the glass (screen fractions)
 
   const clips = {
-    idle: { n: 96, dur: 4, draw(t) {
+    idle: { n: 240, dur: 4, draw(t) {
       const b = walkPose(0, 0, t * 2);
       const look = Math.sin(t * TAU);
       add(b, { ny: 0.55 * look, hyaw: 0.08 * look, cy: 0.12 * look, nx: 0.06 * Math.sin(t * TAU * 2) });
@@ -126,7 +126,7 @@
       const lid = 1 - bump(0.5, 0.56, t) - bump(0.58, 0.64, t) * 0.9;
       WIDE(); place(0, 0, 0, b, lid); return () => {};
     } },
-    walk: { n: 144, dur: 6, draw(t) {
+    walk: { n: 360, dur: 6, draw(t) {
       // right for 42%, turn, left for 42%, turn
       const X = 13;
       let x, rot, w;
@@ -139,7 +139,7 @@
       const lid = 1 - bump(0.2, 0.25, t) - bump(0.7, 0.75, t);
       WIDE(); place(x, 0, rot, b, lid); return () => {};
     } },
-    knock: { n: 96, dur: 4, draw(t, i) {
+    knock: { n: 240, dur: 4, draw(t, i) {
       const b = walkPose(0, 0, t);
       const up = ss(0.0, 0.16, t) * (1 - ss(0.84, 0.98, t));
       // knock k: back at (k), hit at (k+.06)
@@ -162,7 +162,7 @@
         });
       };
     } },
-    wipe: { n: 96, dur: 4, draw(t) {
+    wipe: { n: 240, dur: 4, draw(t) {
       const b = walkPose(0, 0, t);
       const up = ss(0.0, 0.14, t) * (1 - ss(0.78, 0.94, t));
       const sweep = Math.sin(clamp((t - 0.14) / 0.64, 0, 1) * TAU * 2);   // two passes, left-right
@@ -176,23 +176,38 @@
         if (t > 0.78) { sparkle(W * 0.72, H * 0.26, 14 * bump(0.78, 1, t) + 2, bump(0.78, 1, t)); sparkle(W * 0.26, H * 0.62, 10 * bump(0.82, 1, t) + 2, bump(0.82, 1, t)); }
       };
     } },
-    eat: { n: 72, dur: 3, draw(t) {
+    eat: { n: 210, dur: 3.5, draw(t) {
+      // a pebble is tossed in from the front (from you); he catches it in front of him, eats it, and is happy
       const b = walkPose(0, 0, t);
-      const lift = ss(0.0, 0.25, t) * (1 - ss(0.62, 0.8, t));
-      over(b, { rsx: -1.45, rsz: 0.55, rex: -1.95, rwx: -0.3, rfc: 0.55, cy: 0.12, nx: -0.1 }, lift);
-      const chew = t > 0.3 && t < 0.8 ? Math.abs(Math.sin((t - 0.3) * TAU * 3)) : 0;
+      const reach = ss(0.0, 0.14, t) * (1 - ss(0.26, 0.36, t));          // open hand out front to catch
+      const grip = ss(0.2, 0.25, t);
+      const mouth = ss(0.27, 0.4, t) * (1 - ss(0.66, 0.8, t));          // hand to the mouth
+      over(b, { rsx: -1.2, rsz: -0.05, rex: -1.6, rwx: 0, rfc: lerp(0.05, 0.75, grip), cy: 0.08, nx: 0.05, ny: 0.1 }, reach);
+      over(b, { rsx: -1.45, rsz: 0.55, rex: -1.95, rwx: -0.3, rfc: 0.75, cy: 0.12, nx: -0.1, ny: 0 }, mouth);
+      const chew = t > 0.4 && t < 0.78 ? Math.abs(Math.sin((t - 0.4) * TAU * 3.5)) : 0;
       add(b, { nx: -0.12 * chew, cx: 0.04 * chew });
-      const joy = bump(0.75, 1.0, t);
+      const joy = bump(0.78, 1.0, t);
       add(b, { hy: 0.35 * joy, lsz: 0.35 * joy, rsz: -0.35 * joy, nx: 0.2 * joy });
-      pebble.visible = t < 0.55; pebble.scale.setScalar(t < 0.35 ? 1 : lerp(1, 0.35, ss(0.35, 0.55, t)));
       cam(0, 9.6, 24, 0, 8.6, 0, 34); place(0, 0, 0.25, b, joy > 0.3 ? 0.3 : 1);
+      // pebble: always on the camera side of the hand, so it is in front of him
+      const toCam = camera.position.clone().sub(handPos('R')).normalize();
+      const held = handPos('R').add(toCam.clone().multiplyScalar(1.5)).add(new THREE.Vector3(0, 0.4, 0));
+      if (t < 0.22) {
+        const u = ss(0.02, 0.22, t), from = new THREE.Vector3(6, 8.5, 17);
+        pebble.position.copy(from).lerp(held, u); pebble.position.y += Math.sin(u * Math.PI) * 1.6;
+        pebble.rotation.set(t * 30, t * 22, 0);
+      } else pebble.position.copy(held);
+      pebble.scale.setScalar(t < 0.44 ? 1 : lerp(1, 0.2, ss(0.44, 0.56, t)));
+      pebble.visible = LAYER === 'fg' && t > 0.02 && t < 0.56;
+      const caught = Math.abs(t - 0.23) < 0.035;
       return () => {
         pebble.visible = false;
+        if (caught) { const [px, py] = toScreen(held); txt('ХОП!', px + 46, py - 30, 22, -0.12); }
         if (chew > 0.6) { const [hx, hy] = toScreen(headPos()); for (let k = 0; k < 3; k++) { ctx.fillStyle = '#8f897f'; ctx.beginPath(); ctx.arc(hx + (k - 1) * 14, hy + 40 + k * 7 + chew * 6, 3.5, 0, TAU); ctx.fill(); } txt('ХРУМ', hx + 70, hy - 4, 20, 0.15); }
         if (joy > 0.05) { const [hx, hy] = toScreen(headPos()); heart(hx + 52, hy - 30 - joy * 16, 20 + joy * 6, Math.min(1, joy * 2)); }
       };
     } },
-    sleep: { n: 48, dur: 4, draw(t) {
+    sleep: { n: 120, dur: 4, draw(t) {
       const b = walkPose(0, 0, 0);
       const br = Math.sin(t * TAU);
       over(b, { hy: -2.0, hz: -0.3, hx: 0.1, tx: 0.12, cx: 0.0, nx: -0.55, lsx: 0.25, rsx: 0.25, lsz: 0.25, rsz: -0.25, lex: -0.9, rex: -0.9, lfz: 1.2, rfz: 1.2 });
@@ -209,7 +224,7 @@
         for (let k = 0; k < 3; k++) { const u = (t + k / 3) % 1; txt('z', hx + 30 + u * 46, hy + 14 - u * 46, 14 + u * 16, -0.2, Math.sin(u * Math.PI)); }
       };
     } },
-    sad: { n: 48, dur: 4, draw(t) {
+    sad: { n: 120, dur: 4, draw(t) {
       const b = walkPose(0, 0, t);
       const sw = Math.sin(t * TAU);
       over(b, { hy: -0.6, tx: 0.3, cx: 0.3, nx: -0.15, lsx: 0.25, rsx: -0.6, rsz: 0.5, rex: -1.4, rfc: 0.4, lsz: 0.08 });
@@ -223,7 +238,7 @@
         txt('.'.repeat(dots), hx + 62, hy - 38, 22, 0);
       };
     } },
-    happy: { n: 72, dur: 3, draw(t) {
+    happy: { n: 180, dur: 3, draw(t) {
       const b = walkPose(0, 0, t);
       const hop = Math.abs(Math.sin(t * TAU * 2));
       over(b, { lsx: -2.7, rsx: -2.7, lsz: 0.45, rsz: -0.45, lex: -0.5, rex: -0.5, nx: 0.2, lfc: 0.1, rfc: 0.1 }, 0.85);

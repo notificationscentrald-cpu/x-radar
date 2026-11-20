@@ -10,7 +10,7 @@ declare const FileManager: any
 const INK = "#1c1b18"
 const PAPER = "#f5f3ee"
 const AMBER = "#e8a33a"
-const SCENE_W = 504, SCENE_H = 236   // size the frames were rendered at
+const SCENE_W = 420, SCENE_H = 196   // size the frames were rendered at
 
 type Meta = Record<Clip, { n: number; dur: number; r: number[][] }>
 const META: Meta = JSON.parse(FileManager.readAsStringSync(Path.join(Script.directory, "frames_meta.json")))
@@ -30,11 +30,14 @@ function Room({ clip, W, H }: { clip: Clip; W: number; H: number }) {
 }
 
 // The golem: a loop of small transparent pictures, each placed where it belongs in the scene.
-// Widget parameter "12" halves the frame rate if the 24 fps version is too heavy for a phone.
+// Frame rate comes from the widget's Parameter field: 60, 30 (default), 20 or 12.
+// Frames are stored at 60 fps; a lower rate just skips frames and needs less widget memory.
 function Golem({ clip, W, H }: { clip: Clip; W: number; H: number }) {
   const m = META[clip]
   const box = sceneBox(W, H)
-  const step = String(Widget.parameter ?? "").trim() === "12" ? 2 : 1
+  const want = Number(String(Widget.parameter ?? "").trim()) || 30
+  const fps = Math.max(5, Math.min(60, want))
+  const step = Math.max(1, Math.round(m.n / m.dur / fps))
   const one = (i: number) => {
     const [x, y, w, h] = m.r[i]
     return <ZStack frame={{ width: W, height: H, alignment: "topLeading" }}>
