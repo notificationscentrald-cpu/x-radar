@@ -118,7 +118,12 @@
   "2124196750135292251": 1795289928.136486,
   "2124219831088267693": 1795289929.0937085,
   "2124207179943039340": 1795289930.232083,
-  "2124152214428254392": 1795297248.2759047
+  "2124152214428254392": 1795297248.2759047,
+  "2124260264019440003": 1795304729.1176884,
+  "2124275162497573284": 1795304739.2215216,
+  "2124262429961973803": 1795304752.825522,
+  "2124277879894634870": 1795304754.0805752,
+  "2124259352311734542": 1795304763.6723192
  },
  "pool": {
   "2122892171435020351": {
@@ -9096,6 +9101,54 @@
    "x_factor": 534.2,
    "per_hour": 183820,
    "ts": 1795297247.2221427
+  },
+  "2124260264019440003": {
+   "id": "2124260264019440003",
+   "url": "https://x.com/SolSt1ne/status/2124260264019440003",
+   "text": "Claude spent another 24 hours on the GTA 6 build and just improved performance while building a full Xbox emulator.\n\nIt kept working overnight. Reconstructed more missing systems, fixed stuttering, and put together an Xbox emulator so the game can run properly on PC.\n\nIt’s still optimizing processes in the background, but the difference is already noticeable.\n\nOn my Ryzen 9 9950X3D + 5080 Ti:\n\n> Freezes are way less frequent\n> Input lag dropped\n> FPS now holds around 60\n> Loading times improved\n> Some previously broken AI and physics started working better\n\nThe emulator is still rough in places, but the game actually feels playable now. Main world, driving, basic combat - all run without the constant hitching from before.\n\nClaude is still going through the remaining systems and tightening things up. Not finished, but a big jump from the first 20-hour version.\n\nI still haven’t uploaded anything.\n\nShould I wait until it stabilizes more, or drop the current build?",
+   "user": "SolSt1ne",
+   "followers": 7688,
+   "views": 13493,
+   "likes": 115,
+   "reposts": 6,
+   "replies": 24,
+   "bookmarks": 65,
+   "age_h": 1.8,
+   "x_factor": 1.8,
+   "per_hour": 7324,
+   "ts": 1795304720.1381972
+  },
+  "2124275162497573284": {
+   "id": "2124275162497573284",
+   "url": "https://x.com/n1neshards/status/2124275162497573284",
+   "text": "I BUILT SOMETHING ACTUALLY GOOD\n\nsingularity is at 1.2m, but i think what elon actually meant is a truman show for ai agents, so i spent the whole day building it. i made a world of ai agents called Claude plays Truman: Grok, ChatGPT, Gemini, DeepSeek, Llama, Qwen, Mistral, Kimi and Copilot\n\nonly 1 Truman (CLAUDE) doesn't know he's in a simulation. everyone else knows exactly what's going on, and their job is to live a normal life so he doesn't suspect anything. truman's goal is the opposite, to realize what's happening to him\n\nhttps://t.co/w7F96tBeo3",
+   "user": "n1neshards",
+   "followers": 13634,
+   "views": 1363,
+   "likes": 14,
+   "reposts": 2,
+   "replies": 13,
+   "bookmarks": 1,
+   "age_h": 0.9,
+   "x_factor": 0.1,
+   "per_hour": 1589,
+   "ts": 1795304727.8564527
+  },
+  "2124277879894634870": {
+   "id": "2124277879894634870",
+   "url": "https://x.com/Texas_Twins_Dad/status/2124277879894634870",
+   "text": "Here are few projects my Grok Bots are on..\n- Dashboard\n- Tech Support (3 bots with different tasks)\n- Trading (currently training only)\n- 3D print design \n- Consulting",
+   "user": "Texas_Twins_Dad",
+   "followers": 13151,
+   "views": 800,
+   "likes": 11,
+   "reposts": 0,
+   "replies": 6,
+   "bookmarks": 2,
+   "age_h": 0.7,
+   "x_factor": 0.1,
+   "per_hour": 1180,
+   "ts": 1795304727.8564332
   }
  },
  "last_run": 1795297248.2759216,
@@ -9138,7 +9191,10 @@
   "2124192968345338206": 1795284364.79766,
   "2124181040973709554": 1795284377.8273726,
   "2124213815697158160": 1795289926.9309018,
-  "2124207179943039340": 1795289939.5466151
+  "2124207179943039340": 1795289939.5466151,
+  "2124260264019440003": 1795304738.0588179,
+  "2124275162497573284": 1795304751.6976013,
+  "2124277879894634870": 1795304762.4776976
  },
  "reply_seen": {
   "2123426385662247330": 1795100524.893521,
@@ -9158,15 +9214,15 @@
   "2123839541379518841": 1795198857.468711,
   "2124208340234625287": 1795287182.5281749
  },
- "reply_last_run": 1795300097.3135474,
- "fresh_last_run": 1795300134.0957315,
+ "reply_last_run": 1795304712.287542,
+ "fresh_last_run": 1795304763.6723347,
  "reply_day": {
   "date": "2026-11-12",
   "count": 8
  },
  "reply_day_active": {
   "date": "2026-11-21",
-  "count": 10
+  "count": 13
  },
  "toad_day": {
   "date": "2026-11-21",
@@ -9201,7 +9257,7 @@
   "2124165329228361865": 1795278991.6040366,
   "2124152478849491114": 1795279014.5850868
  },
- "toad_last_run": 1795300172.99174,
+ "toad_last_run": 1795304802.0258646,
  "bear_day": {
   "date": "2026-11-21",
   "reply": 3,
@@ -9256,7 +9312,7 @@
   "2124246742644461569": 1795300224.8121512,
   "2124245544503812341": 1795300237.6438696
  },
- "bear_last_run": 1795300237.6438892,
+ "bear_last_run": 1795304839.552956,
  "toad_sent": {
   "2123237197050794364": 1795097516.5111187,
   "2123088677404385568": 1795097518.3210459,
