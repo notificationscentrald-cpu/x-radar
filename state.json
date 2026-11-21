@@ -112,7 +112,15 @@
   "2124154102661722370": 1795274022.891166,
   "2124151074097598905": 1795274044.9863472,
   "2124153382747169134": 1795274046.3722801,
-  "2124171631320875451": 1795278899.035012
+  "2124171631320875451": 1795278899.035012,
+  "2124197398901895375": 1795284308.0836775,
+  "2124195058408980677": 1795284309.175576,
+  "2124183185999507905": 1795284322.756214,
+  "2124185266311307713": 1795284323.8926177,
+  "2124186601118990667": 1795284324.9113328,
+  "2124191310231843207": 1795284341.084734,
+  "2124192968345338206": 1795284342.1859455,
+  "2124181040973709554": 1795284365.9642503
  },
  "pool": {
   "2122892171435020351": {
@@ -9650,6 +9658,70 @@
    "x_factor": 0.3,
    "per_hour": 524,
    "ts": 1795282927.798687
+  },
+  "2124195058408980677": {
+   "id": "2124195058408980677",
+   "url": "https://x.com/MengTo/status/2124195058408980677",
+   "text": "Motion skills that I find helpful for animating UI\n\n1. https://t.co/uRSHoJ0Rio - HyperFrames, write HTML, render video with agents\n2. https://t.co/2Nty4NUacV - Emil Kowalski's animation skills\n3. https://t.co/N26L5Auwzy - DesignBookmark Motion, animated components to copy for Claude or Codex\n4. https://t.co/ePHMxJkoSt - Remotion skills, videos made in React\n5. https://t.co/Ls4Mbmu8kx - Blender Skills, Blender workflows as agent skills\n6. https://t.co/u1oK39UC0Z - Motion, layout transitions and springs\n7. https://t.co/VJEiqz04SS - Motion Canvas, code-driven animated explainers",
+   "user": "MengTo",
+   "followers": 191672,
+   "views": 1766,
+   "likes": 34,
+   "reposts": 4,
+   "replies": 9,
+   "bookmarks": 48,
+   "age_h": 0.5,
+   "x_factor": 0.0,
+   "per_hour": 3639,
+   "ts": 1795284288.7334146
+  },
+  "2124186601118990667": {
+   "id": "2124186601118990667",
+   "url": "https://x.com/TokenGremlin/status/2124186601118990667",
+   "text": "I built all of these 3D assets in about 2 hours.\n\nGPT-6.2 Sol in Ultra mode modeled everything in Blender. Then GPT-6.2 Astra refined the details and handled all the animations.\n\nThe secret is OpenAI's own \"SVG & 3D Design\" plugin. If you're making 3D models with ChatGPT without it, you're making a huge mistake. It makes a massive difference.\n\nTwo tips:\n1. Give the model reference images from the start. They can even be images ChatGPT generated.\n2. Be patient and guide it through a few rounds of refinement.\n\nPlugin link below:\nhttps://t.co/k1nit2mD3y",
+   "user": "TokenGremlin",
+   "followers": 22855,
+   "views": 2642,
+   "likes": 67,
+   "reposts": 2,
+   "replies": 9,
+   "bookmarks": 37,
+   "age_h": 1.1,
+   "x_factor": 0.1,
+   "per_hour": 2514,
+   "ts": 1795284306.8094277
+  },
+  "2124192968345338206": {
+   "id": "2124192968345338206",
+   "url": "https://x.com/ai_for_success/status/2124192968345338206",
+   "text": "Antigravity + Gemini 4 Neon + NVIDIA MotionBricks 🔥\n\nThe potential of this in gaming and animation is insane!\n\nGemini 4 Neon went through the entire repo and figured out that its ONNX models can run locally without an NVIDIA GPU, CUDA or TensorRT also set everything up and put together this interactive 3D neural character demo.  I asked to add few cosmetic details later.",
+   "user": "ai_for_success",
+   "followers": 82769,
+   "views": 1221,
+   "likes": 27,
+   "reposts": 1,
+   "replies": 10,
+   "bookmarks": 9,
+   "age_h": 0.6,
+   "x_factor": 0.0,
+   "per_hour": 1941,
+   "ts": 1795284306.8093667
+  },
+  "2124181040973709554": {
+   "id": "2124181040973709554",
+   "url": "https://x.com/aiwithsally/status/2124181040973709554",
+   "text": "This is the kind of AI progress that makes me genuinely excited.\n\nGemini 4 Neon built a ski simulator from real Mont Blanc terrain, with custom shaders, no pre-made 3D models, and snow and avalanches rendered live.\n\nWhat stands out to me is that it isn't a model talking about code. It's a model shipping something you can actually play. I want to see how far people push this.",
+   "user": "aiwithsally",
+   "followers": 244283,
+   "views": 1464,
+   "likes": 89,
+   "reposts": 16,
+   "replies": 20,
+   "bookmarks": 0,
+   "age_h": 1.4,
+   "x_factor": 0.0,
+   "per_hour": 1032,
+   "ts": 1795284306.8093925
   }
  },
  "last_run": 1795282960.9978662,
@@ -9686,10 +9758,13 @@
   "2123878763624857693": 1795269585.7802494,
   "2124154102661722370": 1795274044.017737,
   "2124153382747169134": 1795274056.8519065,
-  "2124171631320875451": 1795278909.0039542
+  "2124171631320875451": 1795278909.0039542,
+  "2124195058408980677": 1795284321.5261173,
+  "2124186601118990667": 1795284339.9946177,
+  "2124192968345338206": 1795284364.79766,
+  "2124181040973709554": 1795284377.8273726
  },
  "reply_seen": {
-  "2123110824432529487": 1795024825.6371582,
   "2123118288490434990": 1795028392.2638779,
   "2123426385662247330": 1795100524.893521,
   "2123446495735332897": 1795104355.366973,
@@ -9708,14 +9783,14 @@
   "2123839541379518841": 1795198857.468711
  },
  "reply_last_run": 1795270824.4612894,
- "fresh_last_run": 1795278909.003966,
+ "fresh_last_run": 1795284377.8273852,
  "reply_day": {
   "date": "2026-11-12",
   "count": 8
  },
  "reply_day_active": {
   "date": "2026-11-21",
-  "count": 3
+  "count": 7
  },
  "toad_day": {
   "date": "2026-11-21",
@@ -9750,7 +9825,7 @@
   "2124165329228361865": 1795278991.6040366,
   "2124152478849491114": 1795279014.5850868
  },
- "toad_last_run": 1795279034.618097,
+ "toad_last_run": 1795284432.518308,
  "bear_day": {
   "date": "2026-11-21",
   "reply": 0,
@@ -9800,7 +9875,7 @@
   "2123805863215271975": 1795274153.9173477,
   "2123877109907288098": 1795274155.7486331
  },
- "bear_last_run": 1795279078.0523098,
+ "bear_last_run": 1795284480.0750318,
  "toad_sent": {
   "2123237197050794364": 1795097516.5111187,
   "2123088677404385568": 1795097518.3210459,
