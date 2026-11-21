@@ -120,7 +120,11 @@
   "2124186601118990667": 1795284324.9113328,
   "2124191310231843207": 1795284341.084734,
   "2124192968345338206": 1795284342.1859455,
-  "2124181040973709554": 1795284365.9642503
+  "2124181040973709554": 1795284365.9642503,
+  "2124213815697158160": 1795289919.1811855,
+  "2124196750135292251": 1795289928.136486,
+  "2124219831088267693": 1795289929.0937085,
+  "2124207179943039340": 1795289930.232083
  },
  "pool": {
   "2122892171435020351": {
@@ -9722,6 +9726,38 @@
    "x_factor": 0.0,
    "per_hour": 1032,
    "ts": 1795284306.8093925
+  },
+  "2124213815697158160": {
+   "id": "2124213815697158160",
+   "url": "https://x.com/kevin_t_ngo/status/2124213815697158160",
+   "text": "I asked Claude to make a movie trailer using my game's own engine\n\n@fal was used for character art and facial expressions (GPT Image 2.6), 3D models (Tripo), rigging (Meshy), and voices (ElevenLabs) https://t.co/e4KM6NRhOM",
+   "user": "kevin_t_ngo",
+   "followers": 29644,
+   "views": 2013,
+   "likes": 66,
+   "reposts": 4,
+   "replies": 9,
+   "bookmarks": 18,
+   "age_h": 0.8,
+   "x_factor": 0.1,
+   "per_hour": 2495,
+   "ts": 1795289917.9323218
+  },
+  "2124207179943039340": {
+   "id": "2124207179943039340",
+   "url": "https://x.com/Gegam245074/status/2124207179943039340",
+   "text": "Every lab has now shipped its latest frontier models. I've used them all. Here's what each one is actually good at, and where each one falls apart\n\nOpenAI. GPT-6.2 Astra, GPT-6.2 Sol\n\nPros\n1. Very fast\n2. Very cost-efficient\n3. Best Computer Use\n4. Good spatial reasoning and ability to solve technical tasks unrelated to coding\n5. Best 3D modeling, producing results even better than specialized ML models for 3D generation\n6. Lately, the only models that don't get degraded on the lab's side after release\n\nCons\n1. Poor code quality. The worst models for coding\n2. Getting stuck on a task and falling into an infinite loop\n3. Tunnel vision\n4. Poor taste\n5. Terrible understanding of user intent\n6. Low IQ on tasks unrelated to spatial reasoning\n\nAnthropic. Fable 5.2, Opus 5.5\n\nPros\n1. Best code and agentic coding\n2. Very high IQ, especially Fable 5.2\n3. Excellent taste\n4. Good understanding of human intent and the ability to think one step ahead\n5. Out-of-the-box thinking where it's needed\n\nCons\n1. Very restrained and choked by safety filters\n2. Pessimistic and constantly second-guessing themselves\n3. Poor and slow Computer Use\n4. Expensive, with tight usage limits\n5. Suffer from periodic degradation due to harness downgrades and other manipulations on Anthropic's side\n\nGoogle. Gemini 4 Carbon, Gemini 4 Neon\n\nPros\n1. Good code\n2. Very creative\n3. Excellent writing and text quality\n4. No heavy safety filters. The model can look at a problem more broadly\n5. Fast and cost-efficient\n6. Excellent taste\n\nCons\n1. The worst agentic harness on the market\n2. Struggle to hold long context and hallucinate\n3. Overconfident and don't verify their results\n4. Bugs at the token-processing level",
+   "user": "Gegam245074",
+   "followers": 2705,
+   "views": 1750,
+   "likes": 21,
+   "reposts": 0,
+   "replies": 5,
+   "bookmarks": 14,
+   "age_h": 1.2,
+   "x_factor": 0.6,
+   "per_hour": 1404,
+   "ts": 1795289917.9324024
   }
  },
  "last_run": 1795282960.9978662,
@@ -9762,10 +9798,11 @@
   "2124195058408980677": 1795284321.5261173,
   "2124186601118990667": 1795284339.9946177,
   "2124192968345338206": 1795284364.79766,
-  "2124181040973709554": 1795284377.8273726
+  "2124181040973709554": 1795284377.8273726,
+  "2124213815697158160": 1795289926.9309018,
+  "2124207179943039340": 1795289939.5466151
  },
  "reply_seen": {
-  "2123118288490434990": 1795028392.2638779,
   "2123426385662247330": 1795100524.893521,
   "2123446495735332897": 1795104355.366973,
   "2123439143199867237": 1795104363.1260707,
@@ -9784,14 +9821,14 @@
   "2124208340234625287": 1795287182.5281749
  },
  "reply_last_run": 1795287203.2458444,
- "fresh_last_run": 1795284377.8273852,
+ "fresh_last_run": 1795289939.5466259,
  "reply_day": {
   "date": "2026-11-12",
   "count": 8
  },
  "reply_day_active": {
   "date": "2026-11-21",
-  "count": 8
+  "count": 10
  },
  "toad_day": {
   "date": "2026-11-21",
@@ -9826,14 +9863,13 @@
   "2124165329228361865": 1795278991.6040366,
   "2124152478849491114": 1795279014.5850868
  },
- "toad_last_run": 1795284432.518308,
+ "toad_last_run": 1795290004.6634734,
  "bear_day": {
   "date": "2026-11-21",
-  "reply": 0,
+  "reply": 1,
   "remake": 2
  },
  "bear_seen": {
-  "2123099143996616741": 1795028472.727686,
   "2123144312494178479": 1795034597.9449384,
   "2123398273134399869": 1795097550.660719,
   "2123390115812987326": 1795097559.9689982,
@@ -9852,10 +9888,10 @@
   "2123797546741232063": 1795191750.2093759,
   "2123625375636828409": 1795195460.4983182,
   "2123805863215271975": 1795274153.1026733,
-  "2123877109907288098": 1795274155.0041475
+  "2123877109907288098": 1795274155.0041475,
+  "2124204864544637404": 1795290051.8938081
  },
  "bear_sent": {
-  "2123099143996616741": 1795028480.564113,
   "2123144312494178479": 1795034605.7911851,
   "2123398273134399869": 1795097558.9149072,
   "2123390115812987326": 1795097567.4762444,
@@ -9874,9 +9910,10 @@
   "2123797546741232063": 1795191757.658665,
   "2123625375636828409": 1795195461.1841877,
   "2123805863215271975": 1795274153.9173477,
-  "2123877109907288098": 1795274155.7486331
+  "2123877109907288098": 1795274155.7486331,
+  "2124204864544637404": 1795290059.7017314
  },
- "bear_last_run": 1795284480.0750318,
+ "bear_last_run": 1795290059.7017472,
  "toad_sent": {
   "2123237197050794364": 1795097516.5111187,
   "2123088677404385568": 1795097518.3210459,
