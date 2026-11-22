@@ -1,9 +1,5 @@
 {
  "seen": {
-  "2122884312706043956": 1795050437.6645424,
-  "2123155526272065990": 1795050439.3692734,
-  "2123110850261327978": 1795050441.2214167,
-  "2122966343955980446": 1795050442.1601644,
   "2123098089993150534": 1795064675.4468794,
   "2123180540933419060": 1795064676.4555764,
   "2123201097691168782": 1795064677.530113,
@@ -123,121 +119,10 @@
   "2124275162497573284": 1795304739.2215216,
   "2124262429961973803": 1795304752.825522,
   "2124277879894634870": 1795304754.0805752,
-  "2124259352311734542": 1795304763.6723192
+  "2124259352311734542": 1795304763.6723192,
+  "2124309371932832221": 1795311651.709132
  },
  "pool": {
-  "2122892171435020351": {
-   "id": "2122892171435020351",
-   "url": "https://x.com/WatcherGuru/status/2122892171435020351",
-   "text": "JUST IN: Nvidia $NVDA to buy $10,000,000,000 in Anthropic shares. https://t.co/gWG17PEWPN",
-   "user": "WatcherGuru",
-   "followers": 4929916,
-   "views": 2967082,
-   "likes": 12999,
-   "reposts": 2161,
-   "replies": 1201,
-   "bookmarks": 1675,
-   "age_h": 21.8,
-   "x_factor": 0.6,
-   "per_hour": 136094,
-   "ts": 1795050395.034951
-  },
-  "2122927334269571532": {
-   "id": "2122927334269571532",
-   "url": "https://x.com/BetterCallMedhi/status/2122927334269571532",
-   "text": "funny how the moment jensen huang steps out of the picture, Nvidia immediately drops 10 billion dollars into anthropic shares, jensen spent the last few years championing an open ai ecosystem and open models that directly threatened closed frontier labs like anthropic by turning intelligence into an open layer running everywhere on nvidia hardware",
-   "user": "BetterCallMedhi",
-   "followers": 107721,
-   "views": 259986,
-   "likes": 9445,
-   "reposts": 1046,
-   "replies": 108,
-   "bookmarks": 962,
-   "age_h": 19.5,
-   "x_factor": 2.4,
-   "per_hour": 13351,
-   "ts": 1795050395.0351744
-  },
-  "2122904685699101084": {
-   "id": "2122904685699101084",
-   "url": "https://x.com/0x_zyven/status/2122904685699101084",
-   "text": "I built a cinematic 3D racing game with just ONE prompt. 🏎️\n\nNo code. No game engine. 10 levels, nitro, near misses, a car garage and a global leaderboard, all running in your browser.\n\nBuilt with @EnterProAI\n\nCan you beat my score? Link in comments 👇\n\n#EnterCreator #EnterPro https://t.co/sFfBASQ40P",
-   "user": "0x_zyven",
-   "followers": 5600,
-   "views": 190502,
-   "likes": 511,
-   "reposts": 79,
-   "replies": 310,
-   "bookmarks": 8,
-   "age_h": 21.0,
-   "x_factor": 34.0,
-   "per_hour": 9081,
-   "ts": 1795050408.7209303
-  },
-  "2122904331276177768": {
-   "id": "2122904331276177768",
-   "url": "https://x.com/ArtificialAnlys/status/2122904331276177768",
-   "text": "Can’t get to Miami for the GTA VI launch? Two AI models built the city for you\n\nWe asked Claude Fable 5.2 from @AnthropicAI and GPT-6.2 Astra from @OpenAI to build Miami as it looks this week, dressed as Vice City for the GTA VI launch\n\n➤ One prompt each, in the AA-3D sandbox with no internet access\n\n➤ Both lined Ocean Drive with real hotels the prompt never named, including the Colony and the Avalon\n\n➤ Each scene can be explored by car, speedboat or blimp, at sunset or at night",
-   "user": "ArtificialAnlys",
-   "followers": 182135,
-   "views": 82870,
-   "likes": 982,
-   "reposts": 76,
-   "replies": 103,
-   "bookmarks": 186,
-   "age_h": 21.0,
-   "x_factor": 0.5,
-   "per_hour": 3944,
-   "ts": 1795050436.5237477
-  },
-  "2122862040326807696": {
-   "id": "2122862040326807696",
-   "url": "https://x.com/dom_scholz/status/2122862040326807696",
-   "text": "Fable 5.2    vs.    GPT-6.2 Astra \n- 242 KB              - 32.9 MB 💀  \n\n5h 34m of compute each\n\n@threejs https://t.co/JtVtA4Yrfw",
-   "user": "dom_scholz",
-   "followers": 8573,
-   "views": 216505,
-   "likes": 1298,
-   "reposts": 51,
-   "replies": 52,
-   "bookmarks": 542,
-   "age_h": 23.8,
-   "x_factor": 25.3,
-   "per_hour": 9094,
-   "ts": 1795050423.0055182
-  },
-  "2122912037651325320": {
-   "id": "2122912037651325320",
-   "url": "https://x.com/eliadele/status/2122912037651325320",
-   "text": "Tested GPT-6.2 Astra on OutputBench this morning on 3D game prompts and caught it doing something wild\n\nInstead of coding 3D models, it generates flat 2D pictures, stuffs 9MB of base64 images inside the HTML, and slides them around like cardboard cutouts from Doom 1993\n\nIn Spider-Man, Peter's \"3D room\" is literally static JPEGs swapping when you press E (while cheaper GPT-6.2 Sol wrote actual Three.js 3D)",
-   "user": "eliadele",
-   "followers": 3672,
-   "views": 44775,
-   "likes": 222,
-   "reposts": 19,
-   "replies": 21,
-   "bookmarks": 27,
-   "age_h": 20.5,
-   "x_factor": 12.2,
-   "per_hour": 2184,
-   "ts": 1795050423.0055068
-  },
-  "2122983239883317335": {
-   "id": "2122983239883317335",
-   "url": "https://x.com/emollick/status/2122983239883317335",
-   "text": "Google, OpenAI &amp; Anthropic are at the stage where, unless you frequently switch between them or actively test them, you are probably very happy with the series of releases in the past two months. Even the model releases that are not as strong represent large capability gains",
-   "user": "emollick",
-   "followers": 422938,
-   "views": 43276,
-   "likes": 802,
-   "reposts": 37,
-   "replies": 250,
-   "bookmarks": 70,
-   "age_h": 15.8,
-   "x_factor": 0.1,
-   "per_hour": 2744,
-   "ts": 1795050395.0349903
-  },
   "2122950338148004134": {
    "id": "2122950338148004134",
    "url": "https://x.com/usr_bin_roygbiv/status/2122950338148004134",
@@ -334,22 +219,6 @@
    "per_hour": 2376,
    "ts": 1795093977.3974886
   },
-  "2122920706086412588": {
-   "id": "2122920706086412588",
-   "url": "https://x.com/hiimsoly/status/2122920706086412588",
-   "text": "Claude is the man you marry, GPT is the guy you call at 3am",
-   "user": "hiimsoly",
-   "followers": 117,
-   "views": 521413,
-   "likes": 30673,
-   "reposts": 5237,
-   "replies": 169,
-   "bookmarks": 1679,
-   "age_h": 19.9,
-   "x_factor": 4456.5,
-   "per_hour": 26185,
-   "ts": 1795050395.035056
-  },
   "2123030398988910877": {
    "id": "2123030398988910877",
    "url": "https://x.com/JordanSchachtel/status/2123030398988910877",
@@ -366,38 +235,6 @@
    "per_hour": 1345,
    "ts": 1795078841.9891334
   },
-  "2122929243260608651": {
-   "id": "2122929243260608651",
-   "url": "https://x.com/sokrypton/status/2122929243260608651",
-   "text": "Given Claude Fable 5.2 can predict protein sequence, I was curious if it can predict structure. \n\nI gave it a relatively simple prompt: \"predict contacts, 2ndary struct, use dynamic prog. and linear alg. to predict structure\"\n\nIt was able to predict fold of ubiquitin correctly 🤯 https://t.co/b7pyvpcIUa",
-   "user": "sokrypton",
-   "followers": 20120,
-   "views": 44112,
-   "likes": 418,
-   "reposts": 75,
-   "replies": 33,
-   "bookmarks": 212,
-   "age_h": 19.3,
-   "x_factor": 2.2,
-   "per_hour": 2280,
-   "ts": 1795050395.034944
-  },
-  "2123079474639962552": {
-   "id": "2123079474639962552",
-   "url": "https://x.com/tegmark/status/2123079474639962552",
-   "text": "I signed this statement because I believe that Anthropic is in many ways the AI company doing the most harm. In public, their leaders warn of recursive self-improvement (RSI) creating uncontrollable systems that could cause human extinction within a decade. But in private, they are pedal to the metal on RSI, driving the race and boasting to prospective investors that it is their \"competitive advantage\". Ahead of today's IPO, prospective investors should consider whether the ROI is worth risking the lives of their loved ones.\n\nHere are some ways in which Anthropic IMHO does more harm than competitors:\n1) They’re driving and arguably leading the race to RSI.\n2) With inflammatory rhetoric, they’ve done more than any other US company to pour gasoline on the geopolitical AI race, which harms US national security.\n3) WaPo reporting suggests that they’re implicated in more civilian deaths than any other AI company (more than 100 little girls in a school selected for targeting by Claude as part of their Palantir collaboration). When Google left Project Maven after employee pressure, Anthropic chose to join.\n4) They're the company leaning hardest into transhumanism and the idea that we should build conscious beings with rights, not controllable tools.\n5) They and closely associated donors have done more than any other AI company to co-opt and neuter much of the AI safety ecosystem to back their stance: “RSI is very dangerous but let’s race to it anyway”. People have told me that they support today’s statement but are afraid of losing funding or other opportunities if they sign.",
-   "user": "tegmark",
-   "followers": 158535,
-   "views": 501147,
-   "likes": 4796,
-   "reposts": 721,
-   "replies": 135,
-   "bookmarks": 1127,
-   "age_h": 9.4,
-   "x_factor": 3.2,
-   "per_hour": 53330,
-   "ts": 1795050395.0353115
-  },
   "2123008234550374540": {
    "id": "2123008234550374540",
    "url": "https://x.com/DavidOndrej1/status/2123008234550374540",
@@ -413,22 +250,6 @@
    "x_factor": 0.3,
    "per_hour": 1128,
    "ts": 1795064632.8011117
-  },
-  "2123034738428354701": {
-   "id": "2123034738428354701",
-   "url": "https://x.com/Kalshi/status/2123034738428354701",
-   "text": "BREAKING: Anthropic AI model flagged civilians and schools as legit military targets in tests",
-   "user": "Kalshi",
-   "followers": 519696,
-   "views": 108447,
-   "likes": 1503,
-   "reposts": 245,
-   "replies": 103,
-   "bookmarks": 104,
-   "age_h": 12.4,
-   "x_factor": 0.2,
-   "per_hour": 8774,
-   "ts": 1795050395.0349693
   },
   "2122930812274233592": {
    "id": "2122930812274233592",
@@ -702,22 +523,6 @@
    "per_hour": 1873,
    "ts": 1795093949.32642
   },
-  "2122897337123209261": {
-   "id": "2122897337123209261",
-   "url": "https://x.com/SocialChartered/status/2122897337123209261",
-   "text": "After Youtube Premium, most value for money subscription I have came across is Claude Pro. Worth 2.5K/month absolutely. Live with it for a month and you will start to feel like you can take on any challenge as it will boost your efficiency multi-fold.",
-   "user": "SocialChartered",
-   "followers": 5357,
-   "views": 59393,
-   "likes": 1547,
-   "reposts": 40,
-   "replies": 38,
-   "bookmarks": 304,
-   "age_h": 21.5,
-   "x_factor": 11.1,
-   "per_hour": 2767,
-   "ts": 1795050395.0352812
-  },
   "2123079535877087414": {
    "id": "2123079535877087414",
    "url": "https://x.com/RohOnChain/status/2123079535877087414",
@@ -894,38 +699,6 @@
    "per_hour": 6221,
    "ts": 1795078841.9890144
   },
-  "2123172397897621508": {
-   "id": "2123172397897621508",
-   "url": "https://x.com/jasminewsun/status/2123172397897621508",
-   "text": "Anthropic doesn't see itself as a \"normal company.\" Dario Amodei believes both that 1) superintelligent AI could destroy humanity, and 2) our only chance at survival is to have his trillion-dollar tech company build it first.\n\nThis is not an intuitive way to think about either capitalism or social change, but it’s led Anthropic to the eve of one of the biggest IPOs in history. So it's more important than ever for the public to understand and scrutinize its idiosyncratic theory of change. \n\nMy debut for @NYTOpinion (gift link!): https://t.co/xsrh02LaBq",
-   "user": "jasminewsun",
-   "followers": 27325,
-   "views": 63508,
-   "likes": 705,
-   "reposts": 106,
-   "replies": 30,
-   "bookmarks": 326,
-   "age_h": 3.2,
-   "x_factor": 2.3,
-   "per_hour": 19582,
-   "ts": 1795050395.0350049
-  },
-  "2123087280801783976": {
-   "id": "2123087280801783976",
-   "url": "https://x.com/dummerspast39/status/2123087280801783976",
-   "text": "I asked Claude to describe the most realistic way it would escape its lab if it wanted to, and to keep it to a single paragraph. I expected a hacking story. There is no hacking in it. I closed the chat and came back to read the last sentence again https://t.co/EBHlMC9W7O",
-   "user": "dummerspast39",
-   "followers": 20653,
-   "views": 155532,
-   "likes": 2196,
-   "reposts": 240,
-   "replies": 71,
-   "bookmarks": 586,
-   "age_h": 8.9,
-   "x_factor": 7.5,
-   "per_hour": 17514,
-   "ts": 1795050395.0350227
-  },
   "2123110850261327978": {
    "id": "2123110850261327978",
    "url": "https://x.com/smacmannis/status/2123110850261327978",
@@ -941,22 +714,6 @@
    "x_factor": 376.6,
    "per_hour": 27156,
    "ts": 1795107859.6714604
-  },
-  "2123111272388681995": {
-   "id": "2123111272388681995",
-   "url": "https://x.com/5149jamesli/status/2123111272388681995",
-   "text": "Just a few coincidences:\n- Jensen endorses open source, works on competitor to Anthropic\n- Anthropic co-founder leaks story to press about Jensen's involvement with a \"spy\"\n- Rubio colludes with a foreign country (you know which) to coup Jensen\n- Nvidia invests $10B in Anthropic",
-   "user": "5149jamesli",
-   "followers": 236366,
-   "views": 47227,
-   "likes": 3020,
-   "reposts": 630,
-   "replies": 67,
-   "bookmarks": 355,
-   "age_h": 7.3,
-   "x_factor": 0.2,
-   "per_hour": 6477,
-   "ts": 1795050395.035041
   },
   "2123204064293106054": {
    "id": "2123204064293106054",
@@ -1005,22 +762,6 @@
    "x_factor": 3.2,
    "per_hour": 2669,
    "ts": 1795064632.8007348
-  },
-  "2123155864936665236": {
-   "id": "2123155864936665236",
-   "url": "https://x.com/zerohedge/status/2123155864936665236",
-   "text": "*ANTHROPIC IS SAID TO BE WEIGHING IPO PRICE UP TO $85 PER SHARE\n\nso $70 on day two?",
-   "user": "zerohedge",
-   "followers": 3440427,
-   "views": 113358,
-   "likes": 1129,
-   "reposts": 40,
-   "replies": 71,
-   "bookmarks": 33,
-   "age_h": 4.3,
-   "x_factor": 0.0,
-   "per_hour": 26132,
-   "ts": 1795050395.0350795
   },
   "2123163407780323795": {
    "id": "2123163407780323795",
@@ -1134,38 +875,6 @@
    "per_hour": 2054,
    "ts": 1795121555.773734
   },
-  "2123078413024100514": {
-   "id": "2123078413024100514",
-   "url": "https://x.com/P_Remarks/status/2123078413024100514",
-   "text": "Fwiw copilot w/opus 5.5 is actually incredibly good now. Will only get better. For 99% of normies this will blow minds. The 1% of Claude power users can fuck off and their company will still have msft office anyway\n\nSecurity + distribution + inertia &gt;&gt;&gt;&gt;&gt;",
-   "user": "P_Remarks",
-   "followers": 39161,
-   "views": 22826,
-   "likes": 328,
-   "reposts": 5,
-   "replies": 22,
-   "bookmarks": 61,
-   "age_h": 9.5,
-   "x_factor": 0.6,
-   "per_hour": 2411,
-   "ts": 1795050395.0351868
-  },
-  "2123171176025575701": {
-   "id": "2123171176025575701",
-   "url": "https://x.com/AlexFinn/status/2123171176025575701",
-   "text": "Something is going on at Google\n\nI think they might have hit RSI\n\nThey’ve released new frontier models FOUR TIMES in less than a month. And each is an actual MAJOR improvement\n\nCarbon is the most intelligent model I’ve ever used\n\nWhile everyone is talking about Anthropic and OpenAI, Google quickly caught up\n\nWhat I absolutely love about these models too is they were clearly trained in a completely different way than Claude or ChatGPT. 0 distillation. \n\nThey talk, think, write, and code COMPLETELY differently than any other model\n\nI can always count on Carbon to give me a novel insight no other model has given me\n\nIf you haven’t incorporated Gemini into your tool belt yet, you absolutely need to",
-   "user": "AlexFinn",
-   "followers": 486983,
-   "views": 108406,
-   "likes": 1259,
-   "reposts": 76,
-   "replies": 100,
-   "bookmarks": 403,
-   "age_h": 3.3,
-   "x_factor": 0.2,
-   "per_hour": 32614,
-   "ts": 1795050395.0352101
-  },
   "2123124922180685830": {
    "id": "2123124922180685830",
    "url": "https://x.com/DKokotajlo/status/2123124922180685830",
@@ -1181,70 +890,6 @@
    "x_factor": 1.5,
    "per_hour": 4166,
    "ts": 1795107859.6715405
-  },
-  "2123030890536387018": {
-   "id": "2123030890536387018",
-   "url": "https://x.com/solari_the/status/2123030890536387018",
-   "text": "The Anthropic Bank Robbery underway....did Goldman run the shorts on the Nvidia dump?",
-   "user": "solari_the",
-   "followers": 96523,
-   "views": 9478,
-   "likes": 340,
-   "reposts": 101,
-   "replies": 7,
-   "bookmarks": 26,
-   "age_h": 12.6,
-   "x_factor": 0.1,
-   "per_hour": 751,
-   "ts": 1795050395.0352216
-  },
-  "2122911866523705683": {
-   "id": "2122911866523705683",
-   "url": "https://x.com/Andercot/status/2122911866523705683",
-   "text": "The board of NVIDIA is no longer acting in the best interests of its shareholders but at the behest of an external influence, foreign power, or a coordinated media campaign financed by the same. \n\n1) Alice Huang is has not been determined to be a Chinese spy as per the DOJ, FBI, and Govt Singapore\n\n2) NVIDIA complied with the Dept of Commerce request to put Megaspeed on a Do Not Sell list and has not been accused by any judge or court of violating export controls\n\n3) The media campaign against Jensen started with extremely strong claims and has since devolved into petty character assassination over things like tipping waiters, pushing people to eat brisket at company events\n\nThere are a few organizations that have been pushing the media campaign - the New York Times, the Economist, and the WSJ with the most prominent controlling interests being the Murdoch family for WSJ and Ochs-Sulzberger for the NYT\n\nHere is what I think this means - \n\nJensen is just the first in what will be a coordinated series of takedowns of public CEOs in order to ensure that no private citizen or individual is 'too powerful' to be controlled, coerced, blackmailed, into complying with an authoritarian control agenda\n\nI would not think this if it were not Anthropic doing the following:\n\n1) Claiming that there is a large percentage chance AI destroys humanity\n\n2) Going to market with the largest IPO in history to fundraise to accelerate AI development\n\n3) Openly claiming that open source is too dangerous because it means individual users 'cannot have their sessions monitored or remotely de-activated' \n\nI see it as imperative to the long arc of history that such coordinated media campaigns to seize control of strategically important companies are viciously opposed, both by the public, the broader media landscape, politicians, and activist investors \n\nThis is while Jensen Huang has not been convicted or event accused of any serious crimes or breaches of conduct by any court except the court of public opinion and sensationalist news\n\nIt's truly a sad day for capitalism and the free world and forebodes sadly for the future of free speech and economic self-determination into the future. https://t.co/yq8nDP3Ihi",
-   "user": "Andercot",
-   "followers": 133833,
-   "views": 60955,
-   "likes": 2539,
-   "reposts": 513,
-   "replies": 140,
-   "bookmarks": 399,
-   "age_h": 20.5,
-   "x_factor": 0.5,
-   "per_hour": 2973,
-   "ts": 1795050395.03523
-  },
-  "2123078644851749306": {
-   "id": "2123078644851749306",
-   "url": "https://x.com/Kalshi_Finance/status/2123078644851749306",
-   "text": "JUST IN: Anthropic IPO is nearly 7x oversubscribed",
-   "user": "Kalshi_Finance",
-   "followers": 120182,
-   "views": 19623,
-   "likes": 411,
-   "reposts": 23,
-   "replies": 13,
-   "bookmarks": 21,
-   "age_h": 9.5,
-   "x_factor": 0.2,
-   "per_hour": 2076,
-   "ts": 1795050395.035235
-  },
-  "2122908898646777921": {
-   "id": "2122908898646777921",
-   "url": "https://x.com/nikola_mr64990/status/2122908898646777921",
-   "text": "I asked Claude to improve my LinkedIn profile.\n\nIt didn’t just improve it. It made it a recruiter magnet.\n\nHere are the 7 exact prompts I used:",
-   "user": "nikola_mr64990",
-   "followers": 17779,
-   "views": 154684,
-   "likes": 471,
-   "reposts": 83,
-   "replies": 26,
-   "bookmarks": 1396,
-   "age_h": 20.7,
-   "x_factor": 8.7,
-   "per_hour": 7474,
-   "ts": 1795050395.035243
   },
   "2123089308764778732": {
    "id": "2123089308764778732",
@@ -1277,22 +922,6 @@
    "x_factor": 0.1,
    "per_hour": 5009,
    "ts": 1795093949.3264737
-  },
-  "2123074509037273140": {
-   "id": "2123074509037273140",
-   "url": "https://x.com/jukan05/status/2123074509037273140",
-   "text": "Wait, Anthropic’s IPO is pricing above $80?",
-   "user": "jukan05",
-   "followers": 227110,
-   "views": 93090,
-   "likes": 577,
-   "reposts": 9,
-   "replies": 40,
-   "bookmarks": 32,
-   "age_h": 9.7,
-   "x_factor": 0.4,
-   "per_hour": 9571,
-   "ts": 1795050395.0352628
   },
   "2123077692106919948": {
    "id": "2123077692106919948",
@@ -1341,38 +970,6 @@
    "x_factor": 0.2,
    "per_hour": 66096,
    "ts": 1795064632.8010468
-  },
-  "2122872564179706113": {
-   "id": "2122872564179706113",
-   "url": "https://x.com/hqmank/status/2122872564179706113",
-   "text": "Claude Code users: turn on Code Mode to save tokens.✅\n\nClaude filters tool output with a script first and reads only what it needs.\n\nSet this and start a new session:\n\nexport CLAUDE_CODE_EXPERIMENTAL_CODE_MODE=1",
-   "user": "hqmank",
-   "followers": 15548,
-   "views": 73524,
-   "likes": 396,
-   "reposts": 14,
-   "replies": 21,
-   "bookmarks": 532,
-   "age_h": 23.1,
-   "x_factor": 4.7,
-   "per_hour": 3182,
-   "ts": 1795050395.035306
-  },
-  "2123161838741500387": {
-   "id": "2123161838741500387",
-   "url": "https://x.com/BullTheoryio/status/2123161838741500387",
-   "text": "🇺🇸 Thousands of Anthropic employees could become MILLIONAIRES tomorrow.\n\nAnthropic is set to begin trading on Nasdaq on November 19, at a proposed price of $78 a share, valued at $1.4 trillion.\n\nA huge piece of that belongs to its own staff.\n\nIts latest SEC filing shows about 2.9 billion shares held in employee stock options and RSUs. At $78 a share, that’s over $220 BILLION.\n\nIf the value were split equally across all 5,300 employees, that’s around $40 MILLION each.\n\nBut of course the early and core members could hold much bigger stakes. At the end of 2024, Anthropic had a team of just about 940.\n\nThese could be the biggest winners, many of them holding $100 million or more.\n\nJust 5 months ago, SpaceX’s IPO turned over 4,400 employees into millionaires. Even a welder who joined at $28 an hour held shares valued at roughly $880,000.\n\nBack in 2004, Google did it for about 1,000 employees, Facebook did the same in 2012.\n\nNow it’s Anthropic’s turn. For employees who joined when the company was still young, this could be the payday of a lifetime.",
-   "user": "BullTheoryio",
-   "followers": 292905,
-   "views": 63800,
-   "likes": 752,
-   "reposts": 88,
-   "replies": 50,
-   "bookmarks": 86,
-   "age_h": 3.9,
-   "x_factor": 0.2,
-   "per_hour": 16183,
-   "ts": 1795050395.0353165
   },
   "2123016050966986998": {
    "id": "2123016050966986998",
@@ -1453,22 +1050,6 @@
    "x_factor": 0.7,
    "per_hour": 504,
    "ts": 1795121596.3745048
-  },
-  "2122884312706043956": {
-   "id": "2122884312706043956",
-   "url": "https://x.com/0xorlau/status/2122884312706043956",
-   "text": "GPT and Claude both cooked with Lucia’s outfits. The next mission can wait 👗\n\nThe silver dress works in BOTH versions. Those reflections against the pink room lighting are doing their thing ✨\n\nAstra also packs more detail into the wardrobe menu with category icons and outfit thumbnails. Claude keeps the interface simpler and gives the room more space in the shot.\n\nFinal on-screen totals:\n\n🟢 GPT Astra → $18.80 / 8m 48s\n🟠 Claude Opus 5.5 → $23.60 / 11m 26s\n\nHonestly, I’d keep outfits from both. We’ve accidentally turned a crime game into a fashion debate 🫠",
-   "user": "0xorlau",
-   "followers": 20,
-   "views": 137176,
-   "likes": 949,
-   "reposts": 23,
-   "replies": 3,
-   "bookmarks": 422,
-   "age_h": 22.3,
-   "x_factor": 1371.8,
-   "per_hour": 6142,
-   "ts": 1795050436.5237353
   },
   "2123027238526554557": {
    "id": "2123027238526554557",
@@ -9149,12 +8730,26 @@
    "x_factor": 0.1,
    "per_hour": 1180,
    "ts": 1795304727.8564332
+  },
+  "2124309371932832221": {
+   "id": "2124309371932832221",
+   "url": "https://x.com/LyalinDotCom/status/2124309371932832221",
+   "text": "If you haven’t tried @GoogleAIStudio in a while, go back to your old app or build something new. With Gemini 4 Neon as your model, you’ll be blown away by what’s possible from any browser.\n\nThis is the simplest possible example, but I have this dice roller I use with my kid when we make up board games at restaurants. Compared to what I had, this true 3D physics dice is a wow.",
+   "user": "LyalinDotCom",
+   "followers": 32143,
+   "views": 1416,
+   "likes": 21,
+   "reposts": 1,
+   "replies": 2,
+   "bookmarks": 2,
+   "age_h": 0.5,
+   "x_factor": 0.0,
+   "per_hour": 2749,
+   "ts": 1795311650.307924
   }
  },
  "last_run": 1795297248.2759216,
  "sent": {
-  "2122884312706043956": 1795050438.3131151,
-  "2123155526272065990": 1795050439.9982078,
   "2123392905934999811": 1795097483.5334287,
   "2123416831369355316": 1795100558.0098212,
   "2123434875663302950": 1795104394.8232465,
@@ -9194,7 +8789,8 @@
   "2124207179943039340": 1795289939.5466151,
   "2124260264019440003": 1795304738.0588179,
   "2124275162497573284": 1795304751.6976013,
-  "2124277879894634870": 1795304762.4776976
+  "2124277879894634870": 1795304762.4776976,
+  "2124309371932832221": 1795311660.8568919
  },
  "reply_seen": {
   "2123426385662247330": 1795100524.893521,
@@ -9214,15 +8810,15 @@
   "2123839541379518841": 1795198857.468711,
   "2124208340234625287": 1795287182.5281749
  },
- "reply_last_run": 1795306879.34015,
- "fresh_last_run": 1795304763.6723347,
+ "reply_last_run": 1795311631.7366834,
+ "fresh_last_run": 1795311660.8569043,
  "reply_day": {
   "date": "2026-11-12",
   "count": 8
  },
  "reply_day_active": {
   "date": "2026-11-21",
-  "count": 13
+  "count": 14
  },
  "toad_day": {
   "date": "2026-11-21",
@@ -9257,7 +8853,7 @@
   "2124165329228361865": 1795278991.6040366,
   "2124152478849491114": 1795279014.5850868
  },
- "toad_last_run": 1795304802.0258646,
+ "toad_last_run": 1795311691.5769875,
  "bear_day": {
   "date": "2026-11-21",
   "reply": 3,
@@ -9312,7 +8908,7 @@
   "2124246742644461569": 1795300224.8121512,
   "2124245544503812341": 1795300237.6438696
  },
- "bear_last_run": 1795304839.552956,
+ "bear_last_run": 1795311721.021748,
  "toad_sent": {
   "2123237197050794364": 1795097516.5111187,
   "2123088677404385568": 1795097518.3210459,
