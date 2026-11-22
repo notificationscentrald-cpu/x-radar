@@ -108,7 +108,10 @@
   "2124586175188860978": 1795382045.1489902,
   "2124583559256313944": 1795382046.193155,
   "2124595408487752016": 1795382057.5881348,
-  "2124597856942375334": 1795382068.9660096
+  "2124597856942375334": 1795382068.9660096,
+  "2124629356806910202": 1795386839.2334836,
+  "2124627860153610751": 1795386840.395449,
+  "2124608918899118512": 1795386851.8658073
  },
  "pool": {
   "2123234942381691173": {
@@ -6814,6 +6817,38 @@
    "x_factor": 4.3,
    "per_hour": 1087,
    "ts": 1795383718.6595743
+  },
+  "2124627860153610751": {
+   "id": "2124627860153610751",
+   "url": "https://x.com/kevin_t_ngo/status/2124627860153610751",
+   "text": "Fable 5.2 sings \"Daisy Bell\" in a voice created with Python\n\nEntire animation made with three.js. @fal used for textures and title artwork (Ideogram 4.6) https://t.co/CyaoN0ZKME",
+   "user": "kevin_t_ngo",
+   "followers": 29827,
+   "views": 724,
+   "likes": 13,
+   "reposts": 1,
+   "replies": 1,
+   "bookmarks": 5,
+   "age_h": 0.3,
+   "x_factor": 0.0,
+   "per_hour": 2367,
+   "ts": 1795386830.858793
+  },
+  "2124608918899118512": {
+   "id": "2124608918899118512",
+   "url": "https://x.com/flxrnc/status/2124608918899118512",
+   "text": "I make animations faster than I can explain them, these 15 GitHub repos are why\n\nthis is f*cking gold for every Fable 5.2 fan\n\nMotion. Math. Launches. UI. Taste. Render.\n\nExcalidraw → quick sketches your agent can build on\nhttps://t.co/yefyv1N9YL\n\nRough.js → makes every line look drawn by hand\nhttps://t.co/Ee6BWm3zfg\n\nManim → math that moves like a 3Blue1Brown video\nhttps://t.co/hU4pXLiZoA\n\nhuashu-motion → launch videos with music made just for them\nhttps://t.co/lOWA4YO7VW\n\nMagic UI → animated UI pieces, ready to paste\nhttps://t.co/xK9LfyDCNJ\n\nui-ux-pro-max → 80 looks, colors and fonts that work together\nhttps://t.co/wnHI3pbOaj\n\nGSAP → smooth timing for every moving part\nhttps://t.co/8B97Y23r9O\n\nTaste Skill → your agent finally knows what looks good\nhttps://t.co/wFIFNz34sX\n\nImpeccable → a sharp eye that catches every flaw\nhttps://t.co/LUVwZwP3zM\n\nThree.js → 3D scenes that run in any tab\nhttps://t.co/BgbvnRdkK1\n\nBlender MCP → Claude turns your idea into a Blender scene\nhttps://t.co/QWCqTa1DGA\n\nHyperFrames → write it as a web page, export it as video\nhttps://t.co/dOZZVJZWfo\n\nRemotion → build a video like you build a website\nhttps://t.co/znpMp7SXCQ\n\nRemotion Skills → teaches your agent video the way pros do it\nhttps://t.co/eNG5a2boyK\n\nFFmpeg → turns the final animation into a clean MP4\nhttps://t.co/HlJpuzRBcV\n\nIdea → shape → motion → polish → export.\n\nBookmark this, then open the guide below and make your next animation in minutes ↓",
+   "user": "flxrnc",
+   "followers": 4658,
+   "views": 3277,
+   "likes": 68,
+   "reposts": 3,
+   "replies": 6,
+   "bookmarks": 100,
+   "age_h": 1.6,
+   "x_factor": 0.7,
+   "per_hour": 2100,
+   "ts": 1795386830.8587363
   }
  },
  "last_run": 1795383738.3030279,
@@ -6859,7 +6894,9 @@
   "2124572099750891577": 1795376557.9846327,
   "2124585579430224024": 1795382043.0984945,
   "2124583559256313944": 1795382056.4185808,
-  "2124595408487752016": 1795382067.4940438
+  "2124595408487752016": 1795382067.4940438,
+  "2124627860153610751": 1795386850.6277125,
+  "2124608918899118512": 1795386862.473033
  },
  "reply_seen": {
   "2123767067707138223": 1795180664.7120116,
@@ -6878,15 +6915,15 @@
   "2124578668194205767": 1795376483.7567773,
   "2124615636982833331": 1795384481.0836904
  },
- "reply_last_run": 1795384488.5576386,
- "fresh_last_run": 1795382068.966019,
+ "reply_last_run": 1795386823.5165565,
+ "fresh_last_run": 1795386862.4730725,
  "reply_day": {
   "date": "2026-11-12",
   "count": 8
  },
  "reply_day_active": {
   "date": "2026-11-22",
-  "count": 13
+  "count": 15
  },
  "toad_day": {
   "date": "2026-11-22",
@@ -6916,10 +6953,10 @@
   "2056439475811549273": 1795376601.784275,
   "2124305237401907440": 1795376603.3996265
  },
- "toad_last_run": 1795382099.3297331,
+ "toad_last_run": 1795386891.6485438,
  "bear_day": {
   "date": "2026-11-22",
-  "reply": 0,
+  "reply": 1,
   "remake": 3
  },
  "bear_seen": {
@@ -6942,7 +6979,8 @@
   "2124607737073910134": 1795382137.0463192,
   "2124276066889908275": 1795382138.1219132,
   "2124280019711098973": 1795382139.7576454,
-  "2124251429439512902": 1795382141.4877284
+  "2124251429439512902": 1795382141.4877284,
+  "2124622220915822948": 1795386930.995804
  },
  "bear_sent": {
   "2123485713056633138": 1795180777.2006474,
@@ -6961,9 +6999,10 @@
   "2124245544503812341": 1795300237.6438696,
   "2124276066889908275": 1795382138.6846821,
   "2124280019711098973": 1795382140.3072674,
-  "2124251429439512902": 1795382142.0235462
+  "2124251429439512902": 1795382142.0235462,
+  "2124622220915822948": 1795386938.6607997
  },
- "bear_last_run": 1795382142.023556,
+ "bear_last_run": 1795386938.660817,
  "toad_sent": {
   "2123540312756793667": 1795133239.1508791,
   "2123437536240419200": 1795180741.9948626,
