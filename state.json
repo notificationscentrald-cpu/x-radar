@@ -1,9 +1,5 @@
 {
  "seen": {
-  "2123434875663302950": 1795104387.1626565,
-  "2123418169951875475": 1795104395.9318976,
-  "2123435174801391797": 1795104397.0224636,
-  "2123436149784150438": 1795104406.0827157,
   "2123149818965250167": 1795107903.1181872,
   "2123382007174406410": 1795107904.146393,
   "2123312979844403660": 1795107905.143967,
@@ -809,54 +805,6 @@
    "x_factor": 28.5,
    "per_hour": 5481,
    "ts": 1795165224.554846
-  },
-  "2123434875663302950": {
-   "id": "2123434875663302950",
-   "url": "https://x.com/RoundtableSpace/status/2123434875663302950",
-   "text": "Claude Fable 5.2 just built a full game demo you can play in your browser.\n\nSound effects and concept art came from ElevenLabs and GPT Image 2.6. No studio, no team.\n\nTHE SOLO GAME DEV ERA IS HERE. WHAT WOULD YOU BUILD? https://t.co/AJkFwwDdjK",
-   "user": "RoundtableSpace",
-   "followers": 274671,
-   "views": 27226,
-   "likes": 35,
-   "reposts": 0,
-   "replies": 4,
-   "bookmarks": 2,
-   "age_h": 0.9,
-   "x_factor": 0.1,
-   "per_hour": 31840,
-   "ts": 1795104378.2852025
-  },
-  "2123435174801391797": {
-   "id": "2123435174801391797",
-   "url": "https://x.com/HermesWatcher/status/2123435174801391797",
-   "text": "This is wild.\n\nI asked Alibaba's new AI, Qwen4 Max, to make a game. It built one where 100 birds teach themselves to play.\n\nNobody touches the controls.\nRound 1: all 100 crash instantly.\nRound 13: one bird clears 50 pipes.\n\nHow they learned:\n▸ Every bird gets a tiny brain. It sees the next gap and decides one thing: flap or don't.\n▸ In round 1 all 100 brains are random, so they crash almost instantly.\n▸ After each round, the birds that lasted longest get copied into the next round with small tweaks. The rest are dropped. Repeat.\n\nThen Qwen4 Max play-tested its own game. The first test stalled, so it figured out why, fixed it and ran it again: \"generation 13 passed 50 pipes, zero errors.\"\n\nOne prompt in Hermes. About 10 minutes. Zero clicks from me. Cost: $0.00.\n\nQwen4 Max is free on Nous Portal right now.",
-   "user": "HermesWatcher",
-   "followers": 28881,
-   "views": 1005,
-   "likes": 11,
-   "reposts": 0,
-   "replies": 2,
-   "bookmarks": 4,
-   "age_h": 0.8,
-   "x_factor": 0.0,
-   "per_hour": 1199,
-   "ts": 1795104386.0061035
-  },
-  "2123436149784150438": {
-   "id": "2123436149784150438",
-   "url": "https://x.com/ziwenxu_/status/2123436149784150438",
-   "text": "I am going to live stream myself playing @play_ThugLife, a game that we spent 5 months building using Claude! https://t.co/IwCjLBieCC",
-   "user": "ziwenxu_",
-   "followers": 19145,
-   "views": 811,
-   "likes": 13,
-   "reposts": 2,
-   "replies": 2,
-   "bookmarks": 0,
-   "age_h": 0.8,
-   "x_factor": 0.0,
-   "per_hour": 1052,
-   "ts": 1795104378.285196
   },
   "2123424361147408623": {
    "id": "2123424361147408623",
@@ -8061,9 +8009,6 @@
  },
  "last_run": 1795355875.1963768,
  "sent": {
-  "2123434875663302950": 1795104394.8232465,
-  "2123435174801391797": 1795104405.0706382,
-  "2123436149784150438": 1795104413.6254272,
   "2123457524162871391": 1795108375.1970167,
   "2123459194435346539": 1795108383.761145,
   "2123459172335292592": 1795108393.2538512,
@@ -8107,8 +8052,6 @@
   "2124494355901640961": 1795360579.2211602
  },
  "reply_seen": {
-  "2123446495735332897": 1795104355.366973,
-  "2123439143199867237": 1795104363.1260707,
   "2123470162460348841": 1795111207.0097353,
   "2123483444797743369": 1795114494.4118235,
   "2123479448829694410": 1795114494.412035,
@@ -8121,17 +8064,18 @@
   "2123808857264959852": 1795191663.6741786,
   "2123827181579313450": 1795195340.2743661,
   "2123839541379518841": 1795198857.468711,
-  "2124208340234625287": 1795287182.5281749
+  "2124208340234625287": 1795287182.5281749,
+  "2124533408705753473": 1795365444.4521508
  },
- "reply_last_run": 1795318316.5577908,
- "fresh_last_run": 1795360580.1689558,
+ "reply_last_run": 1795365457.015561,
+ "fresh_last_run": 1795365503.7706878,
  "reply_day": {
   "date": "2026-11-12",
   "count": 8
  },
  "reply_day_active": {
   "date": "2026-11-22",
-  "count": 2
+  "count": 3
  },
  "toad_day": {
   "date": "2026-11-22",
@@ -8139,7 +8083,6 @@
   "remake": 0
  },
  "toad_seen": {
-  "2123423816210587658": 1795104445.0130842,
   "2123456265858740600": 1795108432.8888166,
   "2123449830291001575": 1795108433.8841488,
   "2123478910444949670": 1795118032.6909592,
@@ -8162,14 +8105,13 @@
   "2124165329228361865": 1795278991.6040366,
   "2124152478849491114": 1795279014.5850868
  },
- "toad_last_run": 1795360653.087677,
+ "toad_last_run": 1795365549.445906,
  "bear_day": {
   "date": "2026-11-22",
   "reply": 0,
   "remake": 0
  },
  "bear_seen": {
-  "2123435182128496757": 1795104483.5339367,
   "2123485713056633138": 1795180776.5643315,
   "2123773554407993683": 1795185042.9957252,
   "2123777130156773429": 1795185051.6396632,
@@ -8187,7 +8129,6 @@
   "2124245544503812341": 1795300225.8730886
  },
  "bear_sent": {
-  "2123435182128496757": 1795104491.5577488,
   "2123485713056633138": 1795180777.2006474,
   "2123773554407993683": 1795185050.5377374,
   "2123777130156773429": 1795185059.2738078,
@@ -8203,9 +8144,8 @@
   "2124246742644461569": 1795300224.8121512,
   "2124245544503812341": 1795300237.6438696
  },
- "bear_last_run": 1795360709.7479398,
+ "bear_last_run": 1795365594.6116836,
  "toad_sent": {
-  "2123423816210587658": 1795104452.775094,
   "2123540312756793667": 1795133239.1508791,
   "2123437536240419200": 1795180741.9948626,
   "2123535460312166477": 1795180744.4621937,
