@@ -1,14 +1,5 @@
 {
  "seen": {
-  "2123768316158500928": 1795184923.753581,
-  "2123772523544465639": 1795184924.840747,
-  "2123766193395827202": 1795184926.0533814,
-  "2123780898562986388": 1795184927.3745875,
-  "2123778055860523447": 1795184936.3693788,
-  "2123783818410594701": 1795184945.0408094,
-  "2123764559332917348": 1795184953.4209526,
-  "2123778480751997336": 1795184954.5835304,
-  "2123767604925874246": 1795184955.7058437,
   "2123795503842464252": 1795188220.5065598,
   "2123773494613999838": 1795188221.5538845,
   "2123776324397334733": 1795188222.5311701,
@@ -865,70 +856,6 @@
    "x_factor": 1.8,
    "per_hour": 1190,
    "ts": 1795223093.4858358
-  },
-  "2123780898562986388": {
-   "id": "2123780898562986388",
-   "url": "https://x.com/ai_for_success/status/2123780898562986388",
-   "text": "Gemini 4 Neon another experiment and it nailed it! 🔥\n\nI asked if it possible to add realistic 3D lighting and shadows to a completely flat 2D image. I gave it Vermeer's 1665 Girl with a Pearl Earring, and it pulled this off! I love how classy the whole thing looks. I can move a candle around her face and watch directional shadows shift across her nose and cheeks in real time. Pretty crazy!\n\nI've documented the entire build on my showcase website. Link below",
-   "user": "ai_for_success",
-   "followers": 82731,
-   "views": 853,
-   "likes": 11,
-   "reposts": 1,
-   "replies": 5,
-   "bookmarks": 0,
-   "age_h": 0.3,
-   "x_factor": 0.0,
-   "per_hour": 2730,
-   "ts": 1795184922.782758
-  },
-  "2123778055860523447": {
-   "id": "2123778055860523447",
-   "url": "https://x.com/LuminaBench/status/2123778055860523447",
-   "text": "Gemini 4 Neon Fighter Jets Game\n\n→ This is 1 shot in Three.js\n→ single .html file with Zero external assets\n→ Made in around 30 minutes from a basic idea https://t.co/Rz3yNOUuct",
-   "user": "LuminaBench",
-   "followers": 17476,
-   "views": 1232,
-   "likes": 41,
-   "reposts": 1,
-   "replies": 6,
-   "bookmarks": 4,
-   "age_h": 0.5,
-   "x_factor": 0.1,
-   "per_hour": 2461,
-   "ts": 1795184922.7827692
-  },
-  "2123783818410594701": {
-   "id": "2123783818410594701",
-   "url": "https://x.com/TokenGremlin/status/2123783818410594701",
-   "text": "A lot of you loved this beautiful grass field built by GPT-6.2 Sol Ultrafast. It was made from scratch in Blender, imported into a Three.js project, and packed into a tiny HTML file that runs in the browser. All of that used around ~3% of my $200 Pro plan quota and took less than 15 minutes.",
-   "user": "TokenGremlin",
-   "followers": 22728,
-   "views": 659,
-   "likes": 18,
-   "reposts": 0,
-   "replies": 1,
-   "bookmarks": 3,
-   "age_h": 0.2,
-   "x_factor": 0.0,
-   "per_hour": 2636,
-   "ts": 1795184922.782717
-  },
-  "2123767604925874246": {
-   "id": "2123767604925874246",
-   "url": "https://x.com/EugeneDyabin/status/2123767604925874246",
-   "text": "Another use case for Claude. I asked it to build a pull-up bar and animate a backflip off it. Claude built the bar itself using cylinders and created the animation without any reference. At first, it turned out poorly, so I asked it to use AutoPosing and AutoPhysics – and here is the result. It’s not perfect, but the animation consists of keyframes and interpolation, so it can be edited",
-   "user": "EugeneDyabin",
-   "followers": 7886,
-   "views": 1245,
-   "likes": 40,
-   "reposts": 1,
-   "replies": 5,
-   "bookmarks": 24,
-   "age_h": 1.2,
-   "x_factor": 0.2,
-   "per_hour": 1045,
-   "ts": 1795184915.395685
   },
   "2123475139514007608": {
    "id": "2123475139514007608",
@@ -6403,12 +6330,8 @@
    "ts": 1795432023.7522097
   }
  },
- "last_run": 1795432086.357467,
+ "last_run": 1795446136.3649251,
  "sent": {
-  "2123780898562986388": 1795184935.1494334,
-  "2123778055860523447": 1795184943.9362814,
-  "2123783818410594701": 1795184952.3821194,
-  "2123767604925874246": 1795184963.1311147,
   "2123493457217855492": 1795193904.0309083,
   "2123810724816314517": 1795195372.997531,
   "2123816232109719894": 1795195381.8387315,
@@ -6448,8 +6371,6 @@
   "2124592145088618943": 1795432086.3574548
  },
  "reply_seen": {
-  "2123778647962059253": 1795184900.0505507,
-  "2123777915498172810": 1795184900.0511642,
   "2123793874678141183": 1795188196.8271956,
   "2123808857264959852": 1795191663.6741786,
   "2123827181579313450": 1795195340.2743661,
@@ -6478,8 +6399,6 @@
   "remake": 0
  },
  "toad_seen": {
-  "2123763307353923855": 1795184994.4104273,
-  "2123764635987849497": 1795185003.1320055,
   "2123812007371776184": 1795195421.3280106,
   "2123804865398780135": 1795195422.3855224,
   "2124138979373248542": 1795274108.19356,
@@ -6502,11 +6421,6 @@
   "remake": 0
  },
  "bear_seen": {
-  "2123773554407993683": 1795185042.9957252,
-  "2123777130156773429": 1795185051.6396632,
-  "2123763519581806957": 1795185060.4400723,
-  "2123762843086368947": 1795185069.4550872,
-  "2123447846309376172": 1795185078.1135447,
   "2123797546741232063": 1795191750.2093759,
   "2123625375636828409": 1795195460.4983182,
   "2123805863215271975": 1795274153.1026733,
@@ -6527,11 +6441,6 @@
   "2124661711105826922": 1795396799.3654172
  },
  "bear_sent": {
-  "2123773554407993683": 1795185050.5377374,
-  "2123777130156773429": 1795185059.2738078,
-  "2123763519581806957": 1795185068.2724595,
-  "2123762843086368947": 1795185076.9072847,
-  "2123447846309376172": 1795185078.826099,
   "2123797546741232063": 1795191757.658665,
   "2123625375636828409": 1795195461.1841877,
   "2123805863215271975": 1795274153.9173477,
@@ -6549,8 +6458,6 @@
  },
  "bear_last_run": 1795443502.2315886,
  "toad_sent": {
-  "2123763307353923855": 1795185002.0487802,
-  "2123764635987849497": 1795185011.4314475,
   "2123804865398780135": 1795195429.8894925,
   "2124138979373248542": 1795274116.145099,
   "2123919665453842774": 1795274117.8974993,
