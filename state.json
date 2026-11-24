@@ -1,6 +1,5 @@
 {
  "seen": {
-  "2124171631320875451": 1795278899.035012,
   "2124197398901895375": 1795284308.0836775,
   "2124195058408980677": 1795284309.175576,
   "2124183185999507905": 1795284322.756214,
@@ -120,7 +119,11 @@
   "2125249122685129131": 1795535076.105767,
   "2125253343480275008": 1795535088.5353487,
   "2125237800391827767": 1795535100.5023289,
-  "2125234707835355178": 1795535101.5978904
+  "2125234707835355178": 1795535101.5978904,
+  "2125251862345511341": 1795538792.0907276,
+  "2125263985490403730": 1795538792.9838328,
+  "2125254550416175477": 1795538794.0580146,
+  "2125251065759014942": 1795538805.1890059
  },
  "pool": {
   "2123902537937866974": {
@@ -234,22 +237,6 @@
    "x_factor": 0.1,
    "per_hour": 2685,
    "ts": 1795297247.2221296
-  },
-  "2124171631320875451": {
-   "id": "2124171631320875451",
-   "url": "https://x.com/TokenGremlin/status/2124171631320875451",
-   "text": "Have you ever thought about how ChatGPT handles fluid mechanics? I tested it in practice. I gave GPT-6.2 Astra a reference in Ultra mode and asked it to recreate it using Blender, Three.js, and HTML.\n\nIt used 6 subagents, modeled 33 parts of the truck in Blender, including the cab, headlights, bumpers, and wheels. It created a trajectory, braking, and truck rotation. Water, oil, and glycerin with different damping behaviors and appearances. Foam, splashes, and telemetry to compare the wave crest with longitudinal and lateral accelerations.\n\nAll of that in 9 minutes, inside a 1.39MB HTML file that runs offline. The test was run on an integrated Intel UHD graphics chip, meaning no dedicated GPU at all.\n\nThis is literally the future of education. Schools, universities, labs... It's possible to create much more complex things in record time.",
-   "user": "TokenGremlin",
-   "followers": 22850,
-   "views": 1658,
-   "likes": 40,
-   "reposts": 4,
-   "replies": 10,
-   "bookmarks": 11,
-   "age_h": 0.5,
-   "x_factor": 0.1,
-   "per_hour": 3074,
-   "ts": 1795278897.5443985
   },
   "2123914295226606063": {
    "id": "2123914295226606063",
@@ -5354,11 +5341,42 @@
    "x_factor": 0.0,
    "per_hour": 3560,
    "ts": 1795535067.3802104
+  },
+  "2125254550416175477": {
+   "id": "2125254550416175477",
+   "url": "https://x.com/marcthecreatorr/status/2125254550416175477",
+   "text": "Opus 5.6 vs Opus 5.5 [animated SVG short film]\n\nboth models on the exact same prompt and everything you see was made with pure code, no video generation involved.\n\nthe gap is insane. look at how smoothly 5.6 handles the animation and looping. it’s already looking like the new SOTA in three.js and creative 3D coding.\n\n- and Fable 5.5 is also still rumored to be coming any moment \n\nwe’re so not ready for what Anthropic is cooking",
+   "user": "marcthecreatorr",
+   "followers": 3301,
+   "views": 1735,
+   "likes": 57,
+   "reposts": 1,
+   "replies": 11,
+   "bookmarks": 15,
+   "age_h": 1.0,
+   "x_factor": 0.5,
+   "per_hour": 1717,
+   "ts": 1795538781.2430375
+  },
+  "2125251065759014942": {
+   "id": "2125251065759014942",
+   "url": "https://x.com/LumeStudioo/status/2125251065759014942",
+   "text": "🚨 OUR VIDEO EDITOR MADE 17 3D SCENES WITHOUT OPENING UNREAL ENGINE ONCE 🚨\n\nHe is not a 3D artist. He had never opened Unreal Engine in his life.\n\n→ 17 scenes for one documentary\n→ 0 hours inside Blender or Unreal\n→ No 3D studio, no ready models\n→ A train of 16 cars, a cargo plane, an armored limousine with 231 parts\n\nHe only wrote messages to Claude. Often from his phone.\n\nHere is exactly how we did it, step by step. Read on 👇",
+   "user": "LumeStudioo",
+   "followers": 723,
+   "views": 2039,
+   "likes": 28,
+   "reposts": 2,
+   "replies": 5,
+   "bookmarks": 56,
+   "age_h": 1.2,
+   "x_factor": 2.8,
+   "per_hour": 1642,
+   "ts": 1795538781.2431417
   }
  },
  "last_run": 1795526138.5064251,
  "sent": {
-  "2124171631320875451": 1795278909.0039542,
   "2124195058408980677": 1795284321.5261173,
   "2124186601118990667": 1795284339.9946177,
   "2124192968345338206": 1795284364.79766,
@@ -5400,7 +5418,9 @@
   "2125229525856633000": 1795531352.5838811,
   "2125222399809409109": 1795531364.4953966,
   "2125249122685129131": 1795535087.5773363,
-  "2125253343480275008": 1795535099.7004795
+  "2125253343480275008": 1795535099.7004795,
+  "2125254550416175477": 1795538804.1995926,
+  "2125251065759014942": 1795538816.1991963
  },
  "reply_seen": {
   "2124208340234625287": 1795287182.5281749,
@@ -5415,26 +5435,25 @@
   "2124981862397284743": 1795472165.5731208,
   "2125223719127966202": 1795527872.9869816,
   "2125216189987324091": 1795527886.218,
-  "2125244405137166596": 1795535058.6306806
+  "2125244405137166596": 1795535058.6306806,
+  "2125265609143525848": 1795538760.0763938
  },
- "reply_last_run": 1795535058.631135,
- "fresh_last_run": 1795535101.5979059,
+ "reply_last_run": 1795538772.5304368,
+ "fresh_last_run": 1795538816.1992085,
  "reply_day": {
   "date": "2026-11-12",
   "count": 8
  },
  "reply_day_active": {
   "date": "2026-11-24",
-  "count": 9
+  "count": 12
  },
  "toad_day": {
   "date": "2026-11-24",
-  "reply": 1,
+  "reply": 2,
   "remake": 3
  },
  "toad_seen": {
-  "2124165329228361865": 1795278991.6040366,
-  "2124152478849491114": 1795279014.5850868,
   "2124541215333044480": 1795370804.9747508,
   "2124248203629306061": 1795370829.047585,
   "2089980260498681999": 1795376600.2653587,
@@ -5453,9 +5472,11 @@
   "2124910095133745643": 1795528019.475024,
   "2124904773522538861": 1795528020.9145772,
   "2125211800199119000": 1795531399.2178798,
-  "2125248925334454647": 1795535135.0701904
+  "2125248925334454647": 1795535135.0701904,
+  "2125240571644072099": 1795538853.5003088,
+  "2125242450306314439": 1795538854.4805844
  },
- "toad_last_run": 1795535143.2964463,
+ "toad_last_run": 1795538866.645704,
  "bear_day": {
   "date": "2026-11-24",
   "reply": 5,
@@ -5520,10 +5541,8 @@
   "2125228214851338255": 1795531438.4854362,
   "2125236200248099055": 1795531450.0384798
  },
- "bear_last_run": 1795535175.5771735,
+ "bear_last_run": 1795538904.6637852,
  "toad_sent": {
-  "2124165329228361865": 1795279013.4388928,
-  "2124152478849491114": 1795279034.6180801,
   "2124541215333044480": 1795370827.9493408,
   "2089980260498681999": 1795376600.9408553,
   "2056439475811549273": 1795376602.3952951,
@@ -5536,6 +5555,7 @@
   "2125073055361995137": 1795528017.3603866,
   "2124910095133745643": 1795528019.8750224,
   "2124904773522538861": 1795528021.5080543,
-  "2125248925334454647": 1795535143.2964306
+  "2125248925334454647": 1795535143.2964306,
+  "2125242450306314439": 1795538866.645689
  }
 }
