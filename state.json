@@ -111,7 +111,15 @@
   "2125007879220658193": 1795526135.0805392,
   "2125012595656765914": 1795526136.1576338,
   "2125072828475359512": 1795526136.9875066,
-  "2124917004553629798": 1795526138.0737107
+  "2124917004553629798": 1795526138.0737107,
+  "2125207604033167790": 1795527918.1466794,
+  "2125217262357627035": 1795527919.0849602,
+  "2125204227345764850": 1795527920.0003424,
+  "2125219834086793322": 1795527921.1040678,
+  "2125216189987324091": 1795527943.063395,
+  "2125206569671397703": 1795527944.1939945,
+  "2125210946209558620": 1795527945.0561855,
+  "2125216081274945870": 1795527965.4214954
  },
  "pool": {
   "2123826572385833119": {
@@ -5361,6 +5369,54 @@
    "x_factor": 2.6,
    "per_hour": 851,
    "ts": 1795526127.6009908
+  },
+  "2125219834086793322": {
+   "id": "2125219834086793322",
+   "url": "https://x.com/notjazii/status/2125219834086793322",
+   "text": "first impression of hungerG\n\nmodel was added to opencode earlier today and i’ve been testing it since. so far it’s:\n\n> super fast, getting around 150tps\n> really good at threejs and 3d stuff\n> understands the intent and does it really well \n> doesn't hallucinate like other chinese models  \n> some outputs are way better than expected \n> gives up really fast though so kinda lazy\n\neven in this test it did really well but it’s not at opus or any other top model level  \n\noverall it’s good and fast model, so i think this could be some flash version of current chinese model but can't say for sure  \n\nrunning more 3d and complex tests. will report back when done, most likely tomorrow n\n\nhow’s your experience with model so far?",
+   "user": "notjazii",
+   "followers": 13275,
+   "views": 621,
+   "likes": 18,
+   "reposts": 1,
+   "replies": 7,
+   "bookmarks": 3,
+   "age_h": 0.3,
+   "x_factor": 0.0,
+   "per_hour": 2146,
+   "ts": 1795527908.292566
+  },
+  "2125210946209558620": {
+   "id": "2125210946209558620",
+   "url": "https://x.com/exploraX_/status/2125210946209558620",
+   "text": "This is what engineering class should look like. 🔥\n\ni built this interactive 3D explainer of how a car engine works using Claude Opus 5.5.\n\njust a simple prompt, and i’ve shared the prompt below.\n\nif this post gets enough engagement, i’ll open-source a skill for building 3D projects like this.",
+   "user": "exploraX_",
+   "followers": 26971,
+   "views": 1337,
+   "likes": 17,
+   "reposts": 2,
+   "replies": 3,
+   "bookmarks": 10,
+   "age_h": 0.9,
+   "x_factor": 0.0,
+   "per_hour": 1523,
+   "ts": 1795527908.2925947
+  },
+  "2125216081274945870": {
+   "id": "2125216081274945870",
+   "url": "https://x.com/emmanuel_2m/status/2125216081274945870",
+   "text": "These 10 open-source gems will turn your Fable 5.2 into a full creative studio\n\nthis is gold for Fable 5.2 users\n\nVideo. 3D. Games. Motion. Art. Lessons.\n\n01 Content Engine → paste any viral video and get its format remade around your idea\nhttps://t.co/Gs1LLnxjik\n\n02 Blender AI plugin → 500 AI models in one tab, for you or your agent\nhttps://t.co/DHtbeGHbuy\n\n03 ALTER → swaps the actor, outfit, product or location and keeps the acting\nhttps://t.co/nhGYlu4VL7\n\n04 Kinetic Film → 4K launch films from a brief, every frame written in code\nhttps://t.co/XQUlAuACRi\n\n05 Re-shoot → turns one take into 13 camera angles in a single generation\nhttps://t.co/9LUcP1HGVW\n\n06 GameDev OS → 9 game-studio specialists and 64 skills for your coding agent\nhttps://t.co/NseelMSjo6\n\n07 Motion Loops → 80 seamless loops your agent recolours for your brand\nhttps://t.co/eOF4X2lJUo\n\n08 Photoshop AI plugin → 20+ AI edits in one panel, each priced before you click\nhttps://t.co/otGio64vxD\n\n09 3D Collection → 1,300+ 3D models, all 39 GB free to download\nhttps://t.co/LVAmH3NNTM\n\n10 Academy → 17 courses and 90 free AI lessons that take you to expert\nhttps://t.co/vhoxcGKNnK\n\nModel → paint → build → film → animate → post.\n\nBookmark this, then make something tonight ↓",
+   "user": "emmanuel_2m",
+   "followers": 62609,
+   "views": 561,
+   "likes": 12,
+   "reposts": 5,
+   "replies": 5,
+   "bookmarks": 13,
+   "age_h": 0.5,
+   "x_factor": 0.0,
+   "per_hour": 1043,
+   "ts": 1795527908.292521
   }
  },
  "last_run": 1795526138.5064251,
@@ -5404,7 +5460,10 @@
   "2125050520624894333": 1795491390.1955385,
   "2124790912618545223": 1795492749.295614,
   "2108093326696276377": 1795526129.2934704,
-  "2124917004553629798": 1795526138.5064147
+  "2124917004553629798": 1795526138.5064147,
+  "2125219834086793322": 1795527942.1197393,
+  "2125210946209558620": 1795527964.0866058,
+  "2125216081274945870": 1795527985.739356
  },
  "reply_seen": {
   "2124208340234625287": 1795287182.5281749,
@@ -5416,21 +5475,23 @@
   "2124615636982833331": 1795384481.0836904,
   "2124956158595338253": 1795465798.6978111,
   "2124955895671185432": 1795465810.2265358,
-  "2124981862397284743": 1795472165.5731208
+  "2124981862397284743": 1795472165.5731208,
+  "2125223719127966202": 1795527872.9869816,
+  "2125216189987324091": 1795527886.218
  },
- "reply_last_run": 1795472188.0189223,
- "fresh_last_run": 1795491391.3006585,
+ "reply_last_run": 1795527900.192745,
+ "fresh_last_run": 1795527985.7393696,
  "reply_day": {
   "date": "2026-11-12",
   "count": 8
  },
  "reply_day_active": {
-  "date": "2026-11-23",
-  "count": 9
+  "date": "2026-11-24",
+  "count": 5
  },
  "toad_day": {
-  "date": "2026-11-23",
-  "reply": 2,
+  "date": "2026-11-24",
+  "reply": 0,
   "remake": 3
  },
  "toad_seen": {
@@ -5452,12 +5513,17 @@
   "2124922175190651097": 1795463072.5325603,
   "2124647120414347344": 1795463096.576521,
   "2124608970534904229": 1795463097.9997113,
-  "2124955800817008788": 1795468932.975041
+  "2124955800817008788": 1795468932.975041,
+  "2124917006889869346": 1795528016.0454686,
+  "2125073055361995137": 1795528016.9126925,
+  "2124961469716660664": 1795528018.4878492,
+  "2124910095133745643": 1795528019.475024,
+  "2124904773522538861": 1795528020.9145772
  },
- "toad_last_run": 1795491414.7691438,
+ "toad_last_run": 1795528021.5080826,
  "bear_day": {
-  "date": "2026-11-23",
-  "reply": 1,
+  "date": "2026-11-24",
+  "reply": 3,
   "remake": 3
  },
  "bear_seen": {
@@ -5484,7 +5550,16 @@
   "2124930672406237487": 1795463173.0846696,
   "2124925764550181142": 1795463174.2294438,
   "2124897850287063068": 1795463175.188786,
-  "2125047333180076337": 1795491442.5224297
+  "2125047333180076337": 1795491442.5224297,
+  "2125194635534369145": 1795528052.0861862,
+  "2125195344116134225": 1795528065.1056373,
+  "2125194375449997566": 1795528079.1376996,
+  "2124866914954711095": 1795528092.5704796,
+  "2124916627485434127": 1795528093.575245,
+  "2097787200620675158": 1795528095.0376203,
+  "2111116080169041942": 1795528095.948204,
+  "2114788986271002670": 1795528097.3260913,
+  "2125074496264737147": 1795528098.2235613
  },
  "bear_sent": {
   "2123805863215271975": 1795274153.9173477,
@@ -5502,9 +5577,15 @@
   "2124600116346519821": 1795455511.8014767,
   "2124624375236448518": 1795455513.2689612,
   "2124945252725510614": 1795463172.0775828,
-  "2124897850287063068": 1795463175.795455
+  "2124897850287063068": 1795463175.795455,
+  "2125194635534369145": 1795528064.043003,
+  "2125195344116134225": 1795528078.1736412,
+  "2125194375449997566": 1795528091.6421263,
+  "2124916627485434127": 1795528094.1688094,
+  "2111116080169041942": 1795528096.3512018,
+  "2125074496264737147": 1795528098.720998
  },
- "bear_last_run": 1795491442.5224462,
+ "bear_last_run": 1795528098.7210133,
  "toad_sent": {
   "2124138979373248542": 1795274116.145099,
   "2123919665453842774": 1795274117.8974993,
@@ -5520,6 +5601,9 @@
   "2124607840879059069": 1795451670.1277952,
   "2124922175190651097": 1795463095.6034698,
   "2124647120414347344": 1795463097.1545959,
-  "2124608970534904229": 1795463098.5279396
+  "2124608970534904229": 1795463098.5279396,
+  "2125073055361995137": 1795528017.3603866,
+  "2124910095133745643": 1795528019.8750224,
+  "2124904773522538861": 1795528021.5080543
  }
 }
