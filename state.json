@@ -1,7 +1,5 @@
 {
  "seen": {
-  "2123902537937866974": 1795269583.1736102,
-  "2123878763624857693": 1795269585.138303,
   "2124154101483151712": 1795274021.7451556,
   "2124154102661722370": 1795274022.891166,
   "2124151074097598905": 1795274044.9863472,
@@ -119,41 +117,12 @@
   "2125216189987324091": 1795527943.063395,
   "2125206569671397703": 1795527944.1939945,
   "2125210946209558620": 1795527945.0561855,
-  "2125216081274945870": 1795527965.4214954
+  "2125216081274945870": 1795527965.4214954,
+  "2125234611575824598": 1795531337.6643584,
+  "2125229525856633000": 1795531338.685489,
+  "2125222399809409109": 1795531353.6539862
  },
  "pool": {
-  "2123826572385833119": {
-   "id": "2123826572385833119",
-   "url": "https://x.com/GoogleDeepMind/status/2123826572385833119",
-   "text": "Gemini 4 Neon coded a ski simulator based on real Mont Blanc terrain.\n\nBuilt in @Antigravity with custom shaders and zero pre-made 3D models, it renders carved snow and avalanches live.\n\nTry it now → https://t.co/s5ERa2jrIE https://t.co/StsoefhA0U",
-   "user": "GoogleDeepMind",
-   "followers": 1619136,
-   "views": 147505,
-   "likes": 2856,
-   "reposts": 223,
-   "replies": 208,
-   "bookmarks": 634,
-   "age_h": 20.8,
-   "x_factor": 0.1,
-   "per_hour": 7090,
-   "ts": 1795269581.8778937
-  },
-  "2123843882937155607": {
-   "id": "2123843882937155607",
-   "url": "https://x.com/thtbee_/status/2123843882937155607",
-   "text": "I don't think 3D gets any better than this.. Gemini 4 Neon is cracked..\n\nI gave it a task to build an exceptional 3D V12 engine in three.js with a Gemini 4 Hydrogen swarm and Neon as the orchestrator..\n\nAnd holyy this looks absolutely incredible and accurate..\n\nIt took ~2.5hrs total, self iterating and reviewing the model till it was perfect, then it recorded the demo..\n\nUsage ~71% of my 5h, ~12% of my weekly..\n\nNeon is just perfect.. can't even imagine what kind of monster Krypton will be..",
-   "user": "thtbee_",
-   "followers": 5870,
-   "views": 28514,
-   "likes": 798,
-   "reposts": 46,
-   "replies": 45,
-   "bookmarks": 330,
-   "age_h": 19.7,
-   "x_factor": 4.9,
-   "per_hour": 1450,
-   "ts": 1795269581.877848
-  },
   "2123902537937866974": {
    "id": "2123902537937866974",
    "url": "https://x.com/shmopixbzn/status/2123902537937866974",
@@ -234,22 +203,6 @@
    "per_hour": 726,
    "ts": 1795282927.7987065
   },
-  "2123797090274885924": {
-   "id": "2123797090274885924",
-   "url": "https://x.com/TokenGremlin/status/2123797090274885924",
-   "text": "I gave GPT-6.2 Astra a reference image and asked it to recreate the experience in Three.js and package everything into a tiny HTML file. The result was within my expectations. It's a great model when it comes to copying references, lol. https://t.co/SK9QhxQMfK",
-   "user": "TokenGremlin",
-   "followers": 22835,
-   "views": 46739,
-   "likes": 241,
-   "reposts": 16,
-   "replies": 23,
-   "bookmarks": 78,
-   "age_h": 22.8,
-   "x_factor": 2.0,
-   "per_hour": 2054,
-   "ts": 1795269564.087872
-  },
   "2124013444244664366": {
    "id": "2124013444244664366",
    "url": "https://x.com/ApexAIHighlight/status/2124013444244664366",
@@ -266,22 +219,6 @@
    "per_hour": 6938,
    "ts": 1795313244.419104
   },
-  "2123843537045443041": {
-   "id": "2123843537045443041",
-   "url": "https://x.com/RAVIKUMARSAHU78/status/2123843537045443041",
-   "text": "This is giving serious GTA cinematic intro energy. The car gliding through the city at sunset makes the whole scene feel like an open-world game.\n\nI didn’t need to manually create every detail. I just shared my concept with ChatGPT and used the CapCut plugin to call Seedance 2.5 for AI video generation.\n\nBring GPT-6.2 Astra into your creative process with the CapCut plugin.\n\nDon’t miss 90% off your first month of CapCut Pro this Black Friday!\nhttps://t.co/xEwjg1TAFb\n\n#GTA6 #ChatGPT #CapCutDidThat #CapCut62Astra #CapCutChatGPTPlugin",
-   "user": "RAVIKUMARSAHU78",
-   "followers": 72372,
-   "views": 12868,
-   "likes": 347,
-   "reposts": 71,
-   "replies": 11,
-   "bookmarks": 125,
-   "age_h": 19.7,
-   "x_factor": 0.2,
-   "per_hour": 653,
-   "ts": 1795269581.8778265
-  },
   "2123943441017028866": {
    "id": "2123943441017028866",
    "url": "https://x.com/gregisenberg/status/2123943441017028866",
@@ -297,38 +234,6 @@
    "x_factor": 0.1,
    "per_hour": 2685,
    "ts": 1795297247.2221296
-  },
-  "2123823782137823673": {
-   "id": "2123823782137823673",
-   "url": "https://x.com/Shruti_0810/status/2123823782137823673",
-   "text": "From imagining a GTA-style city to watching a sports car cruise through it on screen. This is why I love experimenting with AI video.\n\nI gave ChatGPT a natural-language description of the scene and asked it to use the CapCut plugin to call Seedance 2.5. The final before-and-after really shows the creative possibilities.\n\nReady to create your own game-inspired scene? Try GPT-6.2 Astra with the CapCut plugin, and get 90% off your first month of CapCut Pro this Black Friday!\n\nhttps://t.co/ZbyqyHwgsF\n\n#GTA6 #ChatGPT #CapCutDidThat #CapCut62Astra #CapCutChatGPTPlugin",
-   "user": "Shruti_0810",
-   "followers": 105087,
-   "views": 23599,
-   "likes": 316,
-   "reposts": 85,
-   "replies": 6,
-   "bookmarks": 5,
-   "age_h": 21.0,
-   "x_factor": 0.2,
-   "per_hour": 1124,
-   "ts": 1795269581.8778765
-  },
-  "2123861437579677965": {
-   "id": "2123861437579677965",
-   "url": "https://x.com/DesignArena/status/2123861437579677965",
-   "text": "BREAKING: GPT-6.2 Astra (high) and Sol (high) by @OpenAI are ranked #1 and #3 respectively on @/DesignArena’s Game Dev arena making all top 3 models on the leaderboard from @OpenAI. Both models have also redefined the Preference vs Price and Preference vs Speed Pareto frontier!\n\nAt an average of 6.8 min and $0.98 per generation, GPT-6.2 Astra (high) is the best model for its price point and speed on both Pareto frontiers. Similarly, GPT-6.2 Sol (high) at an average of 4.6 min and $0.22 per generation is on the Preference vs Price and Speed Pareto frontier. GPT-6.2 Sol (high) also offers similar output quality to GPT-6 Astra (max), the former #1 Game Dev model, while being about 4x cheaper and 40% faster.\n\nCongrats to the @OpenAI team on taking the top 3 spots on the leaderboard!",
-   "user": "DesignArena",
-   "followers": 26179,
-   "views": 17359,
-   "likes": 315,
-   "reposts": 30,
-   "replies": 8,
-   "bookmarks": 50,
-   "age_h": 18.5,
-   "x_factor": 0.7,
-   "per_hour": 938,
-   "ts": 1795269581.8779016
   },
   "2124154102661722370": {
    "id": "2124154102661722370",
@@ -5417,12 +5322,42 @@
    "x_factor": 0.0,
    "per_hour": 1043,
    "ts": 1795527908.292521
+  },
+  "2125229525856633000": {
+   "id": "2125229525856633000",
+   "url": "https://x.com/abxxai/status/2125229525856633000",
+   "text": "Fable 5.2 and Seedance 2.5 just nailed paper puppet animation\n\nmade in @FishCreativeHQ workflow + prompts below 👇 https://t.co/ynnmq4moiy",
+   "user": "abxxai",
+   "followers": 25185,
+   "views": 913,
+   "likes": 27,
+   "reposts": 2,
+   "replies": 18,
+   "bookmarks": 13,
+   "age_h": 0.6,
+   "x_factor": 0.0,
+   "per_hour": 1528,
+   "ts": 1795531328.5741413
+  },
+  "2125222399809409109": {
+   "id": "2125222399809409109",
+   "url": "https://x.com/Mr_Salio/status/2125222399809409109",
+   "text": "Opus 5.6 my First output \n\none shotted an entire playable tower defense game from scratch using a single 20 word prompt And also made this trailer video \n\nRunning other tests and they're really amazing the quality is actually insane good \n\nI hope we get this model soon https://t.co/vF1HCAOcIN",
+   "user": "Mr_Salio",
+   "followers": 12492,
+   "views": 1769,
+   "likes": 41,
+   "reposts": 6,
+   "replies": 8,
+   "bookmarks": 6,
+   "age_h": 1.1,
+   "x_factor": 0.1,
+   "per_hour": 1654,
+   "ts": 1795531328.574179
   }
  },
  "last_run": 1795526138.5064251,
  "sent": {
-  "2123902537937866974": 1795269583.8577285,
-  "2123878763624857693": 1795269585.7802494,
   "2124154102661722370": 1795274044.017737,
   "2124153382747169134": 1795274056.8519065,
   "2124171631320875451": 1795278909.0039542,
@@ -5463,7 +5398,9 @@
   "2124917004553629798": 1795526138.5064147,
   "2125219834086793322": 1795527942.1197393,
   "2125210946209558620": 1795527964.0866058,
-  "2125216081274945870": 1795527985.739356
+  "2125216081274945870": 1795527985.739356,
+  "2125229525856633000": 1795531352.5838811,
+  "2125222399809409109": 1795531364.4953966
  },
  "reply_seen": {
   "2124208340234625287": 1795287182.5281749,
@@ -5479,15 +5416,15 @@
   "2125223719127966202": 1795527872.9869816,
   "2125216189987324091": 1795527886.218
  },
- "reply_last_run": 1795527900.192745,
- "fresh_last_run": 1795527985.7393696,
+ "reply_last_run": 1795531321.125845,
+ "fresh_last_run": 1795531364.495408,
  "reply_day": {
   "date": "2026-11-12",
   "count": 8
  },
  "reply_day_active": {
   "date": "2026-11-24",
-  "count": 5
+  "count": 7
  },
  "toad_day": {
   "date": "2026-11-24",
@@ -5518,12 +5455,13 @@
   "2125073055361995137": 1795528016.9126925,
   "2124961469716660664": 1795528018.4878492,
   "2124910095133745643": 1795528019.475024,
-  "2124904773522538861": 1795528020.9145772
+  "2124904773522538861": 1795528020.9145772,
+  "2125211800199119000": 1795531399.2178798
  },
- "toad_last_run": 1795528021.5080826,
+ "toad_last_run": 1795531399.2179036,
  "bear_day": {
   "date": "2026-11-24",
-  "reply": 3,
+  "reply": 5,
   "remake": 3
  },
  "bear_seen": {
@@ -5559,7 +5497,9 @@
   "2097787200620675158": 1795528095.0376203,
   "2111116080169041942": 1795528095.948204,
   "2114788986271002670": 1795528097.3260913,
-  "2125074496264737147": 1795528098.2235613
+  "2125074496264737147": 1795528098.2235613,
+  "2125228214851338255": 1795531429.2809937,
+  "2125236200248099055": 1795531439.3716304
  },
  "bear_sent": {
   "2123805863215271975": 1795274153.9173477,
@@ -5583,9 +5523,11 @@
   "2125194375449997566": 1795528091.6421263,
   "2124916627485434127": 1795528094.1688094,
   "2111116080169041942": 1795528096.3512018,
-  "2125074496264737147": 1795528098.720998
+  "2125074496264737147": 1795528098.720998,
+  "2125228214851338255": 1795531438.4854362,
+  "2125236200248099055": 1795531450.0384798
  },
- "bear_last_run": 1795528098.7210133,
+ "bear_last_run": 1795531450.0384953,
  "toad_sent": {
   "2124138979373248542": 1795274116.145099,
   "2123919665453842774": 1795274117.8974993,
