@@ -147,70 +147,6 @@
    "per_hour": 4484,
    "ts": 1795297213.170101
   },
-  "2124015852592988367": {
-   "id": "2124015852592988367",
-   "url": "https://x.com/MengTo/status/2124015852592988367",
-   "text": "I spent about 24 hours on a three.js cyberpunk game with GPT-6.2 Astra. \n\nPick a character and drive through the city. Strong visual refs, ThreeUI, real 3D.\n\nI open-sourced 3 skills\n\n3D scans https://github.com/MengTo/Skills/blob/main/agent-skills/game-development/build-point-cloud-scan/SKILL.md\nLens rain https://github.com/MengTo/Skills/blob/main/agent-skills/game-development/build-lens-raindrops/SKILL.md\nSelector https://github.com/MengTo/Skills/blob/main/agent-skills/game-development/build-3d-character-selector/SKILL.md",
-   "user": "MengTo",
-   "followers": 191669,
-   "views": 69222,
-   "likes": 1030,
-   "reposts": 104,
-   "replies": 74,
-   "bookmarks": 1063,
-   "age_h": 12.0,
-   "x_factor": 0.4,
-   "per_hour": 5780,
-   "ts": 1795282927.7986417
-  },
-  "2123859318936064193": {
-   "id": "2123859318936064193",
-   "url": "https://x.com/neviannn/status/2123859318936064193",
-   "text": "here's how to build a cozy creek you can explore in your browser...\n\na forest stream, a cabin on the hill, moonlight on the water\n\nthe setup:\n\n→ GPT-6.2 Astra writes the Three.js scene and the controls\n→ Blender handles every asset... rocks, trees, the cabin\n→ Three.js renders it all live in a browser tab\n→ you describe what to change, it updates the scene\n\nwhat's in the build:\n\n→ water running over smooth stones and catching the light\n→ a time-of-day switch: afternoon, golden, blue, night\n→ a little cabin glowing through the trees\n\nno game engine, no install\n\njust a link and a quiet place to sit for a while\n\nchetanankola dev",
-   "user": "neviannn",
-   "followers": 541,
-   "views": 30876,
-   "likes": 572,
-   "reposts": 53,
-   "replies": 27,
-   "bookmarks": 458,
-   "age_h": 22.3,
-   "x_factor": 57.1,
-   "per_hour": 1381,
-   "ts": 1795282927.7986593
-  },
-  "2123878763624857693": {
-   "id": "2123878763624857693",
-   "url": "https://x.com/eliadele/status/2123878763624857693",
-   "text": "I gave 4 frontier models the exact same one-sentence prompt and put the results side by side on OutputBench\n\n\"Ultra-realistic seaplane flying over Bora Bora, landing on the water, and letting passengers off\"\n\nClaude Opus 5.5 completely lost its mind and ran for 12 hours 53 minutes, burning 3.92 BILLION tokens and $1,376.70 on a single HTML file\n\n- Gemini 4 Neon ($4.41 · 20 min) -> real Three.js 3D scene with full camera controls\n- GPT-6.2 Astra ($6.32 · 27 min) -> 31.7MB HTML with zero Three.js code\n- Claude Fable 5.2 ($115.69 · 1h 40m) -> 65,422 lines of pure procedural 3D\n- Claude Opus 5.5 ($1,376.70 · 12h 53m) -> 72,686 lines, custom GLSL shaders, zero fake images, literal movie cinematography\n\nDid Opus actually beat Fable by 12x, or did Fable win the whole thing for $115",
-   "user": "eliadele",
-   "followers": 3865,
-   "views": 151975,
-   "likes": 586,
-   "reposts": 29,
-   "replies": 15,
-   "bookmarks": 279,
-   "age_h": 21.1,
-   "x_factor": 39.3,
-   "per_hour": 7218,
-   "ts": 1795282927.798697
-  },
-  "2123849152505471174": {
-   "id": "2123849152505471174",
-   "url": "https://x.com/everestchris6/status/2123849152505471174",
-   "text": "gta 6 is about to make so many millionaires\n\nstory-driven long-form videos hold their value and keep earning for years\n\nhere's how to fully automate high-quality long-form videos:\n\n> claude finds the outliers in the niche and studies how the best ones are structured\n\n> or it comes up with a concept of its own, the choice is yours\n\n> claude writes a few storylines, picks the strongest one and checks the claims against official sources\n\n> apify collects the official footage into a tagged library so everything on screen is real footage\n\n> elevenlabs voices the script with a professional voice and scores it\n\n> claude builds the edit from a spec with exact values for every move, so nothing is left to interpretation\n\n> fresh claude critics grade every cut blind and a judge ranks the fixes\n\nif you want the quality to hold, build a video component library first:\n\n> claude studies the top videos in the niche and remakes their components through the same critic loop\n\n> the next video picks from that library instead of building everything from scratch, which saves tokens and gets videos out much faster\n\npaste this into claude to get started:\n\n<role>\nyou make long-form youtube guides for me in the gta 6 niche, from research to a finished render. you start from what already wins in the niche or from a concept of your own. you never grade your own work.\n</role>\n\n<brief>\n- channel: [name]. topics: map guides, mission walkthroughs, hidden locations, lore\n- claude code subagents for every ai step, elevenlabs for voice, music and transcripts, apify for downloads and x search, hyperframes and three.js for the build, ffmpeg for the master\n- keys live in .env only. never read them, never write them anywhere\n- i'm away. make the calls, show me early, keep going\n</brief>\n\n<setup>\n- first run, check node, python, ffmpeg and hyperframes and install what's missing\n- keep a status file (what ran, what's queued, what failed) and a rules file (every rule i've given you) in the project root so a fresh run resumes from them alone\n- one folder per stage: research, library, footage, voice, music, build, rounds\n</setup>\n\n<study>\n- search the niche by views, this year, per duration band. outlier score is a video's views divided by its channel's usual views. one video per channel\n- take the top videos, one per channel, frame their first minute and transcribe their first twenty seconds. write down how they open, shot by shot\n- list every on-screen component they use and rank the list by how many videos use each one. that list is what the library gets built from\n</study>\n\n<library>\n- build it once, before any video. remake every component from the study through the critic loop until it passes, then tag it by the claim it shows, with inputs, a minimum read time and passed contrast and phone-size checks\n- footage: apify pulls the official trailers and gameplay. cut, retime, grade and tag every shot with content, place, motion and where text can sit. nothing with logos, menus or artefacts gets in\n- map moves as presets. one voice, auditioned once from five curated professional options and then locked. music beds with marked drops. effects levelled against the bed\n- a facts file with a source on every line. you may only state what's in it\n- every rule in the rules file as an automatic check that runs before any render\n</library>\n\n<topic>\n- a topic is worth making when several unrelated channels have outliers on it\n- or ideate your own: pull what players are talking about this week from x and pitch me three concepts with a reason each\n- write three storylines as three different films. pick the one that is fully sourced and buildable from the library today. say why the others were dropped\n- every fact tagged official, measured, in-game or unverified. only official and measured go on screen, with the source next to it\n</topic>\n\n<script_voice_music>\n- one flowing paragraph that sounds spoken, hedged exactly as much as the source. no fragments and pauses\n- voice first, then music, then picture. transcribe the take back to get exact word times. the last key word lands on the drop. cut on the beat grid\n</script_voice_music>\n\n<build>\n- write a spec with exact values for every move, nothing vague\n- the cold open gets the full critic loop. the chapters are footage-led with a map locator at the start of each and a component only for claims, comparisons and lists\n- one agent per chapter, in parallel. each writes an edit list: clip, component, text, word. fixed code builds the project from the list. you never write html\n- a beat with no matching component falls back to footage and voice and logs the gap. gaps get built properly between videos. fixes are edits to the list, never rebuilds\n</build>\n\n<critic_loop>\n- three fresh critics per round: story, motion, tech. they see the render and the evidence, never the spec or the source\n- a judge reads all three, checks their claims against the frames and ranks the fixes. a hard defect caps the score. pass means it holds its own next to the reference channels\n- fix the top fault, re-render only what changed, new critics. show me by round two. my notes go into the rules file and outrank every critic\n</critic_loop>\n\n<publish>\n- master to minus 14 lufs. title, description and chapters from the script. thumbnail from the payoff frame with at most three words\n- upload through the youtube data api as unlisted and send me the link. i make it public\n</publish>\n\n<honesty>\nno invented numbers, no invented geography, no third-party gameplay in the published cut, no creator names. if a fact can't be sourced it doesn't go on screen.\n</honesty>\n\n<first_run>\nrun the study and build the library first, then show me the component list and the gap log. then build the cold open of one guide, run the loop and show me the render, the critic reports and what it cost before touching the chapters.\n</first_run>",
-   "user": "everestchris6",
-   "followers": 28317,
-   "views": 16719,
-   "likes": 286,
-   "reposts": 20,
-   "replies": 4,
-   "bookmarks": 492,
-   "age_h": 23.0,
-   "x_factor": 0.6,
-   "per_hour": 726,
-   "ts": 1795282927.7987065
-  },
   "2124013444244664366": {
    "id": "2124013444244664366",
    "url": "https://x.com/ApexAIHighlight/status/2124013444244664366",
@@ -258,38 +194,6 @@
    "x_factor": 0.1,
    "per_hour": 272,
    "ts": 1795297186.0501976
-  },
-  "2124175795136737285": {
-   "id": "2124175795136737285",
-   "url": "https://x.com/Jiniya1204/status/2124175795136737285",
-   "text": "(While they were talking about thier outfits from past concerts, 🐿 said school uniform pant and necktie instead of uniform outfit and necktie ) 🐥I bet u an AI-generated ver of this is going to be posted online today\n🐹Ahhh, AI is scary.  Weird stuff keeps getting made with AI and posted online\n🐥This is getting out of hand now\n🐹During the performance today, I saw a sign with my face superimposed on Jungkook's body with a quote 'Jin, you can do it too' \n🐹Man, that was actually quite scary!\n🐻But Hyung, that previoujs thing was the ultimate. \n🐹You mean Messi kissing (me on the head)? And the next day, I saw things with those 2 faces(*Jin n Messi) swapped \n🐻About 15 or so Armys did it so hyung is..\n🐹Right, it really took my by surprise. I guess it was a famous meme there. \n🐻Like, wow 'I/u am there everyhere I/u go'",
-   "user": "Jiniya1204",
-   "followers": 38413,
-   "views": 29359,
-   "likes": 1027,
-   "reposts": 357,
-   "replies": 9,
-   "bookmarks": 249,
-   "age_h": 1.4,
-   "x_factor": 0.8,
-   "per_hour": 21263,
-   "ts": 1795282919.5354018
-  },
-  "2123880585567576258": {
-   "id": "2123880585567576258",
-   "url": "https://x.com/elvar_official/status/2123880585567576258",
-   "text": "I'm gonna uninstall Blender tonight. A dev just dropped a free Claude skill that turns one warehouse clip into a fire department you can run.\n\ni gave it that clip and one word, \"fire\", just to see where it breaks.\n\nit didn't:\n\n> Claude used the warehouse app for the look only and wrote every truck, roof and hydrant itself in three.js\n> the station rolls up 3 bay doors and every rig pulls out with its red and blue beacons flashing on their own beat\n> the ladder truck pushes 4 outriggers out 1.6 m onto yellow pads before 4 sections telescope from 9 m to 26 m\n> the pumper hooks into hydrant H-118 and 2 jets hit the roof, one from its deck gun and one from the ladder tip at 1,200 l a minute\n> the fire dies tongue by tongue, the smoke turns to steam and the house stays scorched\n> the tracker runs call, dispatched, on scene, attack, fire out from 13:55 to 13:57 on the app clock in a 37-second film\n\nthe skill doesn't even ship with a fire department: the only system inside is an airport.\n\nthe install command and the full brief 👇",
-   "user": "elvar_official",
-   "followers": 41886,
-   "views": 10982,
-   "likes": 202,
-   "reposts": 26,
-   "replies": 9,
-   "bookmarks": 235,
-   "age_h": 20.9,
-   "x_factor": 0.3,
-   "per_hour": 524,
-   "ts": 1795282927.798687
   },
   "2124195058408980677": {
    "id": "2124195058408980677",
@@ -6066,21 +5970,24 @@
   "2125223719127966202": 1795527872.9869816,
   "2125216189987324091": 1795527886.218,
   "2125244405137166596": 1795535058.6306806,
-  "2125265609143525848": 1795538760.0763938
+  "2125265609143525848": 1795538760.0763938,
+  "2125276379306512763": 1795542209.3310304,
+  "2125275263525339505": 1795542221.9214067,
+  "2125274537658908737": 1795542232.3552148
  },
- "reply_last_run": 1795538772.5304368,
- "fresh_last_run": 1795538816.1992085,
+ "reply_last_run": 1795542244.6341834,
+ "fresh_last_run": 1795542262.33372,
  "reply_day": {
   "date": "2026-11-12",
   "count": 8
  },
  "reply_day_active": {
   "date": "2026-11-24",
-  "count": 12
+  "count": 15
  },
  "toad_day": {
   "date": "2026-11-24",
-  "reply": 2,
+  "reply": 3,
   "remake": 3
  },
  "toad_seen": {
@@ -6104,9 +6011,10 @@
   "2125211800199119000": 1795531399.2178798,
   "2125248925334454647": 1795535135.0701904,
   "2125240571644072099": 1795538853.5003088,
-  "2125242450306314439": 1795538854.4805844
+  "2125242450306314439": 1795538854.4805844,
+  "2125261912791191695": 1795542299.4098082
  },
- "toad_last_run": 1795538866.645704,
+ "toad_last_run": 1795542312.8822234,
  "bear_day": {
   "date": "2026-11-24",
   "reply": 5,
@@ -6171,7 +6079,7 @@
   "2125228214851338255": 1795531438.4854362,
   "2125236200248099055": 1795531450.0384798
  },
- "bear_last_run": 1795538904.6637852,
+ "bear_last_run": 1795542349.5085242,
  "toad_sent": {
   "2124541215333044480": 1795370827.9493408,
   "2089980260498681999": 1795376600.9408553,
@@ -6186,6 +6094,7 @@
   "2124910095133745643": 1795528019.8750224,
   "2124904773522538861": 1795528021.5080543,
   "2125248925334454647": 1795535143.2964306,
-  "2125242450306314439": 1795538866.645689
+  "2125242450306314439": 1795538866.645689,
+  "2125261912791191695": 1795542312.8822067
  }
 }
