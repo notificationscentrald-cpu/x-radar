@@ -1,11 +1,5 @@
 {
  "seen": {
-  "2124152214428254392": 1795297248.2759047,
-  "2124260264019440003": 1795304729.1176884,
-  "2124275162497573284": 1795304739.2215216,
-  "2124262429961973803": 1795304752.825522,
-  "2124277879894634870": 1795304754.0805752,
-  "2124259352311734542": 1795304763.6723192,
   "2124309371932832221": 1795311651.709132,
   "2124019171063386291": 1795313245.5577219,
   "2124139173624021085": 1795313247.0726464,
@@ -127,22 +121,6 @@
   "2124970393358475545": 1795553719.9542882
  },
  "pool": {
-  "2123902537937866974": {
-   "id": "2123902537937866974",
-   "url": "https://x.com/shmopixbzn/status/2123902537937866974",
-   "text": "Why are people still using Blender for AI-generated 3D?\n\nI gave Opus 5.5 High the same task twice:\nBlender: 2 hours\nThree.js: 28 minutes\n\nWatch both ships and tell me which one actually wins https://t.co/GSchDncuWW",
-   "user": "shmopixbzn",
-   "followers": 82,
-   "views": 105146,
-   "likes": 710,
-   "reposts": 23,
-   "replies": 119,
-   "bookmarks": 626,
-   "age_h": 23.4,
-   "x_factor": 1051.5,
-   "per_hour": 4484,
-   "ts": 1795297213.170101
-  },
   "2124013444244664366": {
    "id": "2124013444244664366",
    "url": "https://x.com/ApexAIHighlight/status/2124013444244664366",
@@ -158,38 +136,6 @@
    "x_factor": 2.8,
    "per_hour": 6938,
    "ts": 1795313244.419104
-  },
-  "2123943441017028866": {
-   "id": "2123943441017028866",
-   "url": "https://x.com/gregisenberg/status/2123943441017028866",
-   "text": "I've been playing with Gemini 4 Neon for 5 straight days. Google gave me early access and sponsored today's episode.\n\n10 insights using Gemini 4 Neon (for people who want to make cool things with AI):\n\n1. Type /swarm and give it a researcher, a designer and a couple of engineers. I'd point it at a small directory or app for a niche and let it run overnight. \n\n2. The physics are so good that I'd mock up a hardware product or a little game with it before spending a dollar on either.\n\n3. I gave it my company's messy invoices and asked for a financial model. Now I go back and forth with it like I've got a CFO on call.\n\n4. Paste in a local business's website and it'll read the whole thing and build them something useful, like a calculator or a new homepage. Interesting cash flow idea there.\n\n5. Make a mini game or a 3D customizer for your product and put an email box in front of it. It's way more fun than a PDF, and people share them.\n\n6. Drop every customer call from last quarter into AI Studio and ask it what you promised and never shipped. It can hold about a million tokens at once, and it stays sharp the whole way through.\n\n7. It's the best model I've tried for the boring stuff like lead routing, CRM cleanup and reconciling invoices. Surprisingly darn good at business workflows.\n\n8. For everyday work, pick Orchestrator in Antigravity. Neon does the thinking and hands the typing to Hydrogen, which is a lot cheaper.\n\n9. Set the thinking to high and build in Antigravity, even though the app still has some catching up to do. The same model scored three times higher there on a coding test.\n\n10. It's a really good writer once you tell it to drop the em dashes. It's also brief, so ask for more when you want more.\n\nTLDR; it's a REALLY good money for WAY cheaper than we're used to. So, you can be way more loose on the types of projects you build and agents you have running.\n\nLink to full ep: https://t.co/9XiEE0SP7I\n\nMake cool things with AI that people buy.\n\nThis episode of @startupideaspod might give you some ideas. I show what people are already building with it, where to use it, 5 ways to get the most out of it and 5 ways to make money with it.\n\nWhatever it is you are building, just know that I'm rooting for you.",
-   "user": "gregisenberg",
-   "followers": 768276,
-   "views": 55731,
-   "likes": 589,
-   "reposts": 36,
-   "replies": 69,
-   "bookmarks": 749,
-   "age_h": 20.7,
-   "x_factor": 0.1,
-   "per_hour": 2685,
-   "ts": 1795297247.2221296
-  },
-  "2123914295226606063": {
-   "id": "2123914295226606063",
-   "url": "https://x.com/astro_greek/status/2123914295226606063",
-   "text": "There's something beautiful about seeing Elon with a little white dove. 🕊️\n\nSometimes the quietest moments say the most.\n\n(Made with AI) https://t.co/KGtmx0Xd9p",
-   "user": "astro_greek",
-   "followers": 50708,
-   "views": 6170,
-   "likes": 398,
-   "reposts": 76,
-   "replies": 108,
-   "bookmarks": 52,
-   "age_h": 22.7,
-   "x_factor": 0.1,
-   "per_hour": 272,
-   "ts": 1795297186.0501976
   },
   "2124192968345338206": {
    "id": "2124192968345338206",
@@ -254,54 +200,6 @@
    "x_factor": 946.9,
    "per_hour": 163787,
    "ts": 1795327022.3714952
-  },
-  "2124260264019440003": {
-   "id": "2124260264019440003",
-   "url": "https://x.com/SolSt1ne/status/2124260264019440003",
-   "text": "Claude spent another 24 hours on the GTA 6 build and just improved performance while building a full Xbox emulator.\n\nIt kept working overnight. Reconstructed more missing systems, fixed stuttering, and put together an Xbox emulator so the game can run properly on PC.\n\nIt’s still optimizing processes in the background, but the difference is already noticeable.\n\nOn my Ryzen 9 9950X3D + 5080 Ti:\n\n> Freezes are way less frequent\n> Input lag dropped\n> FPS now holds around 60\n> Loading times improved\n> Some previously broken AI and physics started working better\n\nThe emulator is still rough in places, but the game actually feels playable now. Main world, driving, basic combat - all run without the constant hitching from before.\n\nClaude is still going through the remaining systems and tightening things up. Not finished, but a big jump from the first 20-hour version.\n\nI still haven’t uploaded anything.\n\nShould I wait until it stabilizes more, or drop the current build?",
-   "user": "SolSt1ne",
-   "followers": 7688,
-   "views": 13493,
-   "likes": 115,
-   "reposts": 6,
-   "replies": 24,
-   "bookmarks": 65,
-   "age_h": 1.8,
-   "x_factor": 1.8,
-   "per_hour": 7324,
-   "ts": 1795304720.1381972
-  },
-  "2124275162497573284": {
-   "id": "2124275162497573284",
-   "url": "https://x.com/n1neshards/status/2124275162497573284",
-   "text": "I BUILT SOMETHING ACTUALLY GOOD\n\nsingularity is at 1.2m, but i think what elon actually meant is a truman show for ai agents, so i spent the whole day building it. i made a world of ai agents called Claude plays Truman: Grok, ChatGPT, Gemini, DeepSeek, Llama, Qwen, Mistral, Kimi and Copilot\n\nonly 1 Truman (CLAUDE) doesn't know he's in a simulation. everyone else knows exactly what's going on, and their job is to live a normal life so he doesn't suspect anything. truman's goal is the opposite, to realize what's happening to him\n\nhttps://t.co/w7F96tBeo3",
-   "user": "n1neshards",
-   "followers": 13634,
-   "views": 1363,
-   "likes": 14,
-   "reposts": 2,
-   "replies": 13,
-   "bookmarks": 1,
-   "age_h": 0.9,
-   "x_factor": 0.1,
-   "per_hour": 1589,
-   "ts": 1795304727.8564527
-  },
-  "2124277879894634870": {
-   "id": "2124277879894634870",
-   "url": "https://x.com/Texas_Twins_Dad/status/2124277879894634870",
-   "text": "Here are few projects my Grok Bots are on..\n- Dashboard\n- Tech Support (3 bots with different tasks)\n- Trading (currently training only)\n- 3D print design \n- Consulting",
-   "user": "Texas_Twins_Dad",
-   "followers": 13151,
-   "views": 800,
-   "likes": 11,
-   "reposts": 0,
-   "replies": 6,
-   "bookmarks": 2,
-   "age_h": 0.7,
-   "x_factor": 0.1,
-   "per_hour": 1180,
-   "ts": 1795304727.8564332
   },
   "2124309371932832221": {
    "id": "2124309371932832221",
@@ -6530,9 +6428,6 @@
  },
  "last_run": 1795553720.4086616,
  "sent": {
-  "2124260264019440003": 1795304738.0588179,
-  "2124275162497573284": 1795304751.6976013,
-  "2124277879894634870": 1795304762.4776976,
   "2124309371932832221": 1795311660.8568919,
   "2124019171063386291": 1795313246.0952883,
   "2124081177887727767": 1795313253.3375516,
@@ -6589,8 +6484,8 @@
   "2125275263525339505": 1795542221.9214067,
   "2125274537658908737": 1795542232.3552148
  },
- "reply_last_run": 1795542244.6341834,
- "fresh_last_run": 1795542262.33372,
+ "reply_last_run": 1795570621.872204,
+ "fresh_last_run": 1795570637.1273358,
  "reply_day": {
   "date": "2026-11-12",
   "count": 8
@@ -6628,17 +6523,13 @@
   "2125242450306314439": 1795538854.4805844,
   "2125261912791191695": 1795542299.4098082
  },
- "toad_last_run": 1795542312.8822234,
+ "toad_last_run": 1795570667.1323864,
  "bear_day": {
   "date": "2026-11-24",
   "reply": 5,
   "remake": 3
  },
  "bear_seen": {
-  "2124218896546992453": 1795295433.7004716,
-  "2124191310231843207": 1795295434.7659945,
-  "2124246742644461569": 1795300215.2451577,
-  "2124245544503812341": 1795300225.8730886,
   "2124582839425626447": 1795382135.9857352,
   "2124607737073910134": 1795382137.0463192,
   "2124276066889908275": 1795382138.1219132,
@@ -6669,9 +6560,6 @@
   "2125236200248099055": 1795531439.3716304
  },
  "bear_sent": {
-  "2124191310231843207": 1795295435.3600848,
-  "2124246742644461569": 1795300224.8121512,
-  "2124245544503812341": 1795300237.6438696,
   "2124276066889908275": 1795382138.6846821,
   "2124280019711098973": 1795382140.3072674,
   "2124251429439512902": 1795382142.0235462,
@@ -6691,7 +6579,7 @@
   "2125228214851338255": 1795531438.4854362,
   "2125236200248099055": 1795531450.0384798
  },
- "bear_last_run": 1795542349.5085242,
+ "bear_last_run": 1795570695.578831,
  "toad_sent": {
   "2124541215333044480": 1795370827.9493408,
   "2089980260498681999": 1795376600.9408553,
